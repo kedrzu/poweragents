@@ -1,0 +1,41 @@
+{
+    "name": "poweragents",
+    "private": true,
+    "workspaces": [
+        "packages/*",
+        "nzyme/packages/*"
+    ],
+    "type": "module",
+    "scripts": {
+        "setup": "zsh setup.sh",
+        "build": "tsgo --build",
+        "typecheck": "bun run build",
+        "monorepo": "nzyme monorepo",
+        "localise": "nzyme localise",
+        "tests": "TZ=UTC bun test --timeout 10000 --pass-with-no-tests --path-ignore-patterns='**/*.spec.ts' --path-ignore-patterns='**/dist/**' ./packages",
+        "index": "nzyme index",
+        "clean": "del \"**/dist\" \"**/dist-cjs\" \"**/.output\" \"**/.nuxt\" \"**/.nx\" \"**/.nzyme\" \"**/*.tsbuildinfo\" \"**/storybook-static\" \"**/test-results\" \"**/playwright-report\" \"!**/node_modules/**\"",
+        "clean:npm": "del \"**/node_modules\"",
+        "reinstall": "bun run clean && bun run clean:npm && bun install"
+    },
+    "devDependencies": {
+        "@nzyme/cli": "workspace:*",
+        "@nzyme/tsconfig": "workspace:*",
+        "@types/bun": "1.4.4",
+        "@types/node": "^26.6.6",
+        "@typescript/native-preview": "^7.0.0-dev.20260707.2",
+        "del-cli": "8.0.1",
+        "nx": "^24.0.3"
+    },
+    "overrides": {
+        "@types/bun": "1.4.4",
+        "rollup": "4.62.2"
+    },
+    "packageManager": "bun@1.4.4",
+    "nx": {
+        "includedScripts": []
+    },
+    "patchedDependencies": {
+        "bun-types@1.4.4": "patches/bun-types@1.4.4.patch"
+    }
+}
