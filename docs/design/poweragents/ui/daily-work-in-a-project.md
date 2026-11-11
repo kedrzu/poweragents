@@ -29,21 +29,27 @@ for something new."
   agent environment. Most people have one; the switcher appears only when there are two or more.
 - **Project** — a folder of files the agent works in, e.g. "Job search". It holds many conversations.
 - **Conversation** — a chat with the agent inside a project. Runs started by a schedule are
-  conversations too, archived automatically when they finish.
+  conversations too. Nothing is archived; finished conversations stay in the project's history.
 - **Memory** — the profile's files about the person (preferences, habits, what matters). Plain files,
   readable and editable like any project; the agent reads them everywhere.
 - **Downloads** — where everything the agent's browser downloads lands.
-- **Plugins** — installed capabilities (e.g. Gmail email sorting, 3D design); Installed and Marketplace.
-- **Schedules** — everything that runs automatically, for the whole profile; a schedule may start in a
-  project.
+- **Plugins** — installed capabilities; Installed and Marketplace. Some belong to the whole profile and
+  work in every project (e.g. Gmail access); others are a workflow living in one project (e.g. email
+  sorting in the project "Email", where its rules and pending decisions are kept).
+- **Schedules** — everything that runs automatically. Each schedule belongs to a project (it runs
+  there); one page lists every schedule in the profile with its basic settings (when it runs, on/off,
+  what it does). Each schedule's page lists the conversations of its runs, so "what did email sorting
+  do on Tuesday" is found from the schedule. A run's conversation is marked with its schedule, and a
+  project's history can be filtered by schedule.
 - **Waiting for you** — everything across the profile that needs the person now.
 
 ## Screens and what they answer
 
 1. **App open, sidebar visible.** Sidebar order: profile switcher (only if more than one), Waiting for
    you, Memory, Downloads, Plugins, Schedules, then projects with "App setup" pinned first. Clicking a
-   project expands its recent conversations beneath it and offers "all conversations" (the project's
-   full history). The main area has tabs for whatever is open — conversations and files — opened and
+   project expands its recent conversations beneath it — those she started or opened, plus any
+   scheduled run that needs her — and offers "all conversations" (the project's full history, scheduled
+   runs included and marked). The main area has tabs for whatever is open — conversations and files — opened and
    closed like an editor's tabs.
    *Answers: where is my stuff, and does anything need me?*
 
@@ -98,7 +104,8 @@ a few weeks in.
 - **Agent working** — streaming answer, files changing; she can keep reading or stop the agent.
 - **Conversation waiting on her** — visible in the conversation, in the project in the sidebar, and in
   Waiting for you.
-- **Scheduled run in progress / finished / archived.**
+- **Scheduled run in progress / finished** — visible from its schedule; in the project's recent list
+  only if it needs her.
 - **Agent's environment starting** (after the computer woke up) — conversations may take a moment to
   respond.
 - **Signed out of the AI provider / subscription limit reached** — the agent cannot answer; say why and

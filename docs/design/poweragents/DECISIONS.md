@@ -491,8 +491,7 @@ failure sweep — owner doubts it can be detected reliably)
 
 ## D29
 
-**A scheduled run is an ordinary, visible, interactive session in its project, optionally archived
-automatically when it finishes (as Paseo does). It inherits the reach the project already has and
+**A scheduled run is an ordinary, visible, interactive session. It inherits the reach the project already has and
 needs no permissions of its own; if it hits something that needs the person, it asks in that session
 and waits, and the person is notified.** (2026-11-08, design agent proposal at the owner's request;
 not confirmed)
@@ -502,16 +501,26 @@ decided while it runs — and unnecessary, because the reach is already set by t
 and connections ([D28](#d28)). A visible session lets the person see what happened and answer the
 agent there, instead of a run that silently stalls or gives up.
 
-**Where schedules live.** Schedules belong to the profile, listed in one place. A schedule may name a
-project as the folder its agent starts in; without one, the agent sees only the profile's Memory and
-Downloads. A run's conversation is listed under its schedule, and also among the project's
-conversations when it has one. (2026-11-09, owner: "the project is only the agent's starting folder";
-listing and the no-project case are the design agent's proposal)
+**Where schedules live.** Every schedule belongs to a project, which is the folder its agent starts
+in. One profile-wide Schedules page lists all of them, with their basic settings editable there. A
+run's conversation is marked as coming from its schedule; the project's history can be filtered by
+schedule, and the schedule's page shows its runs. (2026-11-11, owner)
+
+**Never archived.** Conversations, scheduled or not, are not archived when they finish or when their
+tab closes; they stay in history. Hiding a conversation for good may come later as an action taken
+from history. (2026-11-11, owner)
 
 **Overlap.** While a schedule's previous run still waits for the person, the next run does not start;
 the notification says today's run was skipped. (2026-11-08, owner, from the failure sweep)
 
 **Rejected.**
+- Schedules owned by the profile, with a project optional and, without one, the agent seeing only
+  Memory and Downloads ([history](history/DECISIONS.md#d29)) — no case needs a project-less schedule
+  yet (even a cross-project morning brief can live in its own project and reach others through
+  [D30](#d30)); add it when one appears (owner, 2026-11-11).
+- Archiving a scheduled run's conversation automatically when it finishes, as Paseo does
+  ([history](history/DECISIONS.md#d29)) — in Paseo a scheduled agent looks like any other and, once
+  archived, is hard to find again; here runs are found from their schedule instead (owner).
 - Finishing the run and leaving a "I need your consent for X" message — proposed earlier by the design
   agent; loses the run's context and needs a second run, where an interactive session can simply
   continue.
@@ -567,11 +576,15 @@ afterwards — anything reasonable for now.** (2026-11-08, owner)
 - **Main area has tabs** for whatever is open — conversations and files — opened and closed like an
   editor's tabs, not a store of every conversation (history lives under the project).
 - **A project holds many conversations;** "New conversation" is one click. Scheduled runs are
-  conversations too, archived automatically when finished.
+  conversations too; nothing is archived ([D29](#d29)). The project's history is one list of all its
+  conversations, scheduled runs marked as such; the sidebar's recent conversations show only those
+  the person started or opened, plus any run that needs them, so runs don't crowd the workspace.
+  (2026-11-11, the last clause is the design agent's proposal, not confirmed)
 - **"Waiting for you"** collects everything across the profile that needs the person: confirmations,
   a browser waiting for a login, sessions with a question, skipped runs.
 - **Files** are edited without visible Markdown syntax (a rich editor such as Tiptap writing plain
   Markdown underneath); other files get a preview; a syntax view is an option, not the default.
+- **Schedules** is one sidebar item: the profile-wide list of every project's schedules ([D29](#d29)).
 - **Plugins** are one sidebar item with Installed and Marketplace beneath it; a plugin's page shows the
   projects it is attached to, what it knows about the person (links to its files), and "Set up again",
   which reruns its onboarding.
@@ -581,8 +594,34 @@ afterwards — anything reasonable for now.** (2026-11-08, owner)
   it grows forever.
 - Tabs as the list of all open conversations (Paseo's model) — tabs here also hold files and are
   opened and closed constantly; history belongs under the project (owner).
-- Schedules owned by projects — a project is only the folder an agent starts in (owner).
 - Markdown syntax visible by default — most users don't know Markdown.
 
 **Unchecked.** How faithfully Tiptap round-trips arbitrary Markdown the agent writes (tables, nested
 lists, front matter).
+
+## D34
+
+**A plugin is installed either for the whole profile or into a project. A plugin that gives general
+access (e.g. Gmail: connect and read mail) belongs to the profile and is available in every project.
+A plugin that is a specific workflow (e.g. email sorting) belongs to a project, and that project is
+where the workflow keeps everything it needs — its rules, pending decisions, things waiting.
+Usually one workflow per project ("Email" holds email sorting), but nothing enforces it.**
+(2026-11-11, owner)
+
+**Why.** "Email" is a perfectly good project: everything the agent needs to sort mail lives there, so
+a workflow needs no space of its own. Access to Gmail, on the other hand, is useful in job search,
+health (receipts) and anywhere else.
+
+**The plugin's author decides its level**, and for now it cannot be changed: a profile plugin can't be
+installed into a project, nor the reverse. (2026-11-11, owner)
+
+**Open.** How a workflow plugin states that it needs a profile-level one (email sorting needs a mail
+plugin, Gmail or Outlook).
+
+**Consequence.** Profile-level plugins put their tools in every project, which [D11](#d11)'s
+attachment was meant to avoid; keeping that small is the MCP-context optimisation already deferred
+there.
+
+**Rejected.**
+- Every plugin attached to projects only — general access like Gmail would have to be attached to
+  every project that ever needs mail (owner).

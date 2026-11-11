@@ -17,6 +17,11 @@ outside services (e.g. Gmail), a setup conversation that runs right after instal
 programs installed into the agent's environment (e.g. Blender for a 3D plugin). Tags in the
 marketplace ("workflows", "creative", "for work") are only for browsing.
 
+A plugin is installed either for the whole profile or into one project. General access — e.g.
+"Gmail" (connect and read mail) — belongs to the profile and works in every project. A workflow —
+e.g. "Email sorting" — lives in one project, which becomes the home of everything it needs. Email
+sorting needs a mail plugin at the profile level (Gmail or Outlook); its setup offers to install one.
+
 A plugin keeps what it learns about the person — e.g. email-sorting rules — as ordinary files in a
 project. It can create its own project when installed (e.g. "Email sorting") or be installed into the
 project the person is in. It is **attached** to projects: in those projects the agent has its tools at
