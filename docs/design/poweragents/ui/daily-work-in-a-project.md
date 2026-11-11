@@ -82,6 +82,16 @@ for something new."
 - **The agent asking and waiting** in a scheduled run — the conversation clearly shows it is paused on
   her.
 
+## The same screen on day one
+
+The main screen is also where the first run lands, so it must work nearly empty: one project, "App
+setup", with the agent's onboarding conversation already open and talking (who are you, what do you
+do, what could I help with); Memory empty or holding the first few facts the agent just wrote; no
+plugins, no schedules, nothing waiting. As the conversation goes on, the agent proposes plugins,
+projects and schedules in one batched approval, and the sidebar fills in front of the person — the
+first time they see what the app is. Design the screen for both ends: day one, and the reference user
+a few weeks in.
+
 ## States
 
 - **Empty project** — no files, no conversations: invite her to start a conversation.

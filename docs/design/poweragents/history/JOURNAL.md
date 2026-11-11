@@ -147,3 +147,4 @@ Append-only. One line per turn that settled something, was rejected, or got an a
 - 2026-11-08 — Sweep dispositions recorded (D9 open file history, D20, D27, D28, D29).
 - 2026-11-09 — Owner closed screen-level questions (D33): many conversations, sidebar expands project to recent conversations + full history, editor-style tabs for conversations and files, Waiting-for-you inbox, rich Markdown editor (Tiptap), Plugins item with Installed/Marketplace, schedules per profile with optional starting project (D29). Next: UI briefs.
 - 2026-11-09 — UI briefs written: ui/first-run.md, ui/daily-work-in-a-project.md, ui/installing-a-plugin.md; README section 'What the person sees' links them.
+- 2026-11-11 — Owner will design the main screen first, then onboarding. Added a 'day one' state to ui/daily-work-in-a-project.md (onboarding lands on the main screen).
