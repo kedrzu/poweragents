@@ -1,0 +1,12 @@
+{
+    "name": "@poweragents/desktop",
+    "private": true,
+    "description": "The desktop shell: the app's static build in a native window (Tauri)",
+    "type": "module",
+    "scripts": {
+        "tauri": "tauri"
+    },
+    "devDependencies": {
+        "@tauri-apps/cli": "2.12.4"
+    }
+}

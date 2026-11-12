@@ -1,0 +1,8 @@
+# Nuxt's build and output
+.nuxt/
+.output/
+# `nuxt generate`'s symlink to `.output/public`; the root's `dist/` matches only a directory
+/dist
+
+# Written by hand: it extends `.nuxt/tsconfig.json`
+!tsconfig.json

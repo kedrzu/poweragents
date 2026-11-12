@@ -5,3 +5,7 @@
 *.gen.ts linguist-generated
 *.gen.d.ts linguist-generated
 **/__generated__/** linguist-generated
+
+# Pen design files: merged node by node by `bun nzyme pen merge` (registered in setup.sh); `bun nzyme pen diff`
+# replaces a text diff.
+*.pen merge=pen -diff linguist-generated

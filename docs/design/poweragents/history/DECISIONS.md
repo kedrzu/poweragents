@@ -7,7 +7,6 @@ except to append the next retired form.
 
 Retired 2026-11-08, replaced by [D12](#d12), itself since replaced by [D21](../DECISIONS.md#d21).
 
-
 **A mobile companion app is part of the first version, not later.** (2026-11-08, owner)
 
 **Why.** In the reference setup the agent's output reaches the person on the phone (today via a
@@ -19,7 +18,6 @@ Telegram bot, which needed technical setup). The phone is where a schedule's res
 
 Retired 2026-11-08, replaced by [D20](../DECISIONS.md#d20).
 
-
 **A plugin keeps what it learns about the user (e.g. email-sorting rules) as ordinary files in its own
 folder, shown in the app under that plugin ("what this plugin knows about me"), not as a project.**
 (2026-11-08, owner)
@@ -28,6 +26,7 @@ folder, shown in the app under that plugin ("what this plugin knows about me"), 
 stay plain and visible, consistent with [D9](#d9) — only their place in the interface differs.
 
 **Rejected.**
+
 - Installing a plugin creates a regular project holding its files — proposed by the design agent
   2026-11-08; "email sorting" is not something people call a project.
 - A hidden plugin store — contradicts plain, visible memory ([D9](#d9)).
@@ -36,7 +35,6 @@ stay plain and visible, consistent with [D9](#d9) — only their place in the in
 
 Retired 2026-11-08, replaced by [D21](../DECISIONS.md#d21).
 
-
 **Version one is desktop-only and local. The mobile companion (notifications, talking to the agent)
 follows in version two, soon after.** (2026-11-08, owner)
 
@@ -44,6 +42,7 @@ follows in version two, soon after.** (2026-11-08, owner)
 setup uses a Telegram bot, which needed technical setup), so it comes quickly — but not first.
 
 **Rejected.**
+
 - Mobile companion in version one ([history](history/DECISIONS.md#d10)) — owner moved it to version
   two.
 
@@ -55,7 +54,6 @@ server holding the app's APNs/FCM keys, i.e. a hosted component of ours.
 ## D5
 
 Retired in part 2026-11-08: the "works with any compatible daemon — local, remote or custom" half dropped; rewritten in place as [D5](../DECISIONS.md#d5).
-
 
 **A daemon runs in the background and exposes everything over a port; the desktop app is a thin
 client that works with any compatible daemon — local, remote or custom.** (2026-11-08, owner)
@@ -70,7 +68,6 @@ app, and it is the shape a mobile companion and cloud-hosted agents need. Paseo 
 ## D29
 
 Retired in part 2026-11-11: automatic archiving of scheduled runs dropped; rewritten in place as [D29](../DECISIONS.md#d29).
-
 
 **A scheduled run is an ordinary, visible, interactive session in its project, optionally archived
 automatically when it finishes (as Paseo does). It inherits the reach the project already has and
@@ -93,6 +90,7 @@ listing and the no-project case are the design agent's proposal)
 the notification says today's run was skipped. (2026-11-08, owner, from the failure sweep)
 
 **Rejected.**
+
 - Finishing the run and leaving a "I need your consent for X" message — proposed earlier by the design
   agent; loses the run's context and needs a second run, where an interactive session can simply
   continue.
@@ -104,11 +102,11 @@ setup. Buying needs the person to sign in and pay, which is consent by itself. P
 out of scope. (2026-11-08, owner)
 
 **Rejected.**
+
 - A per-schedule "may send and publish in your name unattended" switch, with plugins marking
   outward-acting tools — proposed by the design agent; plugins exposing only safe tools does the job.
 
 Retired in part 2026-11-11: profile-owned schedules with an optional project replaced by project-owned schedules; rewritten in place as [D29](../DECISIONS.md#d29).
-
 
 **A scheduled run is an ordinary, visible, interactive session. It inherits the reach the project already has and
 needs no permissions of its own; if it hits something that needs the person, it asks in that session
@@ -134,6 +132,7 @@ from history. (2026-11-11, owner)
 the notification says today's run was skipped. (2026-11-08, owner, from the failure sweep)
 
 **Rejected.**
+
 - Archiving a scheduled run's conversation automatically when it finishes, as Paseo does
   ([history](history/DECISIONS.md#d29)) — in Paseo a scheduled agent looks like any other and, once
   archived, is hard to find again; here runs are found from their schedule instead (owner).
@@ -148,13 +147,13 @@ setup. Buying needs the person to sign in and pay, which is consent by itself. P
 out of scope. (2026-11-08, owner)
 
 **Rejected.**
+
 - A per-schedule "may send and publish in your name unattended" switch, with plugins marking
   outward-acting tools — proposed by the design agent; plugins exposing only safe tools does the job.
 
 ## D33
 
 Retired in part 2026-11-11: "archived automatically when finished" dropped; rewritten in place as [D33](../DECISIONS.md#d33).
-
 
 **The app's structure.** (2026-11-09, owner, on the design agent's proposals)
 
@@ -176,6 +175,7 @@ Retired in part 2026-11-11: "archived automatically when finished" dropped; rewr
   which reruns its onboarding.
 
 **Rejected.**
+
 - One continuous conversation per project — results of schedules would need a separate place, and
   it grows forever.
 - Tabs as the list of all open conversations (Paseo's model) — tabs here also hold files and are
@@ -185,13 +185,13 @@ Retired in part 2026-11-11: "archived automatically when finished" dropped; rewr
 
 **Unchecked.** How faithfully Tiptap round-trips arbitrary Markdown the agent writes (tables, nested
 lists, front matter).
+
 # Retired decisions
 
 Full text of decisions no longer in force, under their original IDs. Never edited after writing,
 except to append the next retired form.
 
 Retired in part 2026-11-11: the rejection of project-owned schedules reversed; rewritten in place as [D33](../DECISIONS.md#d33).
-
 
 **The app's structure.** (2026-11-09, owner, on the design agent's proposals)
 
@@ -216,6 +216,7 @@ Retired in part 2026-11-11: the rejection of project-owned schedules reversed; r
   which reruns its onboarding.
 
 **Rejected.**
+
 - One continuous conversation per project — results of schedules would need a separate place, and
   it grows forever.
 - Tabs as the list of all open conversations (Paseo's model) — tabs here also hold files and are
@@ -225,4 +226,3 @@ Retired in part 2026-11-11: the rejection of project-owned schedules reversed; r
 
 **Unchecked.** How faithfully Tiptap round-trips arbitrary Markdown the agent writes (tables, nested
 lists, front matter).
-

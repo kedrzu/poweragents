@@ -1,0 +1,11 @@
+{
+    // Type-checked by vue-tsc (`typecheck`), not by `tsgo --build`: `noEmit` keeps the package out of
+    // the root build, and `nzyme monorepo` writes `tsconfig.json` with its references from this file.
+    "extends": "@vue/tsconfig/tsconfig.dom.json",
+    "compilerOptions": {
+        "noEmit": true,
+        "lib": ["ESNext", "DOM", "DOM.Iterable"],
+        "types": ["vite/client", "node"]
+    },
+    "include": ["./src/**/*", "./.storybook/**/*", "./viteShared.ts", "./vitest.config.ts"]
+}

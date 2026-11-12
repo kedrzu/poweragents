@@ -1,0 +1,6 @@
+# Cargo's build
+target/
+
+# Written by tauri-build on every cargo build
+/gen/
+/binaries/

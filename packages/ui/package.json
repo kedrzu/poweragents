@@ -1,0 +1,55 @@
+{
+    "name": "@poweragents/ui",
+    "private": true,
+    "description": "The product's Vue components, design tokens and global styles",
+    "type": "module",
+    "exports": {
+        "./package.json": "./package.json",
+        "./viteShared.js": "./viteShared.ts",
+        "./*.vue": "./src/*.vue",
+        "./*.js": "./src/*.ts",
+        "./*.jsx": "./src/*.tsx",
+        "./*.scss": "./src/*.scss"
+    },
+    "scripts": {
+        "typecheck": "vue-tsc --noEmit",
+        "test:stories": "vitest run --project=storybook --reporter=dot",
+        "storybook": "storybook dev --port 6006 --no-open",
+        "build-storybook": "storybook build"
+    },
+    "dependencies": {
+        "@nzyme/i18n": "workspace:*",
+        "@nzyme/i18n-core": "workspace:*",
+        "@nzyme/ioc": "workspace:*",
+        "@nzyme/utils": "workspace:*",
+        "@nzyme/vue": "workspace:*",
+        "@nzyme/vue-forms": "workspace:*",
+        "@nzyme/vue-i18n": "workspace:*",
+        "@nzyme/vue-ioc": "workspace:*",
+        "@nzyme/vue-transitions": "workspace:*",
+        "@nzyme/vue-utils": "workspace:*",
+        "@poweragents/common": "workspace:*",
+        "reka-ui": "2.10.5",
+        "vue": "3.5.45",
+        "vue-router": "^5.4.0"
+    },
+    "devDependencies": {
+        "@playwright/test": "1.64.1",
+        "@storybook/addon-a11y": "10.6.2",
+        "@storybook/addon-docs": "10.6.2",
+        "@storybook/addon-vitest": "10.6.2",
+        "@storybook/vue3-vite": "10.6.2",
+        "@vitejs/plugin-vue": "^6.0.10",
+        "@vitejs/plugin-vue-jsx": "^5.1.6",
+        "@vitest/browser": "^4.1.12",
+        "@vitest/browser-playwright": "^4.1.12",
+        "@vue/tsconfig": "0.9.1",
+        "playwright": "1.64.1",
+        "sass": "1.108.1",
+        "storybook": "10.6.2",
+        "typescript": "6.0.3",
+        "vite": "7.3.7",
+        "vitest": "^4.1.12",
+        "vue-tsc": "^3.3.13"
+    }
+}

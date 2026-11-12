@@ -25,6 +25,7 @@ stream and permission requests over HTTP.
 > v2.2.6 (2026-11-06).
 
 **Rejected.**
+
 - Building on OpenWork (fork or contribution) — same engine and much of the plumbing, but aimed at
   companies replacing Cowork, onboarding assumes the user knows what to ask, no default sandbox;
   the product difference is in exactly the parts it would not give us (2026-11-08, design agent's
@@ -89,6 +90,7 @@ wants its own file storage would have to rewrite all of it.
 > [getpaseo/paseo](https://github.com/getpaseo/paseo), [security](https://paseo.sh/docs/security).
 
 **Rejected.**
+
 - The signed app working with any compatible daemon, local, remote or custom
   ([history](history/DECISIONS.md#d5)) — owner deferred replaceability (2026-11-08).
 - Narrow replaceable parts inside the daemon (a file-storage provider, where the VM runs) as the
@@ -128,6 +130,7 @@ user's machine, and the environment can be described and rebuilt elsewhere.
 Downloads folder ([D27](#d27)). (2026-11-08)
 
 **Rejected.**
+
 - One vault per profile with projects as plain subfolders the agent sees all at once (the shape of
   the owner's wife's Obsidian setup) — proposed by the design agent 2026-11-08; owner chose separate
   folders, with knowledge about the person handled by [D9](#d9) instead.
@@ -149,6 +152,7 @@ the person just corrected. Owner is considering a local git repository to keep h
 (2026-11-08, from the failure sweep).
 
 **Rejected.**
+
 - A name like "About me" (O mnie) — owner prefers "Memory" (2026-11-08).
 - A managed memory store (embeddings, automatic summaries, a memory API) — opaque to the user.
 - A separate memory mechanism per project — a project is already just files.
@@ -167,6 +171,7 @@ plugins stay findable, and attaching one to a project (by the user or the agent)
 default there. (2026-11-08, design agent proposal, owner agreed.)
 
 **Rejected.**
+
 - Counting tool usage per project and promoting frequent tools into a default set with a soft or hard
   limit (owner's first idea) — attaching plugins gives the same result with no counters.
 
@@ -234,6 +239,7 @@ connected once, a later service costs one more "Allow" on Google's screen. (2026
 proposal, owner did not object.)
 
 **Rejected.**
+
 - Asking for all Google scopes (mail, calendar, Drive) at the first connection — Google does not let
   desktop apps add scopes later, but a first screen saying the app may read, send and delete all mail,
   calendars and files scares a non-technical user before any value is shown.
@@ -252,6 +258,7 @@ with rules and a schedule, are the same thing with different parts; separate kin
 choice nobody needs to make.
 
 **Rejected.**
+
 - Two kinds — a "connection" (account sign-in + tools, no files) and a "workflow" (rules, schedule,
   onboarding, creates a project) — proposed by the design agent 2026-11-08; owner prefers one
   composite with tags.
@@ -275,6 +282,7 @@ path. Deleting a project that has plugins or schedules attached warns and says w
 (2026-11-08, owner, from the failure sweep)
 
 **Rejected.**
+
 - A per-plugin folder shown under the plugin, not as a project
   ([history](history/DECISIONS.md#d19)) — owner replaced it the same day with projects referenced
   from plugin configuration.
@@ -288,6 +296,7 @@ companion and the relay that connects it. In what order they are built is decide
 part of this design.** (2026-11-08, owner)
 
 **Rejected.**
+
 - Fixing now that version one is desktop-only and the phone comes in version two
   ([history](history/DECISIONS.md#d12)) — owner moved sequencing out of the design.
 
@@ -312,6 +321,7 @@ folder the app picks (e.g. under Documents or home), changeable by those who wan
 Drive and OneDrive come later as further kinds. (2026-11-08, owner)
 
 **Rejected.**
+
 - A folder picker in the wizard — the users this is for don't navigate folders.
 - iCloud as the default — files evicted by "Optimize Mac Storage" and sync conflicts under an agent
   writing quickly are unexamined risks (not checked; design agent's concern).
@@ -360,6 +370,7 @@ reproduced on another, because nothing records what was installed. Imperative in
 different results depending on order; a declaration per kind does not.
 
 **Rejected.**
+
 - A persistent sandbox where the agent installs freely — the manifest stops describing reality.
 - A sandbox rebuilt from the manifest while the agent still installs freely — its installs silently
   vanish on the next rebuild.
@@ -378,6 +389,7 @@ it came from, so it can't be rebuilt or updated from it. Since the marketplace i
 and the dependencies they declare can be updated safely: updating means a new plugin version.
 
 **Rejected.**
+
 - The sandbox's own uv / Bun project files (with lockfiles) as the manifest — proposed by the design
   agent 2026-11-08; they record the result, not the source, and make updates awkward.
 - Linux system packages from a repository frozen at a fixed date — proposed by the design agent; as
@@ -388,6 +400,7 @@ what it needs, and installing that plugin installs it — the same path as any p
 owner)
 
 **Rejected.**
+
 - A single fixed local plugin per profile ("My additions") holding everything the agent installs —
   proposed by the design agent; owner prefers letting the agent author plugins generally.
 - A separate "installed by hand" section of the manifest — two kinds of entries for every mechanism
@@ -457,6 +470,7 @@ the background without getting in your way".
 > [cdproto](https://github.com/chromedp/cdproto/blob/main/browser/browser.go).
 
 **Rejected.**
+
 - Chromium inside the sandbox, shown in the app as a screencast — no native window, passkeys and
   Touch ID likely unavailable; kept only as the remote view of the same browser.
 - Headless browser restarted headed for the handoff — loses the page state.
@@ -486,6 +500,7 @@ plugin) is not caught; plugins are expected to be made carefully. (2026-11-08, o
 failure sweep — owner doubts it can be detected reliably)
 
 **Rejected.**
+
 - A separate confirmation per setting or plugin — too many clicks (owner).
 - Letting the agent configure everything silently — one malicious page gets a lasting foothold.
 
@@ -514,6 +529,7 @@ from history. (2026-11-11, owner)
 the notification says today's run was skipped. (2026-11-08, owner, from the failure sweep)
 
 **Rejected.**
+
 - Schedules owned by the profile, with a project optional and, without one, the agent seeing only
   Memory and Downloads ([history](history/DECISIONS.md#d29)) — no case needs a project-less schedule
   yet (even a cross-project morning brief can live in its own project and reach others through
@@ -532,6 +548,7 @@ setup. Buying needs the person to sign in and pay, which is consent by itself. P
 out of scope. (2026-11-08, owner)
 
 **Rejected.**
+
 - A per-schedule "may send and publish in your name unattended" switch, with plugins marking
   outward-acting tools — proposed by the design agent; plugins exposing only safe tools does the job.
 
@@ -590,6 +607,7 @@ afterwards — anything reasonable for now.** (2026-11-08, owner)
   which reruns its onboarding.
 
 **Rejected.**
+
 - One continuous conversation per project — results of schedules would need a separate place, and
   it grows forever.
 - Tabs as the list of all open conversations (Paseo's model) — tabs here also hold files and are
@@ -623,5 +641,6 @@ attachment was meant to avoid; keeping that small is the MCP-context optimisatio
 there.
 
 **Rejected.**
+
 - Every plugin attached to projects only — general access like Gmail would have to be attached to
   every project that ever needs mail (owner).

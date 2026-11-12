@@ -1,0 +1,13 @@
+{
+    // https://nuxt.com/docs/guide/concepts/typescript
+    "extends": "./.nuxt/tsconfig.json",
+    "compilerOptions": {
+        "noUncheckedIndexedAccess": true
+    },
+    // Nuxt's generated types are listed on their own: `nuxt.node.d.ts` holds the config keys modules add
+    // to `nuxt.config.ts`.
+    "include": ["./.nuxt/nuxt.d.ts", "./.nuxt/nuxt.node.d.ts", "./**/*"],
+    // Replaces the list from `.nuxt/tsconfig.json`. Build output is JavaScript that `allowJs` would
+    // otherwise pull in.
+    "exclude": ["./dist", "./.output"]
+}
