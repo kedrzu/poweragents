@@ -70,7 +70,8 @@ for something new."
    *Answers: what's in this project, and what did the agent write?*
 
 5. **Memory.** Same as a project's files, framed as "what the agent knows about you". She can read and
-   correct it.
+   correct it. It is only plain Markdown files shared across the profile, with no structure of its own: the
+   framing comes from its name and wording, never from a special view.
    *Answers: what does it know about me, and is it right?*
 
 ## Elements inside a conversation that need their own design

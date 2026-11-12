@@ -155,6 +155,8 @@ the person just corrected. Owner is considering a local git repository to keep h
 
 - A name like "About me" (O mnie) — owner prefers "Memory" (2026-11-08).
 - A managed memory store (embeddings, automatic summaries, a memory API) — opaque to the user.
+- Showing Memory in a structure of its own (topics, sentences with their sources, cards to confirm) — Memory is
+  shown as its files, opened like any project's files (2026-11-12, owner).
 - A separate memory mechanism per project — a project is already just files.
 
 ## D11
