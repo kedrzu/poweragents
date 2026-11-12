@@ -5735,11 +5735,74 @@
         "palette": "meadow"
       },
       "descendants": {
-        "V87knr/ROqEi/KdzmS": {
+        "V87knr/VvTsf": {
           "enabled": false
         },
-        "V87knr/ROqEi/g1fOgp": {
-          "enabled": true
+        "V87knr/bSPlA": {
+          "children": [
+            {
+              "id": "URV3d",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "App setup",
+              "fill": "$surface-glass",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-slate",
+                  "icon": "folder-open"
+                },
+                "AlfMX": {
+                  "content": "App setup",
+                  "fontWeight": "600"
+                },
+                "Cisy9": {
+                  "enabled": true
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "Xbhk6",
+              "name": "App setup conversations",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 1,
+              "padding": [
+                2,
+                0,
+                4,
+                12
+              ],
+              "children": [
+                {
+                  "id": "JSsex",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Getting to know you",
+                  "fill": "$surface",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": false
+                    },
+                    "j74np": {
+                      "content": "Getting to know you",
+                      "fill": "$ink",
+                      "fontWeight": "600"
+                    },
+                    "g1fOgp": {
+                      "enabled": false
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                }
+              ]
+            }
+          ]
         },
         "c0GQTX/zHLo4": {
           "children": [
@@ -5994,11 +6057,74 @@
         "palette": "meadow"
       },
       "descendants": {
-        "V87knr/ROqEi/KdzmS": {
+        "V87knr/VvTsf": {
           "enabled": false
         },
-        "V87knr/ROqEi/g1fOgp": {
-          "enabled": true
+        "V87knr/bSPlA": {
+          "children": [
+            {
+              "id": "IcJey",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "App setup",
+              "fill": "$surface-glass",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-slate",
+                  "icon": "folder-open"
+                },
+                "AlfMX": {
+                  "content": "App setup",
+                  "fontWeight": "600"
+                },
+                "Cisy9": {
+                  "enabled": true
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "oxDQ5",
+              "name": "App setup conversations",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 1,
+              "padding": [
+                2,
+                0,
+                4,
+                12
+              ],
+              "children": [
+                {
+                  "id": "y3edQ",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Getting to know you",
+                  "fill": "$surface",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": false
+                    },
+                    "j74np": {
+                      "content": "Getting to know you",
+                      "fill": "$ink",
+                      "fontWeight": "600"
+                    },
+                    "g1fOgp": {
+                      "enabled": false
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                }
+              ]
+            }
+          ]
         },
         "c0GQTX/zHLo4": {
           "children": [
@@ -6305,11 +6431,140 @@
         "palette": "meadow"
       },
       "descendants": {
-        "V87knr/ROqEi/KdzmS": {
+        "V87knr/VvTsf": {
           "enabled": false
         },
-        "V87knr/ROqEi/g1fOgp": {
-          "enabled": true
+        "V87knr/bSPlA": {
+          "children": [
+            {
+              "id": "y1BqP",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "App setup",
+              "fill": "$surface-glass",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-slate",
+                  "icon": "folder-open"
+                },
+                "AlfMX": {
+                  "content": "App setup",
+                  "fontWeight": "600"
+                },
+                "Cisy9": {
+                  "enabled": true
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "nhvYc",
+              "name": "App setup conversations",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 1,
+              "padding": [
+                2,
+                0,
+                4,
+                12
+              ],
+              "children": [
+                {
+                  "id": "V4QMo",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Getting to know you",
+                  "fill": "$surface",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": false
+                    },
+                    "j74np": {
+                      "content": "Getting to know you",
+                      "fill": "$ink",
+                      "fontWeight": "600"
+                    },
+                    "g1fOgp": {
+                      "enabled": false
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "Z9UEil",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Health & skin care",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-pink"
+                },
+                "AlfMX": {
+                  "content": "Health & skin care"
+                },
+                "Cisy9": {
+                  "enabled": true,
+                  "icon": "sparkles",
+                  "fill": "$brand-1"
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "VjNRi",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Job search",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-blue"
+                },
+                "AlfMX": {
+                  "content": "Job search"
+                },
+                "Cisy9": {
+                  "enabled": true,
+                  "icon": "sparkles",
+                  "fill": "$brand-1"
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "tSnQE",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Email",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-green"
+                },
+                "AlfMX": {
+                  "content": "Email"
+                },
+                "Cisy9": {
+                  "enabled": true,
+                  "icon": "sparkles",
+                  "fill": "$brand-1"
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            }
+          ]
         },
         "c0GQTX/zHLo4": {
           "children": [
@@ -6500,11 +6755,256 @@
         "palette": "meadow"
       },
       "descendants": {
-        "V87knr/ROqEi/KdzmS": {
-          "enabled": false
-        },
-        "V87knr/ROqEi/g1fOgp": {
-          "enabled": true
+        "V87knr/bSPlA": {
+          "children": [
+            {
+              "id": "tGEaq",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "App setup",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-slate"
+                },
+                "AlfMX": {
+                  "content": "App setup"
+                },
+                "Cisy9": {
+                  "enabled": true
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "e8xoSe",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Health & skin care",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-pink"
+                },
+                "AlfMX": {
+                  "content": "Health & skin care"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "qmxCW",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Job search",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-blue"
+                },
+                "AlfMX": {
+                  "content": "Job search"
+                },
+                "Cisy9": {
+                  "enabled": true,
+                  "icon": "loader-circle",
+                  "fill": "$brand-1"
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "B4i7m",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Instagram posts",
+              "fill": "$surface-glass",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-amber",
+                  "icon": "folder-open"
+                },
+                "AlfMX": {
+                  "content": "Instagram posts",
+                  "fontWeight": "600"
+                },
+                "Cisy9": {
+                  "enabled": true,
+                  "icon": "loader-circle",
+                  "fill": "$brand-1"
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "nrs01",
+              "name": "Instagram posts conversations",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 1,
+              "padding": [
+                2,
+                0,
+                4,
+                12
+              ],
+              "children": [
+                {
+                  "id": "ZLij2",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "November post ideas",
+                  "fill": "$surface",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": false
+                    },
+                    "j74np": {
+                      "content": "November post ideas",
+                      "fill": "$ink",
+                      "fontWeight": "600"
+                    },
+                    "g1fOgp": {
+                      "enabled": false
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "K3vACn",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Reel script — SPF myths",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": false
+                    },
+                    "j74np": {
+                      "content": "Reel script — SPF myths"
+                    },
+                    "g1fOgp": {
+                      "enabled": false
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "F3mBDO",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Weekly stats",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": false
+                    },
+                    "j74np": {
+                      "content": "Weekly stats"
+                    },
+                    "g1fOgp": {
+                      "enabled": true
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "s2YNIy",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "All conversations",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": false
+                    },
+                    "j74np": {
+                      "content": "All conversations",
+                      "fill": "$ink-faint"
+                    },
+                    "g1fOgp": {
+                      "enabled": false
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "u2UGL",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Email",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-green"
+                },
+                "AlfMX": {
+                  "content": "Email"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "M4GRac",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Wedding planning",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-violet"
+                },
+                "AlfMX": {
+                  "content": "Wedding planning"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "vIpgT",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Flat renovation",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-teal"
+                },
+                "AlfMX": {
+                  "content": "Flat renovation"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            }
+          ]
         },
         "c0GQTX/zHLo4": {
           "children": [
@@ -6918,11 +7418,400 @@
         "palette": "meadow"
       },
       "descendants": {
-        "V87knr/ROqEi/KdzmS": {
-          "enabled": false
-        },
-        "V87knr/ROqEi/g1fOgp": {
-          "enabled": true
+        "V87knr/bSPlA": {
+          "justifyContent": "center",
+          "children": [
+            {
+              "id": "KSEp9",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "App setup",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-slate"
+                },
+                "AlfMX": {
+                  "content": "App setup"
+                },
+                "Cisy9": {
+                  "enabled": true
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "ZkQh1",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Health & skin care",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-pink"
+                },
+                "AlfMX": {
+                  "content": "Health & skin care"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "kndvl",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Job search",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-blue"
+                },
+                "AlfMX": {
+                  "content": "Job search"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "X6sphh",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Instagram posts",
+              "fill": "$surface-glass",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-amber",
+                  "icon": "folder-open"
+                },
+                "AlfMX": {
+                  "content": "Instagram posts",
+                  "fontWeight": "600"
+                },
+                "Cisy9": {
+                  "enabled": true,
+                  "icon": "loader-circle",
+                  "fill": "$brand-1"
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "j9Z0vn",
+              "name": "Instagram posts conversations",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 1,
+              "padding": [
+                2,
+                0,
+                4,
+                12
+              ],
+              "children": [
+                {
+                  "id": "S3j8n",
+                  "type": "ref",
+                  "ref": "GHAlZ",
+                  "name": "Conversations label",
+                  "descendants": {
+                    "LXO6c": {
+                      "content": "Conversations"
+                    }
+                  }
+                },
+                {
+                  "id": "u5VTEN",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "November post ideas",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": true,
+                      "icon": "loader-circle"
+                    },
+                    "j74np": {
+                      "content": "November post ideas"
+                    },
+                    "g1fOgp": {
+                      "enabled": false
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "gGt6J",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Reel script — SPF myths",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": false
+                    },
+                    "j74np": {
+                      "content": "Reel script — SPF myths"
+                    },
+                    "g1fOgp": {
+                      "enabled": false
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "rH03S",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Weekly stats",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": false
+                    },
+                    "j74np": {
+                      "content": "Weekly stats"
+                    },
+                    "g1fOgp": {
+                      "enabled": true
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "pL57L",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "All conversations",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": false
+                    },
+                    "j74np": {
+                      "content": "All conversations",
+                      "fill": "$ink-faint"
+                    },
+                    "g1fOgp": {
+                      "enabled": false
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "GC3fS",
+                  "type": "ref",
+                  "ref": "GHAlZ",
+                  "name": "Files label"
+                },
+                {
+                  "id": "vEZXr",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Post ideas",
+                  "fill": "$surface",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": true,
+                      "icon": "pencil-line",
+                      "fill": "$brand-1"
+                    },
+                    "j74np": {
+                      "content": "Post ideas",
+                      "fill": "$ink",
+                      "fontWeight": "600"
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "GEuTS",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Hashtags",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": true,
+                      "icon": "file-text"
+                    },
+                    "j74np": {
+                      "content": "Hashtags"
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "oKP2h",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Brand voice",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": true,
+                      "icon": "file-text"
+                    },
+                    "j74np": {
+                      "content": "Brand voice"
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "D6ONNP",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Covers",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": true,
+                      "icon": "folder"
+                    },
+                    "j74np": {
+                      "content": "Covers"
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "ai4oC",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Stats",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": true,
+                      "icon": "folder"
+                    },
+                    "j74np": {
+                      "content": "Stats"
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "AKfuU",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Collab rate card.pdf",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": true,
+                      "icon": "file"
+                    },
+                    "j74np": {
+                      "content": "Collab rate card.pdf"
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "KkC6D",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Followers 2026.xlsx",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": true,
+                      "icon": "sheet"
+                    },
+                    "j74np": {
+                      "content": "Followers 2026.xlsx"
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "ALXtE",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Email",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-green"
+                },
+                "AlfMX": {
+                  "content": "Email"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "yY2TS",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Wedding planning",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-violet"
+                },
+                "AlfMX": {
+                  "content": "Wedding planning"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "T4ynM9",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Flat renovation",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-teal"
+                },
+                "AlfMX": {
+                  "content": "Flat renovation"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            }
+          ]
         },
         "c0GQTX/zHLo4": {
           "children": [
@@ -7452,11 +8341,370 @@
         "palette": "meadow"
       },
       "descendants": {
-        "V87knr/ROqEi/KdzmS": {
-          "enabled": false
+        "V87knr/y8k2gM": {
+          "children": [
+            {
+              "id": "ruHn0",
+              "type": "ref",
+              "ref": "k6dG9",
+              "name": "Search",
+              "descendants": {
+                "aPts3": {
+                  "icon": "search"
+                },
+                "IGNqc": {
+                  "content": "Search"
+                },
+                "xXA62": {
+                  "id": "QWxxO",
+                  "type": "ref",
+                  "ref": "k7CFxX",
+                  "name": "Kbd"
+                }
+              }
+            },
+            {
+              "id": "lGh1V",
+              "type": "ref",
+              "ref": "k6dG9",
+              "name": "Memory",
+              "fill": "$surface-glass",
+              "descendants": {
+                "aPts3": {
+                  "icon": "brain"
+                },
+                "IGNqc": {
+                  "content": "Memory",
+                  "fontWeight": "600"
+                },
+                "xXA62": {
+                  "content": "6 files",
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "Nab79",
+              "name": "Memory files",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 1,
+              "padding": [
+                2,
+                0,
+                4,
+                12
+              ],
+              "children": [
+                {
+                  "id": "tOdl1",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "About me",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": true,
+                      "icon": "file-text"
+                    },
+                    "j74np": {
+                      "content": "About me"
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "lFP0k",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Work and job search",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": true,
+                      "icon": "file-text"
+                    },
+                    "j74np": {
+                      "content": "Work and job search"
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "KhT9q",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Skin and health",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": true,
+                      "icon": "file-text"
+                    },
+                    "j74np": {
+                      "content": "Skin and health"
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "okWSi",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "How I like things",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": true,
+                      "icon": "file-text"
+                    },
+                    "j74np": {
+                      "content": "How I like things"
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "bkZnD",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "People",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": true,
+                      "icon": "file-text"
+                    },
+                    "j74np": {
+                      "content": "People"
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "B6qs5V",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Places and routines",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": true,
+                      "icon": "file-text"
+                    },
+                    "j74np": {
+                      "content": "Places and routines"
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "o3LZmV",
+              "type": "ref",
+              "ref": "k6dG9",
+              "name": "Downloads",
+              "descendants": {
+                "aPts3": {
+                  "icon": "download"
+                },
+                "IGNqc": {
+                  "content": "Downloads"
+                },
+                "xXA62": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "b7W4Iq",
+              "type": "ref",
+              "ref": "k6dG9",
+              "name": "Plugins",
+              "descendants": {
+                "aPts3": {
+                  "icon": "puzzle"
+                },
+                "IGNqc": {
+                  "content": "Plugins"
+                },
+                "xXA62": {
+                  "content": "4",
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "UWoZW",
+              "type": "ref",
+              "ref": "k6dG9",
+              "name": "Schedules",
+              "descendants": {
+                "aPts3": {
+                  "icon": "calendar-clock"
+                },
+                "IGNqc": {
+                  "content": "Schedules"
+                },
+                "xXA62": {
+                  "content": "5",
+                  "enabled": true
+                }
+              }
+            }
+          ]
         },
-        "V87knr/ROqEi/g1fOgp": {
-          "enabled": true
+        "V87knr/bSPlA": {
+          "children": [
+            {
+              "id": "PPVEy",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "App setup",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-slate"
+                },
+                "AlfMX": {
+                  "content": "App setup"
+                },
+                "Cisy9": {
+                  "enabled": true
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "XqQpZ",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Health & skin care",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-pink"
+                },
+                "AlfMX": {
+                  "content": "Health & skin care"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "rk3z3",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Job search",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-blue"
+                },
+                "AlfMX": {
+                  "content": "Job search"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "cRmhk",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Instagram posts",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-amber"
+                },
+                "AlfMX": {
+                  "content": "Instagram posts"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "T5eiZ",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Email",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-green"
+                },
+                "AlfMX": {
+                  "content": "Email"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "QoEhT",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Wedding planning",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-violet"
+                },
+                "AlfMX": {
+                  "content": "Wedding planning"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "bnKOb",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Flat renovation",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-teal"
+                },
+                "AlfMX": {
+                  "content": "Flat renovation"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            }
+          ]
         },
         "c0GQTX/zHLo4": {
           "children": [
@@ -7743,11 +8991,152 @@
         "palette": "meadow"
       },
       "descendants": {
-        "V87knr/ROqEi/KdzmS": {
-          "enabled": false
+        "V87knr/p1ufk": {
+          "fill": "$surface-glass"
         },
-        "V87knr/ROqEi/g1fOgp": {
-          "enabled": true
+        "V87knr/bSPlA": {
+          "children": [
+            {
+              "id": "vzhXy",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "App setup",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-slate"
+                },
+                "AlfMX": {
+                  "content": "App setup"
+                },
+                "Cisy9": {
+                  "enabled": true
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "Mpjoq",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Health & skin care",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-pink"
+                },
+                "AlfMX": {
+                  "content": "Health & skin care"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "RlcbQ",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Job search",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-blue"
+                },
+                "AlfMX": {
+                  "content": "Job search"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "EMQ0J",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Instagram posts",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-amber"
+                },
+                "AlfMX": {
+                  "content": "Instagram posts"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "I9tOnx",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Email",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-green"
+                },
+                "AlfMX": {
+                  "content": "Email"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "QM7gJ",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Wedding planning",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-violet"
+                },
+                "AlfMX": {
+                  "content": "Wedding planning"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "qpF4y",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Flat renovation",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-teal"
+                },
+                "AlfMX": {
+                  "content": "Flat renovation"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            }
+          ]
         },
         "c0GQTX/zHLo4": {
           "children": [
@@ -8235,11 +9624,152 @@
         "palette": "meadow"
       },
       "descendants": {
-        "V87knr/ROqEi/KdzmS": {
-          "enabled": false
+        "V87knr/p1ufk": {
+          "fill": "$surface-glass"
         },
-        "V87knr/ROqEi/g1fOgp": {
-          "enabled": true
+        "V87knr/bSPlA": {
+          "children": [
+            {
+              "id": "mztvs",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "App setup",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-slate"
+                },
+                "AlfMX": {
+                  "content": "App setup"
+                },
+                "Cisy9": {
+                  "enabled": true
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "mZxsE",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Health & skin care",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-pink"
+                },
+                "AlfMX": {
+                  "content": "Health & skin care"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "VDy4L",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Job search",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-blue"
+                },
+                "AlfMX": {
+                  "content": "Job search"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "o2Lc7b",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Instagram posts",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-amber"
+                },
+                "AlfMX": {
+                  "content": "Instagram posts"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "Q8w4tk",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Email",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-green"
+                },
+                "AlfMX": {
+                  "content": "Email"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "KZk9Y",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Wedding planning",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-violet"
+                },
+                "AlfMX": {
+                  "content": "Wedding planning"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "jOcVA",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Flat renovation",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-teal"
+                },
+                "AlfMX": {
+                  "content": "Flat renovation"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            }
+          ]
         },
         "c0GQTX/zHLo4": {
           "children": [
@@ -9351,11 +10881,251 @@
         "palette": "meadow"
       },
       "descendants": {
-        "V87knr/ROqEi/KdzmS": {
-          "enabled": false
-        },
-        "V87knr/ROqEi/g1fOgp": {
-          "enabled": true
+        "V87knr/bSPlA": {
+          "children": [
+            {
+              "id": "Res2n",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "App setup",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-slate"
+                },
+                "AlfMX": {
+                  "content": "App setup"
+                },
+                "Cisy9": {
+                  "enabled": true
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "xJraQ",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Health & skin care",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-pink"
+                },
+                "AlfMX": {
+                  "content": "Health & skin care"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "b5H6X",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Job search",
+              "fill": "$surface-glass",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-blue",
+                  "icon": "folder-open"
+                },
+                "AlfMX": {
+                  "content": "Job search",
+                  "fontWeight": "600"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "I82zpu",
+              "name": "Job search conversations",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 1,
+              "padding": [
+                2,
+                0,
+                4,
+                12
+              ],
+              "children": [
+                {
+                  "id": "xdS76",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "LinkedIn check",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": false
+                    },
+                    "j74np": {
+                      "content": "LinkedIn check"
+                    },
+                    "g1fOgp": {
+                      "enabled": true
+                    },
+                    "FsA04": {
+                      "enabled": true
+                    }
+                  }
+                },
+                {
+                  "id": "lLaTt",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Cover letter for Allegro",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": false
+                    },
+                    "j74np": {
+                      "content": "Cover letter for Allegro"
+                    },
+                    "g1fOgp": {
+                      "enabled": false
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "dxLcv",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Salary ranges in Warsaw",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": false
+                    },
+                    "j74np": {
+                      "content": "Salary ranges in Warsaw"
+                    },
+                    "g1fOgp": {
+                      "enabled": false
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "gSj2C",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "All conversations",
+                  "fill": "$surface",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": false
+                    },
+                    "j74np": {
+                      "content": "All conversations",
+                      "fill": "$ink",
+                      "fontWeight": "600"
+                    },
+                    "g1fOgp": {
+                      "enabled": false
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "kvN3x",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Instagram posts",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-amber"
+                },
+                "AlfMX": {
+                  "content": "Instagram posts"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "Ukdcd",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Email",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-green"
+                },
+                "AlfMX": {
+                  "content": "Email"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "X760b",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Wedding planning",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-violet"
+                },
+                "AlfMX": {
+                  "content": "Wedding planning"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "IsnSf",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Flat renovation",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-teal"
+                },
+                "AlfMX": {
+                  "content": "Flat renovation"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            }
+          ]
         },
         "c0GQTX/zHLo4": {
           "children": [
@@ -9913,11 +11683,209 @@
         "palette": "meadow"
       },
       "descendants": {
-        "V87knr/ROqEi/KdzmS": {
-          "enabled": false
-        },
-        "V87knr/ROqEi/g1fOgp": {
-          "enabled": true
+        "V87knr/bSPlA": {
+          "children": [
+            {
+              "id": "zSLII",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "App setup",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-slate"
+                },
+                "AlfMX": {
+                  "content": "App setup"
+                },
+                "Cisy9": {
+                  "enabled": true
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "DF5zU",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Health & skin care",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-pink"
+                },
+                "AlfMX": {
+                  "content": "Health & skin care"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "m62fj4",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Job search",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-blue"
+                },
+                "AlfMX": {
+                  "content": "Job search"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "TX32l",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Instagram posts",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-amber"
+                },
+                "AlfMX": {
+                  "content": "Instagram posts"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "oY8uO",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Email",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-green"
+                },
+                "AlfMX": {
+                  "content": "Email"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "SQrya",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Wedding planning",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-violet"
+                },
+                "AlfMX": {
+                  "content": "Wedding planning"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "O19CO2",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Flat renovation",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-teal"
+                },
+                "AlfMX": {
+                  "content": "Flat renovation"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "pig4T",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Wardrobe",
+              "fill": "$surface-glass",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-coral",
+                  "icon": "folder-open"
+                },
+                "AlfMX": {
+                  "content": "Wardrobe",
+                  "fontWeight": "600"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "T4fO1R",
+              "name": "Wardrobe conversations",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 1,
+              "padding": [
+                2,
+                0,
+                4,
+                12
+              ],
+              "children": [
+                {
+                  "id": "E93qgR",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "All conversations",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": false
+                    },
+                    "j74np": {
+                      "content": "All conversations",
+                      "fill": "$ink-faint"
+                    },
+                    "g1fOgp": {
+                      "enabled": false
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                }
+              ]
+            }
+          ]
         },
         "c0GQTX/zHLo4": {
           "children": [
@@ -10147,11 +12115,226 @@
         "palette": "meadow"
       },
       "descendants": {
-        "V87knr/ROqEi/KdzmS": {
-          "enabled": false
-        },
-        "V87knr/ROqEi/g1fOgp": {
-          "enabled": true
+        "V87knr/bSPlA": {
+          "children": [
+            {
+              "id": "p2M3YL",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "App setup",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-slate"
+                },
+                "AlfMX": {
+                  "content": "App setup"
+                },
+                "Cisy9": {
+                  "enabled": true
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "lM4XQ",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Health & skin care",
+              "fill": "$surface-glass",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-pink",
+                  "icon": "folder-open"
+                },
+                "AlfMX": {
+                  "content": "Health & skin care",
+                  "fontWeight": "600"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "i8KL27",
+              "name": "Health & skin care conversations",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 1,
+              "padding": [
+                2,
+                0,
+                4,
+                12
+              ],
+              "children": [
+                {
+                  "id": "q4n2u",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Morning routine",
+                  "fill": "$surface",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": false
+                    },
+                    "j74np": {
+                      "content": "Morning routine",
+                      "fill": "$ink",
+                      "fontWeight": "600"
+                    },
+                    "g1fOgp": {
+                      "enabled": true
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "Jn7id",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Which SPF for skiing?",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": false
+                    },
+                    "j74np": {
+                      "content": "Which SPF for skiing?"
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "Y4ZN6x",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "All conversations",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": false
+                    },
+                    "j74np": {
+                      "content": "All conversations",
+                      "fill": "$ink-faint"
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "dAs3i",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Job search",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-blue"
+                },
+                "AlfMX": {
+                  "content": "Job search"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "c8T8N",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Instagram posts",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-amber"
+                },
+                "AlfMX": {
+                  "content": "Instagram posts"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "UgLAO",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Email",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-green"
+                },
+                "AlfMX": {
+                  "content": "Email"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "udFvT",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Wedding planning",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-violet"
+                },
+                "AlfMX": {
+                  "content": "Wedding planning"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "u0jB3",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Flat renovation",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-teal"
+                },
+                "AlfMX": {
+                  "content": "Flat renovation"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            }
+          ]
         },
         "c0GQTX/zHLo4": {
           "children": [
@@ -10309,11 +12492,245 @@
         "palette": "meadow"
       },
       "descendants": {
-        "V87knr/ROqEi/KdzmS": {
-          "enabled": false
+        "V87knr/VvTsf/E2pI91/m1VHGg": {
+          "fill": "$attention-soft"
         },
-        "V87knr/ROqEi/g1fOgp": {
-          "enabled": true
+        "V87knr/VvTsf/E2pI91/m1VHGg/bPnwO": {
+          "icon": "log-in",
+          "fill": "$attention"
+        },
+        "V87knr/VvTsf/E2pI91/HOnbA": {
+          "content": "Sign in to ChatGPT again"
+        },
+        "V87knr/VvTsf/E2pI91/Trpze": {
+          "content": "Every project · since 9:12"
+        },
+        "V87knr/bSPlA": {
+          "children": [
+            {
+              "id": "IxAeD",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "App setup",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-slate"
+                },
+                "AlfMX": {
+                  "content": "App setup"
+                },
+                "Cisy9": {
+                  "enabled": true
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "R4yw2a",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Health & skin care",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-pink"
+                },
+                "AlfMX": {
+                  "content": "Health & skin care"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "hipEq",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Job search",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-blue"
+                },
+                "AlfMX": {
+                  "content": "Job search"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "Tftry",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Instagram posts",
+              "fill": "$surface-glass",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-amber",
+                  "icon": "folder-open"
+                },
+                "AlfMX": {
+                  "content": "Instagram posts",
+                  "fontWeight": "600"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "WgBAF",
+              "name": "Instagram posts conversations",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 1,
+              "padding": [
+                2,
+                0,
+                4,
+                12
+              ],
+              "children": [
+                {
+                  "id": "cgjYl",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Reel script — SPF myths",
+                  "fill": "$surface",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": false
+                    },
+                    "j74np": {
+                      "content": "Reel script — SPF myths",
+                      "fill": "$ink",
+                      "fontWeight": "600"
+                    },
+                    "g1fOgp": {
+                      "enabled": false
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "R7jeDc",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "November post ideas",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": false
+                    },
+                    "j74np": {
+                      "content": "November post ideas"
+                    },
+                    "g1fOgp": {
+                      "enabled": false
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "MdiOJ",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "All conversations",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": false
+                    },
+                    "j74np": {
+                      "content": "All conversations",
+                      "fill": "$ink-faint"
+                    },
+                    "g1fOgp": {
+                      "enabled": false
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "qLGaz",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Email",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-green"
+                },
+                "AlfMX": {
+                  "content": "Email"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "Z4XlQM",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Wedding planning",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-violet"
+                },
+                "AlfMX": {
+                  "content": "Wedding planning"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "Fa84G",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Flat renovation",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-teal"
+                },
+                "AlfMX": {
+                  "content": "Flat renovation"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            }
+          ]
         },
         "c0GQTX/zHLo4": {
           "children": [
@@ -10495,11 +12912,245 @@
         "palette": "meadow"
       },
       "descendants": {
-        "V87knr/ROqEi/KdzmS": {
-          "enabled": false
+        "V87knr/VvTsf/E2pI91/m1VHGg": {
+          "fill": "$attention-soft"
         },
-        "V87knr/ROqEi/g1fOgp": {
-          "enabled": true
+        "V87knr/VvTsf/E2pI91/m1VHGg/bPnwO": {
+          "icon": "gauge",
+          "fill": "$attention"
+        },
+        "V87knr/VvTsf/E2pI91/HOnbA": {
+          "content": "Claude limit reached"
+        },
+        "V87knr/VvTsf/E2pI91/Trpze": {
+          "content": "Back Thu 14:00 · 2 runs will wait"
+        },
+        "V87knr/bSPlA": {
+          "children": [
+            {
+              "id": "yfVuh",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "App setup",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-slate"
+                },
+                "AlfMX": {
+                  "content": "App setup"
+                },
+                "Cisy9": {
+                  "enabled": true
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "DfWrO",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Health & skin care",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-pink"
+                },
+                "AlfMX": {
+                  "content": "Health & skin care"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "Za2uP",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Job search",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-blue"
+                },
+                "AlfMX": {
+                  "content": "Job search"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "URQ05",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Instagram posts",
+              "fill": "$surface-glass",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-amber",
+                  "icon": "folder-open"
+                },
+                "AlfMX": {
+                  "content": "Instagram posts",
+                  "fontWeight": "600"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "hPmg4",
+              "name": "Instagram posts conversations",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 1,
+              "padding": [
+                2,
+                0,
+                4,
+                12
+              ],
+              "children": [
+                {
+                  "id": "Q5S36",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Reel script — SPF myths",
+                  "fill": "$surface",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": false
+                    },
+                    "j74np": {
+                      "content": "Reel script — SPF myths",
+                      "fill": "$ink",
+                      "fontWeight": "600"
+                    },
+                    "g1fOgp": {
+                      "enabled": false
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "aelrD",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "November post ideas",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": false
+                    },
+                    "j74np": {
+                      "content": "November post ideas"
+                    },
+                    "g1fOgp": {
+                      "enabled": false
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "oqy4w",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "All conversations",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": false
+                    },
+                    "j74np": {
+                      "content": "All conversations",
+                      "fill": "$ink-faint"
+                    },
+                    "g1fOgp": {
+                      "enabled": false
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "l6iajb",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Email",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-green"
+                },
+                "AlfMX": {
+                  "content": "Email"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "QmDBG",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Wedding planning",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-violet"
+                },
+                "AlfMX": {
+                  "content": "Wedding planning"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "P1YT2",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Flat renovation",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-teal"
+                },
+                "AlfMX": {
+                  "content": "Flat renovation"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            }
+          ]
         },
         "c0GQTX/zHLo4": {
           "children": [
@@ -10704,11 +13355,245 @@
         "palette": "meadow"
       },
       "descendants": {
-        "V87knr/ROqEi/KdzmS": {
-          "enabled": false
+        "V87knr/VvTsf/E2pI91/m1VHGg": {
+          "fill": "$attention-soft"
         },
-        "V87knr/ROqEi/g1fOgp": {
-          "enabled": true
+        "V87knr/VvTsf/E2pI91/m1VHGg/bPnwO": {
+          "icon": "unplug",
+          "fill": "$attention"
+        },
+        "V87knr/VvTsf/E2pI91/HOnbA": {
+          "content": "Reconnect Google"
+        },
+        "V87knr/VvTsf/E2pI91/Trpze": {
+          "content": "Email · 7:02"
+        },
+        "V87knr/bSPlA": {
+          "children": [
+            {
+              "id": "i8nQU",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "App setup",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-slate"
+                },
+                "AlfMX": {
+                  "content": "App setup"
+                },
+                "Cisy9": {
+                  "enabled": true
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "A5nzZ",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Health & skin care",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-pink"
+                },
+                "AlfMX": {
+                  "content": "Health & skin care"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "mXSUQ",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Job search",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-blue"
+                },
+                "AlfMX": {
+                  "content": "Job search"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "fRixX",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Instagram posts",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-amber"
+                },
+                "AlfMX": {
+                  "content": "Instagram posts"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "PYtIh",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Email",
+              "fill": "$surface-glass",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-green",
+                  "icon": "folder-open"
+                },
+                "AlfMX": {
+                  "content": "Email",
+                  "fontWeight": "600"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "WcwBu",
+              "name": "Email conversations",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 1,
+              "padding": [
+                2,
+                0,
+                4,
+                12
+              ],
+              "children": [
+                {
+                  "id": "T3o8p",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Sort my email",
+                  "fill": "$surface",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": false
+                    },
+                    "j74np": {
+                      "content": "Sort my email",
+                      "fill": "$ink",
+                      "fontWeight": "600"
+                    },
+                    "g1fOgp": {
+                      "enabled": true
+                    },
+                    "FsA04": {
+                      "enabled": true
+                    }
+                  }
+                },
+                {
+                  "id": "hlC5m",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Rules for newsletters",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": false
+                    },
+                    "j74np": {
+                      "content": "Rules for newsletters"
+                    },
+                    "g1fOgp": {
+                      "enabled": false
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "WFrbO",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "All conversations",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": false
+                    },
+                    "j74np": {
+                      "content": "All conversations",
+                      "fill": "$ink-faint"
+                    },
+                    "g1fOgp": {
+                      "enabled": false
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "a7nk9p",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Wedding planning",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-violet"
+                },
+                "AlfMX": {
+                  "content": "Wedding planning"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "M9Ryhh",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Flat renovation",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-teal"
+                },
+                "AlfMX": {
+                  "content": "Flat renovation"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            }
+          ]
         },
         "c0GQTX/zHLo4": {
           "children": [
@@ -11037,11 +13922,396 @@
         "palette": "meadow"
       },
       "descendants": {
-        "V87knr/ROqEi/KdzmS": {
-          "enabled": false
-        },
-        "V87knr/ROqEi/g1fOgp": {
-          "enabled": true
+        "V87knr/bSPlA": {
+          "justifyContent": "end",
+          "children": [
+            {
+              "id": "QQXr4",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "App setup",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-slate"
+                },
+                "AlfMX": {
+                  "content": "App setup"
+                },
+                "Cisy9": {
+                  "enabled": true
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "z27LRw",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Health & skin care",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-pink"
+                },
+                "AlfMX": {
+                  "content": "Health & skin care"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "Ztwee",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Job search",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-blue"
+                },
+                "AlfMX": {
+                  "content": "Job search"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "fftkR",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Instagram posts",
+              "fill": "$surface-glass",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-amber",
+                  "icon": "folder-open"
+                },
+                "AlfMX": {
+                  "content": "Instagram posts",
+                  "fontWeight": "600"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "j7QIN",
+              "name": "Instagram posts conversations",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 1,
+              "padding": [
+                2,
+                0,
+                4,
+                12
+              ],
+              "children": [
+                {
+                  "id": "shm3m",
+                  "type": "ref",
+                  "ref": "GHAlZ",
+                  "name": "Conversations label",
+                  "descendants": {
+                    "LXO6c": {
+                      "content": "Conversations"
+                    }
+                  }
+                },
+                {
+                  "id": "zfiU2",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "November post ideas",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": false
+                    },
+                    "j74np": {
+                      "content": "November post ideas"
+                    },
+                    "g1fOgp": {
+                      "enabled": false
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "c0p8z",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Reel script — SPF myths",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": false
+                    },
+                    "j74np": {
+                      "content": "Reel script — SPF myths"
+                    },
+                    "g1fOgp": {
+                      "enabled": false
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "j7p9a",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Weekly stats",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": false
+                    },
+                    "j74np": {
+                      "content": "Weekly stats"
+                    },
+                    "g1fOgp": {
+                      "enabled": true
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "la6gJ",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "All conversations",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": false
+                    },
+                    "j74np": {
+                      "content": "All conversations",
+                      "fill": "$ink-faint"
+                    },
+                    "g1fOgp": {
+                      "enabled": false
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "q4Zz7",
+                  "type": "ref",
+                  "ref": "GHAlZ",
+                  "name": "Files label"
+                },
+                {
+                  "id": "uUbdc",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Post ideas",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": true,
+                      "icon": "file-text"
+                    },
+                    "j74np": {
+                      "content": "Post ideas"
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "ibqoL",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Hashtags",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": true,
+                      "icon": "file-text"
+                    },
+                    "j74np": {
+                      "content": "Hashtags"
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "V3nV8",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Brand voice",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": true,
+                      "icon": "file-text"
+                    },
+                    "j74np": {
+                      "content": "Brand voice"
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "vJddP",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Covers",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": true,
+                      "icon": "folder"
+                    },
+                    "j74np": {
+                      "content": "Covers"
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "A73fMX",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Stats",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": true,
+                      "icon": "folder"
+                    },
+                    "j74np": {
+                      "content": "Stats"
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "e6RIn",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Collab rate card.pdf",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": true,
+                      "icon": "file"
+                    },
+                    "j74np": {
+                      "content": "Collab rate card.pdf"
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "mkiT6",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Followers 2026.xlsx",
+                  "fill": "$surface",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": true,
+                      "icon": "sheet"
+                    },
+                    "j74np": {
+                      "content": "Followers 2026.xlsx",
+                      "fill": "$ink",
+                      "fontWeight": "600"
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "p242Lg",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Email",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-green"
+                },
+                "AlfMX": {
+                  "content": "Email"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "GSIeT",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Wedding planning",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-violet"
+                },
+                "AlfMX": {
+                  "content": "Wedding planning"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "dgohz",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Flat renovation",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-teal"
+                },
+                "AlfMX": {
+                  "content": "Flat renovation"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            }
+          ]
         },
         "c0GQTX/zHLo4": {
           "children": [
@@ -11505,11 +14775,403 @@
         "palette": "meadow"
       },
       "descendants": {
-        "V87knr/ROqEi/KdzmS": {
-          "enabled": false
-        },
-        "V87knr/ROqEi/g1fOgp": {
-          "enabled": true
+        "V87knr/bSPlA": {
+          "justifyContent": "center",
+          "children": [
+            {
+              "id": "J3NMCx",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "App setup",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-slate"
+                },
+                "AlfMX": {
+                  "content": "App setup"
+                },
+                "Cisy9": {
+                  "enabled": true
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "j2oHF",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Health & skin care",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-pink"
+                },
+                "AlfMX": {
+                  "content": "Health & skin care"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "NZAZv",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Job search",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-blue"
+                },
+                "AlfMX": {
+                  "content": "Job search"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "N50fu",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Instagram posts",
+              "fill": "$surface-glass",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-amber",
+                  "icon": "folder-open"
+                },
+                "AlfMX": {
+                  "content": "Instagram posts",
+                  "fontWeight": "600"
+                },
+                "Cisy9": {
+                  "enabled": true,
+                  "icon": "loader-circle",
+                  "fill": "$brand-1"
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "DNcMy",
+              "name": "Instagram posts conversations",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 1,
+              "padding": [
+                2,
+                0,
+                4,
+                12
+              ],
+              "children": [
+                {
+                  "id": "lcHkQ",
+                  "type": "ref",
+                  "ref": "GHAlZ",
+                  "name": "Conversations label",
+                  "descendants": {
+                    "LXO6c": {
+                      "content": "Conversations"
+                    }
+                  }
+                },
+                {
+                  "id": "ezQAG",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "November post ideas",
+                  "fill": "$surface",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": true,
+                      "icon": "loader-circle"
+                    },
+                    "j74np": {
+                      "content": "November post ideas",
+                      "fill": "$ink",
+                      "fontWeight": "600"
+                    },
+                    "g1fOgp": {
+                      "enabled": false
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "C9P7rH",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Reel script — SPF myths",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": false
+                    },
+                    "j74np": {
+                      "content": "Reel script — SPF myths"
+                    },
+                    "g1fOgp": {
+                      "enabled": false
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "qXmF6",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Weekly stats",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": false
+                    },
+                    "j74np": {
+                      "content": "Weekly stats"
+                    },
+                    "g1fOgp": {
+                      "enabled": true
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "hCCNG",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "All conversations",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": false
+                    },
+                    "j74np": {
+                      "content": "All conversations",
+                      "fill": "$ink-faint"
+                    },
+                    "g1fOgp": {
+                      "enabled": false
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "dXpFt",
+                  "type": "ref",
+                  "ref": "GHAlZ",
+                  "name": "Files label"
+                },
+                {
+                  "id": "D7MVNo",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Post ideas",
+                  "fill": "$surface",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": true,
+                      "icon": "pencil-line",
+                      "fill": "$brand-1"
+                    },
+                    "j74np": {
+                      "content": "Post ideas",
+                      "fill": "$ink",
+                      "fontWeight": "600"
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "q9WHXs",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Hashtags",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": true,
+                      "icon": "file-text"
+                    },
+                    "j74np": {
+                      "content": "Hashtags"
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "HMRQ3",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Brand voice",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": true,
+                      "icon": "file-text"
+                    },
+                    "j74np": {
+                      "content": "Brand voice"
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "wOOKj",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Covers",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": true,
+                      "icon": "folder"
+                    },
+                    "j74np": {
+                      "content": "Covers"
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "B6GuVq",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Stats",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": true,
+                      "icon": "folder"
+                    },
+                    "j74np": {
+                      "content": "Stats"
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "eYlyh",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Collab rate card.pdf",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": true,
+                      "icon": "file"
+                    },
+                    "j74np": {
+                      "content": "Collab rate card.pdf"
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "K8hIXX",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Followers 2026.xlsx",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": true,
+                      "icon": "sheet"
+                    },
+                    "j74np": {
+                      "content": "Followers 2026.xlsx"
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "Fp6Vd",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Email",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-green"
+                },
+                "AlfMX": {
+                  "content": "Email"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "U0fct",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Wedding planning",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-violet"
+                },
+                "AlfMX": {
+                  "content": "Wedding planning"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "XfSgJ",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Flat renovation",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-teal"
+                },
+                "AlfMX": {
+                  "content": "Flat renovation"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            }
+          ]
         },
         "c0GQTX/zHLo4": {
           "children": [
@@ -12172,11 +15834,397 @@
       "x": 0,
       "y": 8349,
       "descendants": {
-        "V87knr/ROqEi/KdzmS": {
-          "enabled": false
-        },
-        "V87knr/ROqEi/g1fOgp": {
-          "enabled": true
+        "V87knr/bSPlA": {
+          "justifyContent": "center",
+          "children": [
+            {
+              "id": "Y7MN3v",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "App setup",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-slate"
+                },
+                "AlfMX": {
+                  "content": "App setup"
+                },
+                "Cisy9": {
+                  "enabled": true
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "x5d9D",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Health & skin care",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-pink"
+                },
+                "AlfMX": {
+                  "content": "Health & skin care"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "lrCNr",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Job search",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-blue"
+                },
+                "AlfMX": {
+                  "content": "Job search"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "i7Vgu",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Instagram posts",
+              "fill": "$surface-glass",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-amber",
+                  "icon": "folder-open"
+                },
+                "AlfMX": {
+                  "content": "Instagram posts",
+                  "fontWeight": "600"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "Va5FO",
+              "name": "Instagram posts conversations",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 1,
+              "padding": [
+                2,
+                0,
+                4,
+                12
+              ],
+              "children": [
+                {
+                  "id": "hwI7C",
+                  "type": "ref",
+                  "ref": "GHAlZ",
+                  "name": "Conversations label",
+                  "descendants": {
+                    "LXO6c": {
+                      "content": "Conversations"
+                    }
+                  }
+                },
+                {
+                  "id": "L6oqf",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "November post ideas",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": false
+                    },
+                    "j74np": {
+                      "content": "November post ideas"
+                    },
+                    "g1fOgp": {
+                      "enabled": false
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "e35KfL",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Reel script — SPF myths",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": false
+                    },
+                    "j74np": {
+                      "content": "Reel script — SPF myths"
+                    },
+                    "g1fOgp": {
+                      "enabled": false
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "a0xFw",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Weekly stats",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": false
+                    },
+                    "j74np": {
+                      "content": "Weekly stats"
+                    },
+                    "g1fOgp": {
+                      "enabled": true
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "NNEvb",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "All conversations",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": false
+                    },
+                    "j74np": {
+                      "content": "All conversations",
+                      "fill": "$ink-faint"
+                    },
+                    "g1fOgp": {
+                      "enabled": false
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "d4SXC1",
+                  "type": "ref",
+                  "ref": "GHAlZ",
+                  "name": "Files label"
+                },
+                {
+                  "id": "LXSGQ",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Post ideas",
+                  "fill": "$surface",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": true,
+                      "icon": "hourglass",
+                      "fill": "$link-ink"
+                    },
+                    "j74np": {
+                      "content": "Post ideas",
+                      "fill": "$ink",
+                      "fontWeight": "600"
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "Gvqk3",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Hashtags",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": true,
+                      "icon": "file-text"
+                    },
+                    "j74np": {
+                      "content": "Hashtags"
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "BgqOX",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Brand voice",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": true,
+                      "icon": "file-text"
+                    },
+                    "j74np": {
+                      "content": "Brand voice"
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "xPjzD",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Covers",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": true,
+                      "icon": "folder"
+                    },
+                    "j74np": {
+                      "content": "Covers"
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "Re2ng",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Stats",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": true,
+                      "icon": "folder"
+                    },
+                    "j74np": {
+                      "content": "Stats"
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "mSt38",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Collab rate card.pdf",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": true,
+                      "icon": "file"
+                    },
+                    "j74np": {
+                      "content": "Collab rate card.pdf"
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "gwDiH",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Followers 2026.xlsx",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": true,
+                      "icon": "sheet"
+                    },
+                    "j74np": {
+                      "content": "Followers 2026.xlsx"
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "p9Bk2I",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Email",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-green"
+                },
+                "AlfMX": {
+                  "content": "Email"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "OjYhC",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Wedding planning",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-violet"
+                },
+                "AlfMX": {
+                  "content": "Wedding planning"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "SstIW",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Flat renovation",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-teal"
+                },
+                "AlfMX": {
+                  "content": "Flat renovation"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            }
+          ]
         },
         "c0GQTX/zHLo4": {
           "children": [
@@ -12715,11 +16763,371 @@
         "palette": "meadow"
       },
       "descendants": {
-        "V87knr/ROqEi/KdzmS": {
-          "enabled": false
+        "V87knr/y8k2gM": {
+          "children": [
+            {
+              "id": "GuAlC",
+              "type": "ref",
+              "ref": "k6dG9",
+              "name": "Search",
+              "descendants": {
+                "aPts3": {
+                  "icon": "search"
+                },
+                "IGNqc": {
+                  "content": "Search"
+                },
+                "xXA62": {
+                  "id": "o3J1q",
+                  "type": "ref",
+                  "ref": "k7CFxX",
+                  "name": "Kbd"
+                }
+              }
+            },
+            {
+              "id": "LfmLU",
+              "type": "ref",
+              "ref": "k6dG9",
+              "name": "Memory",
+              "descendants": {
+                "aPts3": {
+                  "icon": "brain"
+                },
+                "IGNqc": {
+                  "content": "Memory"
+                },
+                "xXA62": {
+                  "content": "6 files",
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "vVEx6",
+              "name": "Memory files",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 1,
+              "padding": [
+                2,
+                0,
+                4,
+                12
+              ],
+              "children": [
+                {
+                  "id": "nUcGV",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "About me",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": true,
+                      "icon": "file-text"
+                    },
+                    "j74np": {
+                      "content": "About me"
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "jnxy9",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Work and job search",
+                  "fill": "$surface",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": true,
+                      "icon": "file-text"
+                    },
+                    "j74np": {
+                      "content": "Work and job search",
+                      "fill": "$ink",
+                      "fontWeight": "600"
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "ljjmf",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Skin and health",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": true,
+                      "icon": "file-text"
+                    },
+                    "j74np": {
+                      "content": "Skin and health"
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "rq4Nm",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "How I like things",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": true,
+                      "icon": "file-text"
+                    },
+                    "j74np": {
+                      "content": "How I like things"
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "OBmNP",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "People",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": true,
+                      "icon": "file-text"
+                    },
+                    "j74np": {
+                      "content": "People"
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "lxuzY",
+                  "type": "ref",
+                  "ref": "lpPvh",
+                  "name": "Places and routines",
+                  "descendants": {
+                    "KdzmS": {
+                      "enabled": true,
+                      "icon": "file-text"
+                    },
+                    "j74np": {
+                      "content": "Places and routines"
+                    },
+                    "FsA04": {
+                      "enabled": false
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "aIq6q",
+              "type": "ref",
+              "ref": "k6dG9",
+              "name": "Downloads",
+              "descendants": {
+                "aPts3": {
+                  "icon": "download"
+                },
+                "IGNqc": {
+                  "content": "Downloads"
+                },
+                "xXA62": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "u0nHB",
+              "type": "ref",
+              "ref": "k6dG9",
+              "name": "Plugins",
+              "descendants": {
+                "aPts3": {
+                  "icon": "puzzle"
+                },
+                "IGNqc": {
+                  "content": "Plugins"
+                },
+                "xXA62": {
+                  "content": "4",
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "b601zv",
+              "type": "ref",
+              "ref": "k6dG9",
+              "name": "Schedules",
+              "descendants": {
+                "aPts3": {
+                  "icon": "calendar-clock"
+                },
+                "IGNqc": {
+                  "content": "Schedules"
+                },
+                "xXA62": {
+                  "content": "5",
+                  "enabled": true
+                }
+              }
+            }
+          ]
         },
-        "V87knr/ROqEi/g1fOgp": {
-          "enabled": true
+        "V87knr/bSPlA": {
+          "children": [
+            {
+              "id": "z2H0GV",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "App setup",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-slate"
+                },
+                "AlfMX": {
+                  "content": "App setup"
+                },
+                "Cisy9": {
+                  "enabled": true
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "y6cNOM",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Health & skin care",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-pink"
+                },
+                "AlfMX": {
+                  "content": "Health & skin care"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "mZca0",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Job search",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-blue"
+                },
+                "AlfMX": {
+                  "content": "Job search"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "ROI0f",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Instagram posts",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-amber"
+                },
+                "AlfMX": {
+                  "content": "Instagram posts"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "oNVkT",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Email",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-green"
+                },
+                "AlfMX": {
+                  "content": "Email"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "id": "vD76u",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Wedding planning",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-violet"
+                },
+                "AlfMX": {
+                  "content": "Wedding planning"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "ZE6FC",
+              "type": "ref",
+              "ref": "QxQVq",
+              "name": "Flat renovation",
+              "descendants": {
+                "dmWzY": {
+                  "fill": "$project-teal"
+                },
+                "AlfMX": {
+                  "content": "Flat renovation"
+                },
+                "Cisy9": {
+                  "enabled": false
+                },
+                "qYhP0": {
+                  "enabled": false
+                }
+              }
+            }
+          ]
         },
         "c0GQTX/zHLo4": {
           "children": [
@@ -13119,11 +17527,231 @@
             "palette": "meadow"
           },
           "descendants": {
-            "V87knr/ROqEi/KdzmS": {
-              "enabled": false
-            },
-            "V87knr/ROqEi/g1fOgp": {
-              "enabled": true
+            "V87knr/bSPlA": {
+              "children": [
+                {
+                  "id": "zjWdr",
+                  "type": "ref",
+                  "ref": "QxQVq",
+                  "name": "App setup",
+                  "descendants": {
+                    "dmWzY": {
+                      "fill": "$project-slate"
+                    },
+                    "AlfMX": {
+                      "content": "App setup"
+                    },
+                    "Cisy9": {
+                      "enabled": true
+                    },
+                    "qYhP0": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "Kcf0p",
+                  "type": "ref",
+                  "ref": "QxQVq",
+                  "name": "Health & skin care",
+                  "descendants": {
+                    "dmWzY": {
+                      "fill": "$project-pink"
+                    },
+                    "AlfMX": {
+                      "content": "Health & skin care"
+                    },
+                    "Cisy9": {
+                      "enabled": false
+                    },
+                    "qYhP0": {
+                      "enabled": true
+                    }
+                  }
+                },
+                {
+                  "id": "ts2sG",
+                  "type": "ref",
+                  "ref": "QxQVq",
+                  "name": "Job search",
+                  "descendants": {
+                    "dmWzY": {
+                      "fill": "$project-blue"
+                    },
+                    "AlfMX": {
+                      "content": "Job search"
+                    },
+                    "Cisy9": {
+                      "enabled": false
+                    },
+                    "qYhP0": {
+                      "enabled": true
+                    }
+                  }
+                },
+                {
+                  "id": "WKX3c",
+                  "type": "ref",
+                  "ref": "QxQVq",
+                  "name": "Instagram posts",
+                  "descendants": {
+                    "dmWzY": {
+                      "fill": "$project-amber"
+                    },
+                    "AlfMX": {
+                      "content": "Instagram posts"
+                    },
+                    "Cisy9": {
+                      "enabled": false
+                    },
+                    "qYhP0": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "kgtDQ",
+                  "type": "ref",
+                  "ref": "QxQVq",
+                  "name": "Email",
+                  "fill": "$surface-glass",
+                  "descendants": {
+                    "dmWzY": {
+                      "fill": "$project-green",
+                      "icon": "folder-open"
+                    },
+                    "AlfMX": {
+                      "content": "Email",
+                      "fontWeight": "600"
+                    },
+                    "Cisy9": {
+                      "enabled": false
+                    },
+                    "qYhP0": {
+                      "enabled": true
+                    }
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "NlfdS",
+                  "name": "Email conversations",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 1,
+                  "padding": [
+                    2,
+                    0,
+                    4,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "id": "MgUGt",
+                      "type": "ref",
+                      "ref": "lpPvh",
+                      "name": "Sort my email",
+                      "descendants": {
+                        "KdzmS": {
+                          "enabled": false
+                        },
+                        "j74np": {
+                          "content": "Sort my email"
+                        },
+                        "g1fOgp": {
+                          "enabled": true
+                        },
+                        "FsA04": {
+                          "enabled": true
+                        }
+                      }
+                    },
+                    {
+                      "id": "vFK5H",
+                      "type": "ref",
+                      "ref": "lpPvh",
+                      "name": "Rules for newsletters",
+                      "descendants": {
+                        "KdzmS": {
+                          "enabled": false
+                        },
+                        "j74np": {
+                          "content": "Rules for newsletters"
+                        },
+                        "g1fOgp": {
+                          "enabled": false
+                        },
+                        "FsA04": {
+                          "enabled": false
+                        }
+                      }
+                    },
+                    {
+                      "id": "SFQTP",
+                      "type": "ref",
+                      "ref": "lpPvh",
+                      "name": "All conversations",
+                      "fill": "$surface",
+                      "descendants": {
+                        "KdzmS": {
+                          "enabled": false
+                        },
+                        "j74np": {
+                          "content": "All conversations",
+                          "fill": "$ink",
+                          "fontWeight": "600"
+                        },
+                        "g1fOgp": {
+                          "enabled": false
+                        },
+                        "FsA04": {
+                          "enabled": false
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "SWStP",
+                  "type": "ref",
+                  "ref": "QxQVq",
+                  "name": "Wedding planning",
+                  "descendants": {
+                    "dmWzY": {
+                      "fill": "$project-violet"
+                    },
+                    "AlfMX": {
+                      "content": "Wedding planning"
+                    },
+                    "Cisy9": {
+                      "enabled": false
+                    },
+                    "qYhP0": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "yuZUj",
+                  "type": "ref",
+                  "ref": "QxQVq",
+                  "name": "Flat renovation",
+                  "descendants": {
+                    "dmWzY": {
+                      "fill": "$project-teal"
+                    },
+                    "AlfMX": {
+                      "content": "Flat renovation"
+                    },
+                    "Cisy9": {
+                      "enabled": false
+                    },
+                    "qYhP0": {
+                      "enabled": false
+                    }
+                  }
+                }
+              ]
             },
             "c0GQTX/zHLo4": {
               "children": [

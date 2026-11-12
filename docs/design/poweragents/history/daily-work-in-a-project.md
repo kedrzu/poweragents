@@ -123,3 +123,16 @@ Changed: the variants frame (`q2cRc2`) deleted; the pick drawn into the screens.
 - [ ] `molecules/Agent cursor` (`BtOTy`): flag 15 → 20 px, its icon 9 → 13 px.
 - [ ] Format bar in `06`, `26`, `31` and `34`: the `Saved · …` status text removed (owner: not needed; saving is
   automatic, and the banner already says when the file is read-only).
+
+## Round 7 · owner in the app
+
+Asked: one schedule icon everywhere, the run header included; in the sidebar it goes after the conversation's name.
+
+- [ ] Schedule icon `repeat` → `calendar-clock` (the Schedules nav item's icon) everywhere: `molecules/Run header`
+  tile, `molecules/History row` chip, `molecules/Filter chip`, tabs of scheduled conversations, `16`'s reconnect
+  card.
+- [ ] `molecules/Conversation row` (`lpPvh`): new `Schedule` icon (`g1fOgp`) after the label, hidden by default; the
+  leading `Icon` default `repeat` → `message-circle`. Scheduled rows (LinkedIn check, Weekly stats, Morning
+  routine, Sort my email) hide the leading icon and show the trailing one, in `organisms/Sidebar` and every screen.
+- [ ] Sidebar overrides of every screen rebuilt (an override on a template row had wiped them mid-round; rebuilt
+  from the last saved file with the same content).
