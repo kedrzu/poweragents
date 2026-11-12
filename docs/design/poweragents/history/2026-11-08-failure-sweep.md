@@ -15,6 +15,7 @@ schedules wait until it is resolved; schedules use local wall-clock time across 
 confirming the same proposal twice applies it once.
 
 **Credible failures, put to the owner:**
+
 1. A steering agent answers a confirmation meant for the person (via the daemon MCP).
 2. A plugin *update* widens reach (new outward tools, new scopes) without the confirmation an install
    would need.

@@ -1,0 +1,45 @@
+{
+    "$schema": "https://schema.tauri.app/config/2",
+    "productName": "poweragents",
+    "version": "0.1.0",
+    "identifier": "com.poweragents.desktop",
+    "build": {
+        "devUrl": "http://localhost:4100",
+        "frontendDist": "../../app/.output/public",
+        "beforeDevCommand": {
+            "script": "bun nx run-many -t dev -p @poweragents/app,@poweragents/daemon --outputStyle=stream",
+            "cwd": "../../..",
+            "wait": false
+        },
+        "beforeBuildCommand": {
+            "script": "bun nx run-many -t build,sidecar -p @poweragents/app,@poweragents/daemon --outputStyle=stream",
+            "cwd": "../../.."
+        }
+    },
+    "app": {
+        "windows": [
+            {
+                "label": "main",
+                "title": "poweragents",
+                "width": 1280,
+                "height": 800,
+                "minWidth": 900,
+                "minHeight": 600
+            }
+        ],
+        "security": {
+            "csp": {
+                "default-src": "'self'",
+                "connect-src": "ipc: http://ipc.localhost http://127.0.0.1:47610",
+                "img-src": "'self' data:",
+                "font-src": "'self' data:"
+            }
+        }
+    },
+    "bundle": {
+        "active": true,
+        "targets": "all",
+        "icon": ["icons/32x32.png", "icons/128x128.png", "icons/128x128@2x.png", "icons/icon.icns", "icons/icon.ico"],
+        "externalBin": ["binaries/poweragents-daemon"]
+    }
+}

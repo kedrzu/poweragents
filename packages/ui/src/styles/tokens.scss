@@ -1,0 +1,19 @@
+// Design tokens: `$variables`, `@mixin`s and `@function`s only. This partial is injected into every SCSS
+// block of the repo's packages (`viteShared.ts`), so it must never emit CSS — a rule here would be copied
+// into every component. Tokens are named by role, not by look; text colours note their contrast.
+
+// Surfaces and text
+$color-surface: #ffffff;
+$color-text: #1a1a1a; // 17.4:1 on $color-surface
+$color-text-muted: #5c5c5c; // 6.7:1 on $color-surface
+$color-focus: #2563eb;
+
+// Spacing
+$spacing-04: 4px;
+$spacing-08: 8px;
+$spacing-16: 16px;
+$spacing-24: 24px;
+
+// Shape and type
+$radius-control: 6px;
+$font-family-base: system-ui, -apple-system, 'Segoe UI', sans-serif;

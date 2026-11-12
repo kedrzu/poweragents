@@ -1,0 +1,22 @@
+{
+    "name": "@poweragents/common",
+    "private": true,
+    "description": "Contracts shared by the daemon and its clients: the daemon's address, the shapes it serves, the languages the product ships",
+    "type": "module",
+    "sideEffects": false,
+    "exports": {
+        "./package.json": "./package.json",
+        "./*.js": {
+            "types": "./dist/*.d.ts",
+            "source": "./src/*.ts",
+            "import": "./dist/*.js",
+            "default": "./dist/*.js"
+        }
+    },
+    "dependencies": {
+        "@nzyme/i18n": "workspace:*"
+    },
+    "devDependencies": {
+        "@nzyme/tsconfig": "workspace:*"
+    }
+}

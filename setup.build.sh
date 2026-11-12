@@ -32,3 +32,18 @@ bun run localise
 
 step "📝 Building typescript..."
 bun x tsgo --build
+
+# `nuxt prepare` writes `.nuxt/tsconfig.json`, which the app's own tsconfig extends — typecheck and
+# type-aware lint of the app have nothing to resolve against without it.
+step "🔧 Preparing Nuxt apps..."
+bun run prep
+
+# Browser-mode tests (component tests, e2e) drive a real Chromium through Playwright. Installed
+# browsers are skipped, so this is quick after the first run. A CI runner also lacks the browser's
+# system libraries, which `--with-deps` installs.
+step "🌐 Installing Chromium for Playwright..."
+if [ "$CI" = "true" ]; then
+    bun x playwright install --with-deps chromium
+else
+    bun x playwright install chromium
+fi
