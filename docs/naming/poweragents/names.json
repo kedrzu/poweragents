@@ -2,7 +2,8 @@
   "tlds": [
     "com",
     "app",
-    "ai"
+    "ai",
+    "so"
   ],
   "names": {
     "Jerry": {
@@ -19063,8 +19064,9 @@
           "checked_at": "2026-11-13"
         },
         "getzib.com": {
-          "status": "likely-free",
-          "method": "rdap",
+          "status": "free",
+          "method": "dynadot",
+          "price": "$8.99 first year, $11 renewal",
           "checked_at": "2026-11-13"
         },
         "zib.dev": {
@@ -19073,8 +19075,9 @@
           "checked_at": "2026-11-13"
         },
         "zib.so": {
-          "status": "likely-free",
-          "method": "whois",
+          "status": "free",
+          "method": "dynadot",
+          "price": "$57.50/yr",
           "checked_at": "2026-11-13"
         },
         "zib.co": {
@@ -19085,6 +19088,16 @@
         "zib.io": {
           "status": "taken",
           "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "zib.me": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "zib.to": {
+          "status": "taken",
+          "method": "dns",
           "checked_at": "2026-11-13"
         }
       },
@@ -19102,9 +19115,20 @@
           "severity": "noise",
           "url": "https://app.zibnetwork.com/developer/docs/compute/vision-ai",
           "checked_at": "2026-11-13"
+        },
+        {
+          "who": "Trademark ZIB — Zuse-Institut Berlin, EUIPO 014911614, registered 2015, classes 9, 35, 38, 42",
+          "space": "trademark, classes 9 and 42 (software) in the EU",
+          "severity": "blocking",
+          "url": "https://www.tmdn.org/tmview/",
+          "checked_at": "2026-11-13"
         }
       ],
-      "phonetics": "one spelling; close to 'zip'"
+      "phonetics": "one spelling; close to 'zip'",
+      "verdict": "liked",
+      "feedback": [
+        "\"neb, zib fajne\" (round 8)"
+      ]
     },
     "Tib": {
       "direction": "short punchy coinages, 3 letters (CVC), one spelling",
@@ -19181,8 +19205,46 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "bix.so": {
+          "status": "free",
+          "method": "dynadot",
+          "price": "$57.50/yr",
+          "checked_at": "2026-11-13"
+        },
+        "bix.co": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "bix.me": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "bix.to": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
         }
-      }
+      },
+      "conflicts": [
+        {
+          "who": "BIX by Balbix — enterprise AI cybersecurity assistant (iOS)",
+          "space": "AI assistant",
+          "severity": "notable",
+          "url": "https://apps.apple.com/us/app/bix-by-balbix/id6670185927",
+          "checked_at": "2026-11-13"
+        },
+        {
+          "who": "BixAI — desktop AI assistant (tiny GitHub project); Bix game; BixPay",
+          "space": "AI assistant / misc",
+          "severity": "notable",
+          "url": "https://github.com/bixat/bixAI-Releases/blob/main/README.md",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "one spelling; Bix Beiderbecke; Weetabix"
     },
     "Zeb": {
       "direction": "short punchy coinages, 3 letters (CVC), one spelling",
@@ -19233,6 +19295,26 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "teb.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "teb.co": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "teb.me": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "teb.to": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -19256,8 +19338,9 @@
           "checked_at": "2026-11-13"
         },
         "getneb.com": {
-          "status": "likely-free",
-          "method": "rdap",
+          "status": "free",
+          "method": "dynadot",
+          "price": "$8.99 first year, $11 renewal",
           "checked_at": "2026-11-13"
         },
         "neb.dev": {
@@ -19266,8 +19349,9 @@
           "checked_at": "2026-11-13"
         },
         "neb.so": {
-          "status": "likely-free",
-          "method": "whois",
+          "status": "free",
+          "method": "dynadot",
+          "price": "$57.50/yr",
           "checked_at": "2026-11-13"
         },
         "neb.co": {
@@ -19284,10 +19368,53 @@
           "status": "likely-free",
           "method": "rdap",
           "checked_at": "2026-11-13"
+        },
+        "neb.me": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "neb.to": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
         }
       },
-      "conflicts": [],
-      "phonetics": "one spelling mostly (Neb/Nebb); an old word for beak or nose; close to Nib in sound"
+      "conflicts": [
+        {
+          "who": "Trademark NEB — USPTO application 50085789, filed 2026-09-02 by New Epic Base Co., classes 9, 16, 25, 38, 41 (pending)",
+          "space": "trademark, class 9 (software)",
+          "severity": "notable",
+          "url": "https://www.tmdn.org/tmview/",
+          "checked_at": "2026-11-13"
+        },
+        {
+          "who": "Trademark NEB — New England Biolabs, USPTO 85706291 and WIPO 1261950, classes 1, 42 (registered)",
+          "space": "trademark, class 42; biotech",
+          "severity": "notable",
+          "url": "https://www.tmdn.org/tmview/",
+          "checked_at": "2026-11-13"
+        },
+        {
+          "who": "Trademark ONE NEB — Ingeniatrics, EUIPO 017045642 and USPTO, classes 9, 35",
+          "space": "trademark, class 9",
+          "severity": "notable",
+          "url": "https://www.tmdn.org/tmview/",
+          "checked_at": "2026-11-13"
+        },
+        {
+          "who": "NEB Compute (Nebula Data, Australia) — GPU compute and token services; neb GitHub repo 'explore AI agents' (8 stars)",
+          "space": "AI infrastructure",
+          "severity": "notable",
+          "url": "https://www.indailysa.com.au/news/opinion/2026/11/10/from-gpus-to-token-factories-the-next-phase-of-enterprise-ai-is-about-infrastructure",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "one spelling mostly (Neb/Nebb); an old word for beak or nose; close to Nib in sound",
+      "verdict": "liked",
+      "feedback": [
+        "\"neb, zib fajne\" (round 8)"
+      ]
     },
     "Ved": {
       "direction": "short punchy coinages, 3 letters (CVC), one spelling",
@@ -19520,6 +19647,26 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "tem.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "tem.co": {
+          "status": "taken",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "tem.me": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tem.to": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -19657,11 +19804,37 @@
           "checked_at": "2026-11-13"
         },
         "kib.so": {
+          "status": "free",
+          "method": "dynadot",
+          "price": "$57.50/yr",
+          "checked_at": "2026-11-13"
+        },
+        "kib.co": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kib.me": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kib.to": {
           "status": "likely-free",
-          "method": "whois",
+          "method": "rdap",
           "checked_at": "2026-11-13"
         }
-      }
+      },
+      "conflicts": [
+        {
+          "who": "KIB — Kuwait International Bank apps; KiBee (kibee.ai) support agent",
+          "space": "banking / AI support",
+          "severity": "notable",
+          "url": "https://kibee.ai/",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "Kib/Kibb/Cib; reads like 'kibble'"
     },
     "Mib": {
       "direction": "short punchy coinages, 3 letters (CVC), one spelling",
@@ -20159,6 +20332,26 @@
         "getwib.com": {
           "status": "taken",
           "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "wib.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "wib.co": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "wib.me": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "wib.to": {
+          "status": "likely-free",
+          "method": "rdap",
           "checked_at": "2026-11-13"
         }
       }
@@ -20693,7 +20886,11 @@
           "checked_at": "2026-11-13"
         }
       ],
-      "phonetics": "Turkish for 'fast'; Tez/Tezz/Tes"
+      "phonetics": "Turkish for 'fast'; Tez/Tezz/Tes",
+      "verdict": "rejected",
+      "feedback": [
+        "\"tez brzmi jakby tam brakowalo drugiego z (tezz) zeby brzmialo dobrze po angielsku\" (round 8)"
+      ]
     },
     "Vop": {
       "direction": "short punchy coinages, 3 letters (CVC), one spelling",
@@ -21397,6 +21594,1022 @@
           "checked_at": "2026-11-13"
         },
         "getsami.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Lem": {
+      "direction": "short punchy coinages, 3 letters (CVC), one spelling",
+      "round": 9,
+      "domains": {
+        "lem.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lem.app": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "lem.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lem.so": {
+          "status": "free",
+          "method": "dynadot",
+          "price": "$57.50/yr",
+          "checked_at": "2026-11-13"
+        },
+        "getlem.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lem.co": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lem.me": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lem.to": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "Lem AI (getlem.ai) — 'context engine' and implementation agent for engineering teams, macOS + web",
+          "space": "AI agent tools",
+          "severity": "notable",
+          "url": "https://www.saashub.com/lem-ai",
+          "checked_at": "2026-11-13"
+        },
+        {
+          "who": "Lemon8, LemFi — large apps sharing the 'Lem' root",
+          "space": "consumer apps",
+          "severity": "noise",
+          "url": "https://apps.apple.com/search?term=lem",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "one spelling; Stanisław Lem (Polish sci-fi, robots); LEM = lunar module"
+    },
+    "Nom": {
+      "direction": "short punchy coinages, 3 letters (CVC), one spelling",
+      "round": 9,
+      "domains": {
+        "nom.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "nom.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nom.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nom.so": {
+          "status": "free",
+          "method": "dynadot",
+          "price": "$57.50/yr",
+          "checked_at": "2026-11-13"
+        },
+        "getnom.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nom.co": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nom.me": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "nom.to": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "Om Nom (Cut the Rope mascot); Nom: AI Meal Planner; Nom UCLA dining",
+          "space": "games / food apps",
+          "severity": "notable",
+          "url": "https://apps.apple.com/search?term=nom",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "one spelling; 'nom nom' = eating sound, cute mascot potential"
+    },
+    "Zin": {
+      "direction": "short punchy coinages, 3 letters (CVC), one spelling",
+      "round": 9,
+      "domains": {
+        "zin.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "zin.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "zin.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "zin.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getzin.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "zin.co": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "zin.me": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "zin.to": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Zon": {
+      "direction": "short punchy coinages, 3 letters (CVC), one spelling",
+      "round": 9,
+      "domains": {
+        "zon.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "zon.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "zon.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "zon.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getzon.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "zon.co": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "zon.me": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "zon.to": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Kem": {
+      "direction": "short punchy coinages, 3 letters (CVC), one spelling",
+      "round": 9,
+      "domains": {
+        "kem.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kem.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kem.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kem.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getkem.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "kem.co": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kem.me": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kem.to": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Jom": {
+      "direction": "short punchy coinages, 3 letters (CVC), one spelling",
+      "round": 9,
+      "domains": {
+        "jom.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "jom.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "jom.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "jom.so": {
+          "status": "free",
+          "method": "dynadot",
+          "price": "$57.50/yr",
+          "checked_at": "2026-11-13"
+        },
+        "getjom.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "jom.co": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "jom.me": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "jom.to": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "Joom (shopping), Jomo (screen-time blocker for Mac, 2.5k ratings)",
+          "space": "shopping / productivity",
+          "severity": "notable",
+          "url": "https://apps.apple.com/search?term=jom",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "'jom' as in 'Tom'; could be heard as 'Jomm'/'Gom'"
+    },
+    "Lom": {
+      "direction": "short punchy coinages, 3 letters (CVC), one spelling",
+      "round": 9,
+      "domains": {
+        "lom.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lom.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lom.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lom.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getlom.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "lom.co": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lom.me": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lom.to": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Vob": {
+      "direction": "short punchy coinages, 3 letters (CVC), one spelling",
+      "round": 9,
+      "domains": {
+        "vob.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "vob.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "vob.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "vob.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getvob.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "vob.co": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "vob.me": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "vob.to": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Zab": {
+      "direction": "short punchy coinages, 3 letters (CVC), one spelling",
+      "round": 9,
+      "domains": {
+        "zab.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "zab.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "zab.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "zab.so": {
+          "status": "free",
+          "method": "dynadot",
+          "price": "$57.50/yr",
+          "checked_at": "2026-11-13"
+        },
+        "getzab.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "zab.co": {
+          "status": "taken",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "zab.me": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "zab.to": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "Zaxby's (sound-alike); ZAB travel app",
+          "space": "food / travel",
+          "severity": "noise",
+          "url": "https://apps.apple.com/search?term=zab",
+          "checked_at": "2026-11-13"
+        }
+      ]
+    },
+    "Pib": {
+      "direction": "short punchy coinages, 3 letters (CVC), one spelling",
+      "round": 9,
+      "domains": {
+        "pib.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pib.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pib.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pib.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getpib.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pib.co": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pib.me": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pib.to": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Mip": {
+      "direction": "short punchy coinages, 3 letters (CVC), one spelling",
+      "round": 9,
+      "domains": {
+        "mip.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mip.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mip.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mip.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getmip.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mip.co": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mip.me": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mip.to": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Jep": {
+      "direction": "short punchy coinages, 3 letters (CVC), one spelling",
+      "round": 9,
+      "domains": {
+        "jep.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "jep.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "jep.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "jep.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getjep.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "jep.co": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "jep.me": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "jep.to": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Fep": {
+      "direction": "short punchy coinages, 3 letters (CVC), one spelling",
+      "round": 9,
+      "domains": {
+        "fep.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "fep.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "fep.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "fep.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getfep.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "fep.co": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "fep.me": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "fep.to": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Vep": {
+      "direction": "short punchy coinages, 3 letters (CVC), one spelling",
+      "round": 9,
+      "domains": {
+        "vep.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "vep.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "vep.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "vep.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getvep.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "vep.co": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "vep.me": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "vep.to": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Zeg": {
+      "direction": "short punchy coinages, 3 letters (CVC), one spelling",
+      "round": 9,
+      "domains": {
+        "zeg.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "zeg.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "zeg.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "zeg.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getzeg.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "zeg.co": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "zeg.me": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "zeg.to": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Wep": {
+      "direction": "short punchy coinages, 3 letters (CVC), one spelling",
+      "round": 9,
+      "domains": {
+        "wep.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "wep.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "wep.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "wep.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getwep.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "wep.co": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "wep.me": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "wep.to": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Lep": {
+      "direction": "short punchy coinages, 3 letters (CVC), one spelling",
+      "round": 9,
+      "domains": {
+        "lep.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lep.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lep.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lep.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getlep.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "lep.co": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lep.me": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lep.to": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Beb": {
+      "direction": "short punchy coinages, 3 letters (CVC), one spelling",
+      "round": 9,
+      "domains": {
+        "beb.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "beb.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "beb.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "beb.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getbeb.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "beb.co": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "beb.me": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "beb.to": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Heg": {
+      "direction": "short punchy coinages, 3 letters (CVC), one spelling",
+      "round": 9,
+      "domains": {
+        "heg.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "heg.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "heg.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "heg.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getheg.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "heg.co": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "heg.me": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "heg.to": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Pab": {
+      "direction": "short punchy coinages, 3 letters (CVC), one spelling",
+      "round": 9,
+      "domains": {
+        "pab.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pab.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pab.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pab.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getpab.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "pab.co": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pab.me": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pab.to": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Vab": {
+      "direction": "short punchy coinages, 3 letters (CVC), one spelling",
+      "round": 9,
+      "domains": {
+        "vab.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "vab.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "vab.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "vab.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getvab.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "vab.co": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "vab.me": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "vab.to": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"

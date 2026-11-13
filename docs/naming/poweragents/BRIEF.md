@@ -9,7 +9,8 @@ workspaces). Product design: `docs/design/poweragents/`.
 **Languages.** English name; the app ships in Polish and English, so the name must also be easy for
 Polish speakers. *(Inferred by the agent, not yet confirmed.)*
 **TLDs.** Checked: .com, .app, .ai, plus `get<name>.com`. A bare `.app` or `get<name>.com` is
-acceptable to the user (round 1) — a bare .com is not required.
+acceptable to the user (round 1) — a bare .com is not required. `.so` is fine; `.dev` is not — this
+is a consumer product (round 8). Other consumer-friendly TLDs may be explored.
 
 ## What the name should make you feel
 
@@ -37,6 +38,9 @@ mascot.
 - Liked Nib: "looks very promising" (round 6). What it shares — one short syllable, a tiny
   everyday object, the tip of a tool that does big work, easy to draw as a mascot. User clarified
   (round 7): it was the **short name with a punchy, catchy sound**, not the pen-tip meaning.
+
+- Likes Neb and Zib (round 8): three letters, short vowel, punchy.
+- A short name must sound complete in English: "Tez" sounds like it is missing a second z (round 8).
 
 ## Rejected directions
 

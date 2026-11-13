@@ -204,3 +204,32 @@ and Google Pay was called Tez until 2018 — notable).
 name with `get` is enough. Then generate a wider systematic set of three- and four-letter
 coinages (several hundred, filtered for spelling) against `get…com` + .so + .dev, and run
 EUIPO/USPTO on the best two.
+
+## Round 9 — 2026-11-13
+
+**User on round 8.** `.so` is fine; `.dev` is not — this is a consumer product; other TLDs may be
+explored. Likes Neb and Zib. Tez rejected: it sounds like it is missing a second z.
+**Directions.** A systematic sweep of every three-letter consonant-vowel-consonant coinage that is
+not an English word, with ambiguous spellings removed (soft g, c/k, u) — 261 candidates — by DNS on
+`get…com` and `.so`. 26 picked by ear, then checked on .com/.app/.ai/.so/.co/.me/.to. `.so` added to
+the checked TLDs in names.json.
+**What came out.** 167 of 261 had `get…com` or `.so` open; 44 had both. By ear, endings in -z and -l
+were dropped (the "Tez needs a second z" problem: Bez, Jel, Pel). **Every three-letter `.so` checked
+at Dynadot is a standard registration at $57.50/yr, not premium** (neb, zib, lem, bix, nom, kib, zab,
+jom); getneb.com and getzib.com are $8.99 first year. So `.so` makes short names realistic. .co, .me,
+.to are almost all taken (nom.me, kib.to, kem.to are exceptions).
+**Trademarks (first time).** TMview, word contains, EU/US/PL/WIPO, classes 9 and 42, filed or
+registered, first 100 hits: **ZIB is a registered EU mark of Zuse-Institut Berlin in classes 9, 35,
+38, 42** (2015) — blocking for a software product in the EU. **NEB has a pending US application in
+class 9** (New Epic Base, filed 2026-09-02) and New England Biolabs' NEB in classes 1, 42; ONE NEB is
+registered in class 9 in the EU. This is a screen, not legal clearance.
+**Where I looked for conflicts.** App Store search API, iOS and Mac (Neb, Lem, Bix, Nom, Kib, Zab,
+Jom); Exa (Neb; Lem/Bix/Kib); TMview (Neb, Zib); Dynadot for prices.
+**Best.** Neb (neb.so $57.50, getneb.com $8.99; no product conflict, but a pending US class-9
+application and biotech NEB). Lem (lem.so $57.50; Lem AI is a context engine for engineering teams;
+Stanisław Lem is a nice Polish nod). Bix (bix.so; BIX by Balbix, an enterprise AI security
+assistant). Zib now blocked by the EU trademark.
+**Proposed next.** Tell the user about the Zib trademark and the Neb US filing. Trademark-screen Lem,
+Bix, Nom and the next best sweep survivors before showing more, so names reach the user already
+screened. Consider asking whether a professional trademark search is worth paying for once there is a
+finalist.
