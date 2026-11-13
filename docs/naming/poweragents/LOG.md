@@ -481,3 +481,21 @@ Oberon, plus Chano and Lencho awaiting a verdict.
 (registrar-confirmed), the "<name> ai" result, App Store, trademark (TMview run by the user, since it
 blocks this machine) and a hearing test with two or three English speakers who hear the name once and
 write it down. Keep a small breadth round going only if the user wants more candidates.
+
+## Round 21 — 2026-11-13
+
+**User on round 20.** Chano and Lencho rejected; keep searching.
+**Directions.** Italian forms of mythological names (≈30: Ulisse, Orfeo, Febo, Zefiro, Teseo…);
+surnames of Italian and Spanish painters, sculptors, composers and writers (≈60: Torelli, Corelli,
+Murillo, Tiepolo, Giotto, Canova…).
+**What came out.** Surnames ending in -elli, -ini, -llo keep many TLDs: Torelli (.app/.ai/.so/get),
+Corelli (.app/.so/get), Murillo (.app/.ai/.so/get). "<name> ai": **Giotto** is Giotto.ai, a Swiss AI
+lab (blocking); **Orfeo** is OrfeoAI and Orfeo Labs (blocking); **Canova** returns Canva AI (blocking
+by sound); **Tiepolo** is an AI image app; **Febo** sits next to Febus AI; **Zefiro** is an Italian
+LLM. **Torelli**, **Corelli** and **Murillo** are clean — only people with those surnames.
+**Where I looked.** DNS; web search "<name> ai" for Febo, Orfeo, Canova, Torelli, Giotto, Zefiro,
+Corelli, Murillo, Tiepolo.
+**Best.** Torelli, Corelli (Camillo's -lli/-llo sound, all-clean "<name> ai"), Murillo (-llo; English
+readers will say moo-RIL-lo).
+**Proposed next.** Ask whether surnames work for the user at all (so far every liked name is a first
+name or a creature). If not, try mythological names that are clean (Teseo, Nereo, Eolo unchecked).
