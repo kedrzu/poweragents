@@ -20,10 +20,13 @@ changes how I work and how I live."
 ## Standing preferences
 
 - `<name>.app` and `get<name>.com` are fine (round 1).
+- Wants human first names: coined ones that sound like real names, and a broader pool of real names (round 2).
 
 - Open to the currently popular direction of a good-sounding human first name; the user's own ideas
   were Jerry and Jer (round 0).
 
 ## Rejected directions
+
+- "Giant" compounds (Kind/Gentle/Easy/Pocket Giant) — "sounds weak" (round 2).
 
 - "Power" names in the Power Rangers vein — "Power Agent" and similar are taken (round 0).

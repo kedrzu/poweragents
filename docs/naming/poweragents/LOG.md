@@ -55,3 +55,29 @@ direction that fits the brief and has room. If yes: deepen giant (Good Giant, Wa
 Giant in your pocket–style phrases) and run EUIPO/USPTO on the top two. If no: open a new image of
 "small effort, big effect" — tailwind/current/tide, engine/motor, a coined name that sounds like an
 English word.
+
+## Round 3 — 2026-11-13
+
+**User on round 2.** "Giant" is out — "sounds weak". Try names coined from scratch, or widen the
+pool of real first names.
+**Directions.** Coined first names that sound real, mostly CVCV ending in -o (44); coined names in
+the user's Jerry/J vein (16); a broader pool of real names — Scandinavian, Italian, Japanese, Polish
+nicknames (51). All checked on .com/.app/.ai and `get<name>.com`.
+**What came out.** 34 of 111 had something open, almost all only `get<name>.com`. Seven had a bare
+`.app`: Juva, Wilko, Jemmy, Jeppe, Jorry, Jerro, Franek (plus Ida, Tosia, Pavo). Most fail the
+hearing test (J-names ending in -y/-ie, Jemmy = a burglar's crowbar) or carry a conflict: Ida — an
+enterprise "Ida.Next" AI agent with schedules and memory (blocking); Tobo — "the AI teammate that does
+the work", launched this month (blocking); Rodo = Polish GDPR; Osko = an Australian payments brand;
+Wilko = a UK retailer and sounds like Wilco. Lesson: a coined name only gets a bare `.app` when it
+is a bit unusual, and the J/-y/-ie endings the user likes are the ones with several spellings.
+**Where I looked for conflicts.** App Store search API (Ida, Franek, Jerro, Juva, Wilko, Tobo, Nils,
+Olek); Exa (Ida; Jerro/Juva/Wilko; Franek/Tobo). No trademark search; no registrar confirmation
+(Porkbun showed a CAPTCHA in round 2).
+**Best.** Jerro (jerro.app, getjerro.com; only a dissolved UK company) — closest to the user's own
+Jerry, one risk: Jero/Gerro. Franek (franek.app, getfranek.com; Żabka's internal chatbot is also
+called Franek) — warm for Poles, harder for English speakers. Juva (juva.app, getjuva.com; a
+migraine app) — soft, neutral. Nils and Olek have only `get…com`.
+**Proposed next.** Ask whether the name should feel Polish (Franek, Olek) or international (Jerro,
+Juva). Then deepen the winner: Jerro-like coinages with the -o ending (Jerro, Benno, Tullo, Rallo),
+or Polish nicknames that English speakers spell right (Kuba was taken; Bolek, Lolek, Felek, Tadek).
+Run EUIPO/USPTO on the top two.
