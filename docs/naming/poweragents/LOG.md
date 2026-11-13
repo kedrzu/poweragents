@@ -446,3 +446,19 @@ bruco.ai, bruco.so and getbruco.com open.
 live"); an easy mascot that can crawl while the agent works. Also open but unchecked: Pato (pato.so,
 Spanish 'duck'), Cielo (cielo.so, 'sky').
 **Proposed next.** Show Bruco next to Lupo. Keep the "<name> ai" search as the first conflict check.
+
+## Round 19 — 2026-11-13
+
+**User on round 18.** Bruco rejected: "the meaning is fine but it sounds weak". Sound beats meaning;
+the inferred sound pattern of the liked names (soft onset, open vowels, no initial cluster) added to
+BRIEF as the agent's inference.
+**Directions.** Names and words in Lupo's and Sancho's sound: -ncho, -nzo, -lo, -po, -no endings with
+l, s, t, c, n, ch onsets (≈65, real nicknames plus a few coinages).
+**What came out.** Spanish nicknames keep .ai and get…com more often than Italian words: Chano
+(chano.ai, .so, get…com), Lencho (lencho.app, .ai, .so, get…com), Curro and Cucho (.ai, .so). Sancio,
+Lancio and Sanzo keep .app. "<name> ai": Chano and Lencho clean; Lulo sits among Lulu AI and Lolo AI;
+Sanzo is a US sparkling-water brand.
+**Where I looked.** DNS; web search "chano ai", "lencho ai", "lulo ai", "sanzo ai".
+**Best.** Chano and Lencho — Sancho's rhythm, clean on "<name> ai", most TLDs open.
+**Proposed next.** Show Chano and Lencho. If the -cho sound keeps winning (Sancho, Tancho), sweep
+real -cho/-co nicknames in Spanish and Italian systematically.

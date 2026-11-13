@@ -64,6 +64,10 @@ mascot.
 - Ilario "quite OK", but would have to be written lowercase so the capital I is not read as l (round 16).
 - Avoid names one vowel away from a famous name: "Amedeo gets confused with Amadeo" (round 16).
 
+- Sound beats meaning: Bruco "means something nice but sounds weak" (round 18). Liked sounds so far —
+  Lupo, Sancho, Tancho, Camillo, Ilario, Oberon, Neb, Nib, Zib — share soft onsets (l, s, t, c, n),
+  open vowels and no consonant cluster at the start. *(Pattern inferred by the agent.)*
+
 ## Rejected directions
 
 - Coined two-syllable names ending in -en/-in/-on/-an (Nebin, Tevon, Zavon…) — "why do they all end in -on, -in, -an, -en? Let's try another direction" (round 12).
