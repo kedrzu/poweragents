@@ -34,6 +34,10 @@ mascot.
 - Open to the currently popular direction of a good-sounding human first name; the user's own ideas
   were Jerry and Jer (round 0).
 
+- Liked Nib: "looks very promising" (round 6). What it shares — one short syllable, a tiny
+  everyday object, the tip of a tool that does big work, easy to draw as a mascot. *(Inferred by the
+  agent, not yet confirmed.)*
+
 ## Rejected directions
 
 - Literal Polish first names (Radek, Bronek, Franek, Olek) — "feel weird" (round 4).

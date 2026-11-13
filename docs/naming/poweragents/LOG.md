@@ -156,3 +156,27 @@ people.
 something abstract, an animal), then name the character — a name for the character is easier to
 find than a word for the species (as with Clippy, Duo, Clawd). Ask the user whether the tardigrade
 appeals; if so, generate names for it. Flag InkBot as a competitor whose mascot idea is close.
+
+## Round 7 — 2026-11-13
+
+**User on round 6.** Nib "looks very promising" — keep searching. Recorded as liked; what it shares
+(one syllable, a tiny everyday object, the tip of a tool, easy to draw) noted in BRIEF as inferred.
+**Directions.** Nib itself, deeper (variants and conflicts); one-syllable tool tips and small objects
+like Nib (49); Nib variants (7); tiny marks, dots and bits (34). `.ai` re-checked at whois.nic.ai
+where the script returned unknown.
+**What came out.** Nib is blocked: **nib.gg is an AI agent product built like this one** — a daemon
+as the agent runtime with desktop app, CLI and VS Code clients, crews and cloud sync. Around it:
+nut.js's NIB CLI for desktop AI agents, usenib.dev (design context for coding agents), a Nib macOS
+app for character illustrations, and nibby, nib insurance's AI assistant. Every Nib variant domain
+except nib.app and nib.dev is taken; Porkbun listed nib.app without a price. One-syllable object
+words are taken across the board, `get` variants included. Two-syllable "tiny thing" words still have
+room: nibling.ai, smidgen.ai, pennino.app.
+**Where I looked for conflicts.** Exa (Nib as AI/software; Nibling/Pennino/Smidgen); App Store search
+API (Nibling, Pennino, Smidgen). Porkbun for nib.app (no price shown). No trademark search.
+**Best.** Nibling (nibling.ai, getnibling.com; a sound-alike calorie app "Nibl AI") — keeps "nib",
+"-ling" reads as a little creature, but heard as "nibbling". Pennino (pennino.app; nothing found) —
+Italian for nib, soft and international; risk "Penino". Smidgen (smidgen.ai; smidgen.io sells
+paywalls to AI agents — notable; several spellings).
+**Proposed next.** Ask what drew the user to Nib — the short sound, the pen-tip meaning, or the
+mascot shape — and search that axis: short coinages with the same shape (CVC, one obvious spelling),
+writing-tool words from other languages (Pennino, Pluma), or tiny-thing words.

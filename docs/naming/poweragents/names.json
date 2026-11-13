@@ -13295,7 +13295,8 @@
         "nib.app": {
           "status": "likely-free",
           "method": "rdap",
-          "checked_at": "2026-11-13"
+          "checked_at": "2026-11-13",
+          "note": "Porkbun (round 7) listed nib.app without a price or availability; nib.io is aftermarket at $23,934"
         },
         "nib.ai": {
           "status": "taken",
@@ -13305,6 +13306,36 @@
         "getnib.com": {
           "status": "taken",
           "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "usenib.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nibapp.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "heynib.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nibai.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nib.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nib.dev": {
+          "status": "likely-free",
+          "method": "rdap",
           "checked_at": "2026-11-13"
         }
       },
@@ -13322,9 +13353,41 @@
           "severity": "noise",
           "url": "https://apps.apple.com/search?term=nib",
           "checked_at": "2026-11-13"
+        },
+        {
+          "who": "Nib (nib.gg) — AI coding agent: daemon as agent runtime, desktop app, CLI, VS Code extension, crews, cloud sync",
+          "space": "AI agents with a desktop app and daemon",
+          "severity": "blocking",
+          "url": "https://nib.gg/docs/reference/security-model",
+          "checked_at": "2026-11-13"
+        },
+        {
+          "who": "NIB by nut.js — 'the CLI that AI agents call' for desktop automation",
+          "space": "AI agent tooling",
+          "severity": "notable",
+          "url": "https://nutjs.dev/nib",
+          "checked_at": "2026-11-13"
+        },
+        {
+          "who": "nib (usenib.dev) — design control plane for AI coding agents; Nib (caezium) — macOS app for character-based AI illustrations",
+          "space": "AI tooling",
+          "severity": "notable",
+          "url": "https://github.com/dcsg/nib",
+          "checked_at": "2026-11-13"
+        },
+        {
+          "who": "nibby — AI assistant of nib health insurance (Australia)",
+          "space": "AI assistant",
+          "severity": "notable",
+          "url": "https://www.nib.com.au/meet-nibby",
+          "checked_at": "2026-11-13"
         }
       ],
-      "phonetics": "one spelling; heard as 'nib' or 'nip'"
+      "phonetics": "one spelling; heard as 'nib' or 'nip'",
+      "verdict": "liked",
+      "feedback": [
+        "\"nib wyglada bardzo obiecujaco!\" (round 6)"
+      ]
     },
     "Speck": {
       "direction": "mascot: simple abstract shape that animates",
@@ -16695,6 +16758,2285 @@
           "checked_at": "2026-11-13"
         },
         "getsparrow.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Tip": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "tip.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tip.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tip.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gettip.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Peg": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "peg.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "peg.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "peg.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getpeg.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Pin": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "pin.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pin.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pin.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getpin.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Cog": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "cog.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "cog.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "cog.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "getcog.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Bud": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "bud.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "bud.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "bud.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getbud.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Pod": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "pod.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pod.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pod.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getpod.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Dab": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "dab.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "dab.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "dab.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getdab.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Jot": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "jot.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "jot.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "jot.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getjot.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Tad": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "tad.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tad.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tad.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gettad.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Wick": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "wick.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "wick.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "wick.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getwick.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Fob": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "fob.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "fob.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "fob.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getfob.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Tab": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "tab.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tab.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tab.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gettab.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Knob": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "knob.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "knob.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "knob.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getknob.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Dib": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "dib.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "dib.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "dib.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getdib.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Awl": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "awl.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "awl.app": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "awl.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getawl.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Quill": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "quill.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "quill.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "quill.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getquill.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Stub": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "stub.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "stub.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "stub.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getstub.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Nock": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "nock.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nock.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nock.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getnock.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Tack": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "tack.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tack.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tack.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gettack.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Rivet": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "rivet.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "rivet.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "rivet.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getrivet.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Pith": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "pith.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pith.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pith.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getpith.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Fleck": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "fleck.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "fleck.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "fleck.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getfleck.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Blot": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "blot.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "blot.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "blot.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getblot.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Grain": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "grain.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "grain.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "grain.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getgrain.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Pea": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "pea.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pea.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pea.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getpea.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Tot": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "tot.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tot.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tot.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gettot.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Flick": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "flick.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "flick.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "flick.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getflick.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Pluck": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "pluck.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "pluck.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pluck.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getpluck.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Zest": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "zest.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "zest.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "zest.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getzest.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Gist": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "gist.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gist.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gist.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getgist.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Burr": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "burr.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "burr.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "burr.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getburr.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Brad": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "brad.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "brad.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "brad.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getbrad.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Shim": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "shim.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "shim.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "shim.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getshim.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Tine": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "tine.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tine.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tine.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gettine.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Prong": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "prong.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "prong.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "prong.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getprong.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Barb": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "barb.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "barb.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "barb.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getbarb.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Spur": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "spur.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "spur.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "spur.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getspur.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Lug": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "lug.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lug.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lug.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getlug.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Cleat": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "cleat.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "cleat.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "cleat.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getcleat.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Snip": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "snip.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "snip.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "snip.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getsnip.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Dowel": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "dowel.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "dowel.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "dowel.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getdowel.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Stylus": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "stylus.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "stylus.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "stylus.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getstylus.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Plume": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "plume.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "plume.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "plume.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getplume.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Thorn": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "thorn.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "thorn.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "thorn.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getthorn.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Twig": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "twig.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "twig.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "twig.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gettwig.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Stem": {
+      "direction": "like Nib: one-syllable tiny tool tips and small objects",
+      "round": 7,
+      "domains": {
+        "stem.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "stem.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "stem.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getstem.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Nibs": {
+      "direction": "Nib variants",
+      "round": 7,
+      "domains": {
+        "nibs.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nibs.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nibs.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getnibs.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "inherits the Nib conflict with nib.gg (AI agent); nibby is nib insurance's AI assistant"
+    },
+    "Nibby": {
+      "direction": "Nib variants",
+      "round": 7,
+      "domains": {
+        "nibby.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "nibby.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nibby.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getnibby.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "inherits the Nib conflict with nib.gg (AI agent); nibby is nib insurance's AI assistant"
+    },
+    "Nibb": {
+      "direction": "Nib variants",
+      "round": 7,
+      "domains": {
+        "nibb.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nibb.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nibb.ai": {
+          "status": "likely-free",
+          "method": "whois.nic.ai",
+          "checked_at": "2026-11-13"
+        },
+        "getnibb.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "inherits the Nib conflict with nib.gg (AI agent); nibby is nib insurance's AI assistant"
+    },
+    "Nibo": {
+      "direction": "Nib variants",
+      "round": 7,
+      "domains": {
+        "nibo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nibo.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nibo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getnibo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "inherits the Nib conflict with nib.gg (AI agent); nibby is nib insurance's AI assistant"
+    },
+    "Nibu": {
+      "direction": "Nib variants",
+      "round": 7,
+      "domains": {
+        "nibu.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nibu.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nibu.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getnibu.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "inherits the Nib conflict with nib.gg (AI agent); nibby is nib insurance's AI assistant"
+    },
+    "Nibkit": {
+      "direction": "Nib variants",
+      "round": 7,
+      "domains": {
+        "nibkit.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nibkit.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "nibkit.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "getnibkit.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "inherits the Nib conflict with nib.gg (AI agent); nibby is nib insurance's AI assistant"
+    },
+    "Nibbin": {
+      "direction": "Nib variants",
+      "round": 7,
+      "domains": {
+        "nibbin.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nibbin.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "nibbin.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "getnibbin.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "inherits the Nib conflict with nib.gg (AI agent); nibby is nib insurance's AI assistant"
+    },
+    "Freckle": {
+      "direction": "like Nib: tiny marks, dots and bits (mascot-shaped words)",
+      "round": 7,
+      "domains": {
+        "freckle.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "freckle.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "freckle.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getfreckle.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Dimple": {
+      "direction": "like Nib: tiny marks, dots and bits (mascot-shaped words)",
+      "round": 7,
+      "domains": {
+        "dimple.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "dimple.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "dimple.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getdimple.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Speckle": {
+      "direction": "like Nib: tiny marks, dots and bits (mascot-shaped words)",
+      "round": 7,
+      "domains": {
+        "speckle.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "speckle.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "speckle.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getspeckle.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Dapple": {
+      "direction": "like Nib: tiny marks, dots and bits (mascot-shaped words)",
+      "round": 7,
+      "domains": {
+        "dapple.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "dapple.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "dapple.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getdapple.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Squib": {
+      "direction": "like Nib: tiny marks, dots and bits (mascot-shaped words)",
+      "round": 7,
+      "domains": {
+        "squib.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "squib.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "squib.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getsquib.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Daub": {
+      "direction": "like Nib: tiny marks, dots and bits (mascot-shaped words)",
+      "round": 7,
+      "domains": {
+        "daub.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "daub.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "daub.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getdaub.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Smidgen": {
+      "direction": "like Nib: tiny marks, dots and bits (mascot-shaped words)",
+      "round": 7,
+      "domains": {
+        "smidgen.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "smidgen.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "smidgen.ai": {
+          "status": "likely-free",
+          "method": "whois.nic.ai",
+          "checked_at": "2026-11-13"
+        },
+        "getsmidgen.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "smidgen.io — x402 micropayment paywalls for humans and AI agents",
+          "space": "AI agent payments",
+          "severity": "notable",
+          "url": "https://smidgen.io/",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "Smidgen/Smidgeon/Smidgin — several spellings"
+    },
+    "Morsel": {
+      "direction": "like Nib: tiny marks, dots and bits (mascot-shaped words)",
+      "round": 7,
+      "domains": {
+        "morsel.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "morsel.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "morsel.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getmorsel.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Mite": {
+      "direction": "like Nib: tiny marks, dots and bits (mascot-shaped words)",
+      "round": 7,
+      "domains": {
+        "mite.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mite.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mite.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getmite.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Whit": {
+      "direction": "like Nib: tiny marks, dots and bits (mascot-shaped words)",
+      "round": 7,
+      "domains": {
+        "whit.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "whit.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "whit.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getwhit.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Notch": {
+      "direction": "like Nib: tiny marks, dots and bits (mascot-shaped words)",
+      "round": 7,
+      "domains": {
+        "notch.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "notch.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "notch.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getnotch.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Tick": {
+      "direction": "like Nib: tiny marks, dots and bits (mascot-shaped words)",
+      "round": 7,
+      "domains": {
+        "tick.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tick.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tick.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gettick.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Pluma": {
+      "direction": "like Nib: tiny marks, dots and bits (mascot-shaped words)",
+      "round": 7,
+      "domains": {
+        "pluma.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pluma.app": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "pluma.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getpluma.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Punta": {
+      "direction": "like Nib: tiny marks, dots and bits (mascot-shaped words)",
+      "round": 7,
+      "domains": {
+        "punta.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "punta.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "punta.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getpunta.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Pennino": {
+      "direction": "like Nib: tiny marks, dots and bits (mascot-shaped words)",
+      "round": 7,
+      "domains": {
+        "pennino.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pennino.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "pennino.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "getpennino.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [],
+      "phonetics": "Italian for 'nib'; Pennino/Penino"
+    },
+    "Serif": {
+      "direction": "like Nib: tiny marks, dots and bits (mascot-shaped words)",
+      "round": 7,
+      "domains": {
+        "serif.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "serif.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "serif.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getserif.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Glyph": {
+      "direction": "like Nib: tiny marks, dots and bits (mascot-shaped words)",
+      "round": 7,
+      "domains": {
+        "glyph.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "glyph.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "glyph.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getglyph.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Breve": {
+      "direction": "like Nib: tiny marks, dots and bits (mascot-shaped words)",
+      "round": 7,
+      "domains": {
+        "breve.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "breve.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "breve.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getbreve.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Tilde": {
+      "direction": "like Nib: tiny marks, dots and bits (mascot-shaped words)",
+      "round": 7,
+      "domains": {
+        "tilde.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tilde.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tilde.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gettilde.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Iota": {
+      "direction": "like Nib: tiny marks, dots and bits (mascot-shaped words)",
+      "round": 7,
+      "domains": {
+        "iota.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "iota.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "iota.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getiota.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Sprinkle": {
+      "direction": "like Nib: tiny marks, dots and bits (mascot-shaped words)",
+      "round": 7,
+      "domains": {
+        "sprinkle.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "sprinkle.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "sprinkle.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getsprinkle.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Inkling": {
+      "direction": "like Nib: tiny marks, dots and bits (mascot-shaped words)",
+      "round": 7,
+      "domains": {
+        "inkling.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "inkling.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "inkling.ai": {
+          "status": "taken",
+          "method": "whois.nic.ai",
+          "checked_at": "2026-11-13"
+        },
+        "getinkling.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Nibling": {
+      "direction": "like Nib: tiny marks, dots and bits (mascot-shaped words)",
+      "round": 7,
+      "domains": {
+        "nibling.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nibling.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nibling.ai": {
+          "status": "likely-free",
+          "method": "whois.nic.ai",
+          "checked_at": "2026-11-13"
+        },
+        "getnibling.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "Nibl AI — iOS calorie-tracking app (sound-alike)",
+          "space": "health apps",
+          "severity": "notable",
+          "url": "https://appmarketspy.com/app/nibl-ai-6757807778",
+          "checked_at": "2026-11-13"
+        },
+        {
+          "who": "nibling.dev — empty profile on Tangled",
+          "space": "dev",
+          "severity": "noise",
+          "url": "https://tangled.org/nibling.dev",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "gender-neutral word for a niece or nephew; contains 'nib'; heard as 'nibbling'"
+    },
+    "Quillo": {
+      "direction": "like Nib: tiny marks, dots and bits (mascot-shaped words)",
+      "round": 7,
+      "domains": {
+        "quillo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "quillo.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "quillo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getquillo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Wickit": {
+      "direction": "like Nib: tiny marks, dots and bits (mascot-shaped words)",
+      "round": 7,
+      "domains": {
+        "wickit.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "wickit.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "wickit.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getwickit.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Inkwell": {
+      "direction": "like Nib: tiny marks, dots and bits (mascot-shaped words)",
+      "round": 7,
+      "domains": {
+        "inkwell.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "inkwell.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "inkwell.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getinkwell.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Blotch": {
+      "direction": "like Nib: tiny marks, dots and bits (mascot-shaped words)",
+      "round": 7,
+      "domains": {
+        "blotch.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "blotch.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "blotch.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getblotch.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Dewdrop": {
+      "direction": "like Nib: tiny marks, dots and bits (mascot-shaped words)",
+      "round": 7,
+      "domains": {
+        "dewdrop.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "dewdrop.app": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "dewdrop.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getdewdrop.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Raindrop": {
+      "direction": "like Nib: tiny marks, dots and bits (mascot-shaped words)",
+      "round": 7,
+      "domains": {
+        "raindrop.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "raindrop.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "raindrop.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getraindrop.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Teardrop": {
+      "direction": "like Nib: tiny marks, dots and bits (mascot-shaped words)",
+      "round": 7,
+      "domains": {
+        "teardrop.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "teardrop.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "teardrop.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getteardrop.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Pinhead": {
+      "direction": "like Nib: tiny marks, dots and bits (mascot-shaped words)",
+      "round": 7,
+      "domains": {
+        "pinhead.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pinhead.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pinhead.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getpinhead.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Stipple": {
+      "direction": "like Nib: tiny marks, dots and bits (mascot-shaped words)",
+      "round": 7,
+      "domains": {
+        "stipple.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "stipple.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "stipple.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getstipple.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Ink": {
+      "direction": "like Nib: tiny marks, dots and bits (mascot-shaped words)",
+      "round": 7,
+      "domains": {
+        "ink.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ink.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ink.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getink.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
