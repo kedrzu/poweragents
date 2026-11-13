@@ -180,3 +180,27 @@ paywalls to AI agents — notable; several spellings).
 **Proposed next.** Ask what drew the user to Nib — the short sound, the pen-tip meaning, or the
 mascot shape — and search that axis: short coinages with the same shape (CVC, one obvious spelling),
 writing-tool words from other languages (Pennino, Pluma), or tiny-thing words.
+
+## Round 8 — 2026-11-13
+
+**User on round 7.** What drew them to Nib was the short name with a punchy, catchy sound — not the
+pen-tip meaning. Keep searching.
+**Directions.** Short punchy coinages of three letters, consonant-vowel-consonant with one obvious
+spelling (61); four-letter coinages that sound like a name (30). Survivors also checked on .dev,
+.so, .co, .io; `.ai` confirmed at whois.nic.ai.
+**What came out.** Three-letter names are gone on every TLD we use: 0 of 61 had a bare .com or .ai,
+one had .app (tez.app). With `get…com` about a dozen stay open (getneb, getzib, getkib, gettiv…),
+and .so/.dev have some (neb.so, zib.dev, zib.so, tez.so, tiv.dev). Four-letter name-like coinages
+(Tavi, Zuri, Lumi, Novi, Kibo) are taken everywhere. Lesson: a three-letter name is possible only
+as `get<name>.com` or on a secondary TLD such as .so or .dev — the TLD rule is now the deciding
+constraint, not ideas.
+**Where I looked for conflicts.** App Store search API (Zib, Neb, Tez, Tula, Rov); Exa (Zib/Neb/Tez as
+AI or software). No trademark search; no registrar confirmation.
+**Best.** Neb (getneb.com, heyneb.com, neb.so; no conflict found) — the closest to Nib in sound; an
+old word for a beak. Zib (getzib.com, zib.dev, zib.so; Zib Digital, an Australian agency selling AI
+agents — notable). Tez (tez.app, tez.so; a small text expander and an offline AI assistant use it,
+and Google Pay was called Tez until 2018 — notable).
+**Proposed next.** Ask the user whether .so or .dev is acceptable for a short name, or whether a
+name with `get` is enough. Then generate a wider systematic set of three- and four-letter
+coinages (several hundred, filtered for spelling) against `get…com` + .so + .dev, and run
+EUIPO/USPTO on the best two.
