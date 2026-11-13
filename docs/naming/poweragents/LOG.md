@@ -81,3 +81,25 @@ migraine app) — soft, neutral. Nils and Olek have only `get…com`.
 Juva). Then deepen the winner: Jerro-like coinages with the -o ending (Jerro, Benno, Tullo, Rallo),
 or Polish nicknames that English speakers spell right (Kuba was taken; Felek, Tadek, Józek-like forms without Polish letters).
 Run EUIPO/USPTO on the top two.
+
+## Round 4 — 2026-11-13
+
+**User on round 3.** Prefers an international feel; Slavic is fine if foreigners can say and spell
+it easily. No verdict yet on Jerro, Franek or Juva.
+**Directions.** Coined -o names in the Jerro vein (37); Slavic first names that foreigners can say
+(49); Slavic words for strength, will, friend (7). Checked on .com/.app/.ai and `get<name>.com`.
+**What came out.** The -o coinages are saturated: none had a bare `.app`, only `get…com` (Jarro,
+Jero, Merro, Kerro, Lorro, Tullo). Slavic names do better: bare `.app` open for Radek, Bronek,
+Bojan, Ratko, Kostya, Borya, Lyuba, Zdrav. Most of those fail for foreigners (Bojan read with an
+English J; ly/zd clusters) or carry baggage (Ratko Mladić). Two survive: Radek and Bronek. Slavic
+words for strength (Sila, Volya, Dobro) are all taken or hard to say.
+**Where I looked for conflicts.** App Store search API (Radek, Bronek, Mirko, Janko, Jarro); Exa
+(Radek; Bronek/Mirko/Janko). Only people and an inactive repo (mirko.ai, 2024) came up. Trademark
+registries not checked; no registrar confirmation.
+**Best.** Radek (radek.app, getradek.com; no product conflict, though a well-known OpenClaw
+maintainer is called Radek) — short, Czech/Polish/Slovak, "rad" inside, English speakers may write
+Radeck. Bronek (bronek.app, getbronek.com; no conflict) — "bro" makes it friendly; risk Bronnek.
+Still standing from round 3: Jerro, Juva, Franek.
+**Proposed next.** Put a finalist set in front of the user (Radek, Bronek, Jerro, Juva, Franek) and
+ask which one feels right. For the one or two chosen: a hearing test with people who don't speak
+Polish, EUIPO/USPTO search, Porkbun confirmation (the user may need to clear the CAPTCHA).

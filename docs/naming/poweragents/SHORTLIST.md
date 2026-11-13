@@ -5,6 +5,7 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 | Name | Direction | Domains | Conflicts | Notes |
 |-|-|-|-|-|
 | Able Hand | a helper with real power: helper nouns with a warm adjective | ablehand.app likely-free, getablehand.com likely-free | none found |  |
+| Bronek | Slavic first names easy for foreigners | bronek.app likely-free, bronek.ai unknown, getbronek.com likely-free | none found | 'BRON-ek'; 'bro' reads friendly; English speakers may write Bronnek |
 | Busy Hands | a helper with real power: helper nouns with a warm adjective | busyhands.app likely-free, getbusyhands.com likely-free | none found |  |
 | Easy Lever | giant / lever / mighty compounds: small and easy, but strong | easylever.app likely-free, easylever.ai unknown, geteasylever.com likely-free | none found | one spelling; 'lever' is LEE-ver (UK) / LEV-er (US) |
 | Everyday Magic | plain compounds: easy yet powerful | everydaymagic.app likely-free, geteverydaymagic.com likely-free | none found |  |
@@ -22,6 +23,7 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 | Plain Magic | plain compounds: easy yet powerful | plainmagic.app likely-free, plainmagic.ai unknown, getplainmagic.com likely-free | none found |  |
 | Plus Hand | plain compounds: easy yet powerful | plushand.app likely-free, plushand.ai unknown, getplushand.com likely-free | none found |  |
 | Quiet Power | plain compounds: easy yet powerful | quietpower.app likely-free | none found |  |
+| Radek | Slavic first names easy for foreigners | radek.app likely-free, getradek.com likely-free | none found | 'RAD-ek'; Poles/Czechs spell it right; English speakers may write Radeck; contains 'rad' |
 | Small Lever | plain compounds: easy yet powerful | smalllever.com likely-free, smalllever.app likely-free, smalllever.ai unknown, getsmalllever.com likely-free | none found | 'smalllever' has a triple l in the domain; heard as 'small lever' or 'smaller' — risky |
 | Trusty Hand | a helper with real power: helper nouns with a warm adjective | trustyhand.app likely-free, trustyhand.ai unknown, gettrustyhand.com likely-free | none found |  |
 | Wilko | coined first names: sound like a real name, one spelling | wilko.app likely-free, getwilko.com likely-free | Wilko — UK homeware retailer brand (CDS Superstores), now adding AI to wilko.com (notable); Wilco — US band; Wilco dev-training startup (joined Lemonade) (notable) | homophone of Wilco (band, radio 'will comply') |
