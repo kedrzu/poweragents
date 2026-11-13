@@ -61,6 +61,7 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 | Beto | real Spanish, Italian and Portuguese nicknames (hypocoristics) | beto.so likely-free | none found |  |
 | Bianca | good-sounding Italian, Spanish and Latin first names | bianca.so likely-free | none found |  |
 | Bilby | animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese) | bilby.so likely-free | none found |  |
+| Bincho | systematic sweep of Sancho/Lupo-shaped coinages (consonant-vowel-cluster-o), .ai unregistered | bincho.app likely-free, bincho.ai likely-free, bincho.so likely-free, getbincho.com likely-free | Bincho — yakitori restaurant brand (London, Singapore, Japan); binchotan charcoal (notable) | BEEN-cho |
 | Birdeto | Esperanto diminutives and young-animal words (-eto, -ido), Lupeto's family | birdeto.app likely-free, birdeto.ai unknown, birdeto.so likely-free, getbirdeto.com likely-free | none found |  |
 | Boccherini | surnames of Italian and Spanish artists and composers | boccherini.app likely-free, boccherini.ai unknown, boccherini.so likely-free, getboccherini.com likely-free | none found |  |
 | Bonulo | Esperanto diminutives and young-animal words (-eto, -ido), Lupeto's family | bonulo.app unknown, bonulo.ai unknown, bonulo.so likely-free, getbonulo.com likely-free | none found |  |
@@ -216,6 +217,7 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 | Gioco | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | gioco.so likely-free, getgioco.com likely-free | none found |  |
 | Giulia | good-sounding Italian, Spanish and Latin first names | giulia.so likely-free | none found |  |
 | Gojo | Esperanto diminutives and young-animal words (-eto, -ido), Lupeto's family | gojo.ai unknown, gojo.so likely-free | none found |  |
+| Goncho | systematic sweep of Sancho/Lupo-shaped coinages (consonant-vowel-cluster-o), .ai unregistered | goncho.app likely-free, goncho.ai likely-free, goncho.so likely-free, getgoncho.com likely-free | none found | GON-cho; nickname for Gonzalo |
 | Good Elf | folklore household helpers that work while you sleep | goodelf.app likely-free, goodelf.ai unknown, getgoodelf.com likely-free | Good Elf Software — small US SaaS studio using AI (notable) | one spelling |
 | Gorka | Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours) | gorka.app likely-free, gorka.so likely-free, getgorka.com likely-free | none found |  |
 | Grano | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | grano.so likely-free | none found |  |
@@ -281,6 +283,7 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 | Lalito | real Spanish, Italian and Portuguese nicknames (hypocoristics) | lalito.app likely-free, lalito.ai unknown, lalito.so likely-free, getlalito.com likely-free | none found |  |
 | Lallo | real Spanish, Italian and Portuguese nicknames (hypocoristics) | lallo.ai unknown, lallo.so likely-free, getlallo.com likely-free | none found |  |
 | Lalo | names and words in Lupo's and Sancho's sound: soft onset, open vowels, -o | lalo.so likely-free | none found |  |
+| Lancho | systematic sweep of Sancho/Lupo-shaped coinages (consonant-vowel-cluster-o), .ai unregistered | lancho.app likely-free, lancho.ai likely-free, lancho.so likely-free, getlancho.com likely-free | none found | LAHN-cho; Sancho/Tancho rhythm; Spanish 'lancha' = motorboat |
 | Lancio | names and words in Lupo's and Sancho's sound: soft onset, open vowels, -o | lancio.so likely-free, getlancio.com likely-free | none found |  |
 | Lanno | names and words in Lupo's and Sancho's sound: soft onset, open vowels, -o | lanno.ai unknown, lanno.so likely-free, getlanno.com likely-free | none found |  |
 | Lano | coined first names, 2–3 syllables | lano.app unknown, lano.so likely-free | none found |  |

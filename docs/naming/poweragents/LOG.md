@@ -569,3 +569,18 @@ Dynadot for Tancho and Ilario.
 gettancho.com $8.99, tancho.so) and **Ilario** (ilario.ai $85.60, ilario.app $14.50; lowercase only).
 **Proposed next.** Tell the user the liked set after the .ai sweep; propose depth on Tancho and
 Ilario while searching on.
+
+## Round 26 — 2026-11-13
+
+**User on round 25.** "Keep searching."
+**Directions.** A systematic sweep of Sancho/Lupo-shaped coinages: consonant + vowel + middle
+cluster (nch, nd, nt, nz, ll, lv, mb, st, rs…) + -o/-a — 3,351 candidates, filtered first by an
+unregistered .ai (DNS), then .app, .so, get…com. 930 passed the .ai filter; 260 -o names had all four.
+**What came out.** By ear, most survivors are coarse or carry meanings (cazzo, bimbo, turd-, gollo);
+the -ncho family is the strongest because it is Sancho's and Tancho's sound. **Lancho** — LAHN-cho —
+has lancho.ai (confirmed at whois.nic.ai), lancho.app, lancho.so, getlancho.com, and nothing in AI
+under its name. Bencho dropped (a common shortened Hindi/Punjabi profanity); Bancho dropped (Japanese
+'gang boss'); Bincho is a yakitori-restaurant brand.
+**Where I looked.** DNS sweep; whois.nic.ai (4); web search "lancho ai", "bencho ai", "bincho ai".
+**Best.** Lancho, next to Tancho (both all-domains-free and clean).
+**Proposed next.** Show Lancho and Tancho side by side; deeper -ncho variants if the user likes them.

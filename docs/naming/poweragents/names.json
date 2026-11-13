@@ -54247,6 +54247,196 @@
       },
       "verdict": "dropped",
       "reason": "'old'"
+    },
+    "Lancho": {
+      "direction": "systematic sweep of Sancho/Lupo-shaped coinages (consonant-vowel-cluster-o), .ai unregistered",
+      "round": 26,
+      "domains": {
+        "lancho.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lancho.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "lancho.ai": {
+          "status": "likely-free",
+          "method": "whois.nic.ai",
+          "checked_at": "2026-11-13"
+        },
+        "lancho.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getlancho.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "search 'lancho ai': nothing named Lancho; Llanai (language buddy), Rancho BioSciences, Lanchi Ventures nearby",
+          "space": "AI",
+          "severity": "noise",
+          "url": "https://nakos.substack.com/p/turbocharging-language-learning",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "LAHN-cho; Sancho/Tancho rhythm; Spanish 'lancha' = motorboat"
+    },
+    "Bencho": {
+      "direction": "systematic sweep of Sancho/Lupo-shaped coinages (consonant-vowel-cluster-o), .ai unregistered",
+      "round": 26,
+      "domains": {
+        "bencho.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "bencho.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "bencho.ai": {
+          "status": "likely-free",
+          "method": "whois.nic.ai",
+          "checked_at": "2026-11-13"
+        },
+        "bencho.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getbencho.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "Beni AI (companion app) sound-alike",
+          "space": "AI",
+          "severity": "notable",
+          "url": "https://news.bensbites.co/posts/57247-beni-ai-a-multimodal-ai-companion-with-intentional-relationships",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "BEN-cho",
+      "verdict": "dropped",
+      "reason": "'bencho' is a common shortened Hindi/Punjabi profanity"
+    },
+    "Bincho": {
+      "direction": "systematic sweep of Sancho/Lupo-shaped coinages (consonant-vowel-cluster-o), .ai unregistered",
+      "round": 26,
+      "domains": {
+        "bincho.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "bincho.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "bincho.ai": {
+          "status": "likely-free",
+          "method": "whois.nic.ai",
+          "checked_at": "2026-11-13"
+        },
+        "bincho.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getbincho.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "Bincho — yakitori restaurant brand (London, Singapore, Japan); binchotan charcoal",
+          "space": "restaurants",
+          "severity": "notable",
+          "url": "https://sethlui.com/bincho-tiong-bahru-singapore-sep-2022/",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "BEEN-cho"
+    },
+    "Goncho": {
+      "direction": "systematic sweep of Sancho/Lupo-shaped coinages (consonant-vowel-cluster-o), .ai unregistered",
+      "round": 26,
+      "domains": {
+        "goncho.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "goncho.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "goncho.ai": {
+          "status": "likely-free",
+          "method": "whois.nic.ai",
+          "checked_at": "2026-11-13"
+        },
+        "goncho.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getgoncho.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "phonetics": "GON-cho; nickname for Gonzalo"
+    },
+    "Bancho": {
+      "direction": "systematic sweep of Sancho/Lupo-shaped coinages (consonant-vowel-cluster-o), .ai unregistered",
+      "round": 26,
+      "domains": {
+        "bancho.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "bancho.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "bancho.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "bancho.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getbancho.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "Japanese 'banchō' = delinquent gang boss"
     }
   }
 }
