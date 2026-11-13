@@ -12,7 +12,7 @@ import { ProjectService } from './ProjectService.js';
 import type { LocalProject } from './ProjectService.js';
 
 // The filesystem is the boundary: each test gets its own data root in a fresh temporary folder (`<tmp>/root`, so a
-// folder escaping it would land in `<tmp>` where the test can see it).
+// folder escaping it would land in `<tmp>` where the test can see it); `root` is its projects' folder.
 
 test('creates a folder named after the project with its marker, and lists it', async () => {
     const { projects, root } = await setup();
@@ -88,7 +88,7 @@ test('refuses an empty, too long or folder-less name and creates nothing', async
     expect(await readdir(tmp)).toEqual([]);
 });
 
-test('keeps every folder directly inside the data root, whatever the name', async () => {
+test("keeps every folder directly inside the projects' folder, whatever the name", async () => {
     const { projects, root, tmp } = await setup();
     const cases: [name: string, folder: string][] = [
         ['../x', 'x'],
@@ -105,6 +105,7 @@ test('keeps every folder directly inside the data root, whatever the name', asyn
         expect({ name, dir: (await projects.get(created.id))?.dir }).toEqual({ name, dir: path.join(root, folder) });
     }
     expect(await readdir(tmp)).toEqual(['root']);
+    expect(await readdir(path.dirname(root))).toEqual(['projects']);
 });
 
 test('never reuses an existing folder, with or without a marker: takes the next free name', async () => {
@@ -200,9 +201,9 @@ test('skips a folder whose marker is a link, and never writes through it to the 
 
 async function setup() {
     const tmp = await mkdtemp(path.join(os.tmpdir(), 'poweragents-projects-'));
-    const root = path.join(tmp, 'root');
+    const root = path.join(tmp, 'root', 'projects');
     const { container, logs } = createTestContainer();
-    container.set(EnvVariables, { POWERAGENTS_DATA_ROOT: root });
+    container.set(EnvVariables, { POWERAGENTS_DATA_ROOT: path.dirname(root) });
     const projects = container.resolve(ProjectService);
     return { projects, root, tmp, logs };
 }

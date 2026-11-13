@@ -9,7 +9,7 @@ import type {
 } from '@poweragents/common/api/ConversationTypes.js';
 import { readString } from '@poweragents/common/utils/readString.js';
 
-import { AGENT_DATA_ROOT } from '../../sandbox/buildAgentRunArgs.js';
+import { AGENT_PROJECTS_DIR } from '../../sandbox/buildAgentRunArgs.js';
 
 /** Params of `toConversationStep()`. */
 export interface ToConversationStepParams {
@@ -106,9 +106,9 @@ function readFirstString(input: Record<string, unknown>, keys: string[]) {
     return undefined;
 }
 
-/** `/Poweragents/<project>/notes/plan.md` → `notes/plan.md`; a path elsewhere stays whole. */
+/** `/Poweragents/projects/<project>/notes/plan.md` → `notes/plan.md`; a path elsewhere stays whole. */
 function toProjectPath(file: string) {
-    const relative = path.posix.relative(AGENT_DATA_ROOT, file);
+    const relative = path.posix.relative(AGENT_PROJECTS_DIR, file);
     if (relative.startsWith('..') || path.posix.isAbsolute(relative)) {
         return file;
     }

@@ -63,10 +63,10 @@ export const ConversationEventService = defineService({
             }
 
             function stop() {
+                // The flag also silences it for the rest of an event being sent: the emitter still calls a listener
+                // removed during that event.
                 listening = false;
-                // Removed after the event being sent, if any: removing a listener while the emitter loops over them
-                // makes it skip the next one.
-                queueMicrotask(() => emitter.event.off(guarded));
+                emitter.event.off(guarded);
             }
         }
 

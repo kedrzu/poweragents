@@ -1,3 +1,7 @@
+import path from 'node:path';
+
+import { PROJECTS_FOLDER } from '../env.js';
+
 /** The `nerdctl run` arguments of the agent's container, and the spec they carry. */
 export interface AgentRunArgs {
     args: string[];
@@ -14,6 +18,8 @@ export const AGENT_SPEC_LABEL = 'poweragents.spec';
 export const AGENT_CONTAINER = 'poweragents-agent';
 /** The profile's data root in the VM, mounted at the same path in the container and its working directory. */
 export const AGENT_DATA_ROOT = '/Poweragents';
+/** The projects' folder as the agent sees it. */
+export const AGENT_PROJECTS_DIR = path.posix.join(AGENT_DATA_ROOT, PROJECTS_FOLDER);
 /** The port the agent is published on, on the VM's loopback (Lima forwards it to the host's), next to the daemon's. */
 export const AGENT_HOST_PORT = 47611;
 

@@ -10,16 +10,19 @@ import { PROJECT_NAME_MAX_LENGTH } from '@poweragents/common/api/ProjectTypes.js
 import type { Project, ProjectCreateResult } from '@poweragents/common/api/ProjectTypes.js';
 import { compareProjectsByName } from '@poweragents/common/utils/compareProjectsByName.js';
 
-import { POWERAGENTS_DATA_ROOT } from '../env.js';
+import { POWERAGENTS_DATA_ROOT, PROJECTS_FOLDER } from '../env.js';
 import { isErrorCode } from '../utils/isErrorCode.js';
 
 /** A project with the folder that holds it. */
 export interface LocalProject extends Project {
-    /** The project's folder: an absolute path directly inside the data root. */
+    /** The project's folder: an absolute path directly inside the data root's projects' folder. */
     dir: string;
 }
 
-/** The person's projects: folders in the data root that hold a marker, the hidden file `.project.json`. */
+/**
+ * The person's projects: folders in the data root's `PROJECTS_FOLDER` that hold a marker, the hidden file
+ * `.project.json`.
+ */
 export interface ProjectServiceShape {
     /**
      * Every project, sorted by name. A folder without a marker is not a project; an unreadable marker is skipped. A
@@ -47,12 +50,12 @@ const MARKER_FILE = '.project.json';
 /** Removed from a name to make its folder's name: path separators, the drive and stream separator, control characters. */
 const FOLDER_NAME_FORBIDDEN = /[/\\:\p{Cc}]/gu;
 
-/** The person's projects, kept as folders in the profile's data root (`POWERAGENTS_DATA_ROOT`). */
+/** The person's projects, kept as folders in the profile's data root (`POWERAGENTS_DATA_ROOT`), under `PROJECTS_FOLDER`. */
 export const ProjectService = defineService({
     name: 'ProjectService',
     deps: { logger: Logger, dataRoot: POWERAGENTS_DATA_ROOT },
     setup({ logger, dataRoot }): ProjectServiceShape {
-        const root = path.resolve(dataRoot);
+        const root = path.resolve(dataRoot, PROJECTS_FOLDER);
         /**
          * Listings and creations run one at a time: two of the same name cannot both pass the uniqueness check, and two
          * listings cannot each give a copied folder a different new id.
@@ -171,8 +174,8 @@ export const ProjectService = defineService({
             for (let suffix = 1; ; suffix++) {
                 const dir = path.join(root, suffix === 1 ? folderName : `${folderName} ${suffix}`);
                 // `toFolderName()` leaves no separator and no leading dot, so this holds; checked because a folder
-                // outside the data root would be one the sandbox cannot see, or one of the person's own.
-                assert(path.dirname(dir) === root, 'Project folder outside the data root');
+                // outside the projects' folder would be one the agent does not see as a project, or one of the person's own.
+                assert(path.dirname(dir) === root, "Project folder outside the projects' folder");
                 try {
                     // Not recursive: it fails on an existing folder, also one created since the check, or a file.
                     await mkdir(dir);

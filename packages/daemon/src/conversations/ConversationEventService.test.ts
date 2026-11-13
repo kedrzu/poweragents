@@ -25,9 +25,9 @@ test("tags a new conversation with its project, and skips the agent's sub-sessio
     const created = await container.resolve(ProjectService).create('Alfa');
     assert('created' in created);
     feeds.push([
-        { type: 'sessionCreated', sessionId: 'ses_sub', directory: '/Poweragents/Alfa', parentId: 'ses_1' },
-        { type: 'sessionCreated', sessionId: 'ses_x', directory: '/Poweragents/Próba' },
-        { type: 'sessionCreated', sessionId: 'ses_1', directory: '/Poweragents/Alfa' },
+        { type: 'sessionCreated', sessionId: 'ses_sub', directory: '/Poweragents/projects/Alfa', parentId: 'ses_1' },
+        { type: 'sessionCreated', sessionId: 'ses_x', directory: '/Poweragents/projects/Próba' },
+        { type: 'sessionCreated', sessionId: 'ses_1', directory: '/Poweragents/projects/Alfa' },
     ]);
 
     const events = await collect(container.resolve(ConversationEventService), 1);

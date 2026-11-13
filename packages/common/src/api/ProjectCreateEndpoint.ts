@@ -7,7 +7,7 @@ const input = createInputSchema<ProjectCreateInput>('{ name: string }', value =>
     'name' in value && typeof value.name === 'string' ? { name: value.name } : undefined,
 );
 
-/** Creates a project and its folder in the profile's data root. */
+/** Creates a project and its folder in the profile's data root, under `projects/` (created when missing). */
 export const ProjectCreateEndpoint = defineEndpoint<ProjectCreateInput, ProjectCreateResult>({
     name: 'projects/create',
     input,

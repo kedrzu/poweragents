@@ -13,8 +13,8 @@ export const POWERAGENTS_LIMA_DIR = defineEnvVariable('POWERAGENTS_LIMA_DIR', {
 });
 
 /**
- * The profile's data root: every project's folder, and the only folder of the computer the sandbox mounts. Set in tests
- * and development to keep a real profile untouched.
+ * The profile's data root: the projects (`PROJECTS_FOLDER`) and the Memory (`MEMORY_FOLDER`), and the only folder of the
+ * computer the sandbox mounts. Set in tests and development to keep a real profile untouched.
  */
 export const POWERAGENTS_DATA_ROOT = defineEnvVariable('POWERAGENTS_DATA_ROOT', {
     default: () => path.join(os.homedir(), 'Poweragents'),
@@ -29,3 +29,9 @@ export const POWERAGENTS_DATA_ROOT = defineEnvVariable('POWERAGENTS_DATA_ROOT', 
 export const POWERAGENTS_LIMA_HOME = defineEnvVariable('POWERAGENTS_LIMA_HOME', {
     default: () => path.join(os.homedir(), '.poweragents', 'lima'),
 });
+
+/** The data root's folder holding every project's folder. */
+export const PROJECTS_FOLDER = 'projects';
+
+/** The data root's folder holding the Memory: plain files about the person, read and written by the agent (design D9). */
+export const MEMORY_FOLDER = 'memory';

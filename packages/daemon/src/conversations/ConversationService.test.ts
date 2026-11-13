@@ -308,8 +308,8 @@ async function setup() {
         ...fixture,
         conversations: container.resolve(ConversationService),
         projectA,
-        dirA: '/Poweragents/Alfa',
-        dirB: '/Poweragents/Beta',
+        dirA: '/Poweragents/projects/Alfa',
+        dirB: '/Poweragents/projects/Beta',
     };
 }
 

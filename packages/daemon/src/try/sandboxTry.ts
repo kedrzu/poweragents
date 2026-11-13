@@ -20,7 +20,8 @@ import { OpencodeSessionPromptCommand } from '@poweragents/opencode/OpencodeSess
 import type { OpencodeReportedError } from '@poweragents/opencode/OpencodeTypes.js';
 
 import { ClaudeSignInService } from '../claude/ClaudeSignInService.js';
-import { POWERAGENTS_DATA_ROOT } from '../env.js';
+import { toAgentDir } from '../conversations/utils/toAgentDir.js';
+import { POWERAGENTS_DATA_ROOT, PROJECTS_FOLDER } from '../env.js';
 import { LimaSandbox } from '../sandbox/LimaSandbox.js';
 import { Sandbox } from '../sandbox/Sandbox.js';
 import { SandboxOpencodeConnection } from '../sandbox/SandboxOpencodeConnection.js';
@@ -31,8 +32,8 @@ import { SandboxOpencodeConnection } from '../sandbox/SandboxOpencodeConnection.
 
 const DEFAULT_PROMPT = 'Utwórz plik hello.md z krótkim powitaniem i powiedz, co zrobiłeś.';
 const PROJECT = 'Próba';
-/** The same folder as the container sees it: the data root is mounted at `/Poweragents`. */
-const CONTAINER_PROJECT_DIR = `/Poweragents/${PROJECT}`;
+/** The same folder as the container sees it. */
+const CONTAINER_PROJECT_DIR = toAgentDir(PROJECT);
 const CLAUDE_INTEGRATION = 'claude-agent';
 const LOAD_TIMEOUT_MS = 30_000;
 
@@ -46,7 +47,7 @@ container.set(LoggerTransport, (logger, level, message, obj) => {
 container.register(LimaSandbox);
 container.register(SandboxOpencodeConnection);
 const sandbox = container.resolve(Sandbox);
-const hostProjectDir = path.join(container.resolve(POWERAGENTS_DATA_ROOT), PROJECT);
+const hostProjectDir = path.join(container.resolve(POWERAGENTS_DATA_ROOT), PROJECTS_FOLDER, PROJECT);
 const claude = container.resolve(ClaudeSignInService);
 const opencode = {
     listModels: container.resolve(OpencodeModelListCommand),

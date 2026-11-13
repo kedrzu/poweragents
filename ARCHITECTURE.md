@@ -81,6 +81,9 @@ The Vue packages are not emitted: `ui` exports its sources and is type-checked b
   the installer carries no image. `POWERAGENTS_LIMA_HOME` (the VM, default `~/.poweragents/lima`; the agent's password
   sits in the folder above it) and `POWERAGENTS_DATA_ROOT` move a first start into a scratch folder, leaving the real VM
   untouched.
+- The profile's data root (`POWERAGENTS_DATA_ROOT`, default `~/Poweragents`) is the only host folder the sandbox
+  mounts, at `/Poweragents` in the VM and the agent's container. It holds `projects/<project folder>/` (a folder with a
+  `.project.json` marker, `ProjectService`) and `memory/`.
 - `bun run desktop` starts the shell in development: Tauri runs `nuxt dev` on port 4100 and the daemon from source under
   `bun --watch`, and the shell starts no sidecar.
 - The window may call only Tauri's core (`capabilities/default.json`), and its CSP allows connections only to the shell
