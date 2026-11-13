@@ -30,6 +30,13 @@ step "🛠️ Generating tsconfigs and translations..."
 bun run monorepo
 bun run localise
 
+# The sandbox runs in a Lima VM on macOS; the daemon runs the pinned `limactl` from packages/daemon/vendor/lima in
+# development. CI is Linux and never needs it.
+if [ "$(uname)" = "Darwin" ]; then
+    step "🐧 Fetching Lima..."
+    bun scripts/fetchLima.ts
+fi
+
 step "📝 Building typescript..."
 bun x tsgo --build
 

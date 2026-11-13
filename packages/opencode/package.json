@@ -1,0 +1,32 @@
+{
+    "name": "@poweragents/opencode",
+    "version": "0.0.0",
+    "private": true,
+    "description": "The client of OpenCode, the agent engine running in the sandbox: its HTTP API typed from OpenCode's OpenAPI spec, one command per operation",
+    "type": "module",
+    "sideEffects": false,
+    "exports": {
+        "./package.json": "./package.json",
+        "./*.js": {
+            "types": "./dist/*.d.ts",
+            "source": "./src/*.ts",
+            "import": "./dist/*.js",
+            "default": "./dist/*.js"
+        }
+    },
+    "scripts": {
+        "schema": "curl -fsSL https://raw.githubusercontent.com/anomalyco/opencode/v2.2.7/packages/protocol/openapi.json -o src/openapi.json && oxfmt src/openapi.json",
+        "codegen": "openapi-typescript src/openapi.json -o src/schema.gen.ts && oxfmt src/schema.gen.ts"
+    },
+    "dependencies": {
+        "@nzyme/ioc": "workspace:*",
+        "@nzyme/logging": "workspace:*",
+        "@nzyme/openapi": "workspace:*",
+        "@nzyme/utils": "workspace:*"
+    },
+    "devDependencies": {
+        "@nzyme/ioc-testing": "workspace:*",
+        "@nzyme/tsconfig": "workspace:*",
+        "openapi-typescript": "7.13.0"
+    }
+}

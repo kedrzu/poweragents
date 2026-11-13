@@ -16,12 +16,20 @@
     "scripts": {
         "dev": "bun --watch ./src/main.ts",
         "start": "bun ./dist/main.js",
-        "sidecar": "tsgo --build && bun ../../scripts/bundleDaemonSidecar.ts"
+        "sidecar": "tsgo --build && bun ../../scripts/bundleDaemonSidecar.ts",
+        "fetch-lima": "bun ../../scripts/fetchLima.ts"
     },
     "dependencies": {
-        "@poweragents/common": "workspace:*"
+        "@nzyme/fetch-utils": "workspace:*",
+        "@nzyme/ioc": "workspace:*",
+        "@nzyme/logging": "workspace:*",
+        "@nzyme/rpc": "workspace:*",
+        "@nzyme/utils": "workspace:*",
+        "@poweragents/common": "workspace:*",
+        "@poweragents/opencode": "workspace:*"
     },
     "devDependencies": {
+        "@nzyme/ioc-testing": "workspace:*",
         "@nzyme/tsconfig": "workspace:*"
     },
     "nx": {
