@@ -1,0 +1,6 @@
+// The app shell's background and the sidebar's width, which the sidebar sits on.
+.backdrop {
+    width: 300px;
+    min-height: 480px;
+    background: linear-gradient(160deg, $color-bg-1, $color-bg-2);
+}

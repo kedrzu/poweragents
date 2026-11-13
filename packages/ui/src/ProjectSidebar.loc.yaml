@@ -1,0 +1,15 @@
+newProject:
+  en: New project
+  pl: Nowy projekt
+
+projects:
+  en: Projects
+  pl: Projekty
+
+noProjects:
+  en: You have no projects yet.
+  pl: Nie masz jeszcze projektów.
+
+newConversation:
+  en: New conversation
+  pl: Nowa rozmowa

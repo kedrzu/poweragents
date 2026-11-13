@@ -1,5 +1,23 @@
 // Global CSS, imported once by the app (`app.vue`) and by the Storybook preview.
 
+// The design's fonts, bundled so the desktop shell's CSP (`font-src 'self'`) serves them. Each file
+// declares its faces per script with a `unicode-range`, so only the subsets a page uses are loaded.
+// Bricolage Grotesque with its optical-size axis, which `font-heading` (`tokens.scss`) sets.
+@import '@fontsource-variable/bricolage-grotesque/opsz.css';
+@import '@fontsource-variable/instrument-sans/wght.css';
+@import '@fontsource-variable/jetbrains-mono/wght.css';
+
+// The palette's colours (`$palettes` in `tokens.scss`): Meadow unless `<html>` names another.
+:root {
+    @include palette-properties($palette-default);
+}
+
+@each $name, $_ in $palettes {
+    :root[data-palette='#{$name}'] {
+        @include palette-properties($name);
+    }
+}
+
 *,
 *::before,
 *::after {
@@ -9,8 +27,9 @@
 body {
     margin: 0;
     background: $color-surface;
-    color: $color-text;
+    color: $color-ink;
     font-family: $font-family-base;
+    -webkit-font-smoothing: antialiased;
 }
 
 :focus-visible {

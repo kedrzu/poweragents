@@ -1,0 +1,6 @@
+// What screen 44 puts under the progress bar; a screen's own text, so the app styles it, not the shell.
+.hint {
+    margin: 0;
+    color: $color-ink-muted;
+    font-size: $font-size-body-s;
+}

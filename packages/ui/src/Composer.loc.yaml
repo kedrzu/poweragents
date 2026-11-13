@@ -1,0 +1,11 @@
+label:
+  en: Message to the agent
+  pl: Wiadomość do agenta
+
+runningHint:
+  en: You can keep writing — the agent will read your message when it finishes its current step.
+  pl: Możesz pisać dalej — agent przeczyta Twoją wiadomość, gdy skończy bieżący krok.
+
+stop:
+  en: Stop
+  pl: Zatrzymaj

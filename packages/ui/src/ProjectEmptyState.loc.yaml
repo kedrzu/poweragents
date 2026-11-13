@@ -1,0 +1,19 @@
+title:
+  en: '{name} is ready'
+  pl: Projekt {name} jest gotowy
+
+body:
+  en: Tell the agent what this project is for. It will keep its notes and files right here.
+  pl: Napisz agentowi, do czego służy ten projekt. Swoje notatki i pliki będzie trzymał właśnie tutaj.
+
+composerPlaceholder:
+  en: What should we do in {name}?
+  pl: Co robimy w projekcie {name}?
+
+newTitle:
+  en: New conversation in {name}
+  pl: Nowa rozmowa w projekcie {name}
+
+newBody:
+  en: The agent works on this project's files. Your earlier conversations are on the left.
+  pl: Agent pracuje na plikach tego projektu. Poprzednie rozmowy są po lewej.
