@@ -267,3 +267,27 @@ first names).
 Nikola, Marie, Ada are taken; less famous ones may not be), (b) go back to longer coined names that
 sound like words (two syllables, e.g. in the Nib/Neb spirit but longer) and trademark-screen them,
 or (c) take Neb forward and get a professional trademark opinion on the US class-9 filing.
+
+## Round 11 — 2026-11-13
+
+**User on round 10.** Look for coined first names that are a bit longer: two syllables, three at most.
+**Directions.** 186 hand-made, name-shaped coinages (Arlo/Marlo/Tobin-like: -o, -a, -en, -el, -in,
+-is endings; a few three-syllable Italianate ones) swept by DNS on .com, .app, .so and `get…com`;
+8 picked by ear for App Store, Exa and TMview.
+**What came out.** Domains open up again with length: 28 had a bare `.app` (plus .so and often
+`get…com`), none had .com. But the ones that sound best are already AI startups: **Tano** (tano.ai,
+AI agents for creator marketing, $5M seed this week), **Tembo** (tembo.io, runs AI coding agents,
+$20M), **Tavino** (tavino.ai, family app with AI care), **Toren** (Toren AI, video intelligence),
+**Tibo** (tibo.ai, AI security). Lesson: AI companies grab exactly this kind of short, warm, name-like
+coinage; the next sweep should treat a taken `.ai` as a strong warning sign and check it before
+listening.
+**Trademarks.** TMview started resetting connections after a burst of queries (rate limit) — no
+trademark screen this round. To do for the finalists.
+**Where I looked.** DNS sweep; App Store search API (8 names); Exa (Tano/Tibo; Varlo/Tembo;
+Toren/Davino/Tavino).
+**Best.** Varlo (varlo.app, varlo.so, getvarlo.com likely-free; only a small UK hospitality-software
+firm) — Arlo/Marlo family, punchy, one spelling. Davino (davino.app, davino.so, getdavino.com; nothing
+found) — warm, Italian, three syllables; sounds like Vivino and da Vinci.
+**Proposed next.** Ask how Varlo and Davino sound. Run a larger sweep (a few hundred) with `.ai`
+as a filter, keep only names whose `.ai` is free or parked, then TM-screen the top five once TMview
+lets us back in.

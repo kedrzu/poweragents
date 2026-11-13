@@ -45,6 +45,8 @@ mascot.
 - Not only three-letter names: longer names are fine if they sound good (round 9).
 - Wants to try names and surnames of famous people, e.g. scientists ("Edison", probably taken) (round 9).
 
+- Wants coined first names, a bit longer: ideally two syllables, three at most (round 10).
+
 ## Rejected directions
 
 - Literal Polish first names (Radek, Bronek, Franek, Olek) — "feel weird" (round 4).

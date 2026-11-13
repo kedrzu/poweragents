@@ -6,17 +6,21 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 |-|-|-|-|-|
 | Neb | short punchy coinages, 3 letters (CVC), one spelling | getneb.com free ($8.99 first year, $11 renewal), neb.so free ($57.50/yr), heyneb.com likely-free | Trademark NEB — USPTO application 50085789, filed 2026-09-02 by New Epic Base Co., classes 9, 16, 25, 38, 41 (pending) (notable); Trademark NEB — New England Biolabs, USPTO 85706291 and WIPO 1261950, classes 1, 42 (registered) (notable); Trademark ONE NEB — Ingeniatrics, EUIPO 017045642 and USPTO, classes 9, 35 (notable); NEB Compute (Nebula Data, Australia) — GPU compute and token services; neb GitHub repo 'explore AI agents' (8 stars) (notable) | **liked** / one spelling mostly (Neb/Nebb); an old word for beak or nose; close to Nib in sound / "neb, zib fajne" (round 8) |
 | Able Hand | a helper with real power: helper nouns with a warm adjective | ablehand.app likely-free, getablehand.com likely-free | none found |  |
+| Allo | coined first names, 2–3 syllables | allo.app likely-free | Google Allo (discontinued messenger); Allo: AI Second Business Phone (iOS) (notable) | French 'allô' = hello; Allo/Alo/Hallo |
 | Anning | surnames of famous scientists and inventors | anning.app likely-free, anning.so likely-free, getanning.com likely-free | none found |  |
 | Archimedes | surnames of famous scientists and inventors | archimedes.so likely-free | none found |  |
 | Avogadro | surnames of famous scientists and inventors | avogadro.app likely-free, avogadro.so likely-free | none found |  |
 | Babbage | surnames of famous scientists and inventors | babbage.so likely-free, getbabbage.com likely-free | none found |  |
 | Banach | surnames of famous scientists and inventors | banach.app likely-free, banach.so likely-free, getbanach.com likely-free | none found |  |
 | Beb | short punchy coinages, 3 letters (CVC), one spelling | beb.so likely-free, getbeb.com likely-free | none found |  |
+| Benlo | coined first names, 2–3 syllables | benlo.app unknown, benlo.so likely-free | none found |  |
 | Bernoulli | surnames of famous scientists and inventors | bernoulli.so likely-free, getbernoulli.com likely-free | none found |  |
 | Brahe | surnames of famous scientists and inventors | brahe.app likely-free, brahe.so likely-free, getbrahe.com likely-free | none found |  |
 | Busy Hands | a helper with real power: helper nouns with a warm adjective | busyhands.app likely-free, getbusyhands.com likely-free | none found |  |
 | Copernicus | surnames of famous scientists and inventors | copernicus.so likely-free, getcopernicus.com likely-free | none found |  |
+| Davino | coined first names, 2–3 syllables | davino.app likely-free, davino.so likely-free, getdavino.com likely-free | none found | 'da-VEE-no'; Italian 'da vino' (of wine); sound-alike of Vivino (wine app) and Da Vinci |
 | Dirac | surnames of famous scientists and inventors | dirac.so likely-free | none found |  |
+| Doren | coined first names, 2–3 syllables | doren.app likely-free, doren.ai unknown, doren.so likely-free, getdoren.com likely-free | none found |  |
 | Easy Lever | giant / lever / mighty compounds: small and easy, but strong | easylever.app likely-free, easylever.ai unknown, geteasylever.com likely-free | none found | one spelling; 'lever' is LEE-ver (UK) / LEV-er (US) |
 | Everyday Magic | plain compounds: easy yet powerful | everydaymagic.app likely-free, geteverydaymagic.com likely-free | none found |  |
 | Everyday Superpower | plain compounds: easy yet powerful | everydaysuperpower.app likely-free, everydaysuperpower.ai unknown, geteverydaysuperpower.com likely-free | none found |  |
@@ -33,6 +37,7 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 | Hilbert | surnames of famous scientists and inventors | hilbert.so likely-free | none found |  |
 | Humboldt | surnames of famous scientists and inventors | humboldt.so likely-free | none found |  |
 | Hypatia | surnames of famous scientists and inventors | hypatia.so likely-free, gethypatia.com likely-free | none found |  |
+| Ilano | coined first names, 2–3 syllables | ilano.app unknown, ilano.ai unknown, ilano.so likely-free, getilano.com likely-free | none found |  |
 | Jenner | surnames of famous scientists and inventors | jenner.so likely-free, getjenner.com likely-free | none found |  |
 | Jep | short punchy coinages, 3 letters (CVC), one spelling | jep.so likely-free, getjep.com likely-free | none found |  |
 | Jerro | coined first names in the Jerry/J vein | jerro.app likely-free, jerro.ai unknown, getjerro.com likely-free | none found | 'JEH-roh'; could be typed Jero or Gerro; close to the user's own Jerry idea |
@@ -42,6 +47,7 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 | Kib | short punchy coinages, 3 letters (CVC), one spelling | getkib.com likely-free, kib.so free ($57.50/yr), kib.to likely-free | KIB — Kuwait International Bank apps; KiBee (kibee.ai) support agent (notable); KIB marks in class 9: Kuwait International Bank (EU), American Technology Components (US) (notable) | Kib/Kibb/Cib; reads like 'kibble' |
 | Kind Hand | a helper with real power: helper nouns with a warm adjective | kindhand.app likely-free, kindhand.ai unknown, getkindhand.com likely-free | none found |  |
 | Kopernik | surnames of famous scientists and inventors | kopernik.so likely-free, getkopernik.com likely-free | Kopernik TV — PL mark, classes 35/41/42 (Akademia Kopernika); no other mark in 9/42 (notable); Centrum Nauki Kopernik (Warsaw science centre); Kopernik gingerbread (Toruń); Copernicus = EU Earth-observation programme (notable) | Polish form of Copernicus; foreigners know 'Copernicus' and may spell it with C |
+| Lano | coined first names, 2–3 syllables | lano.app unknown, lano.so likely-free | none found |  |
 | Leave It To Me | what a helper says: 'on it', 'sorted' | leaveittome.app likely-free, getleaveittome.com likely-free | none found |  |
 | Lep | short punchy coinages, 3 letters (CVC), one spelling | lep.so likely-free, getlep.com likely-free | none found |  |
 | Lise | surnames of famous scientists and inventors | lise.so likely-free, getlise.com likely-free | none found |  |
@@ -55,6 +61,7 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 | Mighty Small | giant / lever / mighty compounds: small and easy, but strong | mightysmall.app likely-free, mightysmall.ai unknown, getmightysmall.com likely-free | Mighty Small — UK online supermarket for small brands; NH small-business directory (notable) | one spelling in English |
 | Mip | short punchy coinages, 3 letters (CVC), one spelling | mip.so likely-free | none found |  |
 | Nibling | like Nib: tiny marks, dots and bits (mascot-shaped words) | nibling.ai likely-free, getnibling.com likely-free | Nibl AI — iOS calorie-tracking app (sound-alike) (notable) | gender-neutral word for a niece or nephew; contains 'nib'; heard as 'nibbling' |
+| Olvin | coined first names, 2–3 syllables | olvin.app likely-free, olvin.ai unknown, olvin.so likely-free, getolvin.com likely-free | none found |  |
 | Overnight | folklore household helpers that work while you sleep | overnight.app likely-free | 'overnight agent' is a common phrase in the category: claude-overnight (PyPI), JoeBro 'Night Shift', many guides (notable) | one spelling; everyday word; suggests work done while you sleep and change 'overnight' |
 | Pab | short punchy coinages, 3 letters (CVC), one spelling | pab.so likely-free, getpab.com likely-free, pab.to likely-free | none found |  |
 | Pasteur | surnames of famous scientists and inventors | pasteur.so likely-free, getpasteur.com likely-free | none found |  |
@@ -66,14 +73,18 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 | Raman | surnames of famous scientists and inventors | raman.app likely-free, raman.so likely-free, getraman.com likely-free | none found |  |
 | Ramanujan | surnames of famous scientists and inventors | ramanujan.so likely-free, getramanujan.com likely-free | none found |  |
 | Riemann | surnames of famous scientists and inventors | riemann.so likely-free, getriemann.com likely-free | none found |  |
+| Selino | coined first names, 2–3 syllables | selino.app likely-free, selino.ai unknown, selino.so likely-free, getselino.com likely-free | none found |  |
 | Small Lever | plain compounds: easy yet powerful | smalllever.com likely-free, smalllever.app likely-free, smalllever.ai unknown, getsmalllever.com likely-free | none found | 'smalllever' has a triple l in the domain; heard as 'small lever' or 'smaller' — risky |
 | Smidgen | like Nib: tiny marks, dots and bits (mascot-shaped words) | smidgen.ai likely-free | smidgen.io — x402 micropayment paywalls for humans and AI agents (notable) | Smidgen/Smidgeon/Smidgin — several spellings |
 | Somerville | surnames of famous scientists and inventors | somerville.app likely-free, somerville.so likely-free, getsomerville.com likely-free | none found |  |
 | Szczepanik | surnames of famous scientists and inventors | szczepanik.app likely-free, szczepanik.ai unknown, szczepanik.so likely-free, getszczepanik.com likely-free | none found |  |
 | Teb | short punchy coinages, 3 letters (CVC), one spelling | teb.so likely-free, teb.to likely-free | none found |  |
+| Telen | coined first names, 2–3 syllables | telen.app likely-free, telen.so likely-free, gettelen.com likely-free | none found |  |
 | Tem | short punchy coinages, 3 letters (CVC), one spelling | tem.so likely-free | none found |  |
+| Tibo | coined first names, 2–3 syllables | tibo.so likely-free | Tibo (tibo.ai) — enterprise AI security; 'Tibo' is also a well-known indie SaaS founder (Tweet Hunter) (notable) | Tibo/Tebo/Tibeau |
 | Trusty Hand | a helper with real power: helper nouns with a warm adjective | trustyhand.app likely-free, trustyhand.ai unknown, gettrustyhand.com likely-free | none found |  |
 | Vab | short punchy coinages, 3 letters (CVC), one spelling | vab.so likely-free, getvab.com likely-free, vab.co likely-free | none found |  |
+| Varlo | coined first names, 2–3 syllables | varlo.app likely-free, varlo.so likely-free, getvarlo.com likely-free | Varlo (varlo.co.uk) — UK hospitality back-office software for pubs (notable) | 'VAR-lo', like Arlo/Marlo; one spelling |
 | Vep | short punchy coinages, 3 letters (CVC), one spelling | vep.so likely-free, getvep.com likely-free, vep.to likely-free | none found |  |
 | Vob | short punchy coinages, 3 letters (CVC), one spelling | vob.so likely-free, vob.to likely-free | none found |  |
 | Waterbear | mascot: small creature, small but mighty | waterbear.app likely-free | WaterBear (waterbear.com) — Amsterdam documentary streaming platform, 700k community, 100K+ Android installs (notable) | 'water bear' = tardigrade; heard as two words, typed waterbear — same domain; Polish speakers fine |

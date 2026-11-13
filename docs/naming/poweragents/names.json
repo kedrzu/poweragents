@@ -25762,6 +25762,584 @@
           "checked_at": "2026-11-13"
         }
       }
+    },
+    "Varlo": {
+      "direction": "coined first names, 2–3 syllables",
+      "round": 11,
+      "domains": {
+        "varlo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "varlo.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "varlo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "varlo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getvarlo.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "Varlo (varlo.co.uk) — UK hospitality back-office software for pubs",
+          "space": "B2B software",
+          "severity": "notable",
+          "url": "https://varlo.co.uk/about",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "'VAR-lo', like Arlo/Marlo; one spelling"
+    },
+    "Tano": {
+      "direction": "coined first names, 2–3 syllables",
+      "round": 11,
+      "domains": {
+        "tano.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tano.app": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "tano.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tano.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gettano.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "Tano (tano.ai) — AI agents for creator marketing, London, $5M seed (Nov 2026)",
+          "space": "AI agents",
+          "severity": "blocking",
+          "url": "https://www.tano.ai/",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "'TAH-no'; one spelling",
+      "verdict": "dropped",
+      "reason": "blocking: Tano (tano.ai) — AI agents for creator marketing, London, $5M seed (Nov 2026)"
+    },
+    "Tibo": {
+      "direction": "coined first names, 2–3 syllables",
+      "round": 11,
+      "domains": {
+        "tibo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tibo.app": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "tibo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tibo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gettibo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "Tibo (tibo.ai) — enterprise AI security; 'Tibo' is also a well-known indie SaaS founder (Tweet Hunter)",
+          "space": "AI software",
+          "severity": "notable",
+          "url": "https://tibo.ai/",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "Tibo/Tebo/Tibeau"
+    },
+    "Toren": {
+      "direction": "coined first names, 2–3 syllables",
+      "round": 11,
+      "domains": {
+        "toren.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "toren.app": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "toren.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "toren.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gettoren.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "Toren AI — funded AI video-intelligence SaaS; Toren — AI brand-visibility tracker",
+          "space": "AI software",
+          "severity": "blocking",
+          "url": "https://www.globenewswire.com/news-release/2023/08/28/2732626/0/en/toren-ai-launches-commercial-operations-revolutionizing-industries-with-state-of-the-art-video-intelligence-solutions.html",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "Toren/Torin/Torren",
+      "verdict": "dropped",
+      "reason": "blocking: Toren AI — funded AI video-intelligence SaaS; Toren — AI brand-visibility tracke"
+    },
+    "Tembo": {
+      "direction": "coined first names, 2–3 syllables",
+      "round": 11,
+      "domains": {
+        "tembo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tembo.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tembo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tembo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gettembo.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "Tembo (tembo.io) — cloud platform running AI agents (Claude Code, Codex…), $20M raised",
+          "space": "AI agents",
+          "severity": "blocking",
+          "url": "https://www.tembo.io/",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "Swahili for elephant",
+      "verdict": "dropped",
+      "reason": "blocking: Tembo (tembo.io) — cloud platform running AI agents (Claude Code, Codex…), $20M "
+    },
+    "Davino": {
+      "direction": "coined first names, 2–3 syllables",
+      "round": 11,
+      "domains": {
+        "davino.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "davino.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "davino.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "davino.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getdavino.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [],
+      "phonetics": "'da-VEE-no'; Italian 'da vino' (of wine); sound-alike of Vivino (wine app) and Da Vinci"
+    },
+    "Tavino": {
+      "direction": "coined first names, 2–3 syllables",
+      "round": 11,
+      "domains": {
+        "tavino.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tavino.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tavino.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tavino.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gettavino.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "Tavino AI (tavino.ai) — family app with AI care check-ins",
+          "space": "consumer AI app",
+          "severity": "blocking",
+          "url": "https://tavino.ai/",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "'ta-VEE-no'",
+      "verdict": "dropped",
+      "reason": "blocking: Tavino AI (tavino.ai) — family app with AI care check-ins"
+    },
+    "Allo": {
+      "direction": "coined first names, 2–3 syllables",
+      "round": 11,
+      "domains": {
+        "allo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "allo.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "allo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "allo.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getallo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "Google Allo (discontinued messenger); Allo: AI Second Business Phone (iOS)",
+          "space": "messaging / AI phone",
+          "severity": "notable",
+          "url": "https://apps.apple.com/search?term=allo",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "French 'allô' = hello; Allo/Alo/Hallo"
+    },
+    "Doren": {
+      "direction": "coined first names, 2–3 syllables",
+      "round": 11,
+      "domains": {
+        "doren.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "doren.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "doren.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "doren.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getdoren.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Olvin": {
+      "direction": "coined first names, 2–3 syllables",
+      "round": 11,
+      "domains": {
+        "olvin.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "olvin.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "olvin.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "olvin.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getolvin.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Telen": {
+      "direction": "coined first names, 2–3 syllables",
+      "round": 11,
+      "domains": {
+        "telen.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "telen.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "telen.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "telen.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gettelen.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Selino": {
+      "direction": "coined first names, 2–3 syllables",
+      "round": 11,
+      "domains": {
+        "selino.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "selino.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "selino.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "selino.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getselino.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Ilano": {
+      "direction": "coined first names, 2–3 syllables",
+      "round": 11,
+      "domains": {
+        "ilano.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ilano.app": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "ilano.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "ilano.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getilano.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Lano": {
+      "direction": "coined first names, 2–3 syllables",
+      "round": 11,
+      "domains": {
+        "lano.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lano.app": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "lano.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lano.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getlano.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Benlo": {
+      "direction": "coined first names, 2–3 syllables",
+      "round": 11,
+      "domains": {
+        "benlo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "benlo.app": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "benlo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "benlo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getbenlo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Belvo": {
+      "direction": "coined first names, 2–3 syllables",
+      "round": 11,
+      "domains": {
+        "belvo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "belvo.app": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "belvo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "belvo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getbelvo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "Belvo (fintech API)"
     }
   }
 }
