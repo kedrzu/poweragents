@@ -371,3 +371,22 @@ names with a character behind them, two or three syllables, open vowels, no hars
 English canon (Spanish, Italian, French, Russian, Nordic, Japanese), plus Sancho/Camillo-shaped first
 names (-cho, -llo, -lo endings with a soft middle). TM screen Sancho, Camillo and Oberon when TMview
 responds.
+**Directions (user: "keep searching").** Helpers and companions from world literature and legend
+beyond English (≈35: commedia dell'arte servants, Mozart and Molière servants, the Musketeers'
+lackeys, Russian servants and the Humpbacked Horse, Odin's ravens, Greek companions); first names
+shaped like Sancho and Camillo (≈45: -cho, -llo, -lo, -io).
+**What came out.** The richest pool yet for domains: commedia/opera servants have .app, .ai, .so and
+`get…com` all open (Scapino, Colombina, Pedrillo, Zerlina…), but many are long. Common Italian and
+Spanish first names keep only `.so`/`get…com`. **Tancho** — the Japanese red-crowned crane, a luck
+symbol, and a near-rhyme of Sancho — has tancho.app, tancho.ai (confirmed at whois.nic.ai), tancho.so
+and gettancho.com free and no conflict beyond the sound-alike Tanka (an agent app for founders).
+**Despina** (Mozart's clever maid who stage-manages the plot; also a moon of Neptune) has .app, .so,
+`get…com` free and nothing found.
+**Where I looked.** App Store search API (8); web search (Tancho, Despina); whois.nic.ai for three .ai.
+TMview still resets — no trademark screen.
+**Best.** Tancho, Despina, Alonso (Don Quixote's real name; alonso.app; F1's Fernando Alonso),
+Scapino (all four TLDs; a Dutch shoe chain), Masetto, Bellino. Muninn (memory raven) fits the meaning
+but has two spellings and the Munin monitoring tool.
+**Proposed next.** Ask which of these the user hears as Sancho/Camillo-good. Then trademark-screen the
+liked set (Sancho, Camillo, Oberon + new picks) — via TMview when it responds, or ask the user to run
+the TMview search themselves.

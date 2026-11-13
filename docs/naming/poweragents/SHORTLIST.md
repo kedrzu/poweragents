@@ -11,33 +11,49 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 | Able Hand | a helper with real power: helper nouns with a warm adjective | ablehand.app likely-free, getablehand.com likely-free | none found |  |
 | Aiuto | words for help, friend or strength from other languages, easy in English | aiuto.so likely-free | none found |  |
 | Allo | coined first names, 2–3 syllables | allo.app likely-free | Google Allo (discontinued messenger); Allo: AI Second Business Phone (iOS) (notable) | French 'allô' = hello; Allo/Alo/Hallo |
+| Alonso | first names shaped like Sancho and Camillo | alonso.app likely-free, alonso.so likely-free, getalonso.com likely-free | Fernando Alonso (F1 driver); Alonso & Martínez (law firm) (notable) | Don Quixote's real name, Alonso Quijano — Sancho's master; a-LON-so |
+| Amadeo | first names shaped like Sancho and Camillo | amadeo.so likely-free, getamadeo.com likely-free | none found |  |
 | Amico | words for help, friend or strength from other languages, easy in English | amico.so likely-free | none found |  |
+| Amillo | first names shaped like Sancho and Camillo | amillo.app likely-free, amillo.ai unknown, amillo.so likely-free, getamillo.com likely-free | none found |  |
 | Animo | words for help, friend or strength from other languages, easy in English | animo.so likely-free | Animo (Manim AI) — desktop app for AI math animations; Animos — AI friends for kids; Aniimo — game (9.7k ratings) (notable) | Spanish/Italian 'spirit, courage' — '¡Ánimo!' = 'you can do it'; AH-nee-mo |
 | Anning | surnames of famous scientists and inventors | anning.app likely-free, anning.so likely-free, getanning.com likely-free | none found |  |
+| Anselmo | first names shaped like Sancho and Camillo | anselmo.so likely-free, getanselmo.com likely-free | none found |  |
 | Arawn | names from Shakespeare, Arthurian legend and fairy tales | arawn.app likely-free, arawn.so likely-free, getarawn.com likely-free | none found |  |
 | Archimedes | surnames of famous scientists and inventors | archimedes.so likely-free | none found |  |
+| Arlecchino | faithful helpers and companions from world literature and legend | arlecchino.ai unknown, arlecchino.so likely-free, getarlecchino.com likely-free | none found |  |
 | Arpeggio | soft and strong in one word (music, Latin) | arpeggio.so likely-free, getarpeggio.com likely-free | none found |  |
+| Aurelio | first names shaped like Sancho and Camillo | aurelio.so likely-free | none found |  |
 | Avogadro | surnames of famous scientists and inventors | avogadro.app likely-free, avogadro.so likely-free | none found |  |
 | Awhina | words for help, friend or strength from other languages, easy in English | awhina.app likely-free, awhina.so likely-free | none found |  |
 | Ayuda | words for help, friend or strength from other languages, easy in English | ayuda.so likely-free | none found |  |
 | Babbage | surnames of famous scientists and inventors | babbage.so likely-free, getbabbage.com likely-free | none found |  |
 | Banach | surnames of famous scientists and inventors | banach.app likely-free, banach.so likely-free, getbanach.com likely-free | none found |  |
+| Basilio | first names shaped like Sancho and Camillo | basilio.app likely-free, basilio.so likely-free, getbasilio.com likely-free | none found |  |
 | Beb | short punchy coinages, 3 letters (CVC), one spelling | beb.so likely-free, getbeb.com likely-free | none found |  |
 | Bedivere | names from Shakespeare, Arthurian legend and fairy tales | bedivere.ai unknown, bedivere.so likely-free, getbedivere.com likely-free | none found |  |
+| Bellino | first names shaped like Sancho and Camillo | bellino.app likely-free, bellino.so likely-free, getbellino.com likely-free | none found | Italian 'pretty little one'; bel-LEE-no |
 | Benlo | coined first names, 2–3 syllables | benlo.app unknown, benlo.so likely-free | none found |  |
 | Benon | coined two-syllable names, soft consonants, no clusters (systematic sweep, .ai free) | benon.app likely-free, benon.ai unknown, benon.so likely-free, getbenon.com likely-free | none found | BEN-on; a rare Ugandan first name |
 | Benvolio | names from Shakespeare, Arthurian legend and fairy tales | benvolio.app likely-free, benvolio.so likely-free, getbenvolio.com likely-free | none found |  |
 | Bernoulli | surnames of famous scientists and inventors | bernoulli.so likely-free, getbernoulli.com likely-free | none found |  |
 | Brahe | surnames of famous scientists and inventors | brahe.app likely-free, brahe.so likely-free, getbrahe.com likely-free | none found |  |
 | Branwen | names from Shakespeare, Arthurian legend and fairy tales | branwen.app likely-free, branwen.ai unknown, branwen.so likely-free, getbranwen.com likely-free | none found |  |
+| Brighella | faithful helpers and companions from world literature and legend | brighella.app likely-free, brighella.ai unknown, brighella.so likely-free, getbrighella.com likely-free | none found |  |
 | Brigid | names from Shakespeare, Arthurian legend and fairy tales | brigid.ai unknown, brigid.so likely-free | none found |  |
+| Brunello | first names shaped like Sancho and Camillo | brunello.so likely-free, getbrunello.com likely-free | none found |  |
 | Brunhild | names from Shakespeare, Arthurian legend and fairy tales | brunhild.app likely-free, brunhild.ai unknown, brunhild.so likely-free, getbrunhild.com likely-free | none found |  |
 | Busy Hands | a helper with real power: helper nouns with a warm adjective | busyhands.app likely-free, getbusyhands.com likely-free | none found |  |
+| Camilo | first names shaped like Sancho and Camillo | camilo.so likely-free, getcamilo.com likely-free | none found |  |
 | Capella | small companions in the sky: moons and small stars | capella.so likely-free | none found |  |
 | Castor | small companions in the sky: moons and small stars | castor.so likely-free | none found |  |
+| Celestina | faithful helpers and companions from world literature and legend | celestina.so likely-free, getcelestina.com likely-free | none found |  |
+| Celio | first names shaped like Sancho and Camillo | celio.so likely-free | none found |  |
+| Colombina | faithful helpers and companions from world literature and legend | colombina.app likely-free, colombina.ai unknown, colombina.so likely-free, getcolombina.com likely-free | none found |  |
 | Copernicus | surnames of famous scientists and inventors | copernicus.so likely-free, getcopernicus.com likely-free | none found |  |
 | Cordelia | names from Shakespeare, Arthurian legend and fairy tales | cordelia.so likely-free | none found |  |
+| Cyrano | faithful helpers and companions from world literature and legend | cyrano.so likely-free | none found |  |
 | Deneb | small companions in the sky: moons and small stars | deneb.so likely-free | none found |  |
+| Despina | faithful helpers and companions from world literature and legend | despina.app likely-free, despina.so likely-free, getdespina.com likely-free | none found | the clever maid who stage-manages Così fan tutte; also a moon of Neptune; des-PEE-na |
 | Dirac | surnames of famous scientists and inventors | dirac.so likely-free | none found |  |
 | Doren | coined first names, 2–3 syllables | doren.app likely-free, doren.ai unknown, doren.so likely-free, getdoren.com likely-free | none found |  |
 | Dulce | words for help, friend or strength from other languages, easy in English | dulce.so likely-free | none found |  |
@@ -49,10 +65,12 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 | Everyday Magic | plain compounds: easy yet powerful | everydaymagic.app likely-free, geteverydaymagic.com likely-free | none found |  |
 | Everyday Superpower | plain compounds: easy yet powerful | everydaysuperpower.app likely-free, everydaysuperpower.ai unknown, geteverydaysuperpower.com likely-free | none found |  |
 | Fahrenheit | surnames of famous scientists and inventors | fahrenheit.so likely-free | none found |  |
+| Fausto | first names shaped like Sancho and Camillo | fausto.so likely-free, getfausto.com likely-free | none found |  |
 | Fep | short punchy coinages, 3 letters (CVC), one spelling | fep.so likely-free, getfep.com likely-free, fep.to likely-free | none found |  |
 | Ferdinand | names from Shakespeare, Arthurian legend and fairy tales | ferdinand.so likely-free | none found |  |
 | Feynman | surnames of famous scientists and inventors | feynman.ai unknown, feynman.so likely-free | none found |  |
 | Fibonacci | surnames of famous scientists and inventors | fibonacci.so likely-free | none found |  |
+| Fidelio | faithful helpers and companions from world literature and legend | fidelio.so likely-free | none found |  |
 | Fika | words for help, friend or strength from other languages, easy in English | fika.so likely-free | none found |  |
 | Fionn | names from Shakespeare, Arthurian legend and fairy tales | fionn.so likely-free | none found |  |
 | Fleming | surnames of famous scientists and inventors | fleming.so likely-free, getfleming.com likely-free | FLEMING marks in 9/42 (Fleming Medical, EU) (notable) |  |
@@ -63,9 +81,11 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 | Galahad | names from Shakespeare, Arthurian legend and fairy tales | galahad.so likely-free | none found |  |
 | Gareth | names from Shakespeare, Arthurian legend and fairy tales | gareth.so likely-free, getgareth.com likely-free | none found |  |
 | Gauss | surnames of famous scientists and inventors | gauss.so likely-free | none found |  |
+| Gavroche | faithful helpers and companions from world literature and legend | gavroche.app likely-free, gavroche.so likely-free, getgavroche.com likely-free | none found |  |
 | Gawain | names from Shakespeare, Arthurian legend and fairy tales | gawain.app likely-free, gawain.so likely-free, getgawain.com likely-free | none found |  |
 | Gezellig | words for help, friend or strength from other languages, easy in English | gezellig.so likely-free | none found |  |
 | Good Elf | folklore household helpers that work while you sleep | goodelf.app likely-free, goodelf.ai unknown, getgoodelf.com likely-free | Good Elf Software — small US SaaS studio using AI (notable) | one spelling |
+| Grimaud | faithful helpers and companions from world literature and legend | grimaud.app likely-free, grimaud.ai unknown, grimaud.so likely-free, getgrimaud.com likely-free | none found |  |
 | Gwydion | names from Shakespeare, Arthurian legend and fairy tales | gwydion.app likely-free, gwydion.so likely-free, getgwydion.com likely-free | none found |  |
 | Handy Helper | a helper with real power: helper nouns with a warm adjective | handyhelper.app likely-free, handyhelper.ai unknown | none found |  |
 | Heg | short punchy coinages, 3 letters (CVC), one spelling | heg.so likely-free, getheg.com likely-free, heg.to likely-free | none found |  |
@@ -73,11 +93,13 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 | Hilbert | surnames of famous scientists and inventors | hilbert.so likely-free | none found |  |
 | Hobbes | names of famous helpers and sidekicks in literature | hobbes.app likely-free, hobbes.so likely-free | Hobbes from Calvin and Hobbes (Watterson IP); Hobbes: Your Nutrition Coach (iOS) (notable) | the tiger friend; Thomas Hobbes |
 | Horatio | names of famous helpers and sidekicks in literature | horatio.so likely-free | Horatio — CX outsourcing company offering AI implementation and agentic AI services (notable) | Hamlet's loyal friend; ho-RAY-shee-oh — long |
+| Hugin | faithful helpers and companions from world literature and legend | hugin.so likely-free | none found |  |
 | Humboldt | surnames of famous scientists and inventors | humboldt.so likely-free | none found |  |
 | Hygge | words for help, friend or strength from other languages, easy in English | hygge.so likely-free | none found |  |
 | Hypatia | surnames of famous scientists and inventors | hypatia.so likely-free, gethypatia.com likely-free | none found |  |
 | Ikaika | words for help, friend or strength from other languages, easy in English | ikaika.so likely-free, getikaika.com likely-free | none found |  |
 | Ilano | coined first names, 2–3 syllables | ilano.app unknown, ilano.ai unknown, ilano.so likely-free, getilano.com likely-free | none found |  |
+| Iolaus | faithful helpers and companions from world literature and legend | iolaus.so likely-free, getiolaus.com likely-free | none found |  |
 | Ishmael | names of famous helpers and sidekicks in literature | ishmael.so likely-free | none found |  |
 | Isolde | names from Shakespeare, Arthurian legend and fairy tales | isolde.so likely-free, getisolde.com likely-free | none found |  |
 | Jenner | surnames of famous scientists and inventors | jenner.so likely-free, getjenner.com likely-free | none found |  |
@@ -104,8 +126,14 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 | Lohengrin | names from Shakespeare, Arthurian legend and fairy tales | lohengrin.app likely-free, lohengrin.ai unknown, lohengrin.so likely-free, getlohengrin.com likely-free | none found |  |
 | Lom | short punchy coinages, 3 letters (CVC), one spelling | lom.so likely-free, getlom.com likely-free | none found |  |
 | Long Lever | plain compounds: easy yet powerful | longlever.app likely-free, getlonglever.com likely-free | none found |  |
+| Lorenzo | first names shaped like Sancho and Camillo | lorenzo.so likely-free, getlorenzo.com likely-free | none found |  |
+| Lucho | first names shaped like Sancho and Camillo | lucho.so likely-free | none found |  |
+| Lucio | first names shaped like Sancho and Camillo | lucio.so likely-free | none found |  |
 | Lynette | names from Shakespeare, Arthurian legend and fairy tales | lynette.so likely-free | none found |  |
 | Lysander | names from Shakespeare, Arthurian legend and fairy tales | lysander.so likely-free, getlysander.com likely-free | none found |  |
+| Marcello | first names shaped like Sancho and Camillo | marcello.app likely-free, marcello.so likely-free | none found |  |
+| Masetto | faithful helpers and companions from world literature and legend | masetto.app likely-free, masetto.so likely-free, getmasetto.com likely-free | none found | the peasant in Don Giovanni; ma-ZET-to |
+| Matteo | first names shaped like Sancho and Camillo | matteo.so likely-free | none found |  |
 | Mendel | surnames of famous scientists and inventors | mendel.ai unknown, mendel.so likely-free | none found |  |
 | Mercator | surnames of famous scientists and inventors | mercator.so likely-free | none found |  |
 | Mercutio | names from Shakespeare, Arthurian legend and fairy tales | mercutio.so likely-free | none found |  |
@@ -118,9 +146,11 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 | Miranda | small companions in the sky: moons and small stars | miranda.so likely-free | none found |  |
 | Mitra | words for help, friend or strength from other languages, easy in English | mitra.so likely-free | none found |  |
 | Msaada | words for help, friend or strength from other languages, easy in English | msaada.so likely-free, getmsaada.com likely-free | none found |  |
+| Muninn | faithful helpers and companions from world literature and legend | muninn.so likely-free | Munin — open-source server-monitoring tool; Muninn apps (Icelandic learning, Valhalla game) (notable) | Odin's raven of memory; Muninn/Munin — two spellings |
 | Mysa | words for help, friend or strength from other languages, easy in English | mysa.so likely-free | none found |  |
 | Namin | coined two-syllable names, soft consonants, no clusters (systematic sweep, .ai free) | namin.app likely-free, namin.ai unknown, namin.so likely-free, getnamin.com likely-free | none found | NAH-min |
 | Nebin | coined two-syllable names, soft consonants, no clusters (systematic sweep, .ai free) | nebin.app likely-free, nebin.ai unknown, nebin.so likely-free, getnebin.com likely-free | none found | extends the liked Neb; NEB-in |
+| Nello | coined -o names in the Jerro vein | nello.so likely-free | none found |  |
 | Nereid | small companions in the sky: moons and small stars | nereid.so likely-free, getnereid.com likely-free | none found |  |
 | Nguvu | words for help, friend or strength from other languages, easy in English | nguvu.ai unknown, nguvu.so likely-free, getnguvu.com likely-free | none found |  |
 | Nibling | like Nib: tiny marks, dots and bits (mascot-shaped words) | nibling.ai likely-free, getnibling.com likely-free | Nibl AI — iOS calorie-tracking app (sound-alike) (notable) | gender-neutral word for a niece or nephew; contains 'nib'; heard as 'nibbling' |
@@ -128,12 +158,18 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 | Ohana | words for help, friend or strength from other languages, easy in English | ohana.so likely-free | none found |  |
 | Oisin | names from Shakespeare, Arthurian legend and fairy tales | oisin.so likely-free, getoisin.com likely-free | none found |  |
 | Olvin | coined first names, 2–3 syllables | olvin.app likely-free, olvin.ai unknown, olvin.so likely-free, getolvin.com likely-free | none found |  |
+| Orlando | first names shaped like Sancho and Camillo | orlando.so likely-free | none found |  |
 | Orsino | names from Shakespeare, Arthurian legend and fairy tales | orsino.so likely-free, getorsino.com likely-free | none found |  |
+| Ottavio | first names shaped like Sancho and Camillo | ottavio.so likely-free, getottavio.com likely-free | none found |  |
+| Ottone | first names shaped like Sancho and Camillo | ottone.ai unknown, ottone.so likely-free, getottone.com likely-free | none found |  |
 | Overnight | folklore household helpers that work while you sleep | overnight.app likely-free | 'overnight agent' is a common phrase in the category: claude-overnight (PyPI), JoeBro 'Night Shift', many guides (notable) | one spelling; everyday word; suggests work done while you sleep and change 'overnight' |
 | Pab | short punchy coinages, 3 letters (CVC), one spelling | pab.so likely-free, getpab.com likely-free, pab.to likely-free | none found |  |
+| Pablo | first names shaped like Sancho and Camillo | pablo.so likely-free | none found |  |
+| Papageno | faithful helpers and companions from world literature and legend | papageno.so likely-free, getpapageno.com likely-free | none found |  |
 | Parsifal | names from Shakespeare, Arthurian legend and fairy tales | parsifal.app likely-free, parsifal.so likely-free, getparsifal.com likely-free | none found |  |
 | Passepartout | names of famous helpers and sidekicks in literature | passepartout.so likely-free, getpassepartout.com likely-free | none found |  |
 | Pasteur | surnames of famous scientists and inventors | pasteur.so likely-free, getpasteur.com likely-free | none found |  |
+| Pedrillo | faithful helpers and companions from world literature and legend | pedrillo.app likely-free, pedrillo.ai unknown, pedrillo.so likely-free, getpedrillo.com likely-free | none found |  |
 | Pellinore | names from Shakespeare, Arthurian legend and fairy tales | pellinore.app likely-free, pellinore.ai unknown, pellinore.so likely-free, getpellinore.com likely-free | none found |  |
 | Pennino | like Nib: tiny marks, dots and bits (mascot-shaped words) | pennino.app likely-free, pennino.ai unknown, getpennino.com likely-free | none found | Italian for 'nib'; Pennino/Penino |
 | Percival | names from Shakespeare, Arthurian legend and fairy tales | percival.so likely-free | none found |  |
@@ -146,21 +182,28 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 | Pollux | small companions in the sky: moons and small stars | pollux.so likely-free | none found |  |
 | Pono | words for help, friend or strength from other languages, easy in English | pono.so likely-free | none found |  |
 | Portia | names from Shakespeare, Arthurian legend and fairy tales | portia.so likely-free | none found |  |
+| Pylades | faithful helpers and companions from world literature and legend | pylades.app likely-free, pylades.ai unknown, pylades.so likely-free, getpylades.com likely-free | none found |  |
 | Queequeg | names of famous helpers and sidekicks in literature | queequeg.ai unknown, queequeg.so likely-free, getqueequeg.com likely-free | none found |  |
 | Quiet Power | plain compounds: easy yet powerful | quietpower.app likely-free | none found |  |
 | Rafiki | words for help, friend or strength from other languages, easy in English | rafiki.so likely-free | none found |  |
 | Raman | surnames of famous scientists and inventors | raman.app likely-free, raman.so likely-free, getraman.com likely-free | none found |  |
 | Ramanujan | surnames of famous scientists and inventors | ramanujan.so likely-free, getramanujan.com likely-free | none found |  |
+| Ramiro | first names shaped like Sancho and Camillo | ramiro.so likely-free, getramiro.com likely-free | none found |  |
 | Rhiannon | names from Shakespeare, Arthurian legend and fairy tales | rhiannon.so likely-free, getrhiannon.com likely-free | none found |  |
 | Riemann | surnames of famous scientists and inventors | riemann.so likely-free, getriemann.com likely-free | none found |  |
 | Rigel | small companions in the sky: moons and small stars | rigel.so likely-free | none found |  |
+| Rocco | broader real first names: international and Polish, easy for English speakers | rocco.so likely-free | none found |  |
+| Rucio | faithful helpers and companions from world literature and legend | rucio.app likely-free, rucio.ai unknown, rucio.so likely-free, getrucio.com likely-free | none found |  |
 | Sahaya | words for help, friend or strength from other languages, easy in English | sahaya.so likely-free | none found |  |
+| Sandro | first names shaped like Sancho and Camillo | sandro.so likely-free, getsandro.com likely-free | none found |  |
 | Saudade | words for help, friend or strength from other languages, easy in English | saudade.so likely-free | none found |  |
+| Scapino | faithful helpers and companions from world literature and legend | scapino.app likely-free, scapino.ai likely-free, scapino.so likely-free, getscapino.com likely-free | Scapino — Dutch shoe-store chain (notable) | Scapin/Scapino, the clever servant who fixes every scheme; ska-PEE-no |
 | Selino | coined first names, 2–3 syllables | selino.app likely-free, selino.ai unknown, selino.so likely-free, getselino.com likely-free | none found |  |
 | Sforzando | soft and strong in one word (music, Latin) | sforzando.app likely-free, sforzando.ai unknown, sforzando.so likely-free, getsforzando.com likely-free | none found |  |
 | Sganarelle | names of famous helpers and sidekicks in literature | sganarelle.app likely-free, sganarelle.ai unknown, sganarelle.so likely-free, getsganarelle.com likely-free | none found |  |
 | Shakti | words for help, friend or strength from other languages, easy in English | shakti.so likely-free | none found |  |
 | Siegfried | names from Shakespeare, Arthurian legend and fairy tales | siegfried.ai unknown, siegfried.so likely-free | none found |  |
+| Silvio | first names shaped like Sancho and Camillo | silvio.so likely-free | none found |  |
 | Small Lever | plain compounds: easy yet powerful | smalllever.com likely-free, smalllever.app likely-free, smalllever.ai unknown, getsmalllever.com likely-free | none found | 'smalllever' has a triple l in the domain; heard as 'small lever' or 'smaller' — risky |
 | Smidgen | like Nib: tiny marks, dots and bits (mascot-shaped words) | smidgen.ai likely-free | smidgen.io — x402 micropayment paywalls for humans and AI agents (notable) | Smidgen/Smidgeon/Smidgin — several spellings |
 | Somerville | surnames of famous scientists and inventors | somerville.app likely-free, somerville.so likely-free, getsomerville.com likely-free | none found |  |
@@ -169,6 +212,7 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 | Suaviter | soft and strong in one word (music, Latin) | suaviter.app likely-free, suaviter.ai unknown, suaviter.so likely-free, getsuaviter.com likely-free | none found |  |
 | Szczepanik | surnames of famous scientists and inventors | szczepanik.app likely-free, szczepanik.ai unknown, szczepanik.so likely-free, getszczepanik.com likely-free | none found |  |
 | Taliesin | names from Shakespeare, Arthurian legend and fairy tales | taliesin.so likely-free, gettaliesin.com likely-free | none found |  |
+| Tancho | first names shaped like Sancho and Camillo | tancho.app likely-free, tancho.ai likely-free, tancho.so likely-free, gettancho.com likely-free | Tanka — 'agent platform for founders' iOS app (sound-alike, 1.3k Product Hunt votes) (notable) | Japanese tanchō, the red-crowned crane (luck, long life); TAHN-cho; Sancho's sound |
 | Teb | short punchy coinages, 3 letters (CVC), one spelling | teb.so likely-free, teb.to likely-free | none found |  |
 | Teben | coined two-syllable names, soft consonants, no clusters (systematic sweep, .ai free) | teben.app unknown, teben.ai unknown, teben.so likely-free, getteben.com likely-free | none found | TEB-en |
 | Telen | coined first names, 2–3 syllables | telen.app likely-free, telen.so likely-free, gettelen.com likely-free | none found |  |
@@ -179,9 +223,14 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 | Tibon | coined two-syllable names, soft consonants, no clusters (systematic sweep, .ai free) | tibon.app likely-free, tibon.ai unknown, tibon.so likely-free, gettibon.com likely-free | none found | TEE-bon or TIB-on |
 | Tika | words for help, friend or strength from other languages, easy in English | tika.so likely-free | none found |  |
 | Titania | small companions in the sky: moons and small stars | titania.so likely-free, gettitania.com likely-free | none found |  |
+| Tomillo | first names shaped like Sancho and Camillo | tomillo.app likely-free, tomillo.ai likely-free, tomillo.so likely-free, gettomillo.com likely-free | none found | Spanish 'thyme'; Spanish to-MEE-yo vs English to-MIL-lo |
+| Tonino | first names shaped like Sancho and Camillo | tonino.ai unknown, tonino.so likely-free, gettonino.com likely-free | none found |  |
 | Tristan | names from Shakespeare, Arthurian legend and fairy tales | tristan.so likely-free | none found |  |
 | Trusty Hand | a helper with real power: helper nouns with a warm adjective | trustyhand.app likely-free, trustyhand.ai unknown, gettrustyhand.com likely-free | none found |  |
+| Tullio | first names shaped like Sancho and Camillo | tullio.so likely-free, gettullio.com likely-free | none found |  |
+| Ugo | first names shaped like Sancho and Camillo | ugo.so likely-free | none found |  |
 | Vab | short punchy coinages, 3 letters (CVC), one spelling | vab.so likely-free, getvab.com likely-free, vab.co likely-free | none found |  |
+| Vasco | first names shaped like Sancho and Camillo | vasco.so likely-free | none found |  |
 | Vep | short punchy coinages, 3 letters (CVC), one spelling | vep.so likely-free, getvep.com likely-free, vep.to likely-free | none found |  |
 | Viola | names from Shakespeare, Arthurian legend and fairy tales | viola.so likely-free | none found |  |
 | Vivien | names from Shakespeare, Arthurian legend and fairy tales | vivien.so likely-free, getvivien.com likely-free | none found |  |
@@ -200,6 +249,7 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 | Zavon | coined two-syllable names, soft consonants, no clusters (systematic sweep, .ai free) | zavon.app likely-free, zavon.ai unknown, zavon.so likely-free, getzavon.com likely-free | none found | Zavon/Zavan |
 | Zeg | short punchy coinages, 3 letters (CVC), one spelling | zeg.so likely-free, getzeg.com likely-free | none found |  |
 | Zemon | coined two-syllable names, soft consonants, no clusters (systematic sweep, .ai free) | zemon.app likely-free, zemon.ai unknown, zemon.so likely-free, getzemon.com likely-free | none found | ZEM-on |
+| Zerlina | faithful helpers and companions from world literature and legend | zerlina.app likely-free, zerlina.ai unknown, zerlina.so likely-free, getzerlina.com likely-free | none found |  |
 | Zevan | coined two-syllable names, soft consonants, no clusters (systematic sweep, .ai free) | zevan.app likely-free, zevan.ai unknown, zevan.so likely-free, getzevan.com likely-free | none found | sounds like Warren Zevon |
 | Zin | short punchy coinages, 3 letters (CVC), one spelling | zin.so likely-free | none found |  |
 | Zon | short punchy coinages, 3 letters (CVC), one spelling | zon.so likely-free | none found |  |
