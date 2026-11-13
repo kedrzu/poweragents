@@ -2,11 +2,8 @@ import { simplifyAliasesModule } from '@nzyme/nuxt-tools';
 import { loadEnvVariables } from '@nzyme/project-utils/loadEnvVariables.js';
 import { defineNuxtConfig } from 'nuxt/config';
 
-import { DAEMON_PORT } from '@poweragents/common/daemonAddress.js';
+import { DAEMON_PORT, DEV_SERVER_PORT } from '@poweragents/common/daemonAddress.js';
 import { cssOptions } from '@poweragents/ui/viteShared.js';
-
-/** The port `nuxt dev` serves on; the desktop shell loads it in development (`build.devUrl` in `tauri.conf.json`). */
-const DEV_SERVER_PORT = 4100;
 
 /** The environment this build is for; the same `ENV` Nx keys its cache on (`localEnvironment`). */
 const ENV = process.env.ENV ?? 'dev';
@@ -48,6 +45,21 @@ export default defineNuxtConfig({
         define: {
             // A literal in the built code (`shims.d.ts`), so a production build drops what it guards.
             __ENV__: JSON.stringify(ENV),
+        },
+        // Dependencies Vite would otherwise discover only at runtime, reloading the page the first time a screen
+        // using them opens (`bun run dev`, `bun run desktop`).
+        optimizeDeps: {
+            include: [
+                '@lucide/vue',
+                '@tauri-apps/api/core',
+                '@tauri-apps/plugin-opener',
+                '@nzyme/utils > fast-deep-equal',
+                '@nzyme/vue-utils > lodash.debounce',
+                'reka-ui',
+                '@poweragents/ui > mdast-util-from-markdown',
+                '@poweragents/ui > mdast-util-gfm',
+                '@poweragents/ui > micromark-extension-gfm',
+            ],
         },
     },
 });

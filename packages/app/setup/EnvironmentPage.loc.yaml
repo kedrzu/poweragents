@@ -1,0 +1,33 @@
+preparingTitle:
+  en[auto]: Preparing the agent's workplace
+  pl: Przygotowuję miejsce pracy agenta
+preparingBody:
+  en[auto]: You don't need to do anything. The first time, I download the environment, which takes from a few seconds to a few minutes.
+  pl: Nie musisz nic robić. Za pierwszym razem pobieram środowisko, to trwa od kilku sekund do kilku minut.
+preparingHint:
+  en[auto]: You can minimise the window — once everything is ready, I'll move on by myself.
+  pl: Możesz zminimalizować okno — gdy wszystko będzie gotowe, sam przejdę dalej.
+starting:
+  en[auto]: Starting…
+  pl: Uruchamiam…
+startingVm:
+  en[auto]: Starting the agent's computer…
+  pl: Uruchamiam komputer agenta…
+buildingImage:
+  en[auto]: Preparing the tools…
+  pl: Przygotowuję narzędzia…
+startingAgent:
+  en[auto]: Starting the agent…
+  pl: Uruchamiam agenta…
+almostReady:
+  en[auto]: Almost ready…
+  pl: Prawie gotowe…
+failedTitle:
+  en[auto]: Couldn't prepare the agent's workplace
+  pl: Nie udało się przygotować miejsca pracy agenta
+failedBody:
+  en[auto]: It's not your fault — something didn't work on this computer or at this moment. Nothing on your computer has changed. Try again; if it happens again, restart your computer and try once more.
+  pl: To nie Twój błąd — coś nie zadziałało na tym komputerze albo w tej chwili. Na Twoim komputerze nic się nie zmieniło. Spróbuj ponownie; jeśli to się powtórzy, uruchom komputer ponownie i spróbuj jeszcze raz.
+retry:
+  en[auto]: Try again
+  pl: Spróbuj ponownie

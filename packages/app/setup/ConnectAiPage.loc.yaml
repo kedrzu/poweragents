@@ -1,0 +1,30 @@
+title:
+  en[auto]: Connect your AI account
+  pl: Połącz swoje konto AI
+body:
+  en[auto]: The agent uses the subscription you already have. You sign in on the provider's page — we never see your password.
+  pl: Agent korzysta z subskrypcji, którą już masz. Logujesz się na stronie dostawcy — Twojego hasła nigdy nie zobaczymy.
+claude:
+  en[auto]: Claude
+  pl: Claude
+claudePlans:
+  en[auto]: If you have the Pro or Max plan
+  pl: Jeśli masz plan Pro lub Max
+connectClaude:
+  en[auto]: Connect Claude
+  pl: Połącz z Claude
+chatgpt:
+  en[auto]: ChatGPT
+  pl: ChatGPT
+chatgptPlans:
+  en[auto]: If you have the Plus or Pro plan
+  pl: Jeśli masz plan Plus lub Pro
+connectChatgpt:
+  en[auto]: Connect ChatGPT
+  pl: Połącz z ChatGPT
+soon:
+  en[auto]: Coming soon
+  pl: Wkrótce
+startFailed:
+  en[auto]: Couldn't open Claude's sign-in. Try again.
+  pl: Nie udało się otworzyć logowania Claude. Spróbuj ponownie.

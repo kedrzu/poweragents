@@ -1,7 +1,13 @@
 {
     "$schema": "../gen/schemas/desktop-schema.json",
     "identifier": "default",
-    "description": "What the app's window may call in the shell: Tauri's core only",
+    "description": "What the app's window may call in the shell: Tauri's core, and opening https and mail links (Claude's sign-in and plans pages, the links in the agent's replies) in the system browser or mail app",
     "windows": ["main"],
-    "permissions": ["core:default"]
+    "permissions": [
+        "core:default",
+        {
+            "identifier": "opener:allow-open-url",
+            "allow": [{ "url": "https://*" }, { "url": "mailto:*" }]
+        }
+    ]
 }

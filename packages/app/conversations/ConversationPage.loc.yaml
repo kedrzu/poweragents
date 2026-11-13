@@ -1,0 +1,43 @@
+placeholder:
+  en: Write to the agent…
+  pl: Napisz do agenta…
+
+placeholderRunning:
+  en: Add something while the agent works…
+  pl: Dopisz coś, gdy agent pracuje…
+
+errorOther:
+  en: "The agent didn't answer: Claude reported an error on its side."
+  pl: 'Agent nie odpowiedział: Claude zgłosił błąd po swojej stronie.'
+
+errorSignedOut:
+  en: 'No answer: you were signed out of Claude.'
+  pl: 'Bez odpowiedzi: wylogowano Cię z Claude.'
+
+errorUsageLimit:
+  en: 'No answer: your Claude usage limit is used up.'
+  pl: 'Bez odpowiedzi: wykorzystano limit Claude.'
+
+signedOutTitle:
+  en: You were signed out of Claude
+  pl: Wylogowano Cię z Claude
+
+signedOutBody:
+  en: "The agent won't answer until you sign in again. Your message stays in the conversation."
+  pl: Agent nie odpowie, dopóki nie zalogujesz się ponownie. Twoja wiadomość zostaje w rozmowie.
+
+signIn:
+  en: Sign in again
+  pl: Zaloguj się ponownie
+
+usageLimitTitle:
+  en: Claude usage limit reached
+  pl: Wykorzystano limit Claude
+
+usageLimitBody:
+  en: The limit resets on {date} at {time}. The agent will answer again then.
+  pl: Limit odnowi się {date} o {time}. Wtedy agent znów odpowie.
+
+usageLimitBodyUnknown:
+  en: "The limit will reset after a while; Claude didn't say when."
+  pl: Limit odnowi się za jakiś czas; Claude nie podał kiedy.

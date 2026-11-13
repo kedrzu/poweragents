@@ -1,0 +1,9 @@
+{
+    "$schema": "https://schema.tauri.app/config/2",
+    "bundle": {
+        "resources": {
+            "../../daemon/vendor/lima/bin/limactl": "lima/bin/limactl",
+            "../../daemon/vendor/lima/share/lima/": "lima/share/lima/"
+        }
+    }
+}

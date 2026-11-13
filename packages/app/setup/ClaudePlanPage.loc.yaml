@@ -1,0 +1,33 @@
+title:
+  en[auto]: This account has neither the Pro nor the Max plan
+  pl: To konto nie ma planu Pro ani Max
+body:
+  en[auto]: You're signed in, but Claude doesn't let the agent work with this account's plan.
+  pl: Udało się zalogować, ale Claude nie pozwala używać agenta z planem tego konta.
+claude:
+  en[auto]: Claude
+  pl: Claude
+plansLabel:
+  en[auto]: 'The agent works with the plan:'
+  pl: 'Agent działa z planem:'
+planPro:
+  en[auto]: Claude Pro
+  pl: Claude Pro
+planMax:
+  en[auto]: Claude Max
+  pl: Claude Max
+hint:
+  en[auto]: If you have another account with such a plan, sign in with it. You can also buy a plan on Claude's website and come back here.
+  pl: Jeśli masz inne konto z takim planem, zaloguj się na nie. Możesz też wykupić plan na stronie Claude i wrócić tutaj.
+back:
+  en[auto]: Back
+  pl: Wróć
+showPlans:
+  en[auto]: See Claude's plans
+  pl: Zobacz plany Claude
+signInAgain:
+  en[auto]: Sign in with another account
+  pl: Zaloguj się innym kontem
+startFailed:
+  en[auto]: Couldn't open Claude's sign-in. Try again.
+  pl: Nie udało się otworzyć logowania Claude. Spróbuj ponownie.

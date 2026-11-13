@@ -1,8 +1,9 @@
 import { CommonPlugin } from '@nzyme/vue/CommonPlugin.js';
 import { createContainer } from '@nzyme/vue-ioc/createContainer.js';
 import { IocPlugin } from '@nzyme/vue-ioc/IocPlugin.js';
-import { defineNuxtPlugin } from 'nuxt/app';
+import { defineNuxtPlugin, useRuntimeConfig } from 'nuxt/app';
 
+import { DaemonUrl } from '@/daemon/DaemonUrl.js';
 import { AppLanguageContext } from '@/i18n/AppLanguageContext.js';
 
 /** Creates the app's IoC container and registers what every screen relies on. */
@@ -15,5 +16,6 @@ export default defineNuxtPlugin({
         nuxtApp.vueApp.use(CommonPlugin);
 
         container.register(AppLanguageContext);
+        container.set(DaemonUrl, useRuntimeConfig().public.daemonUrl);
     },
 });

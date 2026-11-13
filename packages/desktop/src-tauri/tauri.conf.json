@@ -12,7 +12,7 @@
             "wait": false
         },
         "beforeBuildCommand": {
-            "script": "bun nx run-many -t build,sidecar -p @poweragents/app,@poweragents/daemon --outputStyle=stream",
+            "script": "bun nx run @poweragents/daemon:fetch-lima && bun nx run-many -t build,sidecar -p @poweragents/app,@poweragents/daemon --outputStyle=stream",
             "cwd": "../../.."
         }
     },
