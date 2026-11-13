@@ -35426,7 +35426,11 @@
           "checked_at": "2026-11-13"
         }
       ],
-      "phonetics": "Italian 'cheerful' (Hilary); ee-LAH-ree-oh"
+      "phonetics": "Italian 'cheerful' (Hilary); ee-LAH-ree-oh",
+      "verdict": "liked",
+      "feedback": [
+        "\"ilario calkiem spoko, ale musimy pisac lowercase zeby sie nie mylilo L z I\" (round 16)"
+      ]
     },
     "Ennio": {
       "direction": "good-sounding Italian, Spanish and Latin first names",
@@ -35622,7 +35626,11 @@
           "checked_at": "2026-11-13"
         }
       ],
-      "phonetics": "'loves God'; Modigliani; ah-meh-DEH-oh"
+      "phonetics": "'loves God'; Modigliani; ah-meh-DEH-oh",
+      "verdict": "rejected",
+      "feedback": [
+        "\"amedeo sie myli z amadeo\" (round 16)"
+      ]
     },
     "Corrado": {
       "direction": "good-sounding Italian, Spanish and Latin first names",
@@ -35840,11 +35848,42 @@
           "checked_at": "2026-11-13"
         },
         "lupo.so": {
-          "status": "likely-free",
-          "method": "whois",
-          "checked_at": "2026-11-13"
+          "status": "free",
+          "method": "dynadot",
+          "checked_at": "2026-11-13",
+          "price": "$57.50/yr"
         },
         "getlupo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lupo.co": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lupo.me": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lupo.to": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "heylupo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lupoapp.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "meetlupo.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -35857,9 +35896,27 @@
           "severity": "notable",
           "url": "https://crunchbase.com/organization/lopus-ai",
           "checked_at": "2026-11-13"
+        },
+        {
+          "who": "LUPO (mylupo) — item-tracker startup on BetaList; My Little Lupo (pet app); Lupo PenSuite (Windows tools)",
+          "space": "consumer apps",
+          "severity": "notable",
+          "url": "https://betalist.com/startups/lupo",
+          "checked_at": "2026-11-13"
+        },
+        {
+          "who": "VW Lupo (car, 1998–2005); Lupo Alberto — well-known Italian comic-strip wolf",
+          "space": "culture",
+          "severity": "notable",
+          "url": "https://en.wikipedia.org/wiki/Lupo",
+          "checked_at": "2026-11-13"
         }
       ],
-      "phonetics": "Italian 'wolf'; LOO-po"
+      "phonetics": "Italian 'wolf'; LOO-po; one spelling; getlupo.com, heylupo.com, meetlupo.com, lupoapp.com all taken; lupo.so free at $57.50, lupo.to likely-free",
+      "verdict": "liked",
+      "feedback": [
+        "\"lupo jest super\" (round 16)"
+      ]
     },
     "Falco": {
       "direction": "good-sounding Italian, Spanish and Latin first names",
@@ -37147,6 +37204,1438 @@
       },
       "verdict": "dropped",
       "reason": "Nintendo"
+    },
+    "Volpe": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "volpe.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "volpe.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "volpe.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "volpe.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getvolpe.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Gatto": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "gatto.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gatto.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gatto.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gatto.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getgatto.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Riccio": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "riccio.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "riccio.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "riccio.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "riccio.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getriccio.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "phonetics": "'hedgehog'; Italian REE-cho, English readers say RICK-ee-oh"
+    },
+    "Gufo": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "gufo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gufo.app": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "gufo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gufo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getgufo.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Tasso": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "tasso.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tasso.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tasso.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tasso.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gettasso.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Castoro": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "castoro.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "castoro.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "castoro.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "castoro.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getcastoro.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Passero": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "passero.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "passero.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "passero.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "passero.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getpassero.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Merlo": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "merlo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "merlo.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "merlo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "merlo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getmerlo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Corvo": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "corvo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "corvo.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "corvo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "corvo.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getcorvo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Pavone": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "pavone.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pavone.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pavone.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pavone.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getpavone.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Lince": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "lince.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lince.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lince.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lince.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getlince.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Grillo": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "grillo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "grillo.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "grillo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "grillo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getgrillo.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Cervo": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "cervo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "cervo.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "cervo.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "cervo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getcervo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Toro": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "toro.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "toro.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "toro.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "toro.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gettoro.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Lupetto": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "lupetto.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lupetto.app": {
+          "status": "free",
+          "method": "dynadot",
+          "checked_at": "2026-11-13",
+          "price": "$14.50 renewal"
+        },
+        "lupetto.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "lupetto.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getlupetto.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "phonetics": "'wolf cub' (also the youngest scouts in Italy); loo-PET-to"
+    },
+    "Lupino": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "lupino.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lupino.app": {
+          "status": "free",
+          "method": "dynadot",
+          "checked_at": "2026-11-13",
+          "price": "$14.50 renewal"
+        },
+        "lupino.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "lupino.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getlupino.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "phonetics": "'little wolf'; also the lupin flower and actress Ida Lupino; loo-PEE-no"
+    },
+    "Lupin": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "lupin.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lupin.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lupin.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lupin.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getlupin.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Oso": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "oso.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "oso.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "oso.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "oso.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getoso.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Buho": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "buho.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "buho.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "buho.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "buho.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getbuho.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Erizo": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "erizo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "erizo.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "erizo.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "erizo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "geterizo.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Grilla": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "grilla.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "grilla.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "grilla.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "grilla.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getgrilla.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Lupus": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "lupus.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lupus.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lupus.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lupus.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getlupus.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Ursus": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "ursus.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ursus.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ursus.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ursus.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getursus.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Vulpes": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "vulpes.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "vulpes.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "vulpes.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "vulpes.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getvulpes.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Corvus": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "corvus.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "corvus.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "corvus.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "corvus.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getcorvus.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Columba": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "columba.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "columba.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "columba.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "columba.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getcolumba.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Apis": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "apis.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "apis.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "apis.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "apis.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getapis.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Merula": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "merula.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "merula.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "merula.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "merula.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getmerula.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Picus": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "picus.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "picus.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "picus.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "picus.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getpicus.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Lepre": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "lepre.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lepre.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "lepre.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "lepre.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getlepre.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Tordo": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "tordo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tordo.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tordo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tordo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gettordo.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Fringuello": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "fringuello.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "fringuello.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "fringuello.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "fringuello.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getfringuello.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Cigno": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "cigno.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "cigno.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "cigno.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "cigno.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getcigno.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Airone": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "airone.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "airone.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "airone.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "airone.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getairone.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Rondine": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "rondine.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "rondine.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "rondine.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "rondine.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getrondine.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Gabbiano": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "gabbiano.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gabbiano.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "gabbiano.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "gabbiano.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getgabbiano.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Polpo": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "polpo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "polpo.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "polpo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "polpo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getpolpo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Riccetto": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "riccetto.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "riccetto.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "riccetto.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "riccetto.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getriccetto.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Orsetto": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "orsetto.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "orsetto.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "orsetto.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "orsetto.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getorsetto.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "phonetics": "'teddy bear'; or-SET-to"
+    },
+    "Micio": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "micio.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "micio.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "micio.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "micio.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getmicio.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Lupa": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "lupa.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lupa.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lupa.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lupa.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getlupa.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Lobito": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "lobito.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lobito.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lobito.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lobito.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getlobito.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Osito": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "osito.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "osito.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "osito.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "osito.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getosito.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Zorrito": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "zorrito.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "zorrito.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "zorrito.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "zorrito.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getzorrito.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Colibri": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "colibri.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "colibri.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "colibri.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "colibri.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getcolibri.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Tejon": {
+      "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
+      "round": 17,
+      "domains": {
+        "tejon.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tejon.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tejon.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tejon.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gettejon.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
     }
   }
 }

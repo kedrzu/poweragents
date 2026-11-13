@@ -411,3 +411,21 @@ Leandro, Delfino, Amedeo, Lupo. TMview still not tried this round.
 leandro.so, getleandro.com), Amedeo (amedeo.app, .so, get…com), Lupo (lupo.so; "wolf").
 **Proposed next.** Ask which of these sit with Sancho, Camillo and Tancho. Run "<name> ai" on Duccio
 and Baltasar, which also have open .app/.ai.
+
+## Round 17 — 2026-11-13
+
+**User on round 16.** Lupo "is great" (liked). Amedeo rejected — confused with Amadeo. Ilario "quite
+OK" (liked) but must be written lowercase so I is not read as l. Both points added to BRIEF.
+**Lupo, deeper.** Domains: lupo.so is a standard registration at Dynadot ($57.50/yr); lupo.to looks
+free; getlupo.com, heylupo.com, meetlupo.com, lupoapp.com, lupo.com/.app/.ai/.co/.me all taken.
+"lupo ai": nothing named Lupo in AI (Lopus AI, Lupi AI are sound-alikes). "lupo app": LUPO, a small
+item-tracker on BetaList; My Little Lupo (pet app); Lupo PenSuite. Culture: VW Lupo (car, until 2005),
+Lupo Alberto (well-known Italian comic wolf). TMview still resets connections — no trademark screen.
+**Directions.** Lupo's family: animal words that work as Italian, Spanish or Latin first names (≈50).
+**What came out.** Diminutives of Lupo are wide open: **Lupino** and **Lupetto** have .app ($14.50 at
+Dynadot), .ai, .so and get…com. **Orsetto** ("teddy bear") and **Castoro** ("beaver") too. Riccio
+("hedgehog") has .app and .so. Plain animal words keep only .so or get…com (Gufo, Gatto, Tasso, Polpo).
+**Where I looked.** DNS; Dynadot (lupo.so, lupino.app, lupetto.app); web search "lupo ai", "lupo app".
+**Proposed next.** Tell the user Lupo's domain reality (only .so/.to) and offer Lupino/Lupetto as the
+same wolf with every domain open. Run "<name> ai" on Lupino, Lupetto, Orsetto, Riccio. Ask the user to
+run a TMview search for LUPO (classes 9, 42), since TMview blocks this machine.

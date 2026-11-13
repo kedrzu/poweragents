@@ -60,6 +60,10 @@ mascot.
 - **Method, from the user:** check every name by searching "<name> ai" first — that is how the user
   found sanch.io and alonso.ai at once (round 15).
 
+- Lupo "is great" (round 16) — Italian 'wolf'; an animal name that doubles as a first name and a mascot.
+- Ilario "quite OK", but would have to be written lowercase so the capital I is not read as l (round 16).
+- Avoid names one vowel away from a famous name: "Amedeo gets confused with Amadeo" (round 16).
+
 ## Rejected directions
 
 - Coined two-syllable names ending in -en/-in/-on/-an (Nebin, Tevon, Zavon…) — "why do they all end in -on, -in, -an, -en? Let's try another direction" (round 12).
