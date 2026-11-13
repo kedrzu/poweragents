@@ -8,8 +8,8 @@ workspaces). Product design: `docs/design/poweragents/`.
 **Audience.** Non-technical people, including "AI native" chat users; later their companies.
 **Languages.** English name; the app ships in Polish and English, so the name must also be easy for
 Polish speakers. *(Inferred by the agent, not yet confirmed.)*
-**TLDs.** Checked: .com, .app, .ai. None required yet — any one open is enough. *(Inferred by the
-agent, not yet confirmed.)*
+**TLDs.** Checked: .com, .app, .ai, plus `get<name>.com`. A bare `.app` or `get<name>.com` is
+acceptable to the user (round 1) — a bare .com is not required.
 
 ## What the name should make you feel
 
@@ -18,6 +18,8 @@ strength. "An agent that is very easy to use but gives you very large possibilit
 changes how I work and how I live."
 
 ## Standing preferences
+
+- `<name>.app` and `get<name>.com` are fine (round 1).
 
 - Open to the currently popular direction of a good-sounding human first name; the user's own ideas
   were Jerry and Jer (round 0).

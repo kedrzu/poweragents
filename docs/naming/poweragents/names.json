@@ -127,6 +127,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getjack.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -145,6 +150,11 @@
           "checked_at": "2026-11-13"
         },
         "milo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getmilo.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -169,6 +179,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getarlo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -190,6 +205,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getotto.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -208,6 +228,11 @@
           "checked_at": "2026-11-13"
         },
         "theo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gettheo.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -232,6 +257,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getgus.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -250,6 +280,11 @@
           "checked_at": "2026-11-13"
         },
         "hugo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gethugo.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -274,6 +309,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getfelix.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -292,6 +332,11 @@
           "checked_at": "2026-11-13"
         },
         "ruby.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getruby.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -316,6 +361,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getpenny.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -337,6 +387,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getmabel.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -355,6 +410,11 @@
           "checked_at": "2026-11-13"
         },
         "iris.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getiris.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -426,6 +486,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getollie.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -447,6 +512,11 @@
           "status": "unknown",
           "method": "rdap",
           "checked_at": "2026-11-13"
+        },
+        "getbenny.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -465,6 +535,11 @@
           "checked_at": "2026-11-13"
         },
         "frank.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getfrank.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -489,6 +564,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getrosie.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -507,6 +587,11 @@
           "checked_at": "2026-11-13"
         },
         "sunny.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getsunny.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -531,6 +616,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getezra.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -549,6 +639,11 @@
           "checked_at": "2026-11-13"
         },
         "juno.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getjuno.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -573,6 +668,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getremy.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -591,6 +691,11 @@
           "checked_at": "2026-11-13"
         },
         "wally.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getwally.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -615,6 +720,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getteddy.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -633,6 +743,11 @@
           "checked_at": "2026-11-13"
         },
         "alfie.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getalfie.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -657,6 +772,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getbruno.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -675,6 +795,11 @@
           "checked_at": "2026-11-13"
         },
         "walt.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getwalt.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -699,6 +824,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getlever.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -717,6 +847,11 @@
           "checked_at": "2026-11-13"
         },
         "pulley.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getpulley.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -741,6 +876,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getwinch.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -759,6 +899,11 @@
           "checked_at": "2026-11-13"
         },
         "crank.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getcrank.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -783,6 +928,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getfulcrum.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -801,6 +951,11 @@
           "checked_at": "2026-11-13"
         },
         "knack.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getknack.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -825,6 +980,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getoomph.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -843,6 +1003,11 @@
           "checked_at": "2026-11-13"
         },
         "heft.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getheft.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -867,6 +1032,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getleverage.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -885,6 +1055,11 @@
           "checked_at": "2026-11-13"
         },
         "gusto.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getgusto.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -909,6 +1084,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "gettailwind.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -927,6 +1107,11 @@
           "checked_at": "2026-11-13"
         },
         "legup.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getlegup.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -951,6 +1136,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getheadstart.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -969,6 +1159,11 @@
           "checked_at": "2026-11-13"
         },
         "sidekick.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getsidekick.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -993,6 +1188,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getrighthand.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -1011,6 +1211,11 @@
           "checked_at": "2026-11-13"
         },
         "extrahands.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getextrahands.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -1035,6 +1240,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getmanyhands.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -1053,6 +1263,11 @@
           "checked_at": "2026-11-13"
         },
         "plusone.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getplusone.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -1077,6 +1292,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getbreeze.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -1095,6 +1315,11 @@
           "checked_at": "2026-11-13"
         },
         "handy.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gethandy.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -1119,6 +1344,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getdeputy.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -1137,6 +1367,11 @@
           "checked_at": "2026-11-13"
         },
         "ally.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getally.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -1161,6 +1396,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "gettoolbelt.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -1179,6 +1419,11 @@
           "checked_at": "2026-11-13"
         },
         "superpower.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getsuperpower.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -1213,6 +1458,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getotis.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -1236,6 +1486,11 @@
           "checked_at": "2026-11-13"
         },
         "meetrufus.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getrufus.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -1270,6 +1525,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "gethank.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -1293,6 +1553,11 @@
           "checked_at": "2026-11-13"
         },
         "meetarchie.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getarchie.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -1322,6 +1587,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getned.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -1340,6 +1610,11 @@
           "checked_at": "2026-11-13"
         },
         "barney.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getbarney.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -1364,6 +1639,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getwilbur.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -1382,6 +1662,11 @@
           "checked_at": "2026-11-13"
         },
         "moss.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getmoss.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -1406,6 +1691,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getjasper.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -1424,6 +1714,11 @@
           "checked_at": "2026-11-13"
         },
         "ike.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getike.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -1448,6 +1743,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getlou.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -1469,6 +1769,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getwes.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -1487,6 +1792,11 @@
           "checked_at": "2026-11-13"
         },
         "stan.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getstan.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -1543,6 +1853,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getbea.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -1561,6 +1876,11 @@
           "checked_at": "2026-11-13"
         },
         "mae.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getmae.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -1609,6 +1929,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "gethattie.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -1627,6 +1952,11 @@
           "checked_at": "2026-11-13"
         },
         "lottie.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getlottie.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -1651,6 +1981,11 @@
           "status": "unknown",
           "method": "rdap",
           "checked_at": "2026-11-13"
+        },
+        "getvera.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       },
       "phonetics": "one spelling in EN; Vera Wang, Vera Bradley"
@@ -1670,6 +2005,11 @@
           "checked_at": "2026-11-13"
         },
         "greta.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getgreta.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -1694,6 +2034,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getelsie.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -1712,6 +2057,11 @@
           "checked_at": "2026-11-13"
         },
         "pip.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getpip.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -1736,6 +2086,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getabe.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -1754,6 +2109,11 @@
           "checked_at": "2026-11-13"
         },
         "herb.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getherb.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -1778,6 +2138,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getcal.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -1796,6 +2161,11 @@
           "checked_at": "2026-11-13"
         },
         "ted.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getted.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -1819,6 +2189,11 @@
         "pocketgiant.ai": {
           "status": "taken",
           "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getpocketgiant.com": {
+          "status": "likely-free",
+          "method": "rdap",
           "checked_at": "2026-11-13"
         }
       },
@@ -1851,6 +2226,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getlittlegiant.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -1872,8 +2252,23 @@
           "status": "unknown",
           "method": "rdap",
           "checked_at": "2026-11-13"
+        },
+        "geteasygiant.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
         }
-      }
+      },
+      "conflicts": [
+        {
+          "who": "Easy Giant Shop — Italian e-commerce web agency (easygiantshop.it)",
+          "space": "web agency",
+          "severity": "noise",
+          "url": "https://linkedin.com/company/easygiantshop",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "one spelling"
     },
     "Small Lever": {
       "direction": "plain compounds: easy yet powerful",
@@ -1891,6 +2286,11 @@
         },
         "smalllever.ai": {
           "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "getsmalllever.com": {
+          "status": "likely-free",
           "method": "rdap",
           "checked_at": "2026-11-13"
         }
@@ -1924,6 +2324,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getlonglever.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -1943,6 +2348,11 @@
         },
         "lightlift.ai": {
           "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "getlightlift.com": {
+          "status": "likely-free",
           "method": "rdap",
           "checked_at": "2026-11-13"
         }
@@ -1966,6 +2376,11 @@
           "status": "unknown",
           "method": "rdap",
           "checked_at": "2026-11-13"
+        },
+        "getpocketpower.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -1984,6 +2399,11 @@
           "checked_at": "2026-11-13"
         },
         "quietpower.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getquietpower.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -2008,6 +2428,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "geteverydaymagic.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -2029,6 +2454,11 @@
           "status": "unknown",
           "method": "rdap",
           "checked_at": "2026-11-13"
+        },
+        "getplainmagic.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -2047,6 +2477,11 @@
           "checked_at": "2026-11-13"
         },
         "littleengine.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getlittleengine.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -2071,6 +2506,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getsparehands.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -2092,6 +2532,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getgoodhands.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -2110,6 +2555,11 @@
           "checked_at": "2026-11-13"
         },
         "steadyhand.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getsteadyhand.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -2134,6 +2584,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getknowhow.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -2152,6 +2607,11 @@
           "checked_at": "2026-11-13"
         },
         "wingman.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getwingman.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -2176,6 +2636,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getworkmate.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -2194,6 +2659,11 @@
           "checked_at": "2026-11-13"
         },
         "daymate.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getdaymate.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -2218,6 +2688,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getfriday.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -2236,6 +2711,11 @@
           "checked_at": "2026-11-13"
         },
         "girlfriday.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getgirlfriday.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -2260,6 +2740,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getmanfriday.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -2278,6 +2763,11 @@
           "checked_at": "2026-11-13"
         },
         "liftoff.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getliftoff.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -2302,6 +2792,11 @@
           "status": "unknown",
           "method": "rdap",
           "checked_at": "2026-11-13"
+        },
+        "getheavylifter.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -2322,6 +2817,11 @@
         "biglift.ai": {
           "status": "taken",
           "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getbiglift.com": {
+          "status": "likely-free",
+          "method": "rdap",
           "checked_at": "2026-11-13"
         }
       }
@@ -2344,6 +2844,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getsmallsteps.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -2364,6 +2869,11 @@
         "openhand.ai": {
           "status": "taken",
           "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getopenhand.com": {
+          "status": "likely-free",
+          "method": "rdap",
           "checked_at": "2026-11-13"
         }
       }
@@ -2386,6 +2896,11 @@
           "status": "unknown",
           "method": "rdap",
           "checked_at": "2026-11-13"
+        },
+        "getplushand.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -2404,6 +2919,11 @@
           "checked_at": "2026-11-13"
         },
         "fairwind.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getfairwind.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -2428,6 +2948,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "getsecondwind.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -2446,6 +2971,11 @@
           "checked_at": "2026-11-13"
         },
         "sweetspot.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getsweetspot.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -2470,6 +3000,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "geteasymode.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -2491,6 +3026,11 @@
           "status": "unknown",
           "method": "rdap",
           "checked_at": "2026-11-13"
+        },
+        "getsuperpowered.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -2510,6 +3050,1815 @@
         },
         "everydaysuperpower.ai": {
           "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "geteverydaysuperpower.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Gilbert": {
+      "direction": "warm human first names",
+      "round": 2,
+      "domains": {
+        "gilbert.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gilbert.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gilbert.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getgilbert.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Murray": {
+      "direction": "warm human first names",
+      "round": 2,
+      "domains": {
+        "murray.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "murray.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "murray.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getmurray.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Clyde": {
+      "direction": "warm human first names",
+      "round": 2,
+      "domains": {
+        "clyde.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "clyde.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "clyde.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getclyde.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Floyd": {
+      "direction": "warm human first names",
+      "round": 2,
+      "domains": {
+        "floyd.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "floyd.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "floyd.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getfloyd.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Walter": {
+      "direction": "warm human first names",
+      "round": 2,
+      "domains": {
+        "walter.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "walter.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "walter.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getwalter.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Harvey": {
+      "direction": "warm human first names",
+      "round": 2,
+      "domains": {
+        "harvey.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "harvey.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "harvey.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getharvey.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Morris": {
+      "direction": "warm human first names",
+      "round": 2,
+      "domains": {
+        "morris.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "morris.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "morris.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getmorris.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Monty": {
+      "direction": "warm human first names",
+      "round": 2,
+      "domains": {
+        "monty.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "monty.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "monty.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getmonty.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Norm": {
+      "direction": "warm human first names",
+      "round": 2,
+      "domains": {
+        "norm.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "norm.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "norm.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getnorm.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Bertie": {
+      "direction": "warm human first names",
+      "round": 2,
+      "domains": {
+        "bertie.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "bertie.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "bertie.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getbertie.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Percy": {
+      "direction": "warm human first names",
+      "round": 2,
+      "domains": {
+        "percy.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "percy.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "percy.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getpercy.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Reggie": {
+      "direction": "warm human first names",
+      "round": 2,
+      "domains": {
+        "reggie.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "reggie.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "reggie.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getreggie.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Sid": {
+      "direction": "warm human first names",
+      "round": 2,
+      "domains": {
+        "sid.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "sid.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "sid.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getsid.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Dex": {
+      "direction": "warm human first names",
+      "round": 2,
+      "domains": {
+        "dex.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "dex.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "dex.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getdex.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Jules": {
+      "direction": "warm human first names",
+      "round": 2,
+      "domains": {
+        "jules.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "jules.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "jules.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getjules.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Lenny": {
+      "direction": "warm human first names",
+      "round": 2,
+      "domains": {
+        "lenny.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lenny.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lenny.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getlenny.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Marty": {
+      "direction": "warm human first names",
+      "round": 2,
+      "domains": {
+        "marty.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "marty.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "marty.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getmarty.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Quincy": {
+      "direction": "warm human first names",
+      "round": 2,
+      "domains": {
+        "quincy.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "quincy.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "quincy.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getquincy.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Sully": {
+      "direction": "warm human first names",
+      "round": 2,
+      "domains": {
+        "sully.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "sully.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "sully.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getsully.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Toby": {
+      "direction": "warm human first names",
+      "round": 2,
+      "domains": {
+        "toby.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "toby.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "toby.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gettoby.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Mavis": {
+      "direction": "warm human first names",
+      "round": 2,
+      "domains": {
+        "mavis.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mavis.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mavis.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getmavis.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Agnes": {
+      "direction": "warm human first names",
+      "round": 2,
+      "domains": {
+        "agnes.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "agnes.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "agnes.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getagnes.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Opal": {
+      "direction": "warm human first names",
+      "round": 2,
+      "domains": {
+        "opal.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "opal.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "opal.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getopal.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Pearl": {
+      "direction": "warm human first names",
+      "round": 2,
+      "domains": {
+        "pearl.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pearl.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pearl.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getpearl.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Hazel": {
+      "direction": "warm human first names",
+      "round": 2,
+      "domains": {
+        "hazel.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "hazel.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "hazel.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gethazel.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Goldie": {
+      "direction": "warm human first names",
+      "round": 2,
+      "domains": {
+        "goldie.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "goldie.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "goldie.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getgoldie.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "June": {
+      "direction": "warm human first names",
+      "round": 2,
+      "domains": {
+        "june.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "june.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "june.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getjune.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Polly": {
+      "direction": "warm human first names",
+      "round": 2,
+      "domains": {
+        "polly.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "polly.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "polly.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getpolly.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Daisy": {
+      "direction": "warm human first names",
+      "round": 2,
+      "domains": {
+        "daisy.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "daisy.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "daisy.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getdaisy.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Flora": {
+      "direction": "warm human first names",
+      "round": 2,
+      "domains": {
+        "flora.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "flora.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "flora.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getflora.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Winnie": {
+      "direction": "warm human first names",
+      "round": 2,
+      "domains": {
+        "winnie.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "winnie.app": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "winnie.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getwinnie.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Tess": {
+      "direction": "warm human first names",
+      "round": 2,
+      "domains": {
+        "tess.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tess.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tess.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gettess.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Peggy": {
+      "direction": "warm human first names",
+      "round": 2,
+      "domains": {
+        "peggy.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "peggy.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "peggy.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getpeggy.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Birdie": {
+      "direction": "warm human first names",
+      "round": 2,
+      "domains": {
+        "birdie.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "birdie.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "birdie.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getbirdie.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Etta": {
+      "direction": "warm human first names",
+      "round": 2,
+      "domains": {
+        "etta.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "etta.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "etta.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getetta.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Wren": {
+      "direction": "warm human first names",
+      "round": 2,
+      "domains": {
+        "wren.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "wren.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "wren.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getwren.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Mo": {
+      "direction": "warm human first names",
+      "round": 2,
+      "domains": {
+        "mo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mo.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getmo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Gentle Giant": {
+      "direction": "giant / lever / mighty compounds: small and easy, but strong",
+      "round": 2,
+      "domains": {
+        "gentlegiant.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gentlegiant.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "gentlegiant.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getgentlegiant.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "Gentle Giant — 1970s prog-rock band; Gentle Giant Moving Company (US mover)",
+          "space": "music / moving",
+          "severity": "notable",
+          "url": "https://www.gentlegiant.com",
+          "checked_at": "2026-11-13"
+        },
+        {
+          "who": "Gentle Giant: A Living Garden — iOS game, 0 ratings",
+          "space": "games",
+          "severity": "noise",
+          "url": "https://apps.apple.com/search?term=gentle%20giant",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "one spelling; a set phrase, so heard and typed correctly"
+    },
+    "Friendly Giant": {
+      "direction": "giant / lever / mighty compounds: small and easy, but strong",
+      "round": 2,
+      "domains": {
+        "friendlygiant.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "friendlygiant.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "friendlygiant.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "getfriendlygiant.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "Friendly Giant AI / GiantAI (Ispolink) — crypto 'autonomous AI agent' with a token",
+          "space": "AI agents (Web3)",
+          "severity": "notable",
+          "url": "https://www.ispolink.com/giantai",
+          "checked_at": "2026-11-13"
+        },
+        {
+          "who": "The Friendly Giant — Canadian children's TV show (1958–85)",
+          "space": "TV",
+          "severity": "notable",
+          "url": "https://en.wikipedia.org/wiki/The_Friendly_Giant",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "one spelling; strong Canadian cultural association"
+    },
+    "Kind Giant": {
+      "direction": "giant / lever / mighty compounds: small and easy, but strong",
+      "round": 2,
+      "domains": {
+        "kindgiant.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kindgiant.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "kindgiant.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "getkindgiant.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [],
+      "phonetics": "one spelling; 'kind giant' could be heard as 'kinda giant' at speed"
+    },
+    "Tiny Giant": {
+      "direction": "giant / lever / mighty compounds: small and easy, but strong",
+      "round": 2,
+      "domains": {
+        "tinygiant.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tinygiant.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tinygiant.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gettinygiant.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Soft Giant": {
+      "direction": "giant / lever / mighty compounds: small and easy, but strong",
+      "round": 2,
+      "domains": {
+        "softgiant.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "softgiant.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "softgiant.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "getsoftgiant.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Easy Lever": {
+      "direction": "giant / lever / mighty compounds: small and easy, but strong",
+      "round": 2,
+      "domains": {
+        "easylever.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "easylever.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "easylever.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "geteasylever.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [],
+      "phonetics": "one spelling; 'lever' is LEE-ver (UK) / LEV-er (US)"
+    },
+    "Little Lever": {
+      "direction": "giant / lever / mighty compounds: small and easy, but strong",
+      "round": 2,
+      "domains": {
+        "littlelever.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "littlelever.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "littlelever.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "getlittlelever.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [],
+      "phonetics": "one spelling; 'lever' is LEE-ver (UK) / LEV-er (US)"
+    },
+    "Mighty Easy": {
+      "direction": "giant / lever / mighty compounds: small and easy, but strong",
+      "round": 2,
+      "domains": {
+        "mightyeasy.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "mightyeasy.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "mightyeasy.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "getmightyeasy.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "Mighty Easy Services — publisher of a grocery delivery app",
+          "space": "grocery delivery",
+          "severity": "noise",
+          "url": "https://www.myandroid.org/apps/grocera-mightypes-com",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "one spelling in English; reads as an adverb phrase, not a noun"
+    },
+    "Mighty Kind": {
+      "direction": "giant / lever / mighty compounds: small and easy, but strong",
+      "round": 2,
+      "domains": {
+        "mightykind.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mightykind.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "mightykind.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "getmightykind.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "Mighty Kind — CBD/THC seltzers (bemightykind.com); NZ social enterprise; anti-bias education community",
+          "space": "beverages / retail / education",
+          "severity": "notable",
+          "url": "https://bemightykind.com",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "one spelling in English; Polish speakers may stumble on 'mighty' spelling"
+    },
+    "Mighty Small": {
+      "direction": "giant / lever / mighty compounds: small and easy, but strong",
+      "round": 2,
+      "domains": {
+        "mightysmall.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mightysmall.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "mightysmall.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "getmightysmall.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "Mighty Small — UK online supermarket for small brands; NH small-business directory",
+          "space": "food retail",
+          "severity": "notable",
+          "url": "https://linkedin.com/company/mighty-small-uk",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "one spelling in English"
+    },
+    "Mighty Simple": {
+      "direction": "giant / lever / mighty compounds: small and easy, but strong",
+      "round": 2,
+      "domains": {
+        "mightysimple.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mightysimple.app": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "mightysimple.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "getmightysimple.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Simply Mighty": {
+      "direction": "giant / lever / mighty compounds: small and easy, but strong",
+      "round": 2,
+      "domains": {
+        "simplymighty.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "simplymighty.app": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "simplymighty.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "getsimplymighty.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Easy Mighty": {
+      "direction": "giant / lever / mighty compounds: small and easy, but strong",
+      "round": 2,
+      "domains": {
+        "easymighty.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "easymighty.app": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "easymighty.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "geteasymighty.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Little Mighty": {
+      "direction": "giant / lever / mighty compounds: small and easy, but strong",
+      "round": 2,
+      "domains": {
+        "littlemighty.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "littlemighty.app": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "littlemighty.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "getlittlemighty.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Trusty": {
+      "direction": "a helper with real power: helper nouns with a warm adjective",
+      "round": 2,
+      "domains": {
+        "trusty.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "trusty.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "trusty.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "gettrusty.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Helping Hand": {
+      "direction": "a helper with real power: helper nouns with a warm adjective",
+      "round": 2,
+      "domains": {
+        "helpinghand.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "helpinghand.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "helpinghand.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gethelpinghand.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Steady Sidekick": {
+      "direction": "a helper with real power: helper nouns with a warm adjective",
+      "round": 2,
+      "domains": {
+        "steadysidekick.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "steadysidekick.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "steadysidekick.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "getsteadysidekick.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "monday sidekick; Tobit SideKick ('agentic AI ecosystem'); Sidekick AI life coach",
+          "space": "AI assistants",
+          "severity": "notable",
+          "url": "https://monday.com/w/sidekick",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "verdict": "dropped",
+      "reason": "'Sidekick' is a crowded name among AI assistants; the adjective gets dropped in speech"
+    },
+    "Trusty Sidekick": {
+      "direction": "a helper with real power: helper nouns with a warm adjective",
+      "round": 2,
+      "domains": {
+        "trustysidekick.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "trustysidekick.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "trustysidekick.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "gettrustysidekick.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "monday sidekick; Tobit SideKick ('agentic AI ecosystem'); Sidekick AI life coach",
+          "space": "AI assistants",
+          "severity": "notable",
+          "url": "https://monday.com/w/sidekick",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "verdict": "dropped",
+      "reason": "'Sidekick' is a crowded name among AI assistants; the adjective gets dropped in speech"
+    },
+    "Good Sidekick": {
+      "direction": "a helper with real power: helper nouns with a warm adjective",
+      "round": 2,
+      "domains": {
+        "goodsidekick.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "goodsidekick.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "goodsidekick.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "getgoodsidekick.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "monday sidekick; Tobit SideKick ('agentic AI ecosystem'); Sidekick AI life coach",
+          "space": "AI assistants",
+          "severity": "notable",
+          "url": "https://monday.com/w/sidekick",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "verdict": "dropped",
+      "reason": "'Sidekick' is a crowded name among AI assistants; the adjective gets dropped in speech"
+    },
+    "Daily Sidekick": {
+      "direction": "a helper with real power: helper nouns with a warm adjective",
+      "round": 2,
+      "domains": {
+        "dailysidekick.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "dailysidekick.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "dailysidekick.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "getdailysidekick.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "monday sidekick; Tobit SideKick ('agentic AI ecosystem'); Sidekick AI life coach",
+          "space": "AI assistants",
+          "severity": "notable",
+          "url": "https://monday.com/w/sidekick",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "verdict": "dropped",
+      "reason": "'Sidekick' is a crowded name among AI assistants; the adjective gets dropped in speech"
+    },
+    "Handy Helper": {
+      "direction": "a helper with real power: helper nouns with a warm adjective",
+      "round": 2,
+      "domains": {
+        "handyhelper.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "handyhelper.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "handyhelper.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "gethandyhelper.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Able": {
+      "direction": "a helper with real power: helper nouns with a warm adjective",
+      "round": 2,
+      "domains": {
+        "able.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "able.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "able.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getable.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Able Hand": {
+      "direction": "a helper with real power: helper nouns with a warm adjective",
+      "round": 2,
+      "domains": {
+        "ablehand.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ablehand.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "ablehand.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getablehand.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Willing Hands": {
+      "direction": "a helper with real power: helper nouns with a warm adjective",
+      "round": 2,
+      "domains": {
+        "willinghands.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "willinghands.app": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "willinghands.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "getwillinghands.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Busy Hands": {
+      "direction": "a helper with real power: helper nouns with a warm adjective",
+      "round": 2,
+      "domains": {
+        "busyhands.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "busyhands.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "busyhands.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getbusyhands.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Trusty Hand": {
+      "direction": "a helper with real power: helper nouns with a warm adjective",
+      "round": 2,
+      "domains": {
+        "trustyhand.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "trustyhand.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "trustyhand.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "gettrustyhand.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Kind Hand": {
+      "direction": "a helper with real power: helper nouns with a warm adjective",
+      "round": 2,
+      "domains": {
+        "kindhand.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kindhand.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "kindhand.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "getkindhand.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Your Friday": {
+      "direction": "a helper with real power: helper nouns with a warm adjective",
+      "round": 2,
+      "domains": {
+        "yourfriday.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "yourfriday.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "yourfriday.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getyourfriday.com": {
+          "status": "taken",
           "method": "rdap",
           "checked_at": "2026-11-13"
         }
