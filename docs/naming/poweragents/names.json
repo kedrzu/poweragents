@@ -14488,6 +14488,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "quokka.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -14513,6 +14518,11 @@
         "getwombat.com": {
           "status": "taken",
           "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "wombat.so": {
+          "status": "likely-free",
+          "method": "whois",
           "checked_at": "2026-11-13"
         }
       }
@@ -14929,6 +14939,11 @@
           "checked_at": "2026-11-13"
         },
         "getkiwi.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kiwi.so": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -46895,7 +46910,9 @@
           "checked_at": "2026-11-13"
         }
       ],
-      "phonetics": "ko-REL-lee; Baroque composer; Captain Corelli's Mandolin"
+      "phonetics": "ko-REL-lee; Baroque composer; Captain Corelli's Mandolin",
+      "verdict": "dropped",
+      "reason": "same -elli surname shape the user heard as a pasta brand (Torelli, round 21)"
     },
     "Torelli": {
       "direction": "surnames of Italian and Spanish artists and composers",
@@ -46936,7 +46953,11 @@
           "checked_at": "2026-11-13"
         }
       ],
-      "phonetics": "to-REL-lee; Giuseppe Torelli, Baroque composer"
+      "phonetics": "to-REL-lee; Giuseppe Torelli, Baroque composer",
+      "verdict": "rejected",
+      "feedback": [
+        "\"torelli brzmi jak marka makaronu\" (round 21)"
+      ]
     },
     "Rossini": {
       "direction": "surnames of Italian and Spanish artists and composers",
@@ -48225,6 +48246,1527 @@
           "checked_at": "2026-11-13"
         },
         "getribera.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Vulpo": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "vulpo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "vulpo.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "vulpo.ai": {
+          "status": "likely-free",
+          "method": "whois.nic.ai",
+          "checked_at": "2026-11-13"
+        },
+        "vulpo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getvulpo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Urso": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "urso.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "urso.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "urso.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "urso.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "geturso.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Leono": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "leono.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "leono.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "leono.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "leono.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getleono.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Aglo": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "aglo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "aglo.app": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "aglo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "aglo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getaglo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Kolombo": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "kolombo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kolombo.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kolombo.ai": {
+          "status": "likely-free",
+          "method": "whois.nic.ai",
+          "checked_at": "2026-11-13"
+        },
+        "kolombo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getkolombo.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Rano": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "rano.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "rano.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "rano.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "rano.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getrano.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Testudo": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "testudo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "testudo.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "testudo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "testudo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gettestudo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Lupeto": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "lupeto.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "lupeto.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "lupeto.ai": {
+          "status": "likely-free",
+          "method": "whois.nic.ai",
+          "checked_at": "2026-11-13"
+        },
+        "lupeto.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getlupeto.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "search 'lupeto ai': nothing named Lupeto; Lupi AI, LupaxAI, Lupus are nearby",
+          "space": "AI",
+          "severity": "notable",
+          "url": "https://www.cbinsights.com/company/lupi-ai",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "Esperanto 'little wolf' (lupo + -eto); loo-PEH-to; one t, unlike Italian Lupetto"
+    },
+    "Otso": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "otso.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "otso.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "otso.ai": {
+          "status": "taken",
+          "method": "whois.nic.ai",
+          "checked_at": "2026-11-13"
+        },
+        "otso.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getotso.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "otso.ai — Brisbane ML/NLP company (acquired by Eliiza/Mantel Group 2022); OSO AI (oso.ai) consumer AI platform",
+          "space": "AI",
+          "severity": "blocking",
+          "url": "https://www.cbinsights.com/company/otsoai",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "Basque 'wolf'; the bear spirit in Finnish myth; OHT-so",
+      "verdict": "dropped",
+      "reason": "blocking: otso.ai — Brisbane ML/NLP company (acquired by Eliiza/Mantel Group 2022); OSO AI"
+    },
+    "Hartz": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "hartz.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "hartz.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "hartz.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "hartz.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gethartz.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "Hartz pet brand"
+    },
+    "Azeri": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "azeri.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "azeri.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "azeri.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "azeri.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getazeri.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "nationality"
+    },
+    "Katu": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "katu.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "katu.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "katu.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "katu.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getkatu.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Txori": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "txori.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "txori.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "txori.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "txori.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gettxori.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Erbi": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "erbi.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "erbi.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "erbi.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "erbi.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "geterbi.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Kettu": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "kettu.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kettu.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kettu.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kettu.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getkettu.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "double t, 'kettle'"
+    },
+    "Ilves": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "ilves.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ilves.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ilves.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ilves.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getilves.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "I/l confusion"
+    },
+    "Orava": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "orava.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "orava.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "orava.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "orava.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getorava.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Siili": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "siili.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "siili.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "siili.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "siili.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getsiili.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "double i"
+    },
+    "Majava": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "majava.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "majava.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "majava.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "majava.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getmajava.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Lykos": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "lykos.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lykos.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lykos.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lykos.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getlykos.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Arkoudi": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "arkoudi.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "arkoudi.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "arkoudi.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "arkoudi.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getarkoudi.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Alepou": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "alepou.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "alepou.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "alepou.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "alepou.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getalepou.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Gato": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "gato.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "gato.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gato.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gato.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getgato.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Coelho": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "coelho.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "coelho.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "coelho.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "coelho.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getcoelho.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "Paulo Coelho"
+    },
+    "Raposa": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "raposa.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "raposa.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "raposa.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "raposa.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getraposa.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Tatu": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "tatu.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tatu.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tatu.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tatu.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gettatu.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Mico": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "mico.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mico.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mico.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mico.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getmico.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Sapo": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "sapo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "sapo.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "sapo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "sapo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getsapo.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "'toad'; SAP"
+    },
+    "Pombo": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "pombo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pombo.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pombo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pombo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getpombo.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Tucano": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "tucano.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tucano.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tucano.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tucano.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gettucano.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "Tucanos Brazilian Grill (app); Embraer Tucano aircraft",
+          "space": "food / aviation",
+          "severity": "notable",
+          "url": "https://apps.apple.com/search?term=tucano",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "Portuguese/Italian 'toucan'; too-KAH-no"
+    },
+    "Lontra": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "lontra.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lontra.app": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "lontra.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lontra.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getlontra.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "Lutra AI — productivity/research agent by ex-Google and Coursera people (sound-alike; lutra and lontra both mean otter)",
+          "space": "AI agents",
+          "severity": "blocking",
+          "url": "https://www.startuphub.ai/startups/lutra-ai",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "Portuguese/Italian 'otter'; LON-tra",
+      "verdict": "dropped",
+      "reason": "blocking: Lutra AI — productivity/research agent by ex-Google and Coursera people (sound-a"
+    },
+    "Urubu": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "urubu.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "urubu.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "urubu.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "urubu.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "geturubu.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Panda": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "panda.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "panda.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "panda.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "panda.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getpanda.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "common"
+    },
+    "Koala": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "koala.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "koala.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "koala.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "koala.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getkoala.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "common"
+    },
+    "Lemur": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "lemur.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lemur.app": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "lemur.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lemur.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getlemur.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Tapir": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "tapir.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tapir.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tapir.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tapir.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gettapir.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Okapi": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "okapi.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "okapi.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "okapi.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "okapi.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getokapi.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Dingo": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "dingo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "dingo.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "dingo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "dingo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getdingo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "common word"
+    },
+    "Numbat": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "numbat.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "numbat.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "numbat.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "numbat.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getnumbat.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Bilby": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "bilby.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "bilby.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "bilby.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "bilby.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getbilby.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Potoo": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "potoo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "potoo.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "potoo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "potoo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getpotoo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Kakapo": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "kakapo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kakapo.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kakapo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kakapo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getkakapo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Tui": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "tui.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tui.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tui.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tui.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gettui.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Weka": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "weka.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "weka.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "weka.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "weka.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getweka.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Kea": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "kea.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kea.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kea.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kea.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getkea.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Pukeko": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "pukeko.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pukeko.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "pukeko.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pukeko.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getpukeko.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Moa": {
+      "direction": "animal words from many languages in Lupo's shape (Esperanto, Basque, Finnish, Greek, Latin, Portuguese)",
+      "round": 22,
+      "domains": {
+        "moa.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "moa.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "moa.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "moa.so": {
+          "status": "taken",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getmoa.com": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"

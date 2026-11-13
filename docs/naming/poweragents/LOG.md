@@ -499,3 +499,20 @@ Corelli, Murillo, Tiepolo.
 readers will say moo-RIL-lo).
 **Proposed next.** Ask whether surnames work for the user at all (so far every liked name is a first
 name or a creature). If not, try mythological names that are clean (Teseo, Nereo, Eolo unchecked).
+
+## Round 22 — 2026-11-13
+
+**User on round 21.** Torelli "sounds like a pasta brand" — rejected, and with it the -elli/-ini
+surname shape (Corelli dropped too); added to BRIEF. Keep searching.
+**Directions.** Animal words in Lupo's shape from other languages (≈55: Esperanto, Basque, Finnish,
+Greek, Portuguese, Māori/Australian fauna), plus the three unchecked myth names (Teseo, Nereo, Eolo).
+**What came out.** Exotic words keep many TLDs but are hard to say or spell (Txori, Arkoudi, Majava).
+"<name> ai": **Otso** (Basque 'wolf') — otso.ai is an ML company (blocking); **Lontra** ('otter') sits
+next to Lutra AI, a productivity agent (blocking by sound). **Lupeto** — Esperanto 'little wolf',
+Lupo + -eto — has lupeto.app, lupeto.ai (confirmed at whois.nic.ai), lupeto.so and getlupeto.com and
+nothing in AI named Lupeto. Vulpo (Esperanto 'fox') has vulpo.ai and .so.
+**Where I looked.** DNS; whois.nic.ai (4); App Store (4); web search "otso ai", "lupeto ai",
+"lontra ai".
+**Best.** Lupeto — the user's favourite wolf with every domain open and one t.
+**Proposed next.** Offer Lupeto next to Lupo. If the user stays with Lupo itself, move to depth:
+confirm lupo.so at a registrar, user-run TMview for LUPO, hearing test.

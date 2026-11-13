@@ -70,6 +70,8 @@ mascot.
 
 ## Rejected directions
 
+- Italian surnames in -elli/-ini (Torelli, Corelli…) — "Torelli sounds like a pasta brand" (round 21).
+
 - Coined two-syllable names ending in -en/-in/-on/-an (Nebin, Tevon, Zavon…) — "why do they all end in -on, -in, -an, -en? Let's try another direction" (round 12).
 
 - Literal Polish first names (Radek, Bronek, Franek, Olek) — "feel weird" (round 4).
