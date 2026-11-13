@@ -233,3 +233,9 @@ assistant). Zib now blocked by the EU trademark.
 Bix, Nom and the next best sweep survivors before showing more, so names reach the user already
 screened. Consider asking whether a professional trademark search is worth paying for once there is a
 finalist.
+**Addendum, same round — trademark screen of the others.** LEM, BIX and NOM each have several
+registered marks in class 9 (NOM also in 42) — dropped. KIB and JOM have class-9 marks too
+(notable). **ZAB: no mark found** in classes 9/42 (EU, US, PL, WIPO). Lesson: almost every
+three-letter string is registered in class 9 by someone; a short name has to be trademark-screened
+before it is shown, and the few clean ones are the real finds. Zab (zab.so $57.50, getzab.com free;
+only Zaxby's as a sound-alike) is now the cleanest short name.

@@ -19128,7 +19128,8 @@
       "verdict": "liked",
       "feedback": [
         "\"neb, zib fajne\" (round 8)"
-      ]
+      ],
+      "reason": "ZIB registered in EU classes 9 and 42 (Zuse-Institut Berlin) — user liked it; kept as liked, flagged blocking"
     },
     "Tib": {
       "direction": "short punchy coinages, 3 letters (CVC), one spelling",
@@ -19242,9 +19243,18 @@
           "severity": "notable",
           "url": "https://github.com/bixat/bixAI-Releases/blob/main/README.md",
           "checked_at": "2026-11-13"
+        },
+        {
+          "who": "BIX marks in class 9: Shanghai BIX Electronics (EU/US), Shenzhen Bix Technology (US), BI X GmbH (WIPO, 9/42/44)",
+          "space": "trademark",
+          "severity": "blocking",
+          "url": "https://www.tmdn.org/tmview/",
+          "checked_at": "2026-11-13"
         }
       ],
-      "phonetics": "one spelling; Bix Beiderbecke; Weetabix"
+      "phonetics": "one spelling; Bix Beiderbecke; Weetabix",
+      "verdict": "dropped",
+      "reason": "several registered BIX marks in class 9"
     },
     "Zeb": {
       "direction": "short punchy coinages, 3 letters (CVC), one spelling",
@@ -19831,6 +19841,13 @@
           "space": "banking / AI support",
           "severity": "notable",
           "url": "https://kibee.ai/",
+          "checked_at": "2026-11-13"
+        },
+        {
+          "who": "KIB marks in class 9: Kuwait International Bank (EU), American Technology Components (US)",
+          "space": "trademark",
+          "severity": "notable",
+          "url": "https://www.tmdn.org/tmview/",
           "checked_at": "2026-11-13"
         }
       ],
@@ -21660,9 +21677,18 @@
           "severity": "noise",
           "url": "https://apps.apple.com/search?term=lem",
           "checked_at": "2026-11-13"
+        },
+        {
+          "who": "LEM marks in class 9: Tomasz Lem (PL, 9/16/28/38/41), LEM Holding (US/WIPO, 9/37/41/42), ZMY Trading (EU/US, 9), Casale (WIPO, 7/9/11/42)",
+          "space": "trademark",
+          "severity": "blocking",
+          "url": "https://www.tmdn.org/tmview/",
+          "checked_at": "2026-11-13"
         }
       ],
-      "phonetics": "one spelling; Stanisław Lem (Polish sci-fi, robots); LEM = lunar module"
+      "phonetics": "one spelling; Stanisław Lem (Polish sci-fi, robots); LEM = lunar module",
+      "verdict": "dropped",
+      "reason": "several registered LEM marks in class 9"
     },
     "Nom": {
       "direction": "short punchy coinages, 3 letters (CVC), one spelling",
@@ -21717,9 +21743,18 @@
           "severity": "notable",
           "url": "https://apps.apple.com/search?term=nom",
           "checked_at": "2026-11-13"
+        },
+        {
+          "who": "NOM marks: Nom Labs (EU, 9 and 42), Nominandum (EU, 9/42), Nomio Nom Global (EU, 9/35)",
+          "space": "trademark",
+          "severity": "blocking",
+          "url": "https://www.tmdn.org/tmview/",
+          "checked_at": "2026-11-13"
         }
       ],
-      "phonetics": "one spelling; 'nom nom' = eating sound, cute mascot potential"
+      "phonetics": "one spelling; 'nom nom' = eating sound, cute mascot potential",
+      "verdict": "dropped",
+      "reason": "NOM registered in EU classes 9 and 42"
     },
     "Zin": {
       "direction": "short punchy coinages, 3 letters (CVC), one spelling",
@@ -21912,6 +21947,13 @@
           "severity": "notable",
           "url": "https://apps.apple.com/search?term=jom",
           "checked_at": "2026-11-13"
+        },
+        {
+          "who": "JOM marks: JOM Car Parts (EU, incl. 9), Michael Jäschke (EU/WIPO, 35/36/41/42)",
+          "space": "trademark",
+          "severity": "notable",
+          "url": "https://www.tmdn.org/tmview/",
+          "checked_at": "2026-11-13"
         }
       ],
       "phonetics": "'jom' as in 'Tom'; could be heard as 'Jomm'/'Gom'"
@@ -22061,8 +22103,16 @@
           "severity": "noise",
           "url": "https://apps.apple.com/search?term=zab",
           "checked_at": "2026-11-13"
+        },
+        {
+          "who": "No ZAB mark found in classes 9/42 (EU, US, PL, WIPO; filed or registered)",
+          "space": "trademark",
+          "severity": "noise",
+          "url": "https://www.tmdn.org/tmview/",
+          "checked_at": "2026-11-13"
         }
-      ]
+      ],
+      "phonetics": "one spelling; rhymes with jab/grab; close to 'zap'"
     },
     "Pib": {
       "direction": "short punchy coinages, 3 letters (CVC), one spelling",
