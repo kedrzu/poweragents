@@ -516,3 +516,20 @@ nothing in AI named Lupeto. Vulpo (Esperanto 'fox') has vulpo.ai and .so.
 **Best.** Lupeto — the user's favourite wolf with every domain open and one t.
 **Proposed next.** Offer Lupeto next to Lupo. If the user stays with Lupo itself, move to depth:
 confirm lupo.so at a registrar, user-run TMview for LUPO, hearing test.
+
+## Round 23 — 2026-11-13
+
+**User on round 22.** Keep both Lupo and Lupeto (Lupeto liked); keep searching.
+**Directions.** Esperanto, since Lupeto came from it: diminutives in -eto and young-animal words in
+-ido, plus a few virtue and nature words (≈55).
+**What came out.** Esperanto is the most open pool of the whole search — almost every word has .app,
+.ai, .so and get…com free, and several even .com (vulpeto.com, fajreto.com, hundeto.com). Because
+Esperanto words are regular and phonetic, they are spelled right after one hearing. "<name> ai":
+**Lumeto** ('little light') is an AI/XR healthcare-training company (blocking); **Koreto** ('little
+heart') is one letter from Kore.ai; **Urseto** ('little bear'), **Vulpeto** ('little fox') and
+**Nubeto** ('little cloud') have nothing under their own name.
+**Where I looked.** DNS; web search "lumeto ai", "koreto ai", "urseto ai", "nubeto ai", "vulpeto ai".
+**Best.** Urseto (bear cub — a mascot next to Lupeto's wolf cub), Vulpeto (fox cub; .com free too),
+Nubeto (little cloud).
+**Proposed next.** Show the Esperanto cubs as a family with Lupeto. If the user likes the -eto sound,
+the pool is deep enough to pick by ear from dozens.
