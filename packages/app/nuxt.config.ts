@@ -46,5 +46,20 @@ export default defineNuxtConfig({
             // A literal in the built code (`shims.d.ts`), so a production build drops what it guards.
             __ENV__: JSON.stringify(ENV),
         },
+        // Dependencies Vite would otherwise discover only at runtime, reloading the page the first time a screen
+        // using them opens (`bun run dev`, `bun run desktop`).
+        optimizeDeps: {
+            include: [
+                '@lucide/vue',
+                '@tauri-apps/api/core',
+                '@tauri-apps/plugin-opener',
+                '@nzyme/utils > fast-deep-equal',
+                '@nzyme/vue-utils > lodash.debounce',
+                'reka-ui',
+                '@poweragents/ui > mdast-util-from-markdown',
+                '@poweragents/ui > mdast-util-gfm',
+                '@poweragents/ui > micromark-extension-gfm',
+            ],
+        },
     },
 });
