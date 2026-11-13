@@ -52,6 +52,11 @@ in OpenCode.
 > integrations; plan usage is open to open-source and personal-local apps, paid or remotely hosted
 > apps go through a waitlist — [OpenAI](https://learn.chatgpt.com/docs/sign-in-with-chatgpt).
 
+> **Checked 2026-11-13:** conversations run through the sandbox (OpenCode 2.2.7's `claude-agent` → Claude Code
+> 2.1.322 in the container) on the owner's Max account succeeded with extra usage switched off, so they draw from the
+> plan's limits. An OpenCode test transcript had shown "Third-party apps now draw from your extra usage, not your plan
+> limits" (anomalyco/opencode#58782); it did not apply here.
+
 **Consequences carried forward.** `claude` must live inside the sandbox next to OpenCode, and its
 browser sign-in has to be surfaced by the app. Whether the Claude route works for cloud-hosted agents
 is unchecked. A paid or hosted company offering may need OpenAI's waitlist.
@@ -98,22 +103,42 @@ wants its own file storage would have to rewrite all of it.
 
 ## D6
 
-**All agent work runs inside a Linux sandbox shipped with the app; the user installs nothing else, and
-the agent sees only the folders mounted into it.** (2026-11-08, owner)
+**All agent work runs inside a Linux sandbox shipped with the app, one per profile; the user installs
+nothing else, and the agent sees only the folders mounted into it. On macOS the sandbox is a Lima VM
+with one container of ours inside, running the agent engine for every project of the profile.**
+(2026-11-08, owner; per profile and the macOS runtime 2026-11-12, owner)
 
 **Why.** The agent can install whatever it needs (Python, Node, Playwright…) without touching the
-user's machine, and the environment can be described and rebuilt elsewhere.
+user's machine, and the environment can be described and rebuilt elsewhere. The profile is the only
+hard boundary ([D8](#d8)), so one sandbox per profile is enough. Lima is the one runtime that ships
+inside an app and is stable on macOS; the container image is the versioned description of the
+environment, so a new environment is a new image and the VM stays.
+
+> **Checked 2026-11-12:** Lima v2.3.0 (2026-11-06, Apache-2.0); `vz` is the default macOS driver since
+> v1.0, virtiofs mounts need macOS 13+ — [vz](https://lima-vm.io/docs/config/vmtype/vz/),
+> [mounts](https://lima-vm.io/docs/config/mount/); localhost ports in the guest are forwarded to the
+> host automatically — [ports](https://lima-vm.io/docs/config/port/). Rancher Desktop ships `limactl`
+> in its own resources (`pkg/rancher-desktop/backend/lima.ts`). Lima on Windows (`wsl2`, HCS) is
+> experimental.
 
 > **Checked 2026-11-08:** Cowork's local mode ran a Linux VM via Apple Virtualization.framework on
 > macOS and Hyper-V/HCS on Windows, folders over VirtioFS —
 > [Anthropic](https://support.claude.com/en/articles/14479288-claude-cowork-architecture-overview);
 > since 2026-10-06 Cowork defaults to cloud sandboxes. On Windows, enabling WSL / VM Platform the
 > first time needs admin and a reboot — [Microsoft](https://learn.microsoft.com/en-us/windows/wsl/install);
-> no admin-free path found. Apple `container` needs macOS 26 + Apple silicon and sudo for host DNS —
-> [apple/container](https://github.com/apple/container/blob/main/docs/host-integration.md).
-> Community benchmarks put a minimal VZ VM boot at ~0.3–0.9 s.
+> no admin-free path found. Community benchmarks put a minimal VZ VM boot at ~0.3–0.9 s.
 
-**Open.** Which runtime per OS; per-profile vs per-project sandbox (owner leans per profile).
+**Open.** The Windows runtime.
+
+**Rejected.**
+
+- A sandbox per project — projects are not a hard boundary ([D8](#d8)), and each would hold its own
+  VM's memory (2026-11-12, owner).
+- Apple `container` on macOS — installed system-wide with an administrator password, no documented way
+  to ship it inside an app; macOS 26 only (checked 2026-11-12,
+  [apple/container](https://github.com/apple/container)).
+- microsandbox (libkrun) — the only option claiming macOS and Windows alike, but beta with breaking
+  changes announced (checked 2026-11-12).
 
 ## D7
 
@@ -121,19 +146,24 @@ user's machine, and the environment can be described and rebuilt elsewhere.
 
 ## D8
 
-**Each project is its own folder; the agent working in a project sees that project's folder.**
-(2026-11-08, owner)
+**Each project is its own folder. The agent working in a project works in that project's folder and
+may look into the profile's other projects when it needs to; the only hard boundary is between
+profiles.** (2026-11-08, owner; boundary 2026-11-12, owner)
 
-**Why.** Owner's choice. Keeps projects movable and storable elsewhere independently.
+**Why.** Separate folders keep projects movable and storable elsewhere independently. A project is a
+way to keep work tidy, not a wall, so isolating projects from each other would buy nothing a person
+wants and cost a sandbox per project ([D6](#d6)).
 
-**What the agent sees.** The project's folder, the profile's Memory ([D9](#d9)) and the profile's
-Downloads folder ([D27](#d27)). (2026-11-08)
+**What the agent sees.** The profile's projects, its Memory ([D9](#d9)) and its Downloads folder
+([D27](#d27)) — never the rest of the computer. (2026-11-08; projects 2026-11-12)
 
 **Rejected.**
 
-- One vault per profile with projects as plain subfolders the agent sees all at once (the shape of
-  the owner's wife's Obsidian setup) — proposed by the design agent 2026-11-08; owner chose separate
-  folders, with knowledge about the person handled by [D9](#d9) instead.
+- The agent seeing only its own project's folder ([history](history/DECISIONS.md#d8)) — owner
+  (2026-11-12): isolation between projects is logical only.
+- One vault per profile with projects as plain subfolders (the shape of the owner's wife's Obsidian
+  setup) — proposed by the design agent 2026-11-08; owner chose separate folders, with knowledge about
+  the person handled by [D9](#d9) instead.
 
 ## D9
 
@@ -646,3 +676,23 @@ there.
 
 - Every plugin attached to projects only — general access like Gmail would have to be attached to
   every project that ever needs mail (owner).
+
+## D35
+
+**Conversations run on a mid-tier model by default: Sonnet with a Claude subscription, Terra with a ChatGPT one. The
+person will be able to switch the model and its reasoning effort; until that switch exists, the default is fixed.**
+(2026-11-13, owner)
+
+**Why.** A default that answers quickly and spends the subscription's limits slowly suits everyday work; a harder task
+is what the switch is for.
+
+> **Checked 2026-11-12:** OpenCode 2.2.7's `claude-agent` integration offers `opus`, `fable`, `sonnet` and `haiku`
+> (`GET /api/model` in the sandbox).
+
+**Open.** Where the switch lives (per conversation, per project, per profile) and what reasoning effort maps to per
+provider.
+
+**Rejected.**
+
+- The strongest model by default (Opus on Max) — proposed by the delivery agent; owner chose Sonnet (2026-11-13).
+- Picking the model from the subscription's plan automatically — proposed by the delivery agent, not chosen.
