@@ -1,0 +1,27 @@
+forExample:
+  en: For example
+  pl: Na przykład
+
+exampleJobSearch:
+  en: Job search
+  pl: Szukanie pracy
+
+exampleHealth:
+  en: Health
+  pl: Zdrowie
+
+exampleInstagram:
+  en: Instagram posts
+  pl: Posty na Instagram
+
+title:
+  en: Start with your first project
+  pl: Zacznij od pierwszego projektu
+
+body:
+  en: A project is a folder for one thing in your life or work. The agent keeps every file it works on for you in it.
+  pl: Projekt to folder na jedną sprawę z życia albo z pracy. Agent trzyma w nim wszystkie pliki, nad którymi dla Ciebie pracuje.
+
+create:
+  en: Create your first project
+  pl: Utwórz pierwszy projekt

@@ -1,0 +1,73 @@
+# What the agent does, in the present tense for a done step and the current one alike (design, conversations round 1).
+
+readFile:
+  en: Reading {target}
+  pl: Czytam plik {target}
+
+readFileAny:
+  en: Reading a file
+  pl: Czytam plik
+
+writeFile:
+  en: Writing {target}
+  pl: Zapisuję plik {target}
+
+writeFileAny:
+  en: Writing a file
+  pl: Zapisuję plik
+
+editFile:
+  en: Editing {target}
+  pl: Zmieniam plik {target}
+
+editFileAny:
+  en: Editing a file
+  pl: Zmieniam plik
+
+listFiles:
+  en: Looking through {target}
+  pl: Przeglądam folder {target}
+
+listFilesAny:
+  en: Looking through the files
+  pl: Przeglądam pliki
+
+searchFiles:
+  en: 'Searching the files: {target}'
+  pl: 'Szukam w plikach: {target}'
+
+searchFilesAny:
+  en: Searching the files
+  pl: Szukam w plikach
+
+runCommand:
+  en: Running a command
+  pl: Uruchamiam polecenie
+
+fetchWeb:
+  en: Reading the page {target}
+  pl: Czytam stronę {target}
+
+fetchWebAny:
+  en: Reading a web page
+  pl: Czytam stronę internetową
+
+searchWeb:
+  en: 'Searching the web: {target}'
+  pl: 'Szukam w internecie: {target}'
+
+searchWebAny:
+  en: Searching the web
+  pl: Szukam w internecie
+
+other:
+  en: Using a tool
+  pl: Używam narzędzia
+
+running:
+  en: in progress
+  pl: w toku
+
+failed:
+  en: failed
+  pl: nie udało się

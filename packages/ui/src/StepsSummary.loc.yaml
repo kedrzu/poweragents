@@ -1,0 +1,9 @@
+steps:
+  plural: count
+  en:
+    one: one step
+    many: '{count} steps'
+  pl:
+    one: jeden krok
+    few: '{count} kroki'
+    many: '{count} kroków'

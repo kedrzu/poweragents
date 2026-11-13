@@ -1,0 +1,8 @@
+// The story panel's background and list, as `SplitWizardShell` gives the stages.
+.panel {
+    max-width: 428px;
+    margin: 0;
+    padding: $spacing-24;
+    background: $color-ink;
+    list-style: none;
+}

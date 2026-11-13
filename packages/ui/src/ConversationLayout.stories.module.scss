@@ -1,0 +1,7 @@
+// The app shell's card, which gives the layout its height.
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    background: $color-surface;
+}

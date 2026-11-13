@@ -1,19 +1,278 @@
 // Design tokens: `$variables`, `@mixin`s and `@function`s only. This partial is injected into every SCSS
 // block of the repo's packages (`viteShared.ts`), so it must never emit CSS — a rule here would be copied
 // into every component. Tokens are named by role, not by look; text colours note their contrast.
+//
+// The values follow the variables of `poweragents.pen` (`$ink` there is `$color-ink` here). Contrast
+// ratios are WCAG 2.x, measured against the surface named; text needs 4.5:1, icons and other graphics
+// 3:1.
 
-// Surfaces and text
+@use 'sass:list';
+@use 'sass:map';
+
+// Ink: text and dark surfaces
+$color-ink: #1d2320; // 16.0:1 on $color-surface; the story panel's background
+$color-ink-body: #4d5550; // 7.7:1 on $color-surface
+$color-ink-muted: #5f6862; // 5.8:1 on $color-surface, 5.3:1 on $color-surface-soft, 4.6:1 on $color-border
+$color-ink-faint: #8e968f; // 3.0:1 on $color-surface: never for text, only for decoration
+$color-on-ink: #ffffff; // 16.0:1 on $color-ink
+
+// White on $color-ink, for text and lines on the story panel. Each is measured on $color-ink.
+$color-on-ink-strong: rgb(255 255 255 / 70%); // 8.5:1
+$color-on-ink-dim: rgb(255 255 255 / 60%); // 6.6:1
+$color-on-ink-faint: rgb(255 255 255 / 50%); // 5.1:1
+$color-on-ink-number: rgb(255 255 255 / 55%); // 4.8:1 on $color-on-ink-tint over $color-ink
+$color-on-ink-tint: rgb(255 255 255 / 10%);
+$color-on-ink-line: rgb(255 255 255 / 15%);
+
+// Surfaces and borders
 $color-surface: #ffffff;
-$color-text: #1a1a1a; // 17.4:1 on $color-surface
-$color-text-muted: #5c5c5c; // 6.7:1 on $color-surface
-$color-focus: #2563eb;
+$color-surface-soft: #f4f5f2;
+$color-surface-glass: rgb(255 255 255 / 45%);
+$color-border: #e3e6df;
+$color-border-strong: #d9ded6;
+
+// Attention: errors and what needs the person
+$color-attention: #e2552e; // 3.8:1 on $color-surface: fills, strokes and icons only
+$color-attention-soft: #fce9e2;
+$color-attention-ink: #c2492a; // 4.9:1 on $color-surface
+$color-attention-border: #f4cdbe;
+$color-attention-muted: #b0745f; // 3.8:1 on $color-surface: not for small text
+
+// Other roles
+$color-selected: #9dbba9;
+$color-link-ink: #3e64a0; // 5.9:1 on $color-surface
+$color-link-soft: #eaf1fb;
+$color-focus: #2563eb; // 5.2:1 on $color-surface
+
+// Project colours, a fixed set a project picks from
+$color-project-blue: #4a7fd0;
+$color-project-blue-soft: #e3edfb;
+$color-project-pink: #d0628a;
+$color-project-pink-soft: #fbe5ee;
+$color-project-amber: #c98f1e;
+$color-project-amber-soft: #fbefd6;
+$color-project-green: #47935d;
+$color-project-green-soft: #e2f2e6;
+$color-project-violet: #8466d2;
+$color-project-violet-soft: #ede7fb;
+$color-project-teal: #2f9393;
+$color-project-teal-soft: #ddf1f0;
+$color-project-coral: #dc6640; // 2.9:1 on $color-project-coral-soft: decoration only
+$color-project-coral-soft: #fce7df;
+$color-project-slate: #78827d;
+$color-project-slate-soft: #eceeeb;
+
+// Each project colour with its soft tint, by the names `ProjectColor.ts` lists.
+$project-colors: (
+    blue: (
+        $color-project-blue,
+        $color-project-blue-soft,
+    ),
+    pink: (
+        $color-project-pink,
+        $color-project-pink-soft,
+    ),
+    amber: (
+        $color-project-amber,
+        $color-project-amber-soft,
+    ),
+    green: (
+        $color-project-green,
+        $color-project-green-soft,
+    ),
+    violet: (
+        $color-project-violet,
+        $color-project-violet-soft,
+    ),
+    teal: (
+        $color-project-teal,
+        $color-project-teal-soft,
+    ),
+    coral: (
+        $color-project-coral,
+        $color-project-coral-soft,
+    ),
+    slate: (
+        $color-project-slate,
+        $color-project-slate-soft,
+    ),
+);
+
+/// One modifier class per project colour, `.<block>_<colour>`, setting `--project-color` and `--project-color-soft`
+/// for the block's rules to read. Include it at the root of a CSS module.
+@mixin project-color-modifiers($block) {
+    @each $name, $colors in $project-colors {
+        .#{$block}_#{$name} {
+            --project-color: #{list.nth($colors, 1)};
+            --project-color-soft: #{list.nth($colors, 2)};
+        }
+    }
+}
+
+// Palettes. `poweragents.pen` has three candidates (its `palette` theme) until one is chosen. Each colour
+// that differs between them is a CSS custom property, emitted once by `main.scss` for `<html>`:
+// Meadow by default, another palette with `data-palette` on it. Components read them through the
+// `$color-…` tokens below, never the custom properties directly.
+//
+// `brand-1-strong` is not in the design file: `brand-1` gives white text, and white or brand text on
+// white, at most 3.9:1 (2.5:1 in Lemonade). It is `brand-1` darkened until both reach 4.5:1, and it is
+// what carries text or an icon, or meets the 3:1 a meaningful graphic needs against `surface-soft`.
+$palettes: (
+    meadow: (
+        bg-1: #d5e8d8,
+        bg-2: #d2e0f4,
+        brand-1: #3f8f68,
+        brand-2: #4a7fd0,
+        brand-1-strong: #357a59, // 5.2:1 with $color-surface, 4.7:1 on $color-surface-soft
+    ),
+    sunset: (
+        bg-1: #f8dccb,
+        bg-2: #e2d8f5,
+        brand-1: #e0703f,
+        brand-2: #8466d2,
+        brand-1-strong: #b8532a, // 4.9:1 with $color-surface, 4.5:1 on $color-surface-soft
+    ),
+    lemonade: (
+        bg-1: #f5ebbf,
+        bg-2: #f6d3de,
+        brand-1: #d49a1e,
+        brand-2: #d0628a,
+        brand-1-strong: #8f6410, // 5.3:1 with $color-surface, 4.8:1 on $color-surface-soft
+    ),
+);
+$palette-default: meadow;
+
+$color-bg-1: var(--color-bg-1);
+$color-bg-2: var(--color-bg-2);
+$color-brand-1: var(--color-brand-1); // fills and lines only; text and icons use $color-brand-1-strong
+$color-brand-2: var(--color-brand-2);
+$color-brand-1-strong: var(--color-brand-1-strong); // ≥ 4.5:1 with $color-surface in every palette
+
+/// The custom properties of one palette from `$palettes`, for `main.scss`.
+@mixin palette-properties($name) {
+    @each $role, $value in map.get($palettes, $name) {
+        --color-#{$role}: #{$value};
+    }
+}
 
 // Spacing
+$spacing-02: 2px;
 $spacing-04: 4px;
+$spacing-06: 6px;
 $spacing-08: 8px;
+$spacing-10: 10px;
+$spacing-12: 12px;
+$spacing-14: 14px;
 $spacing-16: 16px;
+$spacing-18: 18px;
+$spacing-22: 22px;
 $spacing-24: 24px;
+$spacing-28: 28px;
+$spacing-48: 48px;
+$spacing-56: 56px;
+$spacing-120: 120px;
 
-// Shape and type
-$radius-control: 6px;
-$font-family-base: system-ui, -apple-system, 'Segoe UI', sans-serif;
+// Off-scale spacing. `poweragents.pen` has no spacing variables, so each of these mirrors a value one Pen component
+// draws by hand; named by the role it plays there.
+$spacing-icon-gap: 7px; // icon to its text in Button and in Code field's note
+$spacing-badge-y: 3px; // vertical padding of Provider card's "Soon" badge
+$spacing-path-stage-text-top: 3px; // Path stage's text, lined up with the middle of its 26px status circle
+$spacing-first-line-nudge: 1px; // a 16px icon or a numbered step's text, level with the first line beside it
+
+// Shape
+$radius-s: 9px;
+$radius-m: 12px;
+$radius-l: 18px;
+$radius-panel: 14px; // the agent's step list
+$radius-pill: 20px;
+$radius-window: 12px;
+$radius-control: $radius-m;
+$radius-mark: 10px; // Agent mark, mirroring the Pen component
+
+// Elevation
+$shadow-raised: 0 6px 20px rgb(29 35 32 / 8%); // the composer, lifted off the card
+$shadow-dialog: 0 24px 64px rgb(29 35 32 / 16%); // a dialog over the scrim
+$color-scrim: rgb(255 255 255 / 55%); // frosted over the window behind a dialog, with $blur-scrim
+$blur-scrim: 12px;
+
+// Type. Fonts are bundled by `main.scss` (all SIL Open Font License 1.1).
+$font-family-heading: 'Bricolage Grotesque Variable', system-ui, sans-serif;
+$font-family-body: 'Instrument Sans Variable', system-ui, -apple-system, 'Segoe UI', sans-serif;
+$font-family-mono: 'JetBrains Mono Variable', ui-monospace, 'SF Mono', Menlo, monospace;
+$font-family-base: $font-family-body;
+
+/// The heading face as the design draws it: Bricolage Grotesque's display cut at every size.
+@mixin font-heading {
+    font-family: $font-family-heading;
+    font-variation-settings: 'opsz' 96;
+}
+
+$font-size-display: 2.5rem; // 40px, the story panel's headline
+$font-size-title: 2.25rem; // 36px, a step's title
+$font-size-title-s: 1.75rem; // 28px, an empty state's title
+$font-size-dialog-title: 1.5rem; // 24px, a dialog's title
+$font-size-heading: 1.25rem; // 20px, a card's name
+$font-size-brand: 1.1875rem; // 19px, the product name beside the agent mark
+$font-size-lead: 1.0625rem; // 17px, a step's body
+$font-size-body-l: 1rem; // 16px, a path stage's title
+$font-size-label: 0.9375rem; // 15px, progress labels
+$font-size-body: 0.90625rem; // 14.5px, instructions and inputs
+$font-size-body-s: 0.875rem; // 14px, hints
+$font-size-small: 0.84375rem; // 13.5px, card descriptions and footnotes
+$font-size-control: 0.8125rem; // 13px, buttons, field labels, eyebrows
+$font-size-caption: 0.78125rem; // 12.5px, help under a field
+$font-size-badge: 0.75rem; // 12px, badges and technical details
+$font-size-micro: 0.71875rem; // 11.5px, step numbers
+
+$font-weight-regular: 400;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+$line-height-tight: 1.15;
+$line-height-snug: 1.4;
+$line-height-normal: 1.45;
+$line-height-relaxed: 1.5;
+$line-height-code: 1.6;
+
+$letter-spacing-eyebrow: 0.09em; // 1.2px at 13px
+
+// Motion
+$duration-fast: 150ms;
+$duration-progress: 1.4s;
+
+/// A visible keyboard focus ring (2.4.7, 2.4.13): 2 px solid with an offset, 3:1 on every surface.
+@mixin focus-ring {
+    &:focus-visible {
+        outline: 2px solid $color-focus;
+        outline-offset: 2px;
+    }
+}
+
+/// Hover styles only where hover exists; on touch a hover style sticks after a tap.
+@mixin hover {
+    @media (hover: hover) {
+        &:hover {
+            @content;
+        }
+    }
+}
+
+/// Less movement for people who ask for it.
+@mixin reduced-motion {
+    @media (prefers-reduced-motion: reduce) {
+        @content;
+    }
+}
+
+/// Hidden on screen, read by screen readers.
+@mixin visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+    border: 0;
+}

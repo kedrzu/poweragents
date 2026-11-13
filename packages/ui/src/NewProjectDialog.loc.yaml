@@ -1,0 +1,31 @@
+title:
+  en: New project
+  pl: Nowy projekt
+
+failedTitle:
+  en: Couldn't create the project
+  pl: Nie udało się utworzyć projektu
+
+nameLabel:
+  en: Project name
+  pl: Nazwa projektu
+
+namePlaceholder:
+  en: e.g. Job search
+  pl: np. Szukanie pracy
+
+where:
+  en: The files will be in the Poweragents folder in your home folder.
+  pl: Pliki będą w folderze Poweragents w Twoim katalogu domowym.
+
+cancel:
+  en: Cancel
+  pl: Anuluj
+
+create:
+  en: Create
+  pl: Utwórz
+
+retry:
+  en: Try again
+  pl: Spróbuj ponownie

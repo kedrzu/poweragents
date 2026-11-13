@@ -1,0 +1,10 @@
+.card {
+    max-width: 322px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: $spacing-16;
+    max-width: 660px;
+}
