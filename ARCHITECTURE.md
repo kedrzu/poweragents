@@ -65,9 +65,22 @@ The Vue packages are not emitted: `ui` exports its sources and is type-checked b
 - The daemon ships inside the app as a Tauri sidecar (`bundle.externalBin`). `bun nx run @poweragents/daemon:sidecar`
   builds it with `tsgo --build`, then compiles `dist/main.js` into one executable with `bun build --compile`
   (`scripts/bundleDaemonSidecar.ts`), named `binaries/poweragents-daemon-<target triple>` for the machine it runs on.
-- A release build of the shell runs the app's and the sidecar's builds first, bundles both, and starts the daemon when
-  the app starts (`src-tauri/src/daemon.rs`). The daemon keeps running after the app quits; when one already holds the
-  port, the new one exits and the app talks to the running one.
+- A release build of the shell fetches Lima (`scripts/fetchLima.ts`), runs the app's and the sidecar's builds, bundles
+  them, and starts the daemon when the app starts (`src-tauri/src/daemon.rs`). The daemon keeps running after the app
+  quits; when one already holds the port, the new one exits and the app talks to the running one.
+- The shell discards the daemon's output (stdio to null: a pipe would break once the app quits). The daemon writes its
+  log to the console and to `logs/daemon.log` in the folder above `POWERAGENTS_LIMA_HOME` (`~/.poweragents/logs`),
+  moved to `daemon.log.1` on start once over 10 MB (`DaemonLoggerTransport`).
+- The compiled daemon reads nothing beside its source: the agent's Containerfile is embedded (a Bun text import), and
+  Lima comes from the app. On macOS the bundle carries `limactl` and its `share/lima` as resources
+  (`tauri.macos.conf.json`), and the shell passes their folder as `POWERAGENTS_LIMA_DIR`; in development it defaults
+  to `packages/daemon/vendor/lima`. `limactl` must keep the `com.apple.security.virtualization` entitlement it ships
+  with, or Lima's vz driver cannot start the VM: the ad-hoc signed bundle leaves it as is, and a signing setup must
+  re-sign it with that entitlement.
+- The first start downloads what the sandbox needs (the VM's Ubuntu image, then the agent's image built in the VM);
+  the installer carries no image. `POWERAGENTS_LIMA_HOME` (the VM, default `~/.poweragents/lima`; the agent's password
+  sits in the folder above it) and `POWERAGENTS_DATA_ROOT` move a first start into a scratch folder, leaving the real VM
+  untouched.
 - `bun run desktop` starts the shell in development: Tauri runs `nuxt dev` on port 4100 and the daemon from source under
   `bun --watch`, and the shell starts no sidecar.
 - The window may call only Tauri's core (`capabilities/default.json`), and its CSP allows connections only to the shell

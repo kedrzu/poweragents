@@ -3,6 +3,59 @@
 Full text of decisions no longer in force, under their original IDs. Never edited after writing,
 except to append the next retired form.
 
+## D5
+
+Retired in part 2026-11-08: the "works with any compatible daemon — local, remote or custom" half dropped; rewritten in place as [D5](../DECISIONS.md#d5).
+
+**A daemon runs in the background and exposes everything over a port; the desktop app is a thin
+client that works with any compatible daemon — local, remote or custom.** (2026-11-08, owner)
+
+**Why.** It lets the core be swapped (custom file storage, a company cloud) under the same signed
+app, and it is the shape a mobile companion and cloud-hosted agents need. Paseo is the model.
+
+> **Checked 2026-11-08:** Paseo's daemon listens on `ws://127.0.0.1:6767`; desktop (Electron), mobile
+> (Expo), web and CLI connect to it; remote access via an opt-in E2E-encrypted relay —
+> [getpaseo/paseo](https://github.com/getpaseo/paseo), [security](https://paseo.sh/docs/security).
+
+## D6
+
+Retired 2026-11-12, replaced by the current [D6](../DECISIONS.md#d6) (per profile and the macOS runtime settled).
+
+**All agent work runs inside a Linux sandbox shipped with the app; the user installs nothing else, and
+the agent sees only the folders mounted into it.** (2026-11-08, owner)
+
+**Why.** The agent can install whatever it needs (Python, Node, Playwright…) without touching the
+user's machine, and the environment can be described and rebuilt elsewhere.
+
+> **Checked 2026-11-08:** Cowork's local mode ran a Linux VM via Apple Virtualization.framework on
+> macOS and Hyper-V/HCS on Windows, folders over VirtioFS —
+> [Anthropic](https://support.claude.com/en/articles/14479288-claude-cowork-architecture-overview);
+> since 2026-10-06 Cowork defaults to cloud sandboxes. On Windows, enabling WSL / VM Platform the
+> first time needs admin and a reboot — [Microsoft](https://learn.microsoft.com/en-us/windows/wsl/install);
+> no admin-free path found. Apple `container` needs macOS 26 + Apple silicon and sudo for host DNS —
+> [apple/container](https://github.com/apple/container/blob/main/docs/host-integration.md).
+> Community benchmarks put a minimal VZ VM boot at ~0.3–0.9 s.
+
+**Open.** Which runtime per OS; per-profile vs per-project sandbox (owner leans per profile).
+
+## D8
+
+Retired 2026-11-12, replaced by the current [D8](../DECISIONS.md#d8) (the agent may look into other projects).
+
+**Each project is its own folder; the agent working in a project sees that project's folder.**
+(2026-11-08, owner)
+
+**Why.** Owner's choice. Keeps projects movable and storable elsewhere independently.
+
+**What the agent sees.** The project's folder, the profile's Memory ([D9](#d9)) and the profile's
+Downloads folder ([D27](#d27)). (2026-11-08)
+
+**Rejected.**
+
+- One vault per profile with projects as plain subfolders the agent sees all at once (the shape of
+  the owner's wife's Obsidian setup) — proposed by the design agent 2026-11-08; owner chose separate
+  folders, with knowledge about the person handled by [D9](#d9) instead.
+
 ## D10
 
 Retired 2026-11-08, replaced by [D12](#d12), itself since replaced by [D21](../DECISIONS.md#d21).
@@ -13,23 +66,6 @@ Retired 2026-11-08, replaced by [D12](#d12), itself since replaced by [D21](../D
 Telegram bot, which needed technical setup). The phone is where a schedule's result is read.
 
 **Open.** How the phone reaches the daemon (relay vs tunnel), push notifications.
-
-## D19
-
-Retired 2026-11-08, replaced by [D20](../DECISIONS.md#d20).
-
-**A plugin keeps what it learns about the user (e.g. email-sorting rules) as ordinary files in its own
-folder, shown in the app under that plugin ("what this plugin knows about me"), not as a project.**
-(2026-11-08, owner)
-
-**Why.** People don't think of email sorting as a project; to them a project starts and ends. The files
-stay plain and visible, consistent with [D9](#d9) — only their place in the interface differs.
-
-**Rejected.**
-
-- Installing a plugin creates a regular project holding its files — proposed by the design agent
-  2026-11-08; "email sorting" is not something people call a project.
-- A hidden plugin store — contradicts plain, visible memory ([D9](#d9)).
 
 ## D12
 
@@ -51,19 +87,22 @@ setup uses a Telegram bot, which needed technical setup), so it comes quickly �
 alone does not, since the phone would still need the Tailscale VPN client; push notifications need a
 server holding the app's APNs/FCM keys, i.e. a hosted component of ours.
 
-## D5
+## D19
 
-Retired in part 2026-11-08: the "works with any compatible daemon — local, remote or custom" half dropped; rewritten in place as [D5](../DECISIONS.md#d5).
+Retired 2026-11-08, replaced by [D20](../DECISIONS.md#d20).
 
-**A daemon runs in the background and exposes everything over a port; the desktop app is a thin
-client that works with any compatible daemon — local, remote or custom.** (2026-11-08, owner)
+**A plugin keeps what it learns about the user (e.g. email-sorting rules) as ordinary files in its own
+folder, shown in the app under that plugin ("what this plugin knows about me"), not as a project.**
+(2026-11-08, owner)
 
-**Why.** It lets the core be swapped (custom file storage, a company cloud) under the same signed
-app, and it is the shape a mobile companion and cloud-hosted agents need. Paseo is the model.
+**Why.** People don't think of email sorting as a project; to them a project starts and ends. The files
+stay plain and visible, consistent with [D9](#d9) — only their place in the interface differs.
 
-> **Checked 2026-11-08:** Paseo's daemon listens on `ws://127.0.0.1:6767`; desktop (Electron), mobile
-> (Expo), web and CLI connect to it; remote access via an opt-in E2E-encrypted relay —
-> [getpaseo/paseo](https://github.com/getpaseo/paseo), [security](https://paseo.sh/docs/security).
+**Rejected.**
+
+- Installing a plugin creates a regular project holding its files — proposed by the design agent
+  2026-11-08; "email sorting" is not something people call a project.
+- A hidden plugin store — contradicts plain, visible memory ([D9](#d9)).
 
 ## D29
 
