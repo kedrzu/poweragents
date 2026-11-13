@@ -5573,6 +5573,11 @@
           "status": "taken",
           "method": "rdap",
           "checked_at": "2026-11-13"
+        },
+        "tomo.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -7186,6 +7191,11 @@
           "checked_at": "2026-11-13"
         },
         "gethana.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "hana.so": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -8873,6 +8883,11 @@
           "checked_at": "2026-11-13"
         },
         "getmira.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mira.so": {
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
@@ -26736,6 +26751,3302 @@
         }
       },
       "phonetics": "TEB-en"
+    },
+    "Kokua": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "kokua.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "kokua.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kokua.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kokua.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getkokua.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "Kōkua — TRIPP's AI mental-wellness guide (iOS, Android, Meta Quest, phone line)",
+          "space": "consumer AI assistant",
+          "severity": "blocking",
+          "url": "https://gamesbeat.com/tripp-launches-kokua-ai-as-mental-wellness-coach-across-multiple-platforms",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "Hawaiian 'help, cooperation'; KO-koo-ah",
+      "verdict": "dropped",
+      "reason": "blocking: Kōkua — TRIPP's AI mental-wellness guide (iOS, Android, Meta Quest, phone line)"
+    },
+    "Ohana": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "ohana.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ohana.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ohana.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ohana.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getohana.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Mahalo": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "mahalo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mahalo.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mahalo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mahalo.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getmahalo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Aloha": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "aloha.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "aloha.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "aloha.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "aloha.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getaloha.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Rafiki": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "rafiki.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "rafiki.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "rafiki.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "rafiki.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getrafiki.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Nguvu": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "nguvu.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nguvu.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nguvu.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "nguvu.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getnguvu.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Msaada": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "msaada.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "msaada.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "msaada.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "msaada.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getmsaada.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Awhina": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "awhina.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "awhina.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "awhina.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "awhina.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getawhina.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Apu": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "apu.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "apu.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "apu.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "apu.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getapu.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "The Simpsons character"
+    },
+    "Kaveri": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "kaveri.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kaveri.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kaveri.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kaveri.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getkaveri.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Voima": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "voima.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "voima.app": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "voima.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "voima.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getvoima.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "Voima — small gym/fitness apps (iOS, 0 ratings)",
+          "space": "fitness",
+          "severity": "noise",
+          "url": "https://apps.apple.com/search?term=voima",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "Finnish 'power'; VOY-ma; may be read 'Vo-ee-ma'"
+    },
+    "Sisu": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "sisu.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "sisu.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "sisu.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "sisu.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getsisu.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Amico": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "amico.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "amico.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "amico.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "amico.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getamico.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Aiuto": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "aiuto.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "aiuto.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "aiuto.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "aiuto.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getaiuto.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Ayuda": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "ayuda.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ayuda.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ayuda.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ayuda.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getayuda.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Amigo": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "amigo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "amigo.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "amigo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "amigo.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getamigo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Mitra": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "mitra.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "mitra.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mitra.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mitra.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getmitra.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Shakti": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "shakti.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "shakti.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "shakti.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "shakti.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getshakti.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Sahaya": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "sahaya.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "sahaya.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "sahaya.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "sahaya.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getsahaya.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Yume": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "yume.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "yume.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "yume.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "yume.so": {
+          "status": "taken",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getyume.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Kumo": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "kumo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kumo.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kumo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kumo.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getkumo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Nakama": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "nakama.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nakama.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nakama.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nakama.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getnakama.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "Nakama game server (Heroic Labs); One Piece"
+    },
+    "Kizuna": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "kizuna.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kizuna.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kizuna.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kizuna.so": {
+          "status": "taken",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getkizuna.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Genki": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "genki.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "genki.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "genki.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "genki.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getgenki.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Hygge": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "hygge.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "hygge.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "hygge.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "hygge.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gethygge.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Lagom": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "lagom.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "lagom.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lagom.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lagom.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getlagom.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Fika": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "fika.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "fika.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "fika.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "fika.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getfika.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Mysa": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "mysa.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mysa.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mysa.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mysa.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getmysa.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Koselig": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "koselig.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "koselig.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "koselig.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "koselig.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getkoselig.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Gezellig": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "gezellig.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gezellig.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gezellig.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gezellig.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getgezellig.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Mana": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "mana.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mana.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mana.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mana.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getmana.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Tika": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "tika.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tika.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tika.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tika.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gettika.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Kia": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "kia.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kia.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kia.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kia.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getkia.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Kaha": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "kaha.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kaha.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kaha.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kaha.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getkaha.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Waka": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "waka.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "waka.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "waka.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "waka.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getwaka.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Pono": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "pono.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "pono.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pono.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pono.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getpono.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Ikaika": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "ikaika.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ikaika.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ikaika.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ikaika.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getikaika.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Ikigai": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "ikigai.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ikigai.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ikigai.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ikigai.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getikigai.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Saudade": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "saudade.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "saudade.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "saudade.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "saudade.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getsaudade.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Dulce": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "dulce.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "dulce.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "dulce.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "dulce.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getdulce.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Animo": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "animo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "animo.app": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "animo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "animo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getanimo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "Animo (Manim AI) — desktop app for AI math animations; Animos — AI friends for kids; Aniimo — game (9.7k ratings)",
+          "space": "AI apps",
+          "severity": "notable",
+          "url": "https://theresanaiforthat.com/ai/animo/",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "Spanish/Italian 'spirit, courage' — '¡Ánimo!' = 'you can do it'; AH-nee-mo"
+    },
+    "Sabi": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "sabi.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "sabi.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "sabi.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "sabi.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getsabi.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Wabi": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "wabi.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "wabi.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "wabi.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "wabi.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getwabi.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Komorebi": {
+      "direction": "words for help, friend or strength from other languages, easy in English",
+      "round": 13,
+      "domains": {
+        "komorebi.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "komorebi.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "komorebi.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "komorebi.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getkomorebi.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Forte": {
+      "direction": "soft and strong in one word (music, Latin)",
+      "round": 13,
+      "domains": {
+        "forte.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "forte.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "forte.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "forte.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getforte.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Piano": {
+      "direction": "soft and strong in one word (music, Latin)",
+      "round": 13,
+      "domains": {
+        "piano.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "piano.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "piano.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "piano.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getpiano.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Pianoforte": {
+      "direction": "soft and strong in one word (music, Latin)",
+      "round": 13,
+      "domains": {
+        "pianoforte.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pianoforte.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pianoforte.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pianoforte.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getpianoforte.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "ThePianoforte — small iOS MIDI player",
+          "space": "music apps",
+          "severity": "noise",
+          "url": "https://apps.apple.com/ca/app/thepianoforte/id6584519357",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "literally 'soft-loud': gentle and strong in one word; four syllables"
+    },
+    "Dolce": {
+      "direction": "soft and strong in one word (music, Latin)",
+      "round": 13,
+      "domains": {
+        "dolce.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "dolce.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "dolce.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "dolce.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getdolce.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "Dolce & Gabbana"
+    },
+    "Vivace": {
+      "direction": "soft and strong in one word (music, Latin)",
+      "round": 13,
+      "domains": {
+        "vivace.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "vivace.app": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "vivace.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "vivace.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getvivace.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Allegro": {
+      "direction": "soft and strong in one word (music, Latin)",
+      "round": 13,
+      "domains": {
+        "allegro.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "allegro.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "allegro.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "allegro.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getallegro.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "Allegro, Poland's largest marketplace"
+    },
+    "Tempo": {
+      "direction": "soft and strong in one word (music, Latin)",
+      "round": 13,
+      "domains": {
+        "tempo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tempo.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tempo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tempo.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gettempo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Cadence": {
+      "direction": "soft and strong in one word (music, Latin)",
+      "round": 13,
+      "domains": {
+        "cadence.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "cadence.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "cadence.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "cadence.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getcadence.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Legato": {
+      "direction": "soft and strong in one word (music, Latin)",
+      "round": 13,
+      "domains": {
+        "legato.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "legato.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "legato.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "legato.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getlegato.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Sforzando": {
+      "direction": "soft and strong in one word (music, Latin)",
+      "round": 13,
+      "domains": {
+        "sforzando.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "sforzando.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "sforzando.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "sforzando.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getsforzando.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Crescendo": {
+      "direction": "soft and strong in one word (music, Latin)",
+      "round": 13,
+      "domains": {
+        "crescendo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "crescendo.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "crescendo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "crescendo.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getcrescendo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Fortissimo": {
+      "direction": "soft and strong in one word (music, Latin)",
+      "round": 13,
+      "domains": {
+        "fortissimo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "fortissimo.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "fortissimo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "fortissimo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getfortissimo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Suave": {
+      "direction": "soft and strong in one word (music, Latin)",
+      "round": 13,
+      "domains": {
+        "suave.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "suave.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "suave.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "suave.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getsuave.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Fortiter": {
+      "direction": "soft and strong in one word (music, Latin)",
+      "round": 13,
+      "domains": {
+        "fortiter.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "fortiter.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "fortiter.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "fortiter.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getfortiter.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Suaviter": {
+      "direction": "soft and strong in one word (music, Latin)",
+      "round": 13,
+      "domains": {
+        "suaviter.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "suaviter.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "suaviter.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "suaviter.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getsuaviter.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Brio": {
+      "direction": "soft and strong in one word (music, Latin)",
+      "round": 13,
+      "domains": {
+        "brio.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "brio.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "brio.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "brio.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getbrio.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Andante": {
+      "direction": "soft and strong in one word (music, Latin)",
+      "round": 13,
+      "domains": {
+        "andante.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "andante.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "andante.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "andante.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getandante.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "means slow"
+    },
+    "Adagio": {
+      "direction": "soft and strong in one word (music, Latin)",
+      "round": 13,
+      "domains": {
+        "adagio.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "adagio.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "adagio.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "adagio.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getadagio.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Presto": {
+      "direction": "soft and strong in one word (music, Latin)",
+      "round": 13,
+      "domains": {
+        "presto.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "presto.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "presto.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "presto.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getpresto.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Lento": {
+      "direction": "soft and strong in one word (music, Latin)",
+      "round": 13,
+      "domains": {
+        "lento.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lento.app": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "lento.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lento.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getlento.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "means slow"
+    },
+    "Arpeggio": {
+      "direction": "soft and strong in one word (music, Latin)",
+      "round": 13,
+      "domains": {
+        "arpeggio.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "arpeggio.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "arpeggio.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "arpeggio.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getarpeggio.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Io": {
+      "direction": "small companions in the sky: moons and small stars",
+      "round": 13,
+      "domains": {
+        "io.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "io.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "io.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "io.so": {
+          "status": "unknown",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getio.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "two letters, likely reserved; I/O"
+    },
+    "Phobos": {
+      "direction": "small companions in the sky: moons and small stars",
+      "round": 13,
+      "domains": {
+        "phobos.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "phobos.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "phobos.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "phobos.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getphobos.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "means fear"
+    },
+    "Deimos": {
+      "direction": "small companions in the sky: moons and small stars",
+      "round": 13,
+      "domains": {
+        "deimos.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "deimos.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "deimos.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "deimos.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getdeimos.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "means terror"
+    },
+    "Titania": {
+      "direction": "small companions in the sky: moons and small stars",
+      "round": 13,
+      "domains": {
+        "titania.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "titania.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "titania.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "titania.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gettitania.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Oberon": {
+      "direction": "small companions in the sky: moons and small stars",
+      "round": 13,
+      "domains": {
+        "oberon.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "oberon.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "oberon.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "oberon.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getoberon.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "Oberon — Niklaus Wirth's programming language and OS; an 'Oberon' AI-agent workspace appears only as a UI mockup",
+          "space": "software / dev",
+          "severity": "notable",
+          "url": "https://agent.kombai.com/kombai-inspiration-library/sections/tree/web/42/index.html",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "king of the fairies (Shakespeare); moon of Uranus; OH-ber-on"
+    },
+    "Miranda": {
+      "direction": "small companions in the sky: moons and small stars",
+      "round": 13,
+      "domains": {
+        "miranda.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "miranda.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "miranda.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "miranda.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getmiranda.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Ariel": {
+      "direction": "small companions in the sky: moons and small stars",
+      "round": 13,
+      "domains": {
+        "ariel.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ariel.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ariel.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ariel.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getariel.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Puck": {
+      "direction": "small companions in the sky: moons and small stars",
+      "round": 13,
+      "domains": {
+        "puck.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "puck.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "puck.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "puck.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getpuck.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Triton": {
+      "direction": "small companions in the sky: moons and small stars",
+      "round": 13,
+      "domains": {
+        "triton.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "triton.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "triton.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "triton.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gettriton.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Nereid": {
+      "direction": "small companions in the sky: moons and small stars",
+      "round": 13,
+      "domains": {
+        "nereid.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nereid.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nereid.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nereid.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getnereid.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Rhea": {
+      "direction": "small companions in the sky: moons and small stars",
+      "round": 13,
+      "domains": {
+        "rhea.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "rhea.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "rhea.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "rhea.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getrhea.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Dione": {
+      "direction": "small companions in the sky: moons and small stars",
+      "round": 13,
+      "domains": {
+        "dione.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "dione.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "dione.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "dione.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getdione.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Tethys": {
+      "direction": "small companions in the sky: moons and small stars",
+      "round": 13,
+      "domains": {
+        "tethys.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tethys.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tethys.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tethys.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gettethys.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Mimas": {
+      "direction": "small companions in the sky: moons and small stars",
+      "round": 13,
+      "domains": {
+        "mimas.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mimas.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mimas.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mimas.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getmimas.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Enceladus": {
+      "direction": "small companions in the sky: moons and small stars",
+      "round": 13,
+      "domains": {
+        "enceladus.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "enceladus.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "enceladus.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "enceladus.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getenceladus.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Janus": {
+      "direction": "small companions in the sky: moons and small stars",
+      "round": 13,
+      "domains": {
+        "janus.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "janus.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "janus.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "janus.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getjanus.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Pandora": {
+      "direction": "small companions in the sky: moons and small stars",
+      "round": 13,
+      "domains": {
+        "pandora.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pandora.app": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "pandora.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pandora.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getpandora.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Calypso": {
+      "direction": "small companions in the sky: moons and small stars",
+      "round": 13,
+      "domains": {
+        "calypso.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "calypso.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "calypso.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "calypso.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getcalypso.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Kale": {
+      "direction": "small companions in the sky: moons and small stars",
+      "round": 13,
+      "domains": {
+        "kale.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kale.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kale.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kale.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getkale.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Lyra": {
+      "direction": "small companions in the sky: moons and small stars",
+      "round": 13,
+      "domains": {
+        "lyra.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lyra.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lyra.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lyra.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getlyra.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Vega": {
+      "direction": "small companions in the sky: moons and small stars",
+      "round": 13,
+      "domains": {
+        "vega.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "vega.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "vega.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "vega.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getvega.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Rigel": {
+      "direction": "small companions in the sky: moons and small stars",
+      "round": 13,
+      "domains": {
+        "rigel.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "rigel.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "rigel.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "rigel.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getrigel.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Algol": {
+      "direction": "small companions in the sky: moons and small stars",
+      "round": 13,
+      "domains": {
+        "algol.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "algol.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "algol.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "algol.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getalgol.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "'demon star'; old programming language"
+    },
+    "Polaris": {
+      "direction": "small companions in the sky: moons and small stars",
+      "round": 13,
+      "domains": {
+        "polaris.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "polaris.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "polaris.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "polaris.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getpolaris.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Sirius": {
+      "direction": "small companions in the sky: moons and small stars",
+      "round": 13,
+      "domains": {
+        "sirius.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "sirius.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "sirius.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "sirius.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getsirius.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Pollux": {
+      "direction": "small companions in the sky: moons and small stars",
+      "round": 13,
+      "domains": {
+        "pollux.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pollux.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pollux.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pollux.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getpollux.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Castor": {
+      "direction": "small companions in the sky: moons and small stars",
+      "round": 13,
+      "domains": {
+        "castor.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "castor.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "castor.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "castor.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getcastor.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Altair": {
+      "direction": "small companions in the sky: moons and small stars",
+      "round": 13,
+      "domains": {
+        "altair.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "altair.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "altair.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "altair.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getaltair.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Deneb": {
+      "direction": "small companions in the sky: moons and small stars",
+      "round": 13,
+      "domains": {
+        "deneb.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "deneb.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "deneb.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "deneb.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getdeneb.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Spica": {
+      "direction": "small companions in the sky: moons and small stars",
+      "round": 13,
+      "domains": {
+        "spica.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "spica.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "spica.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "spica.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getspica.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Capella": {
+      "direction": "small companions in the sky: moons and small stars",
+      "round": 13,
+      "domains": {
+        "capella.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "capella.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "capella.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "capella.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getcapella.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Electra": {
+      "direction": "small companions in the sky: moons and small stars",
+      "round": 13,
+      "domains": {
+        "electra.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "electra.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "electra.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "electra.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getelectra.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Maia": {
+      "direction": "small companions in the sky: moons and small stars",
+      "round": 13,
+      "domains": {
+        "maia.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "maia.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "maia.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "maia.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getmaia.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Merope": {
+      "direction": "small companions in the sky: moons and small stars",
+      "round": 13,
+      "domains": {
+        "merope.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "merope.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "merope.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "merope.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getmerope.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Comet": {
+      "direction": "small companions in the sky: moons and small stars",
+      "round": 13,
+      "domains": {
+        "comet.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "comet.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "comet.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "comet.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getcomet.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Meteor": {
+      "direction": "small companions in the sky: moons and small stars",
+      "round": 13,
+      "domains": {
+        "meteor.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "meteor.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "meteor.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "meteor.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getmeteor.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Nova": {
+      "direction": "small companions in the sky: moons and small stars",
+      "round": 13,
+      "domains": {
+        "nova.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nova.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nova.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nova.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getnova.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Pulsar": {
+      "direction": "small companions in the sky: moons and small stars",
+      "round": 13,
+      "domains": {
+        "pulsar.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pulsar.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pulsar.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pulsar.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getpulsar.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Quasar": {
+      "direction": "small companions in the sky: moons and small stars",
+      "round": 13,
+      "domains": {
+        "quasar.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "quasar.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "quasar.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "quasar.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getquasar.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
     }
   }
 }

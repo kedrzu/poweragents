@@ -310,3 +310,26 @@ database — dropped). App Store shows nothing live for any of them.
 still rate-limiting.
 **Proposed next.** Show the user the list for a pure ear test before spending checks on it; their
 taste has been the deciding filter for several rounds. Then web + trademark screen the ones they keep.
+
+## Round 13 — 2026-11-13
+
+**User on round 12.** "Why do they all end in -on, -in, -an, -en? Let's try another direction." —
+the -en/-on coinages rejected. (They ended that way because every soft two-syllable -a/-o coinage had
+its .ai taken.)
+**Directions.** Words for help, friend or strength from other languages that English speakers can
+say (≈50: Hawaiian, Finnish, Japanese, Swahili, Romance, Scandinavian); "soft and strong in one
+word" from music and Latin (≈20: Pianoforte, Forte, Dolce, Suaviter/Fortiter); small companions in
+the sky — moons and stars (≈40).
+**What came out.** Bare `.com/.app/.ai` are gone for almost all of them; `.so` is open for most, and
+`get…com` for some. Meaning-fit is better than in any earlier round. **Pianoforte** is literally
+"soft-strong" — the brief in one word — with pianoforte.so and getpianoforte.com open and no software
+conflict found, but it has four syllables. Kokua ("help" in Hawaiian) is TRIPP's AI wellness guide —
+blocking. Animo ("¡Ánimo!" = "you can do it") has small AI apps around it. Oberon (fairy king, a moon)
+is open on .so/get…com; Wirth's Oberon language is the main association.
+**Where I looked.** App Store search API (8 names); web search (Kokua, Animo, Pianoforte, Oberon) —
+Exa hit its free rate limit, so WebSearch was used. TMview still resets connections — no trademark
+screen.
+**Best.** Pianoforte (story fits perfectly; long). Oberon (regal, one spelling; dev association).
+Animo (warm meaning; small AI-app noise). Voima (Finnish "power"; may be misread).
+**Proposed next.** Ask whether the "soft + strong" meaning (Pianoforte) is worth a direction of its
+own — shorter words or compounds that hold both halves. Retry TMview later for the finalists.

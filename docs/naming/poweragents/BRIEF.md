@@ -51,6 +51,8 @@ mascot.
 
 ## Rejected directions
 
+- Coined two-syllable names ending in -en/-in/-on/-an (Nebin, Tevon, Zavon…) — "why do they all end in -on, -in, -an, -en? Let's try another direction" (round 12).
+
 - Literal Polish first names (Radek, Bronek, Franek, Olek) — "feel weird" (round 4).
 
 - "Giant" compounds (Kind/Gentle/Easy/Pocket Giant) — "sounds weak" (round 2).
