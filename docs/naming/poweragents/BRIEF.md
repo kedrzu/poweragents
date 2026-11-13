@@ -70,6 +70,8 @@ mascot.
 
 ## Rejected directions
 
+- The Esperanto -eto ending (Urseto, Vulpeto, Nubeto…) — "I don't like that ending" (round 23).
+
 - Italian surnames in -elli/-ini (Torelli, Corelli…) — "Torelli sounds like a pasta brand" (round 21).
 
 - Coined two-syllable names ending in -en/-in/-on/-an (Nebin, Tevon, Zavon…) — "why do they all end in -on, -in, -an, -en? Let's try another direction" (round 12).

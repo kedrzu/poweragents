@@ -533,3 +533,19 @@ heart') is one letter from Kore.ai; **Urseto** ('little bear'), **Vulpeto** ('li
 Nubeto (little cloud).
 **Proposed next.** Show the Esperanto cubs as a family with Lupeto. If the user likes the -eto sound,
 the pool is deep enough to pick by ear from dozens.
+
+## Round 24 — 2026-11-13
+
+**User on round 23.** "I don't like that ending" — the Esperanto -eto ending rejected (Urseto,
+Vulpeto, Nubeto, Koreto); Lupeto stays saved but its ending is now a known negative.
+**Directions.** Japanese, Hawaiian and Basque names and animal words that are easy in English —
+Tancho's neighbourhood (≈55).
+**What came out.** Short Japanese words are taken (Kuma, Hiro, Taro, Neko, Sora); Hawaiian and
+Basque names keep .so/get…com and sometimes .app. "<name> ai": **Honu** ('sea turtle') is Honu AI,
+agents that run a business (blocking); **Eneko** sits next to Eney, MacPaw's proactive AI workmate
+for Mac. **Kekoa** ('the brave one') and **Keola** ('the life') are clean — only people.
+**Where I looked.** DNS; web search "honu ai", "kekoa ai", "keola ai", "eneko ai".
+**Best.** Kekoa (kekoa.so, getkekoa.com) — meaning fits strength; Keola (keola.app, .so, get…com).
+Both are living Native Hawaiian names; using them for a product deserves a moment's thought.
+**Proposed next.** Show Kekoa and Keola. Note that 24 rounds in, Lupo has held as favourite for
+seven rounds; offer again to move it into depth checks in parallel with further search.

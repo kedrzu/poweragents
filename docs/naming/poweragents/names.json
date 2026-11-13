@@ -7167,6 +7167,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "kenji.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -48516,7 +48521,8 @@
       "phonetics": "Esperanto 'little wolf' (lupo + -eto); loo-PEH-to; one t, unlike Italian Lupetto",
       "verdict": "liked",
       "feedback": [
-        "\"zapisz oba i szukaj dalej\" — Lupo and Lupeto both kept (round 22)"
+        "\"zapisz oba i szukaj dalej\" — Lupo and Lupeto both kept (round 22)",
+        "user dislikes the -eto ending in general (round 23) — Lupeto kept as saved earlier, but its ending is now a known negative"
       ]
     },
     "Otso": {
@@ -49885,7 +49891,11 @@
           "checked_at": "2026-11-13"
         }
       ],
-      "phonetics": "Esperanto 'little bear'; oor-SEH-to — a bear-cub mascot"
+      "phonetics": "Esperanto 'little bear'; oor-SEH-to — a bear-cub mascot",
+      "verdict": "rejected",
+      "feedback": [
+        "\"nie podoba mi sie ta koncowka\" (-eto, round 23)"
+      ]
     },
     "Katido": {
       "direction": "Esperanto diminutives and young-animal words (-eto, -ido), Lupeto's family",
@@ -49990,7 +50000,11 @@
           "checked_at": "2026-11-13"
         }
       ],
-      "phonetics": "Esperanto 'little fox'; vool-PEH-to; even vulpeto.com is unregistered"
+      "phonetics": "Esperanto 'little fox'; vool-PEH-to; even vulpeto.com is unregistered",
+      "verdict": "rejected",
+      "feedback": [
+        "\"nie podoba mi sie ta koncowka\" (-eto, round 23)"
+      ]
     },
     "Vulpido": {
       "direction": "Esperanto diminutives and young-animal words (-eto, -ido), Lupeto's family",
@@ -50229,7 +50243,11 @@
           "checked_at": "2026-11-13"
         }
       ],
-      "phonetics": "Esperanto 'little heart'; ko-REH-to"
+      "phonetics": "Esperanto 'little heart'; ko-REH-to",
+      "verdict": "rejected",
+      "feedback": [
+        "\"nie podoba mi sie ta koncowka\" (-eto, round 23)"
+      ]
     },
     "Venteto": {
       "direction": "Esperanto diminutives and young-animal words (-eto, -ido), Lupeto's family",
@@ -50770,7 +50788,11 @@
           "checked_at": "2026-11-13"
         }
       ],
-      "phonetics": "Esperanto 'little cloud'; noo-BEH-to"
+      "phonetics": "Esperanto 'little cloud'; noo-BEH-to",
+      "verdict": "rejected",
+      "feedback": [
+        "\"nie podoba mi sie ta koncowka\" (-eto, round 23)"
+      ]
     },
     "Ondeto": {
       "direction": "Esperanto diminutives and young-animal words (-eto, -ido), Lupeto's family",
@@ -51364,6 +51386,1678 @@
       },
       "verdict": "dropped",
       "reason": "weak"
+    },
+    "Kaito": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "kaito.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kaito.app": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "kaito.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kaito.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getkaito.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Haru": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "haru.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "haru.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "haru.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "haru.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getharu.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Ren": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "ren.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ren.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ren.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ren.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getren.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Yuki": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "yuki.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "yuki.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "yuki.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "yuki.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getyuki.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Hiro": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "hiro.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "hiro.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "hiro.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "hiro.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gethiro.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Taro": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "taro.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "taro.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "taro.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "taro.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gettaro.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Koji": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "koji.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "koji.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "koji.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "koji.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getkoji.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Riku": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "riku.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "riku.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "riku.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "riku.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getriku.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Shin": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "shin.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "shin.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "shin.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "shin.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getshin.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Kuma": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "kuma.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kuma.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kuma.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kuma.so": {
+          "status": "taken",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getkuma.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Tanuki": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "tanuki.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tanuki.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tanuki.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tanuki.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gettanuki.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "GitLab's mascot"
+    },
+    "Kitsune": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "kitsune.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kitsune.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kitsune.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kitsune.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getkitsune.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Tsuru": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "tsuru.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tsuru.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tsuru.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tsuru.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gettsuru.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Kame": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "kame.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kame.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kame.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kame.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getkame.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Risu": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "risu.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "risu.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "risu.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "risu.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getrisu.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Tora": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "tora.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tora.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tora.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tora.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gettora.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Inu": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "inu.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "inu.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "inu.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "inu.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getinu.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Neko": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "neko.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "neko.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "neko.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "neko.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getneko.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Usagi": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "usagi.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "usagi.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "usagi.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "usagi.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getusagi.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "Sailor Moon"
+    },
+    "Saru": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "saru.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "saru.app": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "saru.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "saru.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getsaru.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Hoshi": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "hoshi.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "hoshi.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "hoshi.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "hoshi.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gethoshi.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Koa": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "koa.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "koa.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "koa.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "koa.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getkoa.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Nalu": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "nalu.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nalu.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nalu.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nalu.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getnalu.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Mahina": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "mahina.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mahina.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mahina.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mahina.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getmahina.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Keola": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "keola.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "keola.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "keola.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "keola.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getkeola.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "search 'keola ai': only people and Ke Ola Magazine; Keboola, Keika.ai, KeanU AI nearby",
+          "space": "AI",
+          "severity": "noise",
+          "url": "https://help.keboola.com/ai/",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "Hawaiian 'the life'; keh-OH-la; a Native Hawaiian name — cultural sensitivity to weigh"
+    },
+    "Kekoa": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "kekoa.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kekoa.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kekoa.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kekoa.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getkekoa.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "search 'kekoa ai': only people named Kekoa (musicians, surfer, scholar); Kekoa Foundation (Native Hawaiian nonprofit)",
+          "space": "AI",
+          "severity": "noise",
+          "url": "https://kekoacollective.com/pages/story",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "Hawaiian 'the brave one'; keh-KOH-ah; a living Native Hawaiian name — cultural sensitivity to weigh"
+    },
+    "Makani": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "makani.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "makani.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "makani.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "makani.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getmakani.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Honu": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "honu.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "honu.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "honu.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "honu.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gethonu.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "Honu AI — 'AI-run business' built and operated by AI agents (Product Hunt, 11–50 people)",
+          "space": "AI agents",
+          "severity": "blocking",
+          "url": "https://cerebralvalley.beehiiv.com/p/honu-quest-enable-full-business-autonomy",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "Hawaiian green sea turtle",
+      "verdict": "dropped",
+      "reason": "blocking: Honu AI — 'AI-run business' built and operated by AI agents (Product Hunt, 11–50"
+    },
+    "Pueo": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "pueo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pueo.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "pueo.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "pueo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getpueo.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "'poo-'"
+    },
+    "Manu": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "manu.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "manu.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "manu.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "manu.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getmanu.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Kalo": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "kalo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kalo.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kalo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kalo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getkalo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Kai": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "kai.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kai.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kai.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kai.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getkai.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Iolani": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "iolani.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "iolani.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "iolani.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "iolani.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getiolani.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Keanu": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "keanu.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "keanu.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "keanu.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "keanu.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getkeanu.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "Keanu Reeves"
+    },
+    "Kona": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "kona.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kona.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kona.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kona.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getkona.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Akamai": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "akamai.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "akamai.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "akamai.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "akamai.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getakamai.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "Akamai (CDN)"
+    },
+    "Unai": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "unai.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "unai.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "unai.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "unai.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getunai.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "spelling ambiguous"
+    },
+    "Iker": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "iker.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "iker.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "iker.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "iker.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getiker.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Eneko": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "eneko.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "eneko.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "eneko.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "eneko.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "geteneko.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "Eney — MacPaw's 'proactive AI workmate for Mac' (sound-alike); Basque 'Eneko' human-machine project",
+          "space": "AI desktop assistant",
+          "severity": "notable",
+          "url": "https://app.eney.ai/geteney-ai-plans",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "Basque first name; eh-NEH-ko"
+    },
+    "Aitor": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "aitor.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "aitor.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "aitor.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "aitor.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getaitor.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Gorka": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "gorka.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gorka.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "gorka.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gorka.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getgorka.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Mikel": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "mikel.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mikel.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mikel.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mikel.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getmikel.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Ander": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "ander.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "ander.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "ander.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ander.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getander.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Oier": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "oier.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "oier.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "oier.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "oier.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getoier.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Xabi": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "xabi.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "xabi.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "xabi.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "xabi.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getxabi.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "Xabi Alonso"
+    },
+    "Txomin": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "txomin.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "txomin.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "txomin.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "txomin.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gettxomin.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Hodei": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "hodei.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "hodei.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "hodei.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "hodei.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gethodei.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "spelling ambiguous"
+    },
+    "Ibai": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "ibai.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ibai.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ibai.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ibai.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getibai.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Izan": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "izan.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "izan.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "izan.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "izan.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getizan.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "weak"
+    },
+    "Jon": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "jon.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "jon.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "jon.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "jon.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getjon.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Koldo": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "koldo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "koldo.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "koldo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "koldo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getkoldo.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Peio": {
+      "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
+      "round": 24,
+      "domains": {
+        "peio.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "peio.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "peio.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "peio.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getpeio.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
     }
   }
 }
