@@ -16,6 +16,7 @@
         "prep": "nx run-many -t prep",
         "watch": "nx run-many -t watch,watch:localise,watch:monorepo,watch:tsc --parallel=100",
         "dev": "nx run-many -t dev,watch:localise --exclude='@nzyme/*' --parallel=100",
+        "sandbox:try": "bun packages/daemon/src/try/sandboxTry.ts",
         "desktop": "bun nx run @poweragents/daemon:sidecar && bun --cwd packages/desktop tauri dev",
         "lint": "oxlint --type-aware --quiet --disable-nested-config --fix . && eslint --fix . && bun nzyme pen check",
         "lint:check": "oxlint --type-aware --quiet --disable-nested-config . && eslint . && bun nzyme pen check",

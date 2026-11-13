@@ -10,6 +10,7 @@
     },
     "dependencies": {
         "@playwright/test": "1.64.1",
+        "@poweragents/common": "workspace:*",
         "@poweragents/ui": "workspace:*"
     },
     "devDependencies": {

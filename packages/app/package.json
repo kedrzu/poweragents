@@ -15,9 +15,13 @@
         "typecheck": "nuxi typecheck"
     },
     "dependencies": {
+        "@lucide/vue": "1.72.0",
+        "@nzyme/fetch-utils": "workspace:*",
         "@nzyme/i18n": "workspace:*",
         "@nzyme/i18n-core": "workspace:*",
         "@nzyme/ioc": "workspace:*",
+        "@nzyme/logging": "workspace:*",
+        "@nzyme/rpc": "workspace:*",
         "@nzyme/utils": "workspace:*",
         "@nzyme/vue": "workspace:*",
         "@nzyme/vue-forms": "workspace:*",
@@ -26,6 +30,8 @@
         "@nzyme/vue-utils": "workspace:*",
         "@poweragents/common": "workspace:*",
         "@poweragents/ui": "workspace:*",
+        "@tauri-apps/api": "2.12.4",
+        "@tauri-apps/plugin-opener": "2.7.3",
         "nuxt": "4.4.8",
         "reka-ui": "2.10.5",
         "vue": "3.5.45",

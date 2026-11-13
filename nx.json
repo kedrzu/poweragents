@@ -63,6 +63,10 @@
         "codegen": {
             "cache": false
         },
+        // Refreshes a committed vendor spec from the network; run deliberately, never replayed.
+        "schema": {
+            "cache": false
+        },
         "dev": {
             "cache": false,
             "continuous": true
