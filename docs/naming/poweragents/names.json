@@ -43041,6 +43041,2515 @@
       },
       "verdict": "dropped",
       "reason": "'tuna'"
+    },
+    "Tencho": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "tencho.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tencho.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tencho.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tencho.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gettencho.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "search 'tencho ai': nothing named Tencho; TENHO Inc. (Japanese gen-AI consulting) and Tenzo AI (hiring) are sound-alikes; 'tenchō' = 'store manager' in Japanese",
+          "space": "AI",
+          "severity": "notable",
+          "url": "https://aipicks.jp/partners/tenho",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "TEN-cho; Spanish nickname (Hortensio, Fortunato)"
+    },
+    "Moncho": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "moncho.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "moncho.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "moncho.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "moncho.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getmoncho.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "search 'moncho ai': MonoChat (monochat.ai) — no-code AI orchestration platform (sound-alike); Mochii, Monica AI",
+          "space": "AI platforms",
+          "severity": "notable",
+          "url": "https://monochat.ai/features/ai",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "MON-cho; Galician/Spanish nickname for Ramón"
+    },
+    "Chepe": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "chepe.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "chepe.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "chepe.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "chepe.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getchepe.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Pepe": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "pepe.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pepe.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pepe.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "pepe.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getpepe.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "Pepe the Frog"
+    },
+    "Quico": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "quico.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "quico.app": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "quico.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "quico.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getquico.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Kiko": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "kiko.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kiko.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kiko.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kiko.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getkiko.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Chuy": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "chuy.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "chuy.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "chuy.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "chuy.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getchuy.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Tono": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "tono.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tono.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tono.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tono.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gettono.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Memo": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "memo.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "memo.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "memo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "memo.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getmemo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Beto": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "beto.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "beto.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "beto.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "beto.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getbeto.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Neto": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "neto.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "neto.app": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "neto.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "neto.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getneto.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Chalo": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "chalo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "chalo.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "chalo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "chalo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getchalo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "Chalo — major Indian bus-ticketing and live-tracking app (Chalo Mobility)",
+          "space": "consumer app (India)",
+          "severity": "notable",
+          "url": "https://weforum.org/organizations/chalo-mobility-private-limited",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "CHAH-lo; also Hindi 'let's go'"
+    },
+    "Charo": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "charo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "charo.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "charo.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "charo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getcharo.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Chelo": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "chelo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "chelo.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "chelo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "chelo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getchelo.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Nando": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "nando.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nando.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nando.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nando.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getnando.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "Nando's (restaurant chain)"
+    },
+    "Fito": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "fito.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "fito.app": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "fito.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "fito.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getfito.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Rulo": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "rulo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "rulo.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "rulo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "rulo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getrulo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Tuco": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "tuco.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tuco.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tuco.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tuco.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gettuco.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "Breaking Bad villain"
+    },
+    "Chicho": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "chicho.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "chicho.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "chicho.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "chicho.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getchicho.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Gonzo": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "gonzo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gonzo.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gonzo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gonzo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getgonzo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "gonzo"
+    },
+    "Juancho": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "juancho.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "juancho.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "juancho.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "juancho.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getjuancho.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Manolo": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "manolo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "manolo.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "manolo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "manolo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getmanolo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Nelo": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "nelo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nelo.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nelo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nelo.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getnelo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Chimo": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "chimo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "chimo.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "chimo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "chimo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getchimo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "search 'chimo ai': chim.ai — 'autonomous AI agents' (sound-alike); Chimmi, Chaterimo",
+          "space": "AI agents",
+          "severity": "notable",
+          "url": "https://village.ai/company/chimai",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "CHEE-mo; Valencian nickname for Joaquín"
+    },
+    "Quino": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "quino.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "quino.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "quino.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "quino.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getquino.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "Quino, Mafalda's cartoonist"
+    },
+    "Sito": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "sito.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "sito.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "sito.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "sito.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getsito.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Peppe": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "peppe.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "peppe.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "peppe.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "peppe.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getpeppe.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Gigi": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "gigi.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gigi.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gigi.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gigi.so": {
+          "status": "taken",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getgigi.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Lele": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "lele.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lele.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lele.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lele.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getlele.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Nino": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "nino.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nino.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nino.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nino.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getnino.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Mimmo": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "mimmo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mimmo.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mimmo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mimmo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getmimmo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Cecco": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "cecco.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "cecco.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "cecco.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "cecco.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getcecco.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Meo": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "meo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "meo.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "meo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "meo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getmeo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Lallo": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "lallo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lallo.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lallo.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "lallo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getlallo.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Ninni": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "ninni.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ninni.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ninni.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ninni.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getninni.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Rino": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "rino.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "rino.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "rino.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "rino.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getrino.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Turi": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "turi.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "turi.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "turi.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "turi.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getturi.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Ciro": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "ciro.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ciro.app": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "ciro.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ciro.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getciro.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Peppino": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "peppino.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "peppino.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "peppino.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "peppino.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getpeppino.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Zeca": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "zeca.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "zeca.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "zeca.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "zeca.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getzeca.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Chico": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "chico.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "chico.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "chico.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "chico.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getchico.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "common word"
+    },
+    "Tonico": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "tonico.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tonico.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tonico.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tonico.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gettonico.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Juca": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "juca.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "juca.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "juca.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "juca.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getjuca.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Dudu": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "dudu.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "dudu.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "dudu.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "dudu.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getdudu.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Tuca": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "tuca.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tuca.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tuca.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tuca.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gettuca.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Guga": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "guga.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "guga.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "guga.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "guga.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getguga.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Tico": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "tico.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tico.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tico.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tico.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gettico.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Zico": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "zico.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "zico.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "zico.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "zico.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getzico.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "footballer"
+    },
+    "Pepito": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "pepito.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pepito.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pepito.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pepito.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getpepito.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Paquito": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "paquito.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "paquito.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "paquito.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "paquito.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getpaquito.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Nachito": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "nachito.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nachito.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nachito.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "nachito.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getnachito.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Tinto": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "tinto.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tinto.app": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "tinto.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tinto.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gettinto.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Mencho": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "mencho.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mencho.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "mencho.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "mencho.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getmencho.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "El Mencho (cartel leader)"
+    },
+    "Panchito": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "panchito.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "panchito.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "panchito.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "panchito.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getpanchito.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Chabelo": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "chabelo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "chabelo.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "chabelo.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "chabelo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getchabelo.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "Mexican TV character"
+    },
+    "Chente": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "chente.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "chente.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "chente.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "chente.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getchente.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "Vicente Fernández"
+    },
+    "Chato": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "chato.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "chato.app": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "chato.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "chato.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getchato.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Chito": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "chito.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "chito.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "chito.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "chito.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getchito.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Cuco": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "cuco.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "cuco.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "cuco.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "cuco.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getcuco.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Cheto": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "cheto.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "cheto.app": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "cheto.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "cheto.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getcheto.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Lalito": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "lalito.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "lalito.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "lalito.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "lalito.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getlalito.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Pipino": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "pipino.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pipino.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "pipino.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "pipino.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getpipino.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Totò": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "tot.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tot.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tot.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tot.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gettot.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Teto": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "teto.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "teto.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "teto.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "teto.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getteto.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Tete": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "tete.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tete.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tete.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tete.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gettete.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Fefo": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "fefo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "fefo.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "fefo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "fefo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getfefo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Nene": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "nene.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nene.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nene.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nene.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getnene.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Pepa": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "pepa.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pepa.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pepa.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pepa.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getpepa.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Lola": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "lola.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lola.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lola.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lola.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getlola.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Lupita": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "lupita.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lupita.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lupita.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lupita.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getlupita.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Chela": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "chela.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "chela.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "chela.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "chela.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getchela.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Nena": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "nena.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nena.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nena.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nena.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getnena.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Tota": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "tota.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "tota.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tota.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tota.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gettota.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Pina": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "pina.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pina.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pina.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pina.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getpina.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Lina": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "lina.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lina.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lina.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lina.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getlina.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Nita": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "nita.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nita.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nita.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nita.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getnita.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Tina": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "tina.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tina.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tina.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tina.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gettina.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Rita": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "rita.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "rita.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "rita.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "rita.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getrita.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Chiqui": {
+      "direction": "real Spanish, Italian and Portuguese nicknames (hypocoristics)",
+      "round": 20,
+      "domains": {
+        "chiqui.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "chiqui.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "chiqui.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "chiqui.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getchiqui.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
     }
   }
 }

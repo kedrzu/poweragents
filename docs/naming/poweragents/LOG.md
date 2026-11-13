@@ -462,3 +462,22 @@ Sanzo is a US sparkling-water brand.
 **Best.** Chano and Lencho — Sancho's rhythm, clean on "<name> ai", most TLDs open.
 **Proposed next.** Show Chano and Lencho. If the -cho sound keeps winning (Sancho, Tancho), sweep
 real -cho/-co nicknames in Spanish and Italian systematically.
+
+## Round 20 — 2026-11-13
+
+**User on round 19.** No verdict on Chano or Lencho; "keep searching".
+**Directions.** Real Spanish, Italian and Portuguese nicknames (hypocoristics) — ≈85: -cho, -co, -lo,
+-to, -no forms and their -ito diminutives.
+**What came out.** Most keep `.so` and often `get…com`; long diminutives (Juancho, Lalito, Panchito,
+Pipino) keep everything. "<name> ai": Tencho sits next to TENHO (Japanese gen-AI consulting) and Tenzo
+AI; Moncho next to MonoChat (AI orchestration); Chimo next to chim.ai (autonomous agents); Chalo is a
+large Indian bus app. Several carry baggage (Mencho = cartel leader, Tuco = Breaking Bad, Nando's).
+Nothing beats Sancho, Tancho, Chano or Lencho.
+**Where I looked.** DNS; web search "tencho ai", "moncho ai", "chimo ai", "chalo ai".
+**What this says.** After 20 rounds the pool of short, warm, Romance-sounding names with a clean
+"<name> ai" is thin; the liked set is stable: Lupo (favourite), Sancho, Tancho, Camillo, Ilario,
+Oberon, plus Chano and Lencho awaiting a verdict.
+**Proposed next.** Switch from breadth to depth on the liked set: one table with every domain
+(registrar-confirmed), the "<name> ai" result, App Store, trademark (TMview run by the user, since it
+blocks this machine) and a hearing test with two or three English speakers who hear the name once and
+write it down. Keep a small breadth round going only if the user wants more candidates.
