@@ -20,6 +20,7 @@ changes how I work and how I live."
 ## Standing preferences
 
 - `<name>.app` and `get<name>.com` are fine (round 1).
+- Wants to explore unexpected directions beyond first names too (round 4).
 - International feel preferred; Slavic is fine if foreigners can say and spell it easily (round 3).
 - Wants human first names: coined ones that sound like real names, and a broader pool of real names (round 2).
 
@@ -27,6 +28,8 @@ changes how I work and how I live."
   were Jerry and Jer (round 0).
 
 ## Rejected directions
+
+- Literal Polish first names (Radek, Bronek, Franek, Olek) — "feel weird" (round 4).
 
 - "Giant" compounds (Kind/Gentle/Easy/Pocket Giant) — "sounds weak" (round 2).
 

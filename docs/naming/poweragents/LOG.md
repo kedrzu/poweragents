@@ -103,3 +103,29 @@ Still standing from round 3: Jerro, Juva, Franek.
 **Proposed next.** Put a finalist set in front of the user (Radek, Bronek, Jerro, Juva, Franek) and
 ask which one feels right. For the one or two chosen: a hearing test with people who don't speak
 Polish, EUIPO/USPTO search, Porkbun confirmation (the user may need to clear the CAPTCHA).
+
+## Round 5 — 2026-11-13
+
+**User on round 4.** Literal Polish names feel weird (Radek, Bronek, Franek, Olek rejected). Explore
+unexpected directions, beyond first names.
+**Directions.** Folklore household helpers that work while you sleep — brownies, hobs, tomte (25);
+what a helper says — "on it", "sorted", "say the word" (33); strong, gentle working animals (16);
+crew and household roles — squire, valet, sous (19); ease and leverage in motion — glide, coast,
+torque (18). Checked on .com/.app/.ai and `get<name>.com`.
+**What came out.** Single words from every direction are taken everywhere, `get` variants included
+(Ox, Mule, Squire, Valet, Glide, Sorted, Brownie, Hob). The one exception is **overnight.app**. Helper
+phrases keep `get…com` open (gethappyto.com, getsaytheword.com, getalreadydone.com) and sometimes a
+bare `.app` (leaveittome.app). Folklore helpers are open but loaded with pop culture (Night Elf =
+WoW, House Elf = Harry Potter, Kobold = KoboldAI). Lesson: what still has room are phrases and an
+occasional everyday word whose meaning is close to the product but not yet a brand.
+**Where I looked for conflicts.** App Store search API (Overnight, Happy To, Already Done, With
+Pleasure, Good Elf, Goodfellow, Say the Word); Exa (Overnight as an AI agent; Happy To / Already
+Done / Good Elf). No trademark search; no registrar confirmation.
+**Best.** Overnight (overnight.app likely-free, could be premium; no AI brand of that name, but
+"overnight agent" is a common phrase in the category, so it is weakly distinctive). Happy To
+(gethappyto.com and gethappytoo.com likely-free; no conflict; the warmest of the lot, but sounds
+like "happy too"). Say the Word (getsaytheword.com; only rhythm games). Goodfellow (getgoodfellow.com;
+Robin Goodfellow, the helpful household sprite; heard as "Goodfellas").
+**Proposed next.** Ask which of the three surviving ideas pulls: (a) the helper's reply ("Happy
+To", "Say the Word"), (b) "while you sleep" / overnight change, (c) folklore helpers without pop
+culture. Deepen the chosen one with 40+ variants, plus a hearing test and EUIPO/USPTO for the top two.
