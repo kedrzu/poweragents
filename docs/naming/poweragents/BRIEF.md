@@ -42,6 +42,9 @@ mascot.
 - Likes Neb and Zib (round 8): three letters, short vowel, punchy.
 - A short name must sound complete in English: "Tez" sounds like it is missing a second z (round 8).
 
+- Not only three-letter names: longer names are fine if they sound good (round 9).
+- Wants to try names and surnames of famous people, e.g. scientists ("Edison", probably taken) (round 9).
+
 ## Rejected directions
 
 - Literal Polish first names (Radek, Bronek, Franek, Olek) — "feel weird" (round 4).

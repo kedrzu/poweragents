@@ -239,3 +239,31 @@ registered marks in class 9 (NOM also in 42) — dropped. KIB and JOM have class
 three-letter string is registered in class 9 by someone; a short name has to be trademark-screened
 before it is shown, and the few clean ones are the real finds. Zab (zab.so $57.50, getzab.com free;
 only Zaxby's as a sound-alike) is now the cleanest short name.
+
+## Round 10 — 2026-11-13
+
+**User on round 9.** "You've fixated on three-letter names" — longer names are fine if they sound
+good. Try names or surnames of famous people, e.g. scientists (Edison, probably taken). No verdict
+on Neb or Zab.
+**Directions.** Surnames of famous scientists and inventors (≈100, including Polish ones: Kopernik,
+Banach, Ulam, Szczepanik). Checked on .com/.app/.ai/.so + `get…com`; TMview for the 23 best.
+**What came out.** Domains are no problem: almost every surname has `.so` free and many have
+`get…com`. Trademarks and AI startups are the problem — **scientist names are a favourite of AI
+companies and almost every one is a registered mark in class 9 or 42**: Hubble (Hubble AI Corp filed
+Sept 2026), Fermi (Fermi AI, a funded consumer AI tutor app), Lem AI, Hedy (an AI meeting coach),
+Sagan (held by the Sagan estate), Kelvin, Lovelace, Euclid, Galvani, Marconi, Nobel, Dalton,
+Rosalind, Maxwell, Ulam (Ulam Labs), Lamarr, Lister, Huygens, Meitner, Noether. Only **Kopernik**
+came through the trademark screen (one Polish mark, Kopernik TV, in 35/41/42), but it is the name of
+the Warsaw science centre and a gingerbread brand, and foreigners know it as Copernicus.
+**Method correction.** The round-9 TMview screen used an 11–13 s page wait, which in this round
+returned false zeros (Hubble, Nobel showed 0, really 29 and 98). Re-run with a wait-for-results loop.
+Zab's round-9 "no mark" is therefore downgraded to inconclusive (290 'contains' hits, first 100 had no
+exact ZAB).
+**Where I looked.** TMview (EU, US, PL, WIPO; classes 9/42; filed or registered); App Store search
+API (15 names); Exa (Fermi).
+**Best.** Nothing strong. Kopernik (kopernik.so, getkopernik.com; Polish, which the user disliked for
+first names).
+**Proposed next.** Ask whether to (a) use the *first* name of a scientist or a pet form (Enrico,
+Nikola, Marie, Ada are taken; less famous ones may not be), (b) go back to longer coined names that
+sound like words (two syllables, e.g. in the Nib/Neb spirit but longer) and trademark-screen them,
+or (c) take Neb forward and get a professional trademark opinion on the US class-9 filing.
