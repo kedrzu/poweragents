@@ -129,3 +129,30 @@ Robin Goodfellow, the helpful household sprite; heard as "Goodfellas").
 **Proposed next.** Ask which of the three surviving ideas pulls: (a) the helper's reply ("Happy
 To", "Say the Word"), (b) "while you sleep" / overnight change, (c) folklore helpers without pop
 culture. Deepen the chosen one with 40+ variants, plus a hearing test and EUIPO/USPTO for the top two.
+
+## Round 6 — 2026-11-13
+
+**User on round 5.** No verdict on the round-5 names. New framing: the brand should rest on a mascot
+that shows what the app can do and animates states like waiting for the agent — OpenAI's simple
+abstract dots as the reference. The name can be a first name or anything else. Recorded in BRIEF.
+**Directions.** Simple abstract shapes that animate — blob, bean, ember, orb (40); small but mighty
+creatures — tardigrade, octopus, ant, hedgehog (35); short character names — Pip, Boo, Gizmo, Pogo
+(25); everyday cute words for a small character — doodlebug, puffball, inkblot (40).
+**What came out.** The mascot vocabulary is the most saturated so far: of 140, only 2 had a bare
+`.app` beyond twee compounds — **nib.app** and **waterbear.app** (plus wigglebug.app, snugbug.app).
+Everything short and round (Blob, Bean, Pip, Puff, Orb, Bubble, Pebble, Octo, Gizmo) is taken on all
+three TLDs and `get…com`. Key finding for the brand, not just the name: **InkBot (inkbot.io), a
+Windows desktop app with a team of AI agents, already uses animated ink-blot mascots** whose face and
+motion show thinking/working/waiting — the exact idea. Puffle (puffle.ai) is an "AI teammate" too.
+**Where I looked for conflicts.** App Store search API (Waterbear, Nib, Puffball, Inkblot, Wigglebug,
+Fuzzball); Exa (Waterbear; Puffball/Inkblot/Wigglebug). No trademark search; no registrar
+confirmation.
+**Best.** Waterbear (waterbear.app likely-free; WaterBear is also a Dutch documentary-streaming
+platform — notable, different space). The tardigrade is tiny, chubby and nearly indestructible: the
+brief's "easy yet powerful" as a character, and simple to draw and animate. Nib (nib.app; an
+Australian health insurer shares it) — a tiny drop-shaped mascot, but the word means little to most
+people.
+**Proposed next.** Separate the mascot from the name: pick the mascot concept first (tardigrade,
+something abstract, an animal), then name the character — a name for the character is easier to
+find than a word for the species (as with Clippy, Duo, Clawd). Ask the user whether the tardigrade
+appeals; if so, generate names for it. Flag InkBot as a competitor whose mascot idea is close.

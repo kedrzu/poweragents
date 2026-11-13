@@ -17,6 +17,13 @@ In the user's words (round 0): accessible, approachable, easy — and at the sam
 strength. "An agent that is very easy to use but gives you very large possibilities and really
 changes how I work and how I live."
 
+## Mascot (round 5)
+
+The user wants branding built around a mascot that both shows what the app can do and animates
+situations such as waiting for the agent's answer. Reference: OpenAI's simple, abstract "dots"
+mascot. The name can be a first name or something else, as long as it fits a simple, animatable
+mascot.
+
 ## Standing preferences
 
 - `<name>.app` and `get<name>.com` are fine (round 1).
