@@ -28990,7 +28990,11 @@
           "checked_at": "2026-11-13"
         }
       ],
-      "phonetics": "king of the fairies (Shakespeare); moon of Uranus; OH-ber-on"
+      "phonetics": "king of the fairies (Shakespeare); moon of Uranus; OH-ber-on",
+      "verdict": "liked",
+      "feedback": [
+        "\"oberon jest calkiem ciekawy, ale nie fixuj sie na nim; szukajmy dalej imion\" (round 13)"
+      ]
     },
     "Miranda": {
       "direction": "small companions in the sky: moons and small stars",
@@ -30044,6 +30048,2323 @@
         "getquasar.com": {
           "status": "taken",
           "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Sancho": {
+      "direction": "names of famous helpers and sidekicks in literature",
+      "round": 14,
+      "domains": {
+        "sancho.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "sancho.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "sancho.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "sancho.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getsancho.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "Taquerias named Sancho's; footballer Jadon Sancho; no AI/software product found",
+          "space": "food / sport",
+          "severity": "noise",
+          "url": "https://apps.apple.com/search?term=sancho",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "Sancho Panza, Don Quixote's down-to-earth, loyal helper; SAN-cho; one spelling"
+    },
+    "Figaro": {
+      "direction": "names of famous helpers and sidekicks in literature",
+      "round": 14,
+      "domains": {
+        "figaro.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "figaro.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "figaro.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "figaro.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getfigaro.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Passepartout": {
+      "direction": "names of famous helpers and sidekicks in literature",
+      "round": 14,
+      "domains": {
+        "passepartout.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "passepartout.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "passepartout.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "passepartout.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getpassepartout.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Planchet": {
+      "direction": "names of famous helpers and sidekicks in literature",
+      "round": 14,
+      "domains": {
+        "planchet.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "planchet.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "planchet.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "planchet.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getplanchet.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Leporello": {
+      "direction": "names of famous helpers and sidekicks in literature",
+      "round": 14,
+      "domains": {
+        "leporello.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "leporello.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "leporello.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "leporello.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getleporello.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Sganarelle": {
+      "direction": "names of famous helpers and sidekicks in literature",
+      "round": 14,
+      "domains": {
+        "sganarelle.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "sganarelle.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "sganarelle.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "sganarelle.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getsganarelle.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Alfred": {
+      "direction": "names of famous helpers and sidekicks in literature",
+      "round": 14,
+      "domains": {
+        "alfred.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "alfred.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "alfred.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "alfred.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getalfred.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Jeeves": {
+      "direction": "names of famous helpers and sidekicks in literature",
+      "round": 14,
+      "domains": {
+        "jeeves.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "jeeves.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "jeeves.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "jeeves.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getjeeves.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Bunter": {
+      "direction": "names of famous helpers and sidekicks in literature",
+      "round": 14,
+      "domains": {
+        "bunter.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "bunter.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "bunter.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "bunter.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getbunter.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "Billy Bunter"
+    },
+    "Lurch": {
+      "direction": "names of famous helpers and sidekicks in literature",
+      "round": 14,
+      "domains": {
+        "lurch.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lurch.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lurch.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lurch.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getlurch.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "'lurch'"
+    },
+    "Igor": {
+      "direction": "names of famous helpers and sidekicks in literature",
+      "round": 14,
+      "domains": {
+        "igor.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "igor.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "igor.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "igor.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getigor.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "Frankenstein's henchman"
+    },
+    "Gonzalo": {
+      "direction": "names of famous helpers and sidekicks in literature",
+      "round": 14,
+      "domains": {
+        "gonzalo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gonzalo.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gonzalo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gonzalo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getgonzalo.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [],
+      "phonetics": "the kind old counsellor in The Tempest; common Spanish name"
+    },
+    "Camillo": {
+      "direction": "names of famous helpers and sidekicks in literature",
+      "round": 14,
+      "domains": {
+        "camillo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "camillo.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "camillo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "camillo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getcamillo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [],
+      "phonetics": "the loyal counsellor in The Winter's Tale; Camillo/Camilo"
+    },
+    "Horatio": {
+      "direction": "names of famous helpers and sidekicks in literature",
+      "round": 14,
+      "domains": {
+        "horatio.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "horatio.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "horatio.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "horatio.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gethoratio.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "Horatio — CX outsourcing company offering AI implementation and agentic AI services",
+          "space": "AI services",
+          "severity": "notable",
+          "url": "https://horatio.vercel.app/ai-implementation-services",
+          "checked_at": "2026-11-13"
+        },
+        {
+          "who": "Horatio State Bank app",
+          "space": "banking",
+          "severity": "noise",
+          "url": "https://apps.apple.com/search?term=horatio",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "Hamlet's loyal friend; ho-RAY-shee-oh — long"
+    },
+    "Banquo": {
+      "direction": "names of famous helpers and sidekicks in literature",
+      "round": 14,
+      "domains": {
+        "banquo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "banquo.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "banquo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "banquo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getbanquo.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "ghost"
+    },
+    "Kent": {
+      "direction": "names of famous helpers and sidekicks in literature",
+      "round": 14,
+      "domains": {
+        "kent.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kent.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kent.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kent.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getkent.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Tranio": {
+      "direction": "names of famous helpers and sidekicks in literature",
+      "round": 14,
+      "domains": {
+        "tranio.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tranio.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tranio.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "tranio.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gettranio.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [],
+      "phonetics": "the clever servant in The Taming of the Shrew; TRAH-nee-oh"
+    },
+    "Grumio": {
+      "direction": "names of famous helpers and sidekicks in literature",
+      "round": 14,
+      "domains": {
+        "grumio.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "grumio.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "grumio.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "grumio.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getgrumio.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "'grum'"
+    },
+    "Caliban": {
+      "direction": "names of famous helpers and sidekicks in literature",
+      "round": 14,
+      "domains": {
+        "caliban.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "caliban.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "caliban.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "caliban.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getcaliban.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "the monster"
+    },
+    "Prospero": {
+      "direction": "names of famous helpers and sidekicks in literature",
+      "round": 14,
+      "domains": {
+        "prospero.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "prospero.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "prospero.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "prospero.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getprospero.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "Prospero.Ai — AI stock-trading app (iOS); Prospero AI — London sales-automation startup; Prosper AI — a16z-backed voice agents",
+          "space": "AI apps",
+          "severity": "blocking",
+          "url": "https://village.ai/company/prosperoai",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "the magician of The Tempest who commands spirits",
+      "verdict": "dropped",
+      "reason": "blocking: Prospero.Ai — AI stock-trading app (iOS); Prospero AI — London sales-automation "
+    },
+    "Fogg": {
+      "direction": "names of famous helpers and sidekicks in literature",
+      "round": 14,
+      "domains": {
+        "fogg.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "fogg.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "fogg.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "fogg.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getfogg.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "'fog'"
+    },
+    "Hobbes": {
+      "direction": "names of famous helpers and sidekicks in literature",
+      "round": 14,
+      "domains": {
+        "hobbes.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "hobbes.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "hobbes.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "hobbes.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gethobbes.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "Hobbes from Calvin and Hobbes (Watterson IP); Hobbes: Your Nutrition Coach (iOS)",
+          "space": "comics / health app",
+          "severity": "notable",
+          "url": "https://apps.apple.com/search?term=hobbes",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "the tiger friend; Thomas Hobbes"
+    },
+    "Ishmael": {
+      "direction": "names of famous helpers and sidekicks in literature",
+      "round": 14,
+      "domains": {
+        "ishmael.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ishmael.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ishmael.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ishmael.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getishmael.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Queequeg": {
+      "direction": "names of famous helpers and sidekicks in literature",
+      "round": 14,
+      "domains": {
+        "queequeg.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "queequeg.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "queequeg.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "queequeg.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getqueequeg.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Starbuck": {
+      "direction": "names of famous helpers and sidekicks in literature",
+      "round": 14,
+      "domains": {
+        "starbuck.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "starbuck.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "starbuck.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "starbuck.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getstarbuck.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "Starbucks"
+    },
+    "Tonto": {
+      "direction": "names of famous helpers and sidekicks in literature",
+      "round": 14,
+      "domains": {
+        "tonto.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "tonto.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tonto.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tonto.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gettonto.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "'tonto' = 'stupid' in Spanish; racial stereotype"
+    },
+    "Kato": {
+      "direction": "names of famous helpers and sidekicks in literature",
+      "round": 14,
+      "domains": {
+        "kato.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kato.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kato.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "kato.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getkato.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "Green Hornet"
+    },
+    "Robin": {
+      "direction": "names of famous helpers and sidekicks in literature",
+      "round": 14,
+      "domains": {
+        "robin.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "robin.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "robin.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "robin.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getrobin.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Bucky": {
+      "direction": "names of famous helpers and sidekicks in literature",
+      "round": 14,
+      "domains": {
+        "bucky.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "bucky.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "bucky.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "bucky.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getbucky.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "Marvel"
+    },
+    "Chewie": {
+      "direction": "names of famous helpers and sidekicks in literature",
+      "round": 14,
+      "domains": {
+        "chewie.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "chewie.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "chewie.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "chewie.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getchewie.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "Star Wars IP"
+    },
+    "Sam": {
+      "direction": "names of famous helpers and sidekicks in literature",
+      "round": 14,
+      "domains": {
+        "sam.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "sam.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "sam.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "sam.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getsam.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Samwise": {
+      "direction": "names of famous helpers and sidekicks in literature",
+      "round": 14,
+      "domains": {
+        "samwise.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "samwise.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "samwise.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "samwise.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getsamwise.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "Tolkien IP"
+    },
+    "Orsino": {
+      "direction": "names from Shakespeare, Arthurian legend and fairy tales",
+      "round": 14,
+      "domains": {
+        "orsino.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "orsino.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "orsino.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "orsino.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getorsino.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Viola": {
+      "direction": "names from Shakespeare, Arthurian legend and fairy tales",
+      "round": 14,
+      "domains": {
+        "viola.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "viola.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "viola.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "viola.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getviola.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Portia": {
+      "direction": "names from Shakespeare, Arthurian legend and fairy tales",
+      "round": 14,
+      "domains": {
+        "portia.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "portia.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "portia.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "portia.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getportia.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Perdita": {
+      "direction": "names from Shakespeare, Arthurian legend and fairy tales",
+      "round": 14,
+      "domains": {
+        "perdita.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "perdita.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "perdita.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "perdita.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getperdita.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Cordelia": {
+      "direction": "names from Shakespeare, Arthurian legend and fairy tales",
+      "round": 14,
+      "domains": {
+        "cordelia.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "cordelia.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "cordelia.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "cordelia.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getcordelia.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Lysander": {
+      "direction": "names from Shakespeare, Arthurian legend and fairy tales",
+      "round": 14,
+      "domains": {
+        "lysander.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lysander.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lysander.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lysander.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getlysander.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Hermia": {
+      "direction": "names from Shakespeare, Arthurian legend and fairy tales",
+      "round": 14,
+      "domains": {
+        "hermia.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "hermia.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "hermia.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "hermia.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gethermia.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Mercutio": {
+      "direction": "names from Shakespeare, Arthurian legend and fairy tales",
+      "round": 14,
+      "domains": {
+        "mercutio.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mercutio.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mercutio.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mercutio.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getmercutio.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Florizel": {
+      "direction": "names from Shakespeare, Arthurian legend and fairy tales",
+      "round": 14,
+      "domains": {
+        "florizel.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "florizel.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "florizel.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "florizel.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getflorizel.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Benvolio": {
+      "direction": "names from Shakespeare, Arthurian legend and fairy tales",
+      "round": 14,
+      "domains": {
+        "benvolio.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "benvolio.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "benvolio.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "benvolio.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getbenvolio.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Leontes": {
+      "direction": "names from Shakespeare, Arthurian legend and fairy tales",
+      "round": 14,
+      "domains": {
+        "leontes.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "leontes.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "leontes.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "leontes.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getleontes.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Sebastian": {
+      "direction": "names from Shakespeare, Arthurian legend and fairy tales",
+      "round": 14,
+      "domains": {
+        "sebastian.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "sebastian.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "sebastian.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "sebastian.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getsebastian.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Ferdinand": {
+      "direction": "names from Shakespeare, Arthurian legend and fairy tales",
+      "round": 14,
+      "domains": {
+        "ferdinand.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ferdinand.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ferdinand.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "ferdinand.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getferdinand.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Gawain": {
+      "direction": "names from Shakespeare, Arthurian legend and fairy tales",
+      "round": 14,
+      "domains": {
+        "gawain.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gawain.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "gawain.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gawain.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getgawain.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Percival": {
+      "direction": "names from Shakespeare, Arthurian legend and fairy tales",
+      "round": 14,
+      "domains": {
+        "percival.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "percival.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "percival.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "percival.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getpercival.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Galahad": {
+      "direction": "names from Shakespeare, Arthurian legend and fairy tales",
+      "round": 14,
+      "domains": {
+        "galahad.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "galahad.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "galahad.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "galahad.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getgalahad.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Tristan": {
+      "direction": "names from Shakespeare, Arthurian legend and fairy tales",
+      "round": 14,
+      "domains": {
+        "tristan.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tristan.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tristan.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tristan.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gettristan.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Isolde": {
+      "direction": "names from Shakespeare, Arthurian legend and fairy tales",
+      "round": 14,
+      "domains": {
+        "isolde.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "isolde.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "isolde.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "isolde.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getisolde.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Elaine": {
+      "direction": "names from Shakespeare, Arthurian legend and fairy tales",
+      "round": 14,
+      "domains": {
+        "elaine.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "elaine.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "elaine.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "elaine.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getelaine.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Bedivere": {
+      "direction": "names from Shakespeare, Arthurian legend and fairy tales",
+      "round": 14,
+      "domains": {
+        "bedivere.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "bedivere.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "bedivere.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "bedivere.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getbedivere.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Gareth": {
+      "direction": "names from Shakespeare, Arthurian legend and fairy tales",
+      "round": 14,
+      "domains": {
+        "gareth.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gareth.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gareth.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gareth.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getgareth.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Lynette": {
+      "direction": "names from Shakespeare, Arthurian legend and fairy tales",
+      "round": 14,
+      "domains": {
+        "lynette.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lynette.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lynette.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lynette.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getlynette.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Enid": {
+      "direction": "names from Shakespeare, Arthurian legend and fairy tales",
+      "round": 14,
+      "domains": {
+        "enid.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "enid.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "enid.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "enid.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getenid.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Morgana": {
+      "direction": "names from Shakespeare, Arthurian legend and fairy tales",
+      "round": 14,
+      "domains": {
+        "morgana.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "morgana.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "morgana.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "morgana.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getmorgana.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "villain"
+    },
+    "Nimue": {
+      "direction": "names from Shakespeare, Arthurian legend and fairy tales",
+      "round": 14,
+      "domains": {
+        "nimue.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nimue.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nimue.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nimue.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getnimue.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Vivien": {
+      "direction": "names from Shakespeare, Arthurian legend and fairy tales",
+      "round": 14,
+      "domains": {
+        "vivien.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "vivien.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "vivien.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "vivien.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getvivien.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Pellinore": {
+      "direction": "names from Shakespeare, Arthurian legend and fairy tales",
+      "round": 14,
+      "domains": {
+        "pellinore.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pellinore.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "pellinore.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "pellinore.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getpellinore.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Lohengrin": {
+      "direction": "names from Shakespeare, Arthurian legend and fairy tales",
+      "round": 14,
+      "domains": {
+        "lohengrin.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lohengrin.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "lohengrin.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "lohengrin.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getlohengrin.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Parsifal": {
+      "direction": "names from Shakespeare, Arthurian legend and fairy tales",
+      "round": 14,
+      "domains": {
+        "parsifal.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "parsifal.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "parsifal.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "parsifal.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getparsifal.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Siegfried": {
+      "direction": "names from Shakespeare, Arthurian legend and fairy tales",
+      "round": 14,
+      "domains": {
+        "siegfried.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "siegfried.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "siegfried.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "siegfried.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getsiegfried.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Brunhild": {
+      "direction": "names from Shakespeare, Arthurian legend and fairy tales",
+      "round": 14,
+      "domains": {
+        "brunhild.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "brunhild.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "brunhild.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "brunhild.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getbrunhild.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Fionn": {
+      "direction": "names from Shakespeare, Arthurian legend and fairy tales",
+      "round": 14,
+      "domains": {
+        "fionn.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "fionn.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "fionn.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "fionn.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getfionn.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Oisin": {
+      "direction": "names from Shakespeare, Arthurian legend and fairy tales",
+      "round": 14,
+      "domains": {
+        "oisin.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "oisin.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "oisin.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "oisin.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getoisin.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Brigid": {
+      "direction": "names from Shakespeare, Arthurian legend and fairy tales",
+      "round": 14,
+      "domains": {
+        "brigid.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "brigid.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "brigid.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "brigid.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getbrigid.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Rhiannon": {
+      "direction": "names from Shakespeare, Arthurian legend and fairy tales",
+      "round": 14,
+      "domains": {
+        "rhiannon.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "rhiannon.app": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "rhiannon.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "rhiannon.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getrhiannon.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Taliesin": {
+      "direction": "names from Shakespeare, Arthurian legend and fairy tales",
+      "round": 14,
+      "domains": {
+        "taliesin.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "taliesin.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "taliesin.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "taliesin.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gettaliesin.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Gwydion": {
+      "direction": "names from Shakespeare, Arthurian legend and fairy tales",
+      "round": 14,
+      "domains": {
+        "gwydion.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gwydion.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "gwydion.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "gwydion.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getgwydion.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Arawn": {
+      "direction": "names from Shakespeare, Arthurian legend and fairy tales",
+      "round": 14,
+      "domains": {
+        "arawn.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "arawn.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "arawn.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "arawn.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getarawn.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Pwyll": {
+      "direction": "names from Shakespeare, Arthurian legend and fairy tales",
+      "round": 14,
+      "domains": {
+        "pwyll.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pwyll.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "pwyll.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "pwyll.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getpwyll.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "unpronounceable"
+    },
+    "Branwen": {
+      "direction": "names from Shakespeare, Arthurian legend and fairy tales",
+      "round": 14,
+      "domains": {
+        "branwen.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "branwen.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "branwen.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "branwen.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getbranwen.com": {
+          "status": "likely-free",
+          "method": "rdap",
           "checked_at": "2026-11-13"
         }
       }

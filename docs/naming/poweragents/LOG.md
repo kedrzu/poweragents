@@ -333,3 +333,26 @@ screen.
 Animo (warm meaning; small AI-app noise). Voima (Finnish "power"; may be misread).
 **Proposed next.** Ask whether the "soft + strong" meaning (Pianoforte) is worth a direction of its
 own — shorter words or compounds that hold both halves. Retry TMview later for the finalists.
+
+## Round 14 — 2026-11-13
+
+**User on round 13.** Oberon is "quite interesting" — marked liked — but "don't fixate on it; keep
+looking for names".
+**Directions.** Names of famous helpers and sidekicks in literature (≈35: Sancho, Figaro,
+Passepartout, Planchet, Horatio, Gonzalo…); names from Shakespeare, Arthurian legend, Welsh and
+Norse myth and fairy tales (≈45) — Oberon's neighbourhood without repeating it.
+**What came out.** This is the most open pool of the whole search: most names have `.so` and many
+have `get…com`; several even have `.ai` or `.app` (sancho.ai, gawain.app, perdita.app, hobbes.app,
+benvolio.app). The sidekick idea carries the brief: a down-to-earth helper who makes the hero's
+plans happen. **Sancho** (Sancho Panza) is the strongest — sancho.ai free at the registry, sancho.so
+free, no AI or software product found (only taquerias and a footballer). Prospero is taken by AI
+companies (Prospero.Ai trading app, Prospero AI sales). Horatio is an outsourcing firm selling AI
+services. Figaro, Jeeves, Alfred, Ariel, Puck, Robin are taken everywhere.
+**Where I looked.** App Store search API (7 names); web search (Sancho, Prospero, Horatio). TMview
+still resets connections — no trademark screen; whois.nic.ai for sancho.ai.
+**Best.** Sancho (sancho.ai, sancho.so). Then Gonzalo (gonzalo.so, getgonzalo.com), Camillo
+(camillo.so), Tranio (tranio.ai, tranio.so) — Shakespeare's loyal helpers, less known. Gawain
+(gawain.app) has two pronunciations.
+**Proposed next.** Show Sancho first. If the sidekick idea lands, deepen it: helpers and loyal
+companions from world literature and legend in many languages. Trademark-screen Sancho and Oberon as
+soon as TMview responds, or by the user's own search.

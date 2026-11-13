@@ -49,6 +49,8 @@ mascot.
 
 - Avoid harsh consonant clusters mid-name: "Varlo sounds coarse because of that combination" (r+l), round 11.
 
+- Oberon is "quite interesting", but don't fixate on it; keep looking for names (round 13).
+
 ## Rejected directions
 
 - Coined two-syllable names ending in -en/-in/-on/-an (Nebin, Tevon, Zavon…) — "why do they all end in -on, -in, -an, -en? Let's try another direction" (round 12).
