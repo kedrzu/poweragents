@@ -51,6 +51,9 @@ mascot.
 
 - Oberon is "quite interesting", but don't fixate on it; keep looking for names (round 13).
 
+- Sancho "sounds great" (sanch.io exists, keep it anyway); Camillo "also interesting" (round 14).
+  Liked so far: Nib, Neb, Zib, Oberon, Sancho, Camillo.
+
 ## Rejected directions
 
 - Coined two-syllable names ending in -en/-in/-on/-an (Nebin, Tevon, Zavon…) — "why do they all end in -on, -in, -an, -en? Let's try another direction" (round 12).

@@ -30090,9 +30090,20 @@
           "severity": "noise",
           "url": "https://apps.apple.com/search?term=sancho",
           "checked_at": "2026-11-13"
+        },
+        {
+          "who": "sanch.io — startup reported by the user (my web search found nothing about it); SanchoSQL listed on BetaList",
+          "space": "startup (unknown space)",
+          "severity": "notable",
+          "url": "https://sanch.io",
+          "checked_at": "2026-11-13"
         }
       ],
-      "phonetics": "Sancho Panza, Don Quixote's down-to-earth, loyal helper; SAN-cho; one spelling"
+      "phonetics": "Sancho Panza, Don Quixote's down-to-earth, loyal helper; SAN-cho; one spelling",
+      "verdict": "liked",
+      "feedback": [
+        "\"sancho brzmi super, ale jest juz startup sanch.io - mimo to zapisz\" (round 14)"
+      ]
     },
     "Figaro": {
       "direction": "names of famous helpers and sidekicks in literature",
@@ -30441,7 +30452,11 @@
         }
       },
       "conflicts": [],
-      "phonetics": "the kind old counsellor in The Tempest; common Spanish name"
+      "phonetics": "the kind old counsellor in The Tempest; common Spanish name",
+      "verdict": "rejected",
+      "feedback": [
+        "\"pozostale odpadaja\" (round 14)"
+      ]
     },
     "Camillo": {
       "direction": "names of famous helpers and sidekicks in literature",
@@ -30474,7 +30489,11 @@
         }
       },
       "conflicts": [],
-      "phonetics": "the loyal counsellor in The Winter's Tale; Camillo/Camilo"
+      "phonetics": "the loyal counsellor in The Winter's Tale; Camillo/Camilo",
+      "verdict": "liked",
+      "feedback": [
+        "\"camillo tez ciekawe\" (round 14)"
+      ]
     },
     "Horatio": {
       "direction": "names of famous helpers and sidekicks in literature",
@@ -30619,7 +30638,11 @@
         }
       },
       "conflicts": [],
-      "phonetics": "the clever servant in The Taming of the Shrew; TRAH-nee-oh"
+      "phonetics": "the clever servant in The Taming of the Shrew; TRAH-nee-oh",
+      "verdict": "rejected",
+      "feedback": [
+        "\"pozostale odpadaja\" (round 14)"
+      ]
     },
     "Grumio": {
       "direction": "names of famous helpers and sidekicks in literature",

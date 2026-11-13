@@ -4,8 +4,10 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 
 | Name | Direction | Domains | Conflicts | Notes |
 |-|-|-|-|-|
+| Camillo | names of famous helpers and sidekicks in literature | camillo.so likely-free | none found | **liked** / the loyal counsellor in The Winter's Tale; Camillo/Camilo / "camillo tez ciekawe" (round 14) |
 | Neb | short punchy coinages, 3 letters (CVC), one spelling | getneb.com free ($8.99 first year, $11 renewal), neb.so free ($57.50/yr), heyneb.com likely-free | Trademark NEB — USPTO application 50085789, filed 2026-09-02 by New Epic Base Co., classes 9, 16, 25, 38, 41 (pending) (notable); Trademark NEB — New England Biolabs, USPTO 85706291 and WIPO 1261950, classes 1, 42 (registered) (notable); Trademark ONE NEB — Ingeniatrics, EUIPO 017045642 and USPTO, classes 9, 35 (notable); NEB Compute (Nebula Data, Australia) — GPU compute and token services; neb GitHub repo 'explore AI agents' (8 stars) (notable) | **liked** / one spelling mostly (Neb/Nebb); an old word for beak or nose; close to Nib in sound / "neb, zib fajne" (round 8) |
 | Oberon | small companions in the sky: moons and small stars | oberon.so likely-free, getoberon.com likely-free | Oberon — Niklaus Wirth's programming language and OS; an 'Oberon' AI-agent workspace appears only as a UI mockup (notable) | **liked** / king of the fairies (Shakespeare); moon of Uranus; OH-ber-on / "oberon jest calkiem ciekawy, ale nie fixuj sie na nim; szukajmy dalej imion" (round 13) |
+| Sancho | names of famous helpers and sidekicks in literature | sancho.so likely-free | sanch.io — startup reported by the user (my web search found nothing about it); SanchoSQL listed on BetaList (notable) | **liked** / Sancho Panza, Don Quixote's down-to-earth, loyal helper; SAN-cho; one spelling / "sancho brzmi super, ale jest juz startup sanch.io - mimo to zapisz" (round 14) |
 | Able Hand | a helper with real power: helper nouns with a warm adjective | ablehand.app likely-free, getablehand.com likely-free | none found |  |
 | Aiuto | words for help, friend or strength from other languages, easy in English | aiuto.so likely-free | none found |  |
 | Allo | coined first names, 2–3 syllables | allo.app likely-free | Google Allo (discontinued messenger); Allo: AI Second Business Phone (iOS) (notable) | French 'allô' = hello; Allo/Alo/Hallo |
@@ -31,7 +33,6 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 | Brigid | names from Shakespeare, Arthurian legend and fairy tales | brigid.ai unknown, brigid.so likely-free | none found |  |
 | Brunhild | names from Shakespeare, Arthurian legend and fairy tales | brunhild.app likely-free, brunhild.ai unknown, brunhild.so likely-free, getbrunhild.com likely-free | none found |  |
 | Busy Hands | a helper with real power: helper nouns with a warm adjective | busyhands.app likely-free, getbusyhands.com likely-free | none found |  |
-| Camillo | names of famous helpers and sidekicks in literature | camillo.so likely-free | none found | the loyal counsellor in The Winter's Tale; Camillo/Camilo |
 | Capella | small companions in the sky: moons and small stars | capella.so likely-free | none found |  |
 | Castor | small companions in the sky: moons and small stars | castor.so likely-free | none found |  |
 | Copernicus | surnames of famous scientists and inventors | copernicus.so likely-free, getcopernicus.com likely-free | none found |  |
@@ -64,7 +65,6 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 | Gauss | surnames of famous scientists and inventors | gauss.so likely-free | none found |  |
 | Gawain | names from Shakespeare, Arthurian legend and fairy tales | gawain.app likely-free, gawain.so likely-free, getgawain.com likely-free | none found |  |
 | Gezellig | words for help, friend or strength from other languages, easy in English | gezellig.so likely-free | none found |  |
-| Gonzalo | names of famous helpers and sidekicks in literature | gonzalo.so likely-free, getgonzalo.com likely-free | none found | the kind old counsellor in The Tempest; common Spanish name |
 | Good Elf | folklore household helpers that work while you sleep | goodelf.app likely-free, goodelf.ai unknown, getgoodelf.com likely-free | Good Elf Software — small US SaaS studio using AI (notable) | one spelling |
 | Gwydion | names from Shakespeare, Arthurian legend and fairy tales | gwydion.app likely-free, gwydion.so likely-free, getgwydion.com likely-free | none found |  |
 | Handy Helper | a helper with real power: helper nouns with a warm adjective | handyhelper.app likely-free, handyhelper.ai unknown | none found |  |
@@ -155,7 +155,6 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 | Riemann | surnames of famous scientists and inventors | riemann.so likely-free, getriemann.com likely-free | none found |  |
 | Rigel | small companions in the sky: moons and small stars | rigel.so likely-free | none found |  |
 | Sahaya | words for help, friend or strength from other languages, easy in English | sahaya.so likely-free | none found |  |
-| Sancho | names of famous helpers and sidekicks in literature | sancho.so likely-free | none found | Sancho Panza, Don Quixote's down-to-earth, loyal helper; SAN-cho; one spelling |
 | Saudade | words for help, friend or strength from other languages, easy in English | saudade.so likely-free | none found |  |
 | Selino | coined first names, 2–3 syllables | selino.app likely-free, selino.ai unknown, selino.so likely-free, getselino.com likely-free | none found |  |
 | Sforzando | soft and strong in one word (music, Latin) | sforzando.app likely-free, sforzando.ai unknown, sforzando.so likely-free, getsforzando.com likely-free | none found |  |
@@ -180,7 +179,6 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 | Tibon | coined two-syllable names, soft consonants, no clusters (systematic sweep, .ai free) | tibon.app likely-free, tibon.ai unknown, tibon.so likely-free, gettibon.com likely-free | none found | TEE-bon or TIB-on |
 | Tika | words for help, friend or strength from other languages, easy in English | tika.so likely-free | none found |  |
 | Titania | small companions in the sky: moons and small stars | titania.so likely-free, gettitania.com likely-free | none found |  |
-| Tranio | names of famous helpers and sidekicks in literature | tranio.ai unknown, tranio.so likely-free, gettranio.com likely-free | none found | the clever servant in The Taming of the Shrew; TRAH-nee-oh |
 | Tristan | names from Shakespeare, Arthurian legend and fairy tales | tristan.so likely-free | none found |  |
 | Trusty Hand | a helper with real power: helper nouns with a warm adjective | trustyhand.app likely-free, trustyhand.ai unknown, gettrustyhand.com likely-free | none found |  |
 | Vab | short punchy coinages, 3 letters (CVC), one spelling | vab.so likely-free, getvab.com likely-free, vab.co likely-free | none found |  |

@@ -359,3 +359,15 @@ soon as TMview responds, or by the user's own search.
 **Correction, same round.** whois.nic.ai shows **sancho.ai is registered** (not delegated, so DNS
 returned NXDOMAIN). Sancho keeps sancho.so and no conflicts, but not .ai. DNS-only `.ai` "free"
 results from the round-12 sweep carry the same caveat.
+
+## Round 15 — 2026-11-13 (feedback only, so far)
+
+**User on round 14.** Sancho "sounds great" — but there is a startup at sanch.io; keep it anyway
+(marked liked; sanch.io recorded as notable — my web search found nothing about it). Camillo "also
+interesting" (liked). Gonzalo and Tranio rejected.
+**What this says.** The liked set is now Nib, Neb, Zib, Oberon, Sancho, Camillo: real or real-sounding
+names with a character behind them, two or three syllables, open vowels, no harsh clusters.
+**Proposed next.** Faithful helpers and companions from world literature and legend beyond the
+English canon (Spanish, Italian, French, Russian, Nordic, Japanese), plus Sancho/Camillo-shaped first
+names (-cho, -llo, -lo endings with a soft middle). TM screen Sancho, Camillo and Oberon when TMview
+responds.
