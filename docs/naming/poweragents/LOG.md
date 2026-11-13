@@ -79,5 +79,5 @@ called Franek) — warm for Poles, harder for English speakers. Juva (juva.app, 
 migraine app) — soft, neutral. Nils and Olek have only `get…com`.
 **Proposed next.** Ask whether the name should feel Polish (Franek, Olek) or international (Jerro,
 Juva). Then deepen the winner: Jerro-like coinages with the -o ending (Jerro, Benno, Tullo, Rallo),
-or Polish nicknames that English speakers spell right (Kuba was taken; Bolek, Lolek, Felek, Tadek).
+or Polish nicknames that English speakers spell right (Kuba was taken; Felek, Tadek, Józek-like forms without Polish letters).
 Run EUIPO/USPTO on the top two.
