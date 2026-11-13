@@ -52,6 +52,11 @@ in OpenCode.
 > integrations; plan usage is open to open-source and personal-local apps, paid or remotely hosted
 > apps go through a waitlist — [OpenAI](https://learn.chatgpt.com/docs/sign-in-with-chatgpt).
 
+> **Checked 2026-11-13:** conversations run through the sandbox (OpenCode 2.2.7's `claude-agent` → Claude Code
+> 2.1.322 in the container) on the owner's Max account succeeded with extra usage switched off, so they draw from the
+> plan's limits. An OpenCode test transcript had shown "Third-party apps now draw from your extra usage, not your plan
+> limits" (anomalyco/opencode#58782); it did not apply here.
+
 **Consequences carried forward.** `claude` must live inside the sandbox next to OpenCode, and its
 browser sign-in has to be surfaced by the app. Whether the Claude route works for cloud-hosted agents
 is unchecked. A paid or hosted company offering may need OpenAI's waitlist.
