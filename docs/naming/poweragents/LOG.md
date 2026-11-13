@@ -390,3 +390,24 @@ but has two spellings and the Munin monitoring tool.
 **Proposed next.** Ask which of these the user hears as Sancho/Camillo-good. Then trademark-screen the
 liked set (Sancho, Camillo, Oberon + new picks) — via TMview when it responds, or ask the user to run
 the TMview search themselves.
+
+## Round 16 — 2026-11-13
+
+**User on round 15.** Alonso "not bad", but alonso.ai exists (and "Ai.lonso" is Aston Martin's AI
+Fernando Alonso) — liked, blocking conflict recorded. Tancho "not bad" — liked. Not necessarily
+literary helpers: good-sounding names in an Italian / Spanish / Latin mix. **Method from the user:
+always search "<name> ai" first** — recorded in BRIEF; applied from now on, and back-filled for
+Tancho (clean), Camillo (clean) and Oberon (Oberon Technologies' "Titania" AI content platform).
+**Directions.** ≈85 Italian, Spanish and Latin first names, including animal names (Orso, Leone,
+Lupo, Falco, Delfino) and short forms (Tino, Nico, Beppe).
+**What came out.** The famous short ones are gone (Orso, Alma, Stella, Nico, Luca, Enzo). Longer
+Italian names keep `.so` and `get…com`; a few keep `.app`/`.ai` too (Ilario, Saverio, Duccio,
+Amedeo, Leone, Baltasar). "<name> ai" search: **Delfino** is an AI phone-agent company (blocking);
+**Leone** reads as Leon AI, an open-source personal assistant (notable); **Ilario** and **Leandro**
+are clean; **Amedeo** and **Lupo** have only sound-alikes (Amadeus AI, Lopus AI).
+**Where I looked.** DNS for .com/.app/.ai/.so/get…com; web search "<name> ai" for Leone, Ilario,
+Leandro, Delfino, Amedeo, Lupo. TMview still not tried this round.
+**Best.** Ilario (ilario.app, ilario.ai, ilario.so, getilario.com; "cheerful"), Leandro (leandro.ai,
+leandro.so, getleandro.com), Amedeo (amedeo.app, .so, get…com), Lupo (lupo.so; "wolf").
+**Proposed next.** Ask which of these sit with Sancho, Camillo and Tancho. Run "<name> ai" on Duccio
+and Baltasar, which also have open .app/.ai.

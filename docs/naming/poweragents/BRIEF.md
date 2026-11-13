@@ -54,6 +54,12 @@ mascot.
 - Sancho "sounds great" (sanch.io exists, keep it anyway); Camillo "also interesting" (round 14).
   Liked so far: Nib, Neb, Zib, Oberon, Sancho, Camillo.
 
+- Alonso and Tancho "not bad" (round 15).
+- Wants good-sounding names in an Italian / Spanish / Latin mix — not necessarily literary helpers
+  (round 15).
+- **Method, from the user:** check every name by searching "<name> ai" first — that is how the user
+  found sanch.io and alonso.ai at once (round 15).
+
 ## Rejected directions
 
 - Coined two-syllable names ending in -en/-in/-on/-an (Nebin, Tevon, Zavon…) — "why do they all end in -on, -in, -an, -en? Let's try another direction" (round 12).
