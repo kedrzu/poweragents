@@ -430,3 +430,19 @@ Dynadot), .ai, .so and get…com. **Orsetto** ("teddy bear") and **Castoro** ("b
 same wolf with every domain open. Run "<name> ai" on Lupino, Lupetto, Orsetto, Riccio. Ask the user to
 run a TMview search for LUPO (classes 9, 42), since TMview blocks this machine.
 **Addendum.** "lupino ai": nothing named Lupino (Lumino AI is the sound-alike). "lupetto ai": nothing; Lupetto is an Italian picture-book wolf and the Cub Scouts. Both clean so far.
+
+## Round 18 — 2026-11-13
+
+**User on round 17.** Lupo is the favourite so far; keep searching.
+**Directions.** Lupo-shaped words: short Italian and Spanish nouns that sound like first names (two
+syllables, mostly -o): nature, weather, small things, small animals (≈80).
+**What came out.** Same pattern as before: bare .com/.app/.ai gone for the short ones, `.so` open for
+most. "<name> ai": **Lampo** ("lightning flash") is Lampo AI Automation plus Lampi AI agents —
+blocking; **Nido** ("nest") is a local-first desktop "AI tamagotchi" — blocking; **Mulo** ("mule")
+sits next to MuleRun, a personal-AI-workforce agent store; **Bruco** ("caterpillar") is clean, with
+bruco.ai, bruco.so and getbruco.com open.
+**Where I looked.** DNS; web search "lampo ai", "nido ai", "bruco ai", "mulo ai".
+**Best.** Bruco — the caterpillar that turns into a butterfly ("really changes how I work, how I
+live"); an easy mascot that can crawl while the agent works. Also open but unchecked: Pato (pato.so,
+Spanish 'duck'), Cielo (cielo.so, 'sky').
+**Proposed next.** Show Bruco next to Lupo. Keep the "<name> ai" search as the first conflict check.

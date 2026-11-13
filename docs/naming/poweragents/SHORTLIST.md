@@ -6,11 +6,12 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 |-|-|-|-|-|
 | Camillo | names of famous helpers and sidekicks in literature | camillo.so likely-free | none found | **liked** / the loyal counsellor in The Winter's Tale; Camillo/Camilo / "camillo tez ciekawe" (round 14) |
 | Ilario | good-sounding Italian, Spanish and Latin first names | ilario.app likely-free, ilario.ai unknown, ilario.so likely-free, getilario.com likely-free | none found | **liked** / Italian 'cheerful' (Hilary); ee-LAH-ree-oh / "ilario calkiem spoko, ale musimy pisac lowercase zeby sie nie mylilo L z I" (round 16) |
-| Lupo | good-sounding Italian, Spanish and Latin first names | lupo.so free ($57.50/yr), lupo.to likely-free | search 'lupo ai': nothing named Lupo; Lopus AI and Lupi AI are sound-alikes (notable); LUPO (mylupo) — item-tracker startup on BetaList; My Little Lupo (pet app); Lupo PenSuite (Windows tools) (notable); VW Lupo (car, 1998–2005); Lupo Alberto — well-known Italian comic-strip wolf (notable) | **liked** / Italian 'wolf'; LOO-po; one spelling; getlupo.com, heylupo.com, meetlupo.com, lupoapp.com all taken; lupo.so free at $57.50, lupo.to likely-free / "lupo jest super" (round 16) |
+| Lupo | good-sounding Italian, Spanish and Latin first names | lupo.so free ($57.50/yr), lupo.to likely-free | search 'lupo ai': nothing named Lupo; Lopus AI and Lupi AI are sound-alikes (notable); LUPO (mylupo) — item-tracker startup on BetaList; My Little Lupo (pet app); Lupo PenSuite (Windows tools) (notable); VW Lupo (car, 1998–2005); Lupo Alberto — well-known Italian comic-strip wolf (notable) | **liked** / Italian 'wolf'; LOO-po; one spelling; getlupo.com, heylupo.com, meetlupo.com, lupoapp.com all taken; lupo.so free at $57.50, lupo.to likely-free / "lupo jest super" (round 16) / "lupo na razie najbardziej mi sie podoba" (round 17) |
 | Neb | short punchy coinages, 3 letters (CVC), one spelling | getneb.com free ($8.99 first year, $11 renewal), neb.so free ($57.50/yr), heyneb.com likely-free | Trademark NEB — USPTO application 50085789, filed 2026-09-02 by New Epic Base Co., classes 9, 16, 25, 38, 41 (pending) (notable); Trademark NEB — New England Biolabs, USPTO 85706291 and WIPO 1261950, classes 1, 42 (registered) (notable); Trademark ONE NEB — Ingeniatrics, EUIPO 017045642 and USPTO, classes 9, 35 (notable); NEB Compute (Nebula Data, Australia) — GPU compute and token services; neb GitHub repo 'explore AI agents' (8 stars) (notable) | **liked** / one spelling mostly (Neb/Nebb); an old word for beak or nose; close to Nib in sound / "neb, zib fajne" (round 8) |
 | Oberon | small companions in the sky: moons and small stars | oberon.so likely-free, getoberon.com likely-free | Oberon — Niklaus Wirth's programming language and OS; an 'Oberon' AI-agent workspace appears only as a UI mockup (notable); search 'oberon ai': Oberon Technologies — content-delivery platform 'Titania' prepared for AI tools (notable) | **liked** / king of the fairies (Shakespeare); moon of Uranus; OH-ber-on / "oberon jest calkiem ciekawy, ale nie fixuj sie na nim; szukajmy dalej imion" (round 13) |
 | Sancho | names of famous helpers and sidekicks in literature | sancho.so likely-free | sanch.io — startup reported by the user (my web search found nothing about it); SanchoSQL listed on BetaList (notable) | **liked** / Sancho Panza, Don Quixote's down-to-earth, loyal helper; SAN-cho; one spelling / "sancho brzmi super, ale jest juz startup sanch.io - mimo to zapisz" (round 14) |
 | Tancho | first names shaped like Sancho and Camillo | tancho.app likely-free, tancho.ai likely-free, tancho.so likely-free, gettancho.com likely-free | Tanka — 'agent platform for founders' iOS app (sound-alike, 1.3k Product Hunt votes) (notable); search 'tancho ai': nothing named Tancho; TANKA (AI that remembers commitments) is the sound-alike (notable) | **liked** / Japanese tanchō, the red-crowned crane (luck, long life); TAHN-cho; Sancho's sound / "tancho tez niezle" (round 15) |
+| Abbraccio | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | abbraccio.app likely-free, abbraccio.so likely-free, getabbraccio.com likely-free | none found |  |
 | Able Hand | a helper with real power: helper nouns with a warm adjective | ablehand.app likely-free, getablehand.com likely-free | none found |  |
 | Airone | animal words that work as Italian, Spanish or Latin first names (Lupo's family) | airone.so likely-free | none found |  |
 | Aiuto | words for help, friend or strength from other languages, easy in English | aiuto.so likely-free | none found |  |
@@ -32,6 +33,7 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 | Awhina | words for help, friend or strength from other languages, easy in English | awhina.app likely-free, awhina.so likely-free | none found |  |
 | Ayuda | words for help, friend or strength from other languages, easy in English | ayuda.so likely-free | none found |  |
 | Babbage | surnames of famous scientists and inventors | babbage.so likely-free, getbabbage.com likely-free | none found |  |
+| Baleno | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | baleno.so likely-free, getbaleno.com likely-free | none found |  |
 | Baltasar | good-sounding Italian, Spanish and Latin first names | baltasar.app likely-free, baltasar.so likely-free, getbaltasar.com likely-free | none found |  |
 | Banach | surnames of famous scientists and inventors | banach.app likely-free, banach.so likely-free, getbanach.com likely-free | none found |  |
 | Basilio | first names shaped like Sancho and Camillo | basilio.app likely-free, basilio.so likely-free, getbasilio.com likely-free | none found |  |
@@ -44,12 +46,17 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 | Beppe | good-sounding Italian, Spanish and Latin first names | beppe.so likely-free | none found |  |
 | Bernoulli | surnames of famous scientists and inventors | bernoulli.so likely-free, getbernoulli.com likely-free | none found |  |
 | Bianca | good-sounding Italian, Spanish and Latin first names | bianca.so likely-free | none found |  |
+| Borgo | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | borgo.ai unknown, borgo.so likely-free | none found |  |
+| Bottone | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | bottone.ai unknown, bottone.so likely-free, getbottone.com likely-free | none found |  |
 | Brahe | surnames of famous scientists and inventors | brahe.app likely-free, brahe.so likely-free, getbrahe.com likely-free | none found |  |
 | Branwen | names from Shakespeare, Arthurian legend and fairy tales | branwen.app likely-free, branwen.ai unknown, branwen.so likely-free, getbranwen.com likely-free | none found |  |
 | Brighella | faithful helpers and companions from world literature and legend | brighella.app likely-free, brighella.ai unknown, brighella.so likely-free, getbrighella.com likely-free | none found |  |
 | Brigid | names from Shakespeare, Arthurian legend and fairy tales | brigid.ai unknown, brigid.so likely-free | none found |  |
+| Brote | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | brote.so likely-free, getbrote.com likely-free | none found |  |
+| Bruco | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | bruco.ai unknown, bruco.so likely-free, getbruco.com likely-free | search 'bruco ai': nothing named Bruco; Bruce AI (ops copilot) and Bruin (AI data agent) are sound-alikes (notable) | Italian 'caterpillar' — the one that becomes a butterfly; BROO-ko |
 | Brunello | first names shaped like Sancho and Camillo | brunello.so likely-free, getbrunello.com likely-free | none found |  |
 | Brunhild | names from Shakespeare, Arthurian legend and fairy tales | brunhild.app likely-free, brunhild.ai unknown, brunhild.so likely-free, getbrunhild.com likely-free | none found |  |
+| Buffo | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | buffo.so likely-free | none found |  |
 | Buho | animal words that work as Italian, Spanish or Latin first names (Lupo's family) | buho.so likely-free | none found |  |
 | Busy Hands | a helper with real power: helper nouns with a warm adjective | busyhands.app likely-free, getbusyhands.com likely-free | none found |  |
 | Caius | good-sounding Italian, Spanish and Latin first names | caius.so likely-free | none found |  |
@@ -62,9 +69,13 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 | Celio | first names shaped like Sancho and Camillo | celio.so likely-free | none found |  |
 | Celso | good-sounding Italian, Spanish and Latin first names | celso.so likely-free | none found |  |
 | Cervo | animal words that work as Italian, Spanish or Latin first names (Lupo's family) | cervo.ai unknown, cervo.so likely-free | none found |  |
+| Chispa | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | chispa.so likely-free | none found |  |
+| Cielo | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | cielo.so likely-free | none found |  |
 | Cigno | animal words that work as Italian, Spanish or Latin first names (Lupo's family) | cigno.so likely-free, getcigno.com likely-free | none found |  |
+| Ciuffo | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | ciuffo.app likely-free, ciuffo.ai unknown, ciuffo.so likely-free, getciuffo.com likely-free | none found |  |
 | Claudio | good-sounding Italian, Spanish and Latin first names | claudio.so likely-free | none found |  |
 | Colibri | animal words that work as Italian, Spanish or Latin first names (Lupo's family) | colibri.so likely-free | none found |  |
+| Colle | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | colle.so likely-free | none found |  |
 | Colombina | faithful helpers and companions from world literature and legend | colombina.app likely-free, colombina.ai unknown, colombina.so likely-free, getcolombina.com likely-free | none found |  |
 | Columba | animal words that work as Italian, Spanish or Latin first names (Lupo's family) | columba.so likely-free, getcolumba.com likely-free | none found |  |
 | Copernicus | surnames of famous scientists and inventors | copernicus.so likely-free, getcopernicus.com likely-free | none found |  |
@@ -77,6 +88,7 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 | Doren | coined first names, 2–3 syllables | doren.app likely-free, doren.ai unknown, doren.so likely-free, getdoren.com likely-free | none found |  |
 | Duccio | good-sounding Italian, Spanish and Latin first names | duccio.app likely-free, duccio.ai unknown, duccio.so likely-free, getduccio.com likely-free | none found |  |
 | Dulce | words for help, friend or strength from other languages, easy in English | dulce.so likely-free | none found |  |
+| Duomo | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | duomo.so likely-free, getduomo.com likely-free | none found |  |
 | Easy Lever | giant / lever / mighty compounds: small and easy, but strong | easylever.app likely-free, easylever.ai unknown, geteasylever.com likely-free | none found | one spelling; 'lever' is LEE-ver (UK) / LEV-er (US) |
 | Elaine | names from Shakespeare, Arthurian legend and fairy tales | elaine.so likely-free | none found |  |
 | Electra | small companions in the sky: moons and small stars | electra.so likely-free | none found |  |
@@ -93,11 +105,15 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 | Fausto | first names shaped like Sancho and Camillo | fausto.so likely-free, getfausto.com likely-free | none found |  |
 | Fep | short punchy coinages, 3 letters (CVC), one spelling | fep.so likely-free, getfep.com likely-free, fep.to likely-free | none found |  |
 | Ferdinand | names from Shakespeare, Arthurian legend and fairy tales | ferdinand.so likely-free | none found |  |
+| Ferro | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | ferro.so likely-free | none found |  |
 | Feynman | surnames of famous scientists and inventors | feynman.ai unknown, feynman.so likely-free | none found |  |
 | Fibonacci | surnames of famous scientists and inventors | fibonacci.so likely-free | none found |  |
 | Fidelio | faithful helpers and companions from world literature and legend | fidelio.so likely-free | none found |  |
 | Fika | words for help, friend or strength from other languages, easy in English | fika.so likely-free | none found |  |
+| Fiocco | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | fiocco.so likely-free, getfiocco.com likely-free | none found |  |
 | Fionn | names from Shakespeare, Arthurian legend and fairy tales | fionn.so likely-free | none found |  |
+| Fischio | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | fischio.ai unknown, fischio.so likely-free, getfischio.com likely-free | none found |  |
+| Fiume | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | fiume.so likely-free, getfiume.com likely-free | none found |  |
 | Flavia | good-sounding Italian, Spanish and Latin first names | flavia.so likely-free | none found |  |
 | Fleming | surnames of famous scientists and inventors | fleming.so likely-free, getfleming.com likely-free | FLEMING marks in 9/42 (Fleming Medical, EU) (notable) |  |
 | Florizel | names from Shakespeare, Arthurian legend and fairy tales | florizel.app likely-free, florizel.ai unknown, florizel.so likely-free, getflorizel.com likely-free | none found |  |
@@ -105,6 +121,8 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 | Fortiter | soft and strong in one word (music, Latin) | fortiter.app likely-free, fortiter.ai unknown, fortiter.so likely-free, getfortiter.com likely-free | none found |  |
 | Fourier | surnames of famous scientists and inventors | fourier.so likely-free | none found |  |
 | Fringuello | animal words that work as Italian, Spanish or Latin first names (Lupo's family) | fringuello.app likely-free, fringuello.ai unknown, fringuello.so likely-free, getfringuello.com likely-free | none found |  |
+| Fulmine | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | fulmine.so likely-free, getfulmine.com likely-free | none found |  |
+| Fuoco | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | fuoco.so likely-free, getfuoco.com likely-free | none found |  |
 | Gabbiano | animal words that work as Italian, Spanish or Latin first names (Lupo's family) | gabbiano.app likely-free, gabbiano.ai unknown, gabbiano.so likely-free, getgabbiano.com likely-free | none found |  |
 | Galahad | names from Shakespeare, Arthurian legend and fairy tales | galahad.so likely-free | none found |  |
 | Gareth | names from Shakespeare, Arthurian legend and fairy tales | gareth.so likely-free, getgareth.com likely-free | none found |  |
@@ -116,13 +134,16 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 | Gezellig | words for help, friend or strength from other languages, easy in English | gezellig.so likely-free | none found |  |
 | Gianni | good-sounding Italian, Spanish and Latin first names | gianni.so likely-free | none found |  |
 | Gino | broader real first names: international and Polish, easy for English speakers | gino.so likely-free | none found |  |
+| Gioco | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | gioco.so likely-free, getgioco.com likely-free | none found |  |
 | Giulia | good-sounding Italian, Spanish and Latin first names | giulia.so likely-free | none found |  |
 | Good Elf | folklore household helpers that work while you sleep | goodelf.app likely-free, goodelf.ai unknown, getgoodelf.com likely-free | Good Elf Software — small US SaaS studio using AI (notable) | one spelling |
+| Grano | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | grano.so likely-free | none found |  |
 | Grilla | animal words that work as Italian, Spanish or Latin first names (Lupo's family) | grilla.so likely-free | none found |  |
 | Grillo | animal words that work as Italian, Spanish or Latin first names (Lupo's family) | grillo.so likely-free | none found |  |
 | Grimaud | faithful helpers and companions from world literature and legend | grimaud.app likely-free, grimaud.ai unknown, grimaud.so likely-free, getgrimaud.com likely-free | none found |  |
 | Gufo | animal words that work as Italian, Spanish or Latin first names (Lupo's family) | gufo.so likely-free, getgufo.com likely-free | none found |  |
 | Guido | good-sounding Italian, Spanish and Latin first names | guido.so likely-free | none found |  |
+| Guscio | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | guscio.app likely-free, guscio.so likely-free, getguscio.com likely-free | none found |  |
 | Gwydion | names from Shakespeare, Arthurian legend and fairy tales | gwydion.app likely-free, gwydion.so likely-free, getgwydion.com likely-free | none found |  |
 | Handy Helper | a helper with real power: helper nouns with a warm adjective | handyhelper.app likely-free, handyhelper.ai unknown | none found |  |
 | Heg | short punchy coinages, 3 letters (CVC), one spelling | heg.so likely-free, getheg.com likely-free, heg.to likely-free | none found |  |
@@ -132,6 +153,7 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 | Horatio | names of famous helpers and sidekicks in literature | horatio.so likely-free | Horatio — CX outsourcing company offering AI implementation and agentic AI services (notable) | Hamlet's loyal friend; ho-RAY-shee-oh — long |
 | Hugin | faithful helpers and companions from world literature and legend | hugin.so likely-free | none found |  |
 | Humboldt | surnames of famous scientists and inventors | humboldt.so likely-free | none found |  |
+| Humo | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | humo.so likely-free | none found |  |
 | Hygge | words for help, friend or strength from other languages, easy in English | hygge.so likely-free | none found |  |
 | Hypatia | surnames of famous scientists and inventors | hypatia.so likely-free, gethypatia.com likely-free | none found |  |
 | Ignacio | good-sounding Italian, Spanish and Latin first names | ignacio.so likely-free, getignacio.com likely-free | none found |  |
@@ -152,6 +174,7 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 | Kind Hand | a helper with real power: helper nouns with a warm adjective | kindhand.app likely-free, kindhand.ai unknown, getkindhand.com likely-free | none found |  |
 | Kopernik | surnames of famous scientists and inventors | kopernik.so likely-free, getkopernik.com likely-free | Kopernik TV — PL mark, classes 35/41/42 (Akademia Kopernika); no other mark in 9/42 (notable); Centrum Nauki Kopernik (Warsaw science centre); Kopernik gingerbread (Toruń); Copernicus = EU Earth-observation programme (notable) | Polish form of Copernicus; foreigners know 'Copernicus' and may spell it with C |
 | Koselig | words for help, friend or strength from other languages, easy in English | koselig.so likely-free | none found |  |
+| Lago | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | lago.so likely-free | none found |  |
 | Lagom | words for help, friend or strength from other languages, easy in English | lagom.so likely-free | none found |  |
 | Lano | coined first names, 2–3 syllables | lano.app unknown, lano.so likely-free | none found |  |
 | Lanon | coined two-syllable names, soft consonants, no clusters (systematic sweep, .ai free) | lanon.app likely-free, lanon.ai unknown, lanon.so likely-free, getlanon.com likely-free | none found | LAN-on; close to 'Lannon' |
@@ -173,6 +196,7 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 | Lom | short punchy coinages, 3 letters (CVC), one spelling | lom.so likely-free, getlom.com likely-free | none found |  |
 | Long Lever | plain compounds: easy yet powerful | longlever.app likely-free, getlonglever.com likely-free | none found |  |
 | Lorenzo | first names shaped like Sancho and Camillo | lorenzo.so likely-free, getlorenzo.com likely-free | none found |  |
+| Lucero | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | lucero.so likely-free | none found |  |
 | Lucho | first names shaped like Sancho and Camillo | lucho.so likely-free | none found |  |
 | Lucio | first names shaped like Sancho and Camillo | lucio.so likely-free | none found |  |
 | Lupa | animal words that work as Italian, Spanish or Latin first names (Lupo's family) | lupa.so likely-free | none found |  |
@@ -201,7 +225,10 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 | Mip | short punchy coinages, 3 letters (CVC), one spelling | mip.so likely-free | none found |  |
 | Miranda | small companions in the sky: moons and small stars | miranda.so likely-free | none found |  |
 | Mitra | words for help, friend or strength from other languages, easy in English | mitra.so likely-free | none found |  |
+| Molo | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | molo.so likely-free | none found |  |
+| Monte | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | monte.so likely-free | none found |  |
 | Msaada | words for help, friend or strength from other languages, easy in English | msaada.so likely-free, getmsaada.com likely-free | none found |  |
+| Mulo | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | mulo.so likely-free | search 'mulo ai': MuleRun — 'self-evolving personal AI workforce' and agent marketplace (sound-alike); Mul AI skill (notable) | Italian 'mule' — the strong, reliable carrier; MOO-lo |
 | Muninn | faithful helpers and companions from world literature and legend | muninn.so likely-free | Munin — open-source server-monitoring tool; Muninn apps (Icelandic learning, Valhalla game) (notable) | Odin's raven of memory; Muninn/Munin — two spellings |
 | Mysa | words for help, friend or strength from other languages, easy in English | mysa.so likely-free | none found |  |
 | Namin | coined two-syllable names, soft consonants, no clusters (systematic sweep, .ai free) | namin.app likely-free, namin.ai unknown, namin.so likely-free, getnamin.com likely-free | none found | NAH-min |
@@ -230,7 +257,9 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 | Parsifal | names from Shakespeare, Arthurian legend and fairy tales | parsifal.app likely-free, parsifal.so likely-free, getparsifal.com likely-free | none found |  |
 | Passepartout | names of famous helpers and sidekicks in literature | passepartout.so likely-free, getpassepartout.com likely-free | none found |  |
 | Passero | animal words that work as Italian, Spanish or Latin first names (Lupo's family) | passero.so likely-free | none found |  |
+| Passo | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | passo.so likely-free | none found |  |
 | Pasteur | surnames of famous scientists and inventors | pasteur.so likely-free, getpasteur.com likely-free | none found |  |
+| Pato | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | pato.so likely-free | none found |  |
 | Pavone | animal words that work as Italian, Spanish or Latin first names (Lupo's family) | pavone.so likely-free, getpavone.com likely-free | none found |  |
 | Pedrillo | faithful helpers and companions from world literature and legend | pedrillo.app likely-free, pedrillo.ai unknown, pedrillo.so likely-free, getpedrillo.com likely-free | none found |  |
 | Pellinore | names from Shakespeare, Arthurian legend and fairy tales | pellinore.app likely-free, pellinore.ai unknown, pellinore.so likely-free, getpellinore.com likely-free | none found |  |
@@ -245,34 +274,47 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 | Plain Magic | plain compounds: easy yet powerful | plainmagic.app likely-free, plainmagic.ai unknown, getplainmagic.com likely-free | none found |  |
 | Planchet | names of famous helpers and sidekicks in literature | planchet.ai unknown, planchet.so likely-free | none found |  |
 | Plus Hand | plain compounds: easy yet powerful | plushand.app likely-free, plushand.ai unknown, getplushand.com likely-free | none found |  |
+| Poggio | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | poggio.so likely-free, getpoggio.com likely-free | none found |  |
 | Pollux | small companions in the sky: moons and small stars | pollux.so likely-free | none found |  |
 | Polpo | animal words that work as Italian, Spanish or Latin first names (Lupo's family) | polpo.so likely-free | none found |  |
 | Pono | words for help, friend or strength from other languages, easy in English | pono.so likely-free | none found |  |
 | Portia | names from Shakespeare, Arthurian legend and fairy tales | portia.so likely-free | none found |  |
+| Pupo | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | pupo.so likely-free, getpupo.com likely-free | none found |  |
 | Pylades | faithful helpers and companions from world literature and legend | pylades.app likely-free, pylades.ai unknown, pylades.so likely-free, getpylades.com likely-free | none found |  |
 | Queequeg | names of famous helpers and sidekicks in literature | queequeg.ai unknown, queequeg.so likely-free, getqueequeg.com likely-free | none found |  |
 | Quiet Power | plain compounds: easy yet powerful | quietpower.app likely-free | none found |  |
 | Quintus | good-sounding Italian, Spanish and Latin first names | quintus.so likely-free, getquintus.com likely-free | none found |  |
 | Rafiki | words for help, friend or strength from other languages, easy in English | rafiki.so likely-free | none found |  |
+| Raggio | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | raggio.app likely-free, raggio.so likely-free, getraggio.com likely-free | none found |  |
 | Raman | surnames of famous scientists and inventors | raman.app likely-free, raman.so likely-free, getraman.com likely-free | none found |  |
 | Ramanujan | surnames of famous scientists and inventors | ramanujan.so likely-free, getramanujan.com likely-free | none found |  |
+| Rame | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | rame.so likely-free | none found |  |
 | Ramiro | first names shaped like Sancho and Camillo | ramiro.so likely-free, getramiro.com likely-free | none found |  |
+| Ramo | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | ramo.so likely-free | none found |  |
+| Rayo | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | rayo.so likely-free | none found |  |
+| Remo | coined first names: sound like a real name, one spelling | remo.so likely-free | none found |  |
 | Renzo | good-sounding Italian, Spanish and Latin first names | renzo.so likely-free | none found |  |
 | Rhiannon | names from Shakespeare, Arthurian legend and fairy tales | rhiannon.so likely-free, getrhiannon.com likely-free | none found |  |
 | Riccetto | animal words that work as Italian, Spanish or Latin first names (Lupo's family) | riccetto.com likely-free, riccetto.app likely-free, riccetto.ai unknown, riccetto.so likely-free, getriccetto.com likely-free | none found |  |
 | Riccio | animal words that work as Italian, Spanish or Latin first names (Lupo's family) | riccio.app likely-free, riccio.so likely-free | none found | 'hedgehog'; Italian REE-cho, English readers say RICK-ee-oh |
+| Ricciolo | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | ricciolo.app likely-free, ricciolo.ai unknown, ricciolo.so likely-free, getricciolo.com likely-free | none found |  |
 | Riemann | surnames of famous scientists and inventors | riemann.so likely-free, getriemann.com likely-free | none found |  |
 | Rigel | small companions in the sky: moons and small stars | rigel.so likely-free | none found |  |
 | Rocco | broader real first names: international and Polish, easy for English speakers | rocco.so likely-free | none found |  |
 | Rondine | animal words that work as Italian, Spanish or Latin first names (Lupo's family) | rondine.so likely-free, getrondine.com likely-free | none found |  |
 | Rucio | faithful helpers and companions from world literature and legend | rucio.app likely-free, rucio.ai unknown, rucio.so likely-free, getrucio.com likely-free | none found |  |
+| Ruscello | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | ruscello.app likely-free, ruscello.ai unknown, ruscello.so likely-free, getruscello.com likely-free | none found |  |
 | Sahaya | words for help, friend or strength from other languages, easy in English | sahaya.so likely-free | none found |  |
 | Sandro | first names shaped like Sancho and Camillo | sandro.so likely-free, getsandro.com likely-free | none found |  |
 | Santi | good-sounding Italian, Spanish and Latin first names | santi.so likely-free, getsanti.com likely-free | none found |  |
+| Sasso | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | sasso.so likely-free | none found |  |
 | Saudade | words for help, friend or strength from other languages, easy in English | saudade.so likely-free | none found |  |
 | Saverio | good-sounding Italian, Spanish and Latin first names | saverio.app likely-free, saverio.ai unknown, saverio.so likely-free, getsaverio.com likely-free | none found |  |
 | Scapino | faithful helpers and companions from world literature and legend | scapino.app likely-free, scapino.ai likely-free, scapino.so likely-free, getscapino.com likely-free | Scapino — Dutch shoe-store chain (notable) | Scapin/Scapino, the clever servant who fixes every scheme; ska-PEE-no |
+| Scoglio | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | scoglio.app likely-free, scoglio.ai unknown, scoglio.so likely-free, getscoglio.com likely-free | none found |  |
+| Scoiattolo | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | scoiattolo.app likely-free, scoiattolo.ai unknown, scoiattolo.so likely-free, getscoiattolo.com likely-free | none found |  |
 | Selino | coined first names, 2–3 syllables | selino.app likely-free, selino.ai unknown, selino.so likely-free, getselino.com likely-free | none found |  |
+| Seme | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | seme.so likely-free | none found |  |
 | Serena | good-sounding Italian, Spanish and Latin first names | serena.so likely-free | none found |  |
 | Sforzando | soft and strong in one word (music, Latin) | sforzando.app likely-free, sforzando.ai unknown, sforzando.so likely-free, getsforzando.com likely-free | none found |  |
 | Sganarelle | names of famous helpers and sidekicks in literature | sganarelle.app likely-free, sganarelle.ai unknown, sganarelle.so likely-free, getsganarelle.com likely-free | none found |  |
@@ -282,12 +324,16 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 | Small Lever | plain compounds: easy yet powerful | smalllever.com likely-free, smalllever.app likely-free, smalllever.ai unknown, getsmalllever.com likely-free | none found | 'smalllever' has a triple l in the domain; heard as 'small lever' or 'smaller' — risky |
 | Smidgen | like Nib: tiny marks, dots and bits (mascot-shaped words) | smidgen.ai likely-free | smidgen.io — x402 micropayment paywalls for humans and AI agents (notable) | Smidgen/Smidgeon/Smidgin — several spellings |
 | Somerville | surnames of famous scientists and inventors | somerville.app likely-free, somerville.so likely-free, getsomerville.com likely-free | none found |  |
+| Sorriso | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | sorriso.so likely-free, getsorriso.com likely-free | none found |  |
 | Spica | small companions in the sky: moons and small stars | spica.so likely-free | none found |  |
 | Suave | soft and strong in one word (music, Latin) | suave.so likely-free | none found |  |
 | Suaviter | soft and strong in one word (music, Latin) | suaviter.app likely-free, suaviter.ai unknown, suaviter.so likely-free, getsuaviter.com likely-free | none found |  |
+| Suelo | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | suelo.so likely-free, getsuelo.com likely-free | none found |  |
 | Szczepanik | surnames of famous scientists and inventors | szczepanik.app likely-free, szczepanik.ai unknown, szczepanik.so likely-free, getszczepanik.com likely-free | none found |  |
 | Taliesin | names from Shakespeare, Arthurian legend and fairy tales | taliesin.so likely-free, gettaliesin.com likely-free | none found |  |
+| Tallo | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | tallo.so likely-free | none found |  |
 | Tasso | animal words that work as Italian, Spanish or Latin first names (Lupo's family) | tasso.so likely-free, gettasso.com likely-free | none found |  |
+| Tato | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | tato.so likely-free | none found |  |
 | Teb | short punchy coinages, 3 letters (CVC), one spelling | teb.so likely-free, teb.to likely-free | none found |  |
 | Teben | coined two-syllable names, soft consonants, no clusters (systematic sweep, .ai free) | teben.app unknown, teben.ai unknown, teben.so likely-free, getteben.com likely-free | none found | TEB-en |
 | Tejon | animal words that work as Italian, Spanish or Latin first names (Lupo's family) | tejon.so likely-free, gettejon.com likely-free | none found |  |
@@ -295,6 +341,7 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 | Tem | short punchy coinages, 3 letters (CVC), one spelling | tem.so likely-free | none found |  |
 | Teo | coined -o names in the Jerro vein | teo.so likely-free | none found |  |
 | Teodoro | good-sounding Italian, Spanish and Latin first names | teodoro.ai unknown, teodoro.so likely-free, getteodoro.com likely-free | none found |  |
+| Teso | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | teso.so likely-free | none found |  |
 | Tethys | small companions in the sky: moons and small stars | tethys.so likely-free | none found |  |
 | Tevon | coined two-syllable names, soft consonants, no clusters (systematic sweep, .ai free) | tevon.app likely-free, tevon.ai unknown, tevon.so likely-free, gettevon.com likely-free | none found | a rare real first name (Tevon/Tavon) |
 | Tibo | coined first names, 2–3 syllables | tibo.so likely-free | Tibo (tibo.ai) — enterprise AI security; 'Tibo' is also a well-known indie SaaS founder (Tweet Hunter) (notable) | Tibo/Tebo/Tibeau |
@@ -309,12 +356,14 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 | Tristan | names from Shakespeare, Arthurian legend and fairy tales | tristan.so likely-free | none found |  |
 | Trusty Hand | a helper with real power: helper nouns with a warm adjective | trustyhand.app likely-free, trustyhand.ai unknown, gettrustyhand.com likely-free | none found |  |
 | Tullio | first names shaped like Sancho and Camillo | tullio.so likely-free, gettullio.com likely-free | none found |  |
+| Tuono | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | tuono.app likely-free, tuono.so likely-free, gettuono.com likely-free | none found |  |
 | Ugo | first names shaped like Sancho and Camillo | ugo.so likely-free | none found |  |
 | Ursus | animal words that work as Italian, Spanish or Latin first names (Lupo's family) | ursus.so likely-free, getursus.com likely-free | none found |  |
 | Vab | short punchy coinages, 3 letters (CVC), one spelling | vab.so likely-free, getvab.com likely-free, vab.co likely-free | none found |  |
 | Valerio | good-sounding Italian, Spanish and Latin first names | valerio.so likely-free | none found |  |
 | Vasco | first names shaped like Sancho and Camillo | vasco.so likely-free | none found |  |
 | Vep | short punchy coinages, 3 letters (CVC), one spelling | vep.so likely-free, getvep.com likely-free, vep.to likely-free | none found |  |
+| Vetro | short Italian/Spanish/Latin nouns that sound like names, Lupo-shaped (two syllables, ends in -o) | vetro.so likely-free | none found |  |
 | Viola | names from Shakespeare, Arthurian legend and fairy tales | viola.so likely-free | none found |  |
 | Vivien | names from Shakespeare, Arthurian legend and fairy tales | vivien.so likely-free, getvivien.com likely-free | none found |  |
 | Vob | short punchy coinages, 3 letters (CVC), one spelling | vob.so likely-free, vob.to likely-free | none found |  |
