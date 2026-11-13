@@ -30067,9 +30067,10 @@
           "checked_at": "2026-11-13"
         },
         "sancho.ai": {
-          "status": "unknown",
-          "method": "rdap",
-          "checked_at": "2026-11-13"
+          "status": "taken",
+          "method": "whois.nic.ai",
+          "checked_at": "2026-11-13",
+          "note": "registered but not delegated — DNS said NXDOMAIN"
         },
         "sancho.so": {
           "status": "likely-free",

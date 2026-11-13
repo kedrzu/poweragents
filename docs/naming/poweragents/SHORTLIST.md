@@ -155,7 +155,7 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 | Riemann | surnames of famous scientists and inventors | riemann.so likely-free, getriemann.com likely-free | none found |  |
 | Rigel | small companions in the sky: moons and small stars | rigel.so likely-free | none found |  |
 | Sahaya | words for help, friend or strength from other languages, easy in English | sahaya.so likely-free | none found |  |
-| Sancho | names of famous helpers and sidekicks in literature | sancho.ai unknown, sancho.so likely-free | none found | Sancho Panza, Don Quixote's down-to-earth, loyal helper; SAN-cho; one spelling |
+| Sancho | names of famous helpers and sidekicks in literature | sancho.so likely-free | none found | Sancho Panza, Don Quixote's down-to-earth, loyal helper; SAN-cho; one spelling |
 | Saudade | words for help, friend or strength from other languages, easy in English | saudade.so likely-free | none found |  |
 | Selino | coined first names, 2–3 syllables | selino.app likely-free, selino.ai unknown, selino.so likely-free, getselino.com likely-free | none found |  |
 | Sforzando | soft and strong in one word (music, Latin) | sforzando.app likely-free, sforzando.ai unknown, sforzando.so likely-free, getsforzando.com likely-free | none found |  |

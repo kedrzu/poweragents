@@ -356,3 +356,6 @@ still resets connections — no trademark screen; whois.nic.ai for sancho.ai.
 **Proposed next.** Show Sancho first. If the sidekick idea lands, deepen it: helpers and loyal
 companions from world literature and legend in many languages. Trademark-screen Sancho and Oberon as
 soon as TMview responds, or by the user's own search.
+**Correction, same round.** whois.nic.ai shows **sancho.ai is registered** (not delegated, so DNS
+returned NXDOMAIN). Sancho keeps sancho.so and no conflicts, but not .ai. DNS-only `.ai` "free"
+results from the round-12 sweep carry the same caveat.
