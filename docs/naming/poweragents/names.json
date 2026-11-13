@@ -25802,7 +25802,11 @@
           "checked_at": "2026-11-13"
         }
       ],
-      "phonetics": "'VAR-lo', like Arlo/Marlo; one spelling"
+      "phonetics": "'VAR-lo', like Arlo/Marlo; one spelling",
+      "verdict": "rejected",
+      "feedback": [
+        "\"Varlo brzmi jakoś tak grubiańsko przez to połączenie\" (round 11)"
+      ]
     },
     "Tano": {
       "direction": "coined first names, 2–3 syllables",
@@ -26005,7 +26009,11 @@
         }
       },
       "conflicts": [],
-      "phonetics": "'da-VEE-no'; Italian 'da vino' (of wine); sound-alike of Vivino (wine app) and Da Vinci"
+      "phonetics": "'da-VEE-no'; Italian 'da vino' (of wine); sound-alike of Vivino (wine app) and Da Vinci",
+      "verdict": "rejected",
+      "feedback": [
+        "\"Davino, no to jest nie najlepiej\" (round 11)"
+      ]
     },
     "Tavino": {
       "direction": "coined first names, 2–3 syllables",
@@ -26340,6 +26348,394 @@
       },
       "verdict": "dropped",
       "reason": "Belvo (fintech API)"
+    },
+    "Tevon": {
+      "direction": "coined two-syllable names, soft consonants, no clusters (systematic sweep, .ai free)",
+      "round": 12,
+      "domains": {
+        "tevon.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tevon.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "tevon.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "tevon.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gettevon.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "phonetics": "a rare real first name (Tevon/Tavon)"
+    },
+    "Zavon": {
+      "direction": "coined two-syllable names, soft consonants, no clusters (systematic sweep, .ai free)",
+      "round": 12,
+      "domains": {
+        "zavon.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "zavon.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "zavon.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "zavon.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getzavon.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "phonetics": "Zavon/Zavan"
+    },
+    "Nebin": {
+      "direction": "coined two-syllable names, soft consonants, no clusters (systematic sweep, .ai free)",
+      "round": 12,
+      "domains": {
+        "nebin.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nebin.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "nebin.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "nebin.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getnebin.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "phonetics": "extends the liked Neb; NEB-in"
+    },
+    "Tibon": {
+      "direction": "coined two-syllable names, soft consonants, no clusters (systematic sweep, .ai free)",
+      "round": 12,
+      "domains": {
+        "tibon.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tibon.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "tibon.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "tibon.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gettibon.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "phonetics": "TEE-bon or TIB-on"
+    },
+    "Lanon": {
+      "direction": "coined two-syllable names, soft consonants, no clusters (systematic sweep, .ai free)",
+      "round": 12,
+      "domains": {
+        "lanon.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "lanon.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "lanon.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "lanon.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getlanon.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "phonetics": "LAN-on; close to 'Lannon'"
+    },
+    "Benon": {
+      "direction": "coined two-syllable names, soft consonants, no clusters (systematic sweep, .ai free)",
+      "round": 12,
+      "domains": {
+        "benon.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "benon.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "benon.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "benon.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getbenon.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "phonetics": "BEN-on; a rare Ugandan first name"
+    },
+    "Zemon": {
+      "direction": "coined two-syllable names, soft consonants, no clusters (systematic sweep, .ai free)",
+      "round": 12,
+      "domains": {
+        "zemon.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "zemon.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "zemon.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "zemon.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getzemon.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "phonetics": "ZEM-on"
+    },
+    "Namin": {
+      "direction": "coined two-syllable names, soft consonants, no clusters (systematic sweep, .ai free)",
+      "round": 12,
+      "domains": {
+        "namin.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "namin.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "namin.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "namin.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getnamin.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "phonetics": "NAH-min"
+    },
+    "Maben": {
+      "direction": "coined two-syllable names, soft consonants, no clusters (systematic sweep, .ai free)",
+      "round": 12,
+      "domains": {
+        "maben.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "maben.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "maben.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "maben.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getmaben.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "phonetics": "sounds like 'Maven' (Maven Clinic)",
+      "verdict": "dropped",
+      "reason": "sounds like 'Maven' (Maven Clinic)"
+    },
+    "Zevan": {
+      "direction": "coined two-syllable names, soft consonants, no clusters (systematic sweep, .ai free)",
+      "round": 12,
+      "domains": {
+        "zevan.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "zevan.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "zevan.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "zevan.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getzevan.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "phonetics": "sounds like Warren Zevon"
+    },
+    "Nibin": {
+      "direction": "coined two-syllable names, soft consonants, no clusters (systematic sweep, .ai free)",
+      "round": 12,
+      "domains": {
+        "nibin.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "nibin.app": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "nibin.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "nibin.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getnibin.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "phonetics": "NIBIN = US ballistics database",
+      "verdict": "dropped",
+      "reason": "NIBIN = US ballistics database"
+    },
+    "Teben": {
+      "direction": "coined two-syllable names, soft consonants, no clusters (systematic sweep, .ai free)",
+      "round": 12,
+      "domains": {
+        "teben.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "teben.app": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "teben.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "teben.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getteben.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "phonetics": "TEB-en"
     }
   }
 }

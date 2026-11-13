@@ -47,6 +47,8 @@ mascot.
 
 - Wants coined first names, a bit longer: ideally two syllables, three at most (round 10).
 
+- Avoid harsh consonant clusters mid-name: "Varlo sounds coarse because of that combination" (r+l), round 11.
+
 ## Rejected directions
 
 - Literal Polish first names (Radek, Bronek, Franek, Olek) — "feel weird" (round 4).

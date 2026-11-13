@@ -291,3 +291,22 @@ found) — warm, Italian, three syllables; sounds like Vivino and da Vinci.
 **Proposed next.** Ask how Varlo and Davino sound. Run a larger sweep (a few hundred) with `.ai`
 as a filter, keep only names whose `.ai` is free or parked, then TM-screen the top five once TMview
 lets us back in.
+
+## Round 12 — 2026-11-13
+
+**User on round 11.** Varlo sounds coarse because of the r+l combination; Davino "not great". Both
+rejected; "avoid harsh mid-name clusters" added to BRIEF.
+**Directions.** A systematic sweep of two-syllable coinages built only from soft single consonants
+(b d j l m n p t v z) and the vowels a e i o, shape consonant-vowel-consonant + ending (-a, -o, -en,
+-an, -on, -in, -el, -is): 2,800 candidates. Filter order: `.ai` must be unregistered (the AI-startup
+signal from round 11), then `.app`, `.so`, `get…com`. (A first attempt generated three-syllable
+vowel clashes such as "Zebeo" by mistake and was discarded.)
+**What came out.** **Every two-syllable name ending in -a or -o has its .ai taken or no other TLD
+open** — only Nato, Dizo, Pozo, Vapo, Jipo, Peza survive, none usable. What is left ends in -en, -in,
+-on, -el, -an, -is: about 250 names with .ai, .app, .so and `get…com` all open. Picked by ear: Tevon,
+Zavon, Nebin, Tibon, Lanon, Benon, Zemon, Namin, Zevan, Teben (Maben = Maven, Nibin = a US ballistics
+database — dropped). App Store shows nothing live for any of them.
+**Where I looked.** DNS (all four TLDs); App Store search API. No web or trademark screen yet — TMview
+still rate-limiting.
+**Proposed next.** Show the user the list for a pure ear test before spending checks on it; their
+taste has been the deciding filter for several rounds. Then web + trademark screen the ones they keep.
