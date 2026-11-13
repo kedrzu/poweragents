@@ -2,12 +2,26 @@ import { chmod, mkdir, mkdtemp, readFile, stat, truncate, writeFile } from 'node
 import os from 'node:os';
 import path from 'node:path';
 
-import { expect, test } from 'bun:test';
+import { afterAll, beforeAll, expect, spyOn, test } from 'bun:test';
 
 import { EnvVariables } from '@nzyme/ioc/helpers/EnvVariables.js';
 import { createTestContainer } from '@nzyme/ioc-testing/createTestContainer.js';
 
 import { DaemonLoggerTransport } from './DaemonLoggerTransport.js';
+
+// The transport also prints every entry to the console; a 10 MB entry printed into CI's log stream stalls the runner.
+const consoleLevels = ['debug', 'info', 'warn', 'error'] as const;
+const consoleSpies = consoleLevels.map(level => spyOn(console, level));
+beforeAll(() => {
+    for (const spy of consoleSpies) {
+        spy.mockImplementation(() => undefined);
+    }
+});
+afterAll(() => {
+    for (const spy of consoleSpies) {
+        spy.mockRestore();
+    }
+});
 
 test('writes each entry to the log beside the Lima home, a caught error with its stack', async () => {
     const { transport, logFile } = await setup();
