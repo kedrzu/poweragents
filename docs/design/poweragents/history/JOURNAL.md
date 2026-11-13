@@ -157,3 +157,4 @@ Append-only. One line per turn that settled something, was rejected, or got an a
 - 2026-11-13 — Design round from .context/projects-brief.md: first-run screens synced with the build (round 5 in history/first-run.md, new 50 and `atoms/Check badge`); projects in the first working version, screens 51–55 with a projects-only sidebar and a new-project dialog; log in history/projects.md.
 - 2026-11-13 — Owner: Sonnet by default with Claude, Terra with ChatGPT; a model and reasoning-effort switch later (D35).
 - 2026-11-13 — Conversations design round from .context/conversation-brief.md: screens 56–61 (agent working, finished, a project's conversations with *Nowa rozmowa* in the sidebar, the agent could not answer, signed out of Claude, usage limit) and five step and error molecules; log in history/conversations.md.
+- 2026-11-13 — Checked with the owner: sandbox conversations draw from the Claude plan, not extra usage (D2).
