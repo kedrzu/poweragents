@@ -429,3 +429,4 @@ Dynadot), .ai, .so and get…com. **Orsetto** ("teddy bear") and **Castoro** ("b
 **Proposed next.** Tell the user Lupo's domain reality (only .so/.to) and offer Lupino/Lupetto as the
 same wolf with every domain open. Run "<name> ai" on Lupino, Lupetto, Orsetto, Riccio. Ask the user to
 run a TMview search for LUPO (classes 9, 42), since TMview blocks this machine.
+**Addendum.** "lupino ai": nothing named Lupino (Lumino AI is the sound-alike). "lupetto ai": nothing; Lupetto is an Italian picture-book wolf and the Cub Scouts. Both clean so far.

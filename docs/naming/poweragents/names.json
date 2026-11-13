@@ -37671,7 +37671,16 @@
           "checked_at": "2026-11-13"
         }
       },
-      "phonetics": "'wolf cub' (also the youngest scouts in Italy); loo-PET-to"
+      "phonetics": "'wolf cub' (also the youngest scouts in Italy); loo-PET-to",
+      "conflicts": [
+        {
+          "who": "search 'lupetto ai': nothing named Lupetto in AI; Lupetto is an Italian picture-book wolf and the Italian name for Cub Scouts",
+          "space": "AI / culture",
+          "severity": "noise",
+          "url": "https://www.mondadoristore.it/autore/lupetto/c/05675526",
+          "checked_at": "2026-11-13"
+        }
+      ]
     },
     "Lupino": {
       "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",
@@ -37704,7 +37713,16 @@
           "checked_at": "2026-11-13"
         }
       },
-      "phonetics": "'little wolf'; also the lupin flower and actress Ida Lupino; loo-PEE-no"
+      "phonetics": "'little wolf'; also the lupin flower and actress Ida Lupino; loo-PEE-no",
+      "conflicts": [
+        {
+          "who": "search 'lupino ai': nothing named Lupino; Lumino AI (open-source AI infra) and LupineAI are sound-alikes; actress Ida Lupino",
+          "space": "AI",
+          "severity": "notable",
+          "url": "https://cerebralvalley.ai/blog/lumino-ai-your-open-source-ai-research-company-4A7PDjPbC3E1iZ00kg2mWE",
+          "checked_at": "2026-11-13"
+        }
+      ]
     },
     "Lupin": {
       "direction": "animal words that work as Italian, Spanish or Latin first names (Lupo's family)",

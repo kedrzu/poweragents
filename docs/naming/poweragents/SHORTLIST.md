@@ -178,7 +178,7 @@ Generated from `names.json` on 2026-11-13 -- do not edit by hand. A name is here
 | Lupa | animal words that work as Italian, Spanish or Latin first names (Lupo's family) | lupa.so likely-free | none found |  |
 | Lupetto | animal words that work as Italian, Spanish or Latin first names (Lupo's family) | lupetto.app free ($14.50 renewal), lupetto.ai unknown, lupetto.so likely-free, getlupetto.com likely-free | none found | 'wolf cub' (also the youngest scouts in Italy); loo-PET-to |
 | Lupin | animal words that work as Italian, Spanish or Latin first names (Lupo's family) | lupin.so likely-free | none found |  |
-| Lupino | animal words that work as Italian, Spanish or Latin first names (Lupo's family) | lupino.app free ($14.50 renewal), lupino.ai unknown, lupino.so likely-free, getlupino.com likely-free | none found | 'little wolf'; also the lupin flower and actress Ida Lupino; loo-PEE-no |
+| Lupino | animal words that work as Italian, Spanish or Latin first names (Lupo's family) | lupino.app free ($14.50 renewal), lupino.ai unknown, lupino.so likely-free, getlupino.com likely-free | search 'lupino ai': nothing named Lupino; Lumino AI (open-source AI infra) and LupineAI are sound-alikes; actress Ida Lupino (notable) | 'little wolf'; also the lupin flower and actress Ida Lupino; loo-PEE-no |
 | Lupus | animal words that work as Italian, Spanish or Latin first names (Lupo's family) | lupus.so likely-free, getlupus.com likely-free | none found |  |
 | Lynette | names from Shakespeare, Arthurian legend and fairy tales | lynette.so likely-free | none found |  |
 | Lysander | names from Shakespeare, Arthurian legend and fairy tales | lysander.so likely-free, getlysander.com likely-free | none found |  |
