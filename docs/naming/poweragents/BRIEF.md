@@ -57,10 +57,11 @@ mascot.
 - Alonso and Tancho "not bad" (round 15).
 - Wants good-sounding names in an Italian / Spanish / Latin mix — not necessarily literary helpers
   (round 15).
+- **Method:** also open https://<name>.ai itself — a "<name> ai" web search missed lupo.ai, an AI-agent platform (round 24).
 - **Method, from the user:** check every name by searching "<name> ai" first — that is how the user
   found sanch.io and alonso.ai at once (round 15).
 
-- Lupo is the current favourite (round 17); Lupeto (Esperanto 'little wolf', all domains open) kept next to it (round 22). Lupo "is great" (round 16) — Italian 'wolf'; an animal name that doubles as a first name and a mascot.
+- Lupo rejected — lupo.ai is an AI-agent platform (round 24). It had been the favourite since round 17; Lupeto (Esperanto 'little wolf', all domains open) kept next to it (round 22). Lupo "is great" (round 16) — Italian 'wolf'; an animal name that doubles as a first name and a mascot.
 - Ilario "quite OK", but would have to be written lowercase so the capital I is not read as l (round 16).
 - Avoid names one vowel away from a famous name: "Amedeo gets confused with Amadeo" (round 16).
 

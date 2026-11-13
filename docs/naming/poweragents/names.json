@@ -1890,6 +1890,11 @@
           "status": "taken",
           "method": "dns",
           "checked_at": "2026-11-13"
+        },
+        "mae.so": {
+          "status": "taken",
+          "method": "whois",
+          "checked_at": "2026-11-13"
         }
       }
     },
@@ -29052,7 +29057,7 @@
         },
         "oberon.ai": {
           "status": "taken",
-          "method": "dns",
+          "method": "whois.nic.ai",
           "checked_at": "2026-11-13"
         },
         "oberon.so": {
@@ -29079,6 +29084,13 @@
           "space": "B2B software",
           "severity": "notable",
           "url": "https://www.oberontech.com/titania-ai-difference",
+          "checked_at": "2026-11-13"
+        },
+        {
+          "who": "oberon.ai — 'AI transformation for PE-backed companies' (AI implementation studio)",
+          "space": "AI services",
+          "severity": "blocking",
+          "url": "https://oberon.ai",
           "checked_at": "2026-11-13"
         }
       ],
@@ -30568,7 +30580,7 @@
         },
         "camillo.ai": {
           "status": "taken",
-          "method": "dns",
+          "method": "whois.nic.ai",
           "checked_at": "2026-11-13"
         },
         "camillo.so": {
@@ -30588,6 +30600,13 @@
           "space": "AI",
           "severity": "noise",
           "url": "https://awesome.ecosyste.ms/projects/github.com%2Fcamel-ai%2Fcamel",
+          "checked_at": "2026-11-13"
+        },
+        {
+          "who": "camillo.ai — AI tool that times and analyses sports POV footage",
+          "space": "AI sports app",
+          "severity": "notable",
+          "url": "https://camillo.ai",
           "checked_at": "2026-11-13"
         }
       ],
@@ -34712,13 +34731,15 @@
           "checked_at": "2026-11-13"
         },
         "tancho.app": {
-          "status": "likely-free",
-          "method": "rdap",
+          "status": "free",
+          "method": "dynadot",
+          "price": "$14.50/yr",
           "checked_at": "2026-11-13"
         },
         "tancho.ai": {
-          "status": "likely-free",
-          "method": "whois.nic.ai",
+          "status": "free",
+          "method": "dynadot",
+          "price": "$85.60/yr",
           "checked_at": "2026-11-13"
         },
         "tancho.so": {
@@ -34727,8 +34748,9 @@
           "checked_at": "2026-11-13"
         },
         "gettancho.com": {
-          "status": "likely-free",
-          "method": "rdap",
+          "status": "free",
+          "method": "dynadot",
+          "price": "$8.99 first year, $11.62 renewal",
           "checked_at": "2026-11-13"
         }
       },
@@ -35439,13 +35461,15 @@
           "checked_at": "2026-11-13"
         },
         "ilario.app": {
-          "status": "likely-free",
-          "method": "rdap",
+          "status": "free",
+          "method": "dynadot",
+          "price": "$14.50/yr",
           "checked_at": "2026-11-13"
         },
         "ilario.ai": {
-          "status": "unknown",
-          "method": "rdap",
+          "status": "free",
+          "method": "dynadot",
+          "price": "$85.60/yr",
           "checked_at": "2026-11-13"
         },
         "ilario.so": {
@@ -35952,13 +35976,21 @@
           "severity": "notable",
           "url": "https://en.wikipedia.org/wiki/Lupo",
           "checked_at": "2026-11-13"
+        },
+        {
+          "who": "lupo.ai — 'Knowledge-to-Execution Platform': knowledge base, enablement and AI agents that help with execution",
+          "space": "AI agents",
+          "severity": "blocking",
+          "url": "https://lupo.ai",
+          "checked_at": "2026-11-13"
         }
       ],
       "phonetics": "Italian 'wolf'; LOO-po; one spelling; getlupo.com, heylupo.com, meetlupo.com, lupoapp.com all taken; lupo.so free at $57.50, lupo.to likely-free",
-      "verdict": "liked",
+      "verdict": "rejected",
       "feedback": [
         "\"lupo jest super\" (round 16)",
-        "\"lupo na razie najbardziej mi sie podoba\" (round 17)"
+        "\"lupo na razie najbardziej mi sie podoba\" (round 17)",
+        "\"lupo odpada - zobacz lupo.ai\" (round 24)"
       ]
     },
     "Falco": {
@@ -37722,6 +37754,13 @@
           "severity": "noise",
           "url": "https://www.mondadoristore.it/autore/lupetto/c/05675526",
           "checked_at": "2026-11-13"
+        },
+        {
+          "who": "derived from Lupo, which lupo.ai (AI agents platform) already uses",
+          "space": "AI agents",
+          "severity": "notable",
+          "url": "https://lupo.ai",
+          "checked_at": "2026-11-13"
         }
       ]
     },
@@ -37763,6 +37802,13 @@
           "space": "AI",
           "severity": "notable",
           "url": "https://cerebralvalley.ai/blog/lumino-ai-your-open-source-ai-research-company-4A7PDjPbC3E1iZ00kg2mWE",
+          "checked_at": "2026-11-13"
+        },
+        {
+          "who": "derived from Lupo, which lupo.ai (AI agents platform) already uses",
+          "space": "AI agents",
+          "severity": "notable",
+          "url": "https://lupo.ai",
           "checked_at": "2026-11-13"
         }
       ]
@@ -48516,6 +48562,13 @@
           "severity": "notable",
           "url": "https://www.cbinsights.com/company/lupi-ai",
           "checked_at": "2026-11-13"
+        },
+        {
+          "who": "derived from Lupo, which lupo.ai (AI agents platform) already uses",
+          "space": "AI agents",
+          "severity": "notable",
+          "url": "https://lupo.ai",
+          "checked_at": "2026-11-13"
         }
       ],
       "phonetics": "Esperanto 'little wolf' (lupo + -eto); loo-PEH-to; one t, unlike Italian Lupetto",
@@ -52174,7 +52227,11 @@
           "checked_at": "2026-11-13"
         }
       ],
-      "phonetics": "Hawaiian 'the life'; keh-OH-la; a Native Hawaiian name — cultural sensitivity to weigh"
+      "phonetics": "Hawaiian 'the life'; keh-OH-la; a Native Hawaiian name — cultural sensitivity to weigh",
+      "verdict": "rejected",
+      "feedback": [
+        "\"te kekoa i keola raczej slabe\" (round 24)"
+      ]
     },
     "Kekoa": {
       "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
@@ -52215,7 +52272,11 @@
           "checked_at": "2026-11-13"
         }
       ],
-      "phonetics": "Hawaiian 'the brave one'; keh-KOH-ah; a living Native Hawaiian name — cultural sensitivity to weigh"
+      "phonetics": "Hawaiian 'the brave one'; keh-KOH-ah; a living Native Hawaiian name — cultural sensitivity to weigh",
+      "verdict": "rejected",
+      "feedback": [
+        "\"te kekoa i keola raczej slabe\" (round 24)"
+      ]
     },
     "Makani": {
       "direction": "Japanese, Hawaiian and Basque names and animal words that sound easy in English (Tancho's neighbours)",
@@ -53058,6 +53119,1134 @@
           "checked_at": "2026-11-13"
         }
       }
+    },
+    "Compa": {
+      "direction": "words for 'buddy' and 'mate' in Spanish, Italian, Portuguese and French slang",
+      "round": 25,
+      "domains": {
+        "compa.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "compa.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "compa.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "compa.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getcompa.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "compa.ai — AI for enterprise compensation teams",
+          "space": "AI",
+          "severity": "blocking",
+          "url": "https://compa.ai",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "verdict": "dropped",
+      "reason": "blocking: compa.ai — AI for enterprise compensation teams"
+    },
+    "Compadre": {
+      "direction": "words for 'buddy' and 'mate' in Spanish, Italian, Portuguese and French slang",
+      "round": 25,
+      "domains": {
+        "compadre.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "compadre.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "compadre.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "compadre.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getcompadre.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Cuate": {
+      "direction": "words for 'buddy' and 'mate' in Spanish, Italian, Portuguese and French slang",
+      "round": 25,
+      "domains": {
+        "cuate.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "cuate.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "cuate.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "cuate.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getcuate.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Pana": {
+      "direction": "words for 'buddy' and 'mate' in Spanish, Italian, Portuguese and French slang",
+      "round": 25,
+      "domains": {
+        "pana.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pana.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pana.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pana.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getpana.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "pana.ai — chronic-health companion app",
+          "space": "AI",
+          "severity": "blocking",
+          "url": "https://pana.ai",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "verdict": "dropped",
+      "reason": "blocking: pana.ai — chronic-health companion app"
+    },
+    "Chamo": {
+      "direction": "words for 'buddy' and 'mate' in Spanish, Italian, Portuguese and French slang",
+      "round": 25,
+      "domains": {
+        "chamo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "chamo.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "chamo.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "chamo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getchamo.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Mano": {
+      "direction": "words for 'buddy' and 'mate' in Spanish, Italian, Portuguese and French slang",
+      "round": 25,
+      "domains": {
+        "mano.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mano.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mano.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "mano.so": {
+          "status": "taken",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getmano.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Parce": {
+      "direction": "words for 'buddy' and 'mate' in Spanish, Italian, Portuguese and French slang",
+      "round": 25,
+      "domains": {
+        "parce.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "parce.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "parce.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "parce.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getparce.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Parcero": {
+      "direction": "words for 'buddy' and 'mate' in Spanish, Italian, Portuguese and French slang",
+      "round": 25,
+      "domains": {
+        "parcero.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "parcero.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "parcero.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "parcero.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getparcero.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Socio": {
+      "direction": "words for 'buddy' and 'mate' in Spanish, Italian, Portuguese and French slang",
+      "round": 25,
+      "domains": {
+        "socio.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "socio.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "socio.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "socio.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getsocio.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Hermano": {
+      "direction": "words for 'buddy' and 'mate' in Spanish, Italian, Portuguese and French slang",
+      "round": 25,
+      "domains": {
+        "hermano.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "hermano.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "hermano.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "hermano.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gethermano.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Colega": {
+      "direction": "words for 'buddy' and 'mate' in Spanish, Italian, Portuguese and French slang",
+      "round": 25,
+      "domains": {
+        "colega.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "colega.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "colega.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "colega.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getcolega.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "colega.ai — 'AI store employee that does the work'",
+          "space": "AI",
+          "severity": "blocking",
+          "url": "https://colega.ai",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "verdict": "dropped",
+      "reason": "blocking: colega.ai — 'AI store employee that does the work'"
+    },
+    "Tio": {
+      "direction": "words for 'buddy' and 'mate' in Spanish, Italian, Portuguese and French slang",
+      "round": 25,
+      "domains": {
+        "tio.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tio.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tio.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "tio.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gettio.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Carnal": {
+      "direction": "words for 'buddy' and 'mate' in Spanish, Italian, Portuguese and French slang",
+      "round": 25,
+      "domains": {
+        "carnal.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "carnal.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "carnal.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "carnal.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getcarnal.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "'carnal'"
+    },
+    "Chero": {
+      "direction": "words for 'buddy' and 'mate' in Spanish, Italian, Portuguese and French slang",
+      "round": 25,
+      "domains": {
+        "chero.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "chero.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "chero.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "chero.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getchero.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Bro": {
+      "direction": "words for 'buddy' and 'mate' in Spanish, Italian, Portuguese and French slang",
+      "round": 25,
+      "domains": {
+        "bro.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "bro.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "bro.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "bro.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getbro.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Amigazo": {
+      "direction": "words for 'buddy' and 'mate' in Spanish, Italian, Portuguese and French slang",
+      "round": 25,
+      "domains": {
+        "amigazo.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "amigazo.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "amigazo.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "amigazo.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getamigazo.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Compare": {
+      "direction": "words for 'buddy' and 'mate' in Spanish, Italian, Portuguese and French slang",
+      "round": 25,
+      "domains": {
+        "compare.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "compare.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "compare.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "compare.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getcompare.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Paesano": {
+      "direction": "words for 'buddy' and 'mate' in Spanish, Italian, Portuguese and French slang",
+      "round": 25,
+      "domains": {
+        "paesano.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "paesano.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "paesano.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "paesano.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getpaesano.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Fratello": {
+      "direction": "words for 'buddy' and 'mate' in Spanish, Italian, Portuguese and French slang",
+      "round": 25,
+      "domains": {
+        "fratello.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "fratello.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "fratello.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "fratello.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getfratello.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Amicone": {
+      "direction": "words for 'buddy' and 'mate' in Spanish, Italian, Portuguese and French slang",
+      "round": 25,
+      "domains": {
+        "amicone.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "amicone.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "amicone.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "amicone.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getamicone.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Compagno": {
+      "direction": "words for 'buddy' and 'mate' in Spanish, Italian, Portuguese and French slang",
+      "round": 25,
+      "domains": {
+        "compagno.com": {
+          "status": "taken",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "compagno.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "compagno.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "compagno.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getcompagno.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Copain": {
+      "direction": "words for 'buddy' and 'mate' in Spanish, Italian, Portuguese and French slang",
+      "round": 25,
+      "domains": {
+        "copain.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "copain.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "copain.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "copain.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getcopain.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "English reads 'co-pain'"
+    },
+    "Pote": {
+      "direction": "words for 'buddy' and 'mate' in Spanish, Italian, Portuguese and French slang",
+      "round": 25,
+      "domains": {
+        "pote.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pote.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pote.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "pote.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getpote.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "weak"
+    },
+    "Camarada": {
+      "direction": "words for 'buddy' and 'mate' in Spanish, Italian, Portuguese and French slang",
+      "round": 25,
+      "domains": {
+        "camarada.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "camarada.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "camarada.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "camarada.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getcamarada.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Compinche": {
+      "direction": "words for 'buddy' and 'mate' in Spanish, Italian, Portuguese and French slang",
+      "round": 25,
+      "domains": {
+        "compinche.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "compinche.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "compinche.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "compinche.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getcompinche.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "search 'compinche ai': nothing named Compinche; Comp AI, Complice AI nearby",
+          "space": "AI",
+          "severity": "noise",
+          "url": "https://apps.apple.com/ni/app/complice-ai-powerful-ai-chat/id1664953738",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "phonetics": "Spanish 'sidekick, partner in crime'; kom-PEEN-cheh"
+    },
+    "Cumpa": {
+      "direction": "words for 'buddy' and 'mate' in Spanish, Italian, Portuguese and French slang",
+      "round": 25,
+      "domains": {
+        "cumpa.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "cumpa.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "cumpa.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "cumpa.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getcumpa.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "conflicts": [
+        {
+          "who": "cumpa.ai — AI answers with sources",
+          "space": "AI",
+          "severity": "blocking",
+          "url": "https://cumpa.ai",
+          "checked_at": "2026-11-13"
+        }
+      ],
+      "verdict": "dropped",
+      "reason": "blocking: cumpa.ai — AI answers with sources"
+    },
+    "Brother": {
+      "direction": "words for 'buddy' and 'mate' in Spanish, Italian, Portuguese and French slang",
+      "round": 25,
+      "domains": {
+        "brother.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "brother.app": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "brother.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "brother.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getbrother.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "Brother (printers)"
+    },
+    "Parça": {
+      "direction": "words for 'buddy' and 'mate' in Spanish, Italian, Portuguese and French slang",
+      "round": 25,
+      "domains": {
+        "para.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "para.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "para.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "para.so": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "getpara.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      }
+    },
+    "Truta": {
+      "direction": "words for 'buddy' and 'mate' in Spanish, Italian, Portuguese and French slang",
+      "round": 25,
+      "domains": {
+        "truta.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "truta.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "truta.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "truta.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "gettruta.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "'trout'"
+    },
+    "Chapa": {
+      "direction": "words for 'buddy' and 'mate' in Spanish, Italian, Portuguese and French slang",
+      "round": 25,
+      "domains": {
+        "chapa.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "chapa.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "chapa.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "chapa.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getchapa.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "weak"
+    },
+    "Bicho": {
+      "direction": "words for 'buddy' and 'mate' in Spanish, Italian, Portuguese and French slang",
+      "round": 25,
+      "domains": {
+        "bicho.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "bicho.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "bicho.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "bicho.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getbicho.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "vulgar in Portuguese"
+    },
+    "Cara": {
+      "direction": "words for 'buddy' and 'mate' in Spanish, Italian, Portuguese and French slang",
+      "round": 25,
+      "domains": {
+        "cara.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "cara.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "cara.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "cara.so": {
+          "status": "taken",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getcara.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "common"
+    },
+    "Rapaz": {
+      "direction": "words for 'buddy' and 'mate' in Spanish, Italian, Portuguese and French slang",
+      "round": 25,
+      "domains": {
+        "rapaz.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "rapaz.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "rapaz.ai": {
+          "status": "unknown",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        },
+        "rapaz.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getrapaz.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "weak"
+    },
+    "Velho": {
+      "direction": "words for 'buddy' and 'mate' in Spanish, Italian, Portuguese and French slang",
+      "round": 25,
+      "domains": {
+        "velho.com": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "velho.app": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "velho.ai": {
+          "status": "taken",
+          "method": "dns",
+          "checked_at": "2026-11-13"
+        },
+        "velho.so": {
+          "status": "likely-free",
+          "method": "whois",
+          "checked_at": "2026-11-13"
+        },
+        "getvelho.com": {
+          "status": "likely-free",
+          "method": "rdap",
+          "checked_at": "2026-11-13"
+        }
+      },
+      "verdict": "dropped",
+      "reason": "'old'"
     }
   }
 }

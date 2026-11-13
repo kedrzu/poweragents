@@ -549,3 +549,23 @@ for Mac. **Kekoa** ('the brave one') and **Keola** ('the life') are clean — on
 Both are living Native Hawaiian names; using them for a product deserves a moment's thought.
 **Proposed next.** Show Kekoa and Keola. Note that 24 rounds in, Lupo has held as favourite for
 seven rounds; offer again to move it into depth checks in parallel with further search.
+
+## Round 25 — 2026-11-13
+
+**User on round 24.** Lupo rejected — lupo.ai is a "Knowledge-to-Execution Platform" with AI agents.
+My "lupo ai" web search (round 16) had missed it. Kekoa and Keola "rather weak" — rejected.
+**Method fix.** From now on every finalist's https://<name>.ai is opened directly, besides the
+"<name> ai" search. Applied to the liked set: **oberon.ai** is an AI-implementation studio for
+PE-backed companies (blocking); **camillo.ai** is an AI sports-video tool (notable); **sancho.ai**
+registered; **neb.ai** and **zib.ai** parked. **tancho.ai** and **ilario.ai** are unregistered and
+confirmed available at Dynadot.
+**Directions.** Words for "buddy, mate" in Spanish, Italian, Portuguese and French slang (≈40).
+**What came out.** The short warm ones are all AI companies on .ai: compa.ai (compensation AI),
+pana.ai (health companion), cumpa.ai (AI answers), colega.ai ("AI store employee"). Compinche
+("sidekick, partner in crime") is clean but long.
+**Where I looked.** DNS; direct fetch of 9 .ai sites; whois.nic.ai; web search "compinche ai";
+Dynadot for Tancho and Ilario.
+**Standing.** The cleanest liked names are now **Tancho** (tancho.ai $85.60/yr, tancho.app $14.50,
+gettancho.com $8.99, tancho.so) and **Ilario** (ilario.ai $85.60, ilario.app $14.50; lowercase only).
+**Proposed next.** Tell the user the liked set after the .ai sweep; propose depth on Tancho and
+Ilario while searching on.
