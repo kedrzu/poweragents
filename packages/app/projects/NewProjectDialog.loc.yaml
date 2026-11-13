@@ -1,0 +1,11 @@
+nameTaken:
+  en: You already have a project with this name.
+  pl: Masz już projekt o tej nazwie.
+
+invalidName:
+  en: A folder can't have this name. Use letters or digits.
+  pl: Folder nie może mieć takiej nazwy. Użyj liter albo cyfr.
+
+failed:
+  en: The project couldn't be created. Try again; if it happens again, check that the disk has free space.
+  pl: Nie udało się utworzyć projektu. Spróbuj ponownie; jeśli to się powtórzy, sprawdź, czy na dysku jest wolne miejsce.

@@ -1,0 +1,39 @@
+headline:
+  en[auto]: Your agent is moving in. You'll be talking in a few minutes.
+  pl: Twój agent się wprowadza. Za kilka minut porozmawiacie.
+headlineDone:
+  en[auto]: All set. Time to meet.
+  pl: Wszystko gotowe. Czas się poznać.
+footnote:
+  en[auto]: I don't install anything on your computer. The agent works in a separate, safe place.
+  pl: Nic nie instaluję na Twoim komputerze. Agent pracuje w osobnym, bezpiecznym miejscu.
+stepOne:
+  en[auto]: Step 1 of 2
+  pl: Krok 1 z 2
+stepTwo:
+  en[auto]: Step 2 of 2
+  pl: Krok 2 z 2
+ready:
+  en[auto]: Done
+  pl: Gotowe
+environmentStage:
+  en[auto]: A safe place to work
+  pl: Bezpieczne miejsce pracy
+environmentStageHint:
+  en[auto]: The agent's own computer inside this app
+  pl: Osobny komputer agenta w tej aplikacji
+stageFailedHint:
+  en[auto]: It didn't work — try again
+  pl: Nie udało się — spróbuj ponownie
+aiStage:
+  en[auto]: Connecting your AI
+  pl: Połączenie z AI
+aiStageHint:
+  en[auto]: Your Claude or ChatGPT account
+  pl: Twoje konto Claude lub ChatGPT
+conversationStage:
+  en[auto]: First conversation
+  pl: Pierwsza rozmowa
+conversationStageHint:
+  en[auto]: The agent gets to know you and what you do
+  pl: Agent pozna Ciebie i Twoje sprawy

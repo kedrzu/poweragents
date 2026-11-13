@@ -2,11 +2,8 @@ import { simplifyAliasesModule } from '@nzyme/nuxt-tools';
 import { loadEnvVariables } from '@nzyme/project-utils/loadEnvVariables.js';
 import { defineNuxtConfig } from 'nuxt/config';
 
-import { DAEMON_PORT } from '@poweragents/common/daemonAddress.js';
+import { DAEMON_PORT, DEV_SERVER_PORT } from '@poweragents/common/daemonAddress.js';
 import { cssOptions } from '@poweragents/ui/viteShared.js';
-
-/** The port `nuxt dev` serves on; the desktop shell loads it in development (`build.devUrl` in `tauri.conf.json`). */
-const DEV_SERVER_PORT = 4100;
 
 /** The environment this build is for; the same `ENV` Nx keys its cache on (`localEnvironment`). */
 const ENV = process.env.ENV ?? 'dev';

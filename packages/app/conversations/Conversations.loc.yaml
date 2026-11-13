@@ -1,0 +1,9 @@
+# Shared by the screens that name a conversation (the sidebar, the tab, the conversation's screen).
+
+untitled:
+  en: Untitled conversation
+  pl: Rozmowa bez tytułu
+
+newConversation:
+  en: New conversation
+  pl: Nowa rozmowa

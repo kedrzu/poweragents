@@ -1,0 +1,42 @@
+title:
+  en[auto]: Finish signing in to Claude
+  pl: Dokończ logowanie w Claude
+body:
+  en[auto]: Claude's sign-in page has opened in your browser.
+  pl: Strona logowania Claude otworzyła się w przeglądarce.
+signIn:
+  en[auto]: Sign in on the browser tab that opened
+  pl: Zaloguj się w otwartej karcie przeglądarki
+copyCode:
+  en[auto]: Copy the code Claude shows
+  pl: Skopiuj kod, który pokaże Claude
+pasteCode:
+  en[auto]: Paste it here
+  pl: Wklej go tutaj
+codeLabel:
+  en[auto]: Code from Claude
+  pl: Kod z Claude
+codePlaceholder:
+  en[auto]: Paste the code from Claude here
+  pl: Wklej tutaj kod z Claude
+codeHelp:
+  en[auto]: The code is a long string of letters and digits. Paste all of it.
+  pl: Kod to długi ciąg liter i cyfr. Wklej go w całości.
+codeRejected:
+  en[auto]: This code didn't work. Codes work only once — open the sign-in page again and copy a new one.
+  pl: Ten kod nie zadziałał. Kody są jednorazowe — otwórz stronę logowania ponownie i skopiuj nowy.
+loginExpired:
+  en[auto]: The sign-in has expired. Open the sign-in page again and copy a new code.
+  pl: Logowanie wygasło. Otwórz stronę logowania ponownie i skopiuj nowy kod.
+connectFailed:
+  en[auto]: Couldn't check the code. Try again.
+  pl: Nie udało się sprawdzić kodu. Spróbuj ponownie.
+back:
+  en[auto]: Back
+  pl: Wróć
+openAgain:
+  en[auto]: Open the sign-in page again
+  pl: Otwórz stronę logowania ponownie
+connect:
+  en[auto]: Connect
+  pl: Połącz
