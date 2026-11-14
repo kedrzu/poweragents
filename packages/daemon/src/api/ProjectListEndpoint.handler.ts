@@ -11,7 +11,7 @@ export const ProjectListEndpointHandler = defineEndpointHandler({
     setup({ projects }) {
         return async () => {
             const list = await projects.list();
-            return list.map(({ id, name }) => ({ id, name }));
+            return list.map(({ dir: _dir, ...project }) => project);
         };
     },
 });

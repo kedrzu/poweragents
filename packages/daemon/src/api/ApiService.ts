@@ -10,6 +10,7 @@ import { DAEMON_API_PATH, DEV_SERVER_PORT } from '@poweragents/common/daemonAddr
 
 import { ConversationEventService } from '../conversations/ConversationEventService.js';
 import { DataRootWatchService } from '../dataRoot/DataRootWatchService.js';
+import { AppSetupStartEndpointHandler } from './AppSetupStartEndpoint.handler.js';
 import { ClaudeLoginCompleteEndpointHandler } from './ClaudeLoginCompleteEndpoint.handler.js';
 import { ClaudeLoginStartEndpointHandler } from './ClaudeLoginStartEndpoint.handler.js';
 import { ClaudeStatusGetEndpointHandler } from './ClaudeStatusGetEndpoint.handler.js';
@@ -54,6 +55,7 @@ const HANDLERS = [
     ClaudeLoginCompleteEndpointHandler,
     ProjectListEndpointHandler,
     ProjectCreateEndpointHandler,
+    AppSetupStartEndpointHandler,
     ConversationListEndpointHandler,
     ConversationCreateEndpointHandler,
     ConversationSendEndpointHandler,

@@ -159,6 +159,7 @@ function mapMessage(message: Schemas['Session.Message.Info']): OpencodeMessage {
                 outcome: message.outcome,
                 error: message.error && mapOpencodeReportedError(message.error),
             };
+        // `synthetic` among them: input the daemon gave the agent (App setup's opening instruction), not the person's words.
         default:
             return { ...base, type: 'other' };
     }

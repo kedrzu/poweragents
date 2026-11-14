@@ -7,7 +7,7 @@ import { Logger } from '@nzyme/logging/Logger.js';
 import { assert } from '@nzyme/utils/assert.js';
 
 import { PROJECT_NAME_MAX_LENGTH } from '@poweragents/common/api/ProjectTypes.js';
-import type { Project, ProjectCreateResult } from '@poweragents/common/api/ProjectTypes.js';
+import type { Project, ProjectCreateResult, ProjectRole } from '@poweragents/common/api/ProjectTypes.js';
 import { compareProjectsByName } from '@poweragents/common/utils/compareProjectsByName.js';
 
 import { POWERAGENTS_DATA_ROOT, PROJECTS_FOLDER } from '../env.js';
@@ -38,7 +38,7 @@ export interface ProjectServiceShape {
      * Creates a project in a new folder named after it. An existing folder is never reused: the next free name is taken
      * (`Name 2`, `Name 3`, …). Throws when the projects' folder is not a real folder (a link, a file).
      */
-    create(name: string): Promise<ProjectCreateResult>;
+    create(name: string, role?: ProjectRole): Promise<ProjectCreateResult>;
 }
 
 /** What a project's folder holds about it, in `.project.json`. */
@@ -47,6 +47,7 @@ interface ProjectMarker {
     name: string;
     /** ISO 8601. */
     createdAt: string;
+    role?: ProjectRole;
 }
 
 const MARKER_FILE = '.project.json';
@@ -76,8 +77,8 @@ export const ProjectService = defineService({
             return projects.find(project => project.id === id) ?? null;
         }
 
-        function create(name: string) {
-            return exclusive(() => createProject(name));
+        function create(name: string, role?: ProjectRole) {
+            return exclusive(() => createProject(name, role));
         }
 
         /** Runs `task` after every task queued before it. */
@@ -123,13 +124,13 @@ export const ProjectService = defineService({
                     }
                 }
                 seenIds.add(marker.id);
-                projects.push({ id: marker.id, name: marker.name, dir });
+                projects.push({ id: marker.id, name: marker.name, ...(marker.role && { role: marker.role }), dir });
             }
 
             return projects.toSorted(compareProjectsByName);
         }
 
-        async function createProject(rawName: string): Promise<ProjectCreateResult> {
+        async function createProject(rawName: string, role: ProjectRole | undefined): Promise<ProjectCreateResult> {
             const name = rawName.trim();
             const folderName = toFolderName(name);
             if (name.length === 0 || name.length > PROJECT_NAME_MAX_LENGTH || folderName.length === 0) {
@@ -144,11 +145,16 @@ export const ProjectService = defineService({
 
             await ensureProjectsFolder();
             const dir = await createFreeFolder(folderName);
-            const marker: ProjectMarker = { id: randomUUID(), name, createdAt: new Date().toISOString() };
+            const marker: ProjectMarker = {
+                id: randomUUID(),
+                name,
+                createdAt: new Date().toISOString(),
+                ...(role && { role }),
+            };
             await createMarker(dir, marker);
 
-            logger.info('Project created', { projectId: marker.id, folder: path.basename(dir) });
-            return { created: { id: marker.id, name: marker.name } };
+            logger.info('Project created', { projectId: marker.id, folder: path.basename(dir), role });
+            return { created: { id: marker.id, name: marker.name, ...(role && { role }) } };
         }
 
         /**
@@ -308,7 +314,11 @@ function serializeMarker(marker: ProjectMarker) {
     return `${JSON.stringify(marker, null, 4)}\n`;
 }
 
-/** @__NO_SIDE_EFFECTS__ */
+/**
+ * A marker read back; a `role` the daemon does not know (written by a newer version, or by hand) is dropped: the folder
+ * is still an ordinary project.
+ * @__NO_SIDE_EFFECTS__
+ */
 function parseMarker(value: unknown): ProjectMarker | null {
     if (
         typeof value === 'object' &&
@@ -321,7 +331,13 @@ function parseMarker(value: unknown): ProjectMarker | null {
         'createdAt' in value &&
         typeof value.createdAt === 'string'
     ) {
-        return { id: value.id, name: value.name, createdAt: value.createdAt };
+        const role = 'role' in value ? parseRole(value.role) : undefined;
+        return { id: value.id, name: value.name, createdAt: value.createdAt, ...(role && { role }) };
     }
     return null;
+}
+
+/** @__NO_SIDE_EFFECTS__ */
+function parseRole(value: unknown): ProjectRole | undefined {
+    return value === 'appSetup' ? value : undefined;
 }
