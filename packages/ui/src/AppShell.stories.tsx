@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/vue3-vite';
 
-import { LogIn } from '@lucide/vue';
+import { Brain, LogIn } from '@lucide/vue';
 
 import { WINTER_ROUTINE_FINISHED, WINTER_ROUTINE_RUNNING } from './AgentMessage.fixtures.js';
 import AgentMessage from './AgentMessage.vue';
@@ -15,6 +15,9 @@ import type { ProjectSidebarConversation, ProjectSidebarItem } from './ProjectSi
 import ProjectSidebar from './ProjectSidebar.vue';
 import NoProjectsState from './NoProjectsState.vue';
 import ConversationTab from './ConversationTab.vue';
+import MemoryEmptyState from './MemoryEmptyState.vue';
+import { MEMORY_FILES, MEMORY_NOW, WORK_MARKDOWN } from './MemoryLayout.fixtures.js';
+import MemoryLayout from './MemoryLayout.vue';
 
 // The main screens from `poweragents.pen`, composed from the components as the app does.
 
@@ -46,7 +49,12 @@ export const NoProjects: Story = {
     render: () => (
         <AppShell>
             {{
-                sidebar: () => <ProjectSidebar projects={[]} />,
+                sidebar: () => (
+                    <ProjectSidebar
+                        memoryTo="/memory"
+                        projects={[]}
+                    />
+                ),
                 default: () => <NoProjectsState />,
             }}
         </AppShell>
@@ -60,6 +68,7 @@ export const ProjectOpen: Story = {
             {{
                 sidebar: () => (
                     <ProjectSidebar
+                        memoryTo="/memory"
                         projects={PROJECTS}
                         selectedId="p2"
                     />
@@ -88,6 +97,7 @@ export const ConversationRunning: Story = {
             {{
                 sidebar: () => (
                     <ProjectSidebar
+                        memoryTo="/memory"
                         projects={PROJECTS}
                         selectedId="p2"
                         conversations={CONVERSATIONS.map(item => ({ ...item, running: item.id === 'c1' }))}
@@ -132,6 +142,7 @@ export const ConversationFinished: Story = {
             {{
                 sidebar: () => (
                     <ProjectSidebar
+                        memoryTo="/memory"
                         projects={PROJECTS}
                         selectedId="p2"
                         conversations={CONVERSATIONS}
@@ -167,6 +178,7 @@ export const ConversationSignedOut: Story = {
             {{
                 sidebar: () => (
                     <ProjectSidebar
+                        memoryTo="/memory"
                         projects={PROJECTS}
                         selectedId="p2"
                         conversations={CONVERSATIONS}
@@ -208,6 +220,68 @@ export const ConversationSignedOut: Story = {
                         }}
                     </ConversationLayout>
                 ),
+            }}
+        </AppShell>
+    ),
+};
+
+/** Screen 63: Memory with files, one the agent has just changed open. */
+export const MemoryFiles: Story = {
+    render: () => (
+        <AppShell>
+            {{
+                sidebar: () => (
+                    <ProjectSidebar
+                        memoryTo="/memory"
+                        memorySelected
+                        projects={PROJECTS}
+                    />
+                ),
+                header: () => (
+                    <ConversationTab
+                        title="Pamięć"
+                        color="violet"
+                        icon={Brain}
+                    />
+                ),
+                default: () => (
+                    <MemoryLayout
+                        files={MEMORY_FILES}
+                        selectedPath="praca.md"
+                        preview={{
+                            state: 'file',
+                            path: 'praca.md',
+                            updatedAt: MEMORY_NOW - 20_000,
+                            markdown: WORK_MARKDOWN,
+                        }}
+                        now={MEMORY_NOW}
+                    />
+                ),
+            }}
+        </AppShell>
+    ),
+};
+
+/** Screen 64: Memory still empty. */
+export const MemoryEmpty: Story = {
+    render: () => (
+        <AppShell>
+            {{
+                sidebar: () => (
+                    <ProjectSidebar
+                        memoryTo="/memory"
+                        memorySelected
+                        projects={PROJECTS.slice(0, 1)}
+                    />
+                ),
+                header: () => (
+                    <ConversationTab
+                        title="Pamięć"
+                        color="violet"
+                        icon={Brain}
+                    />
+                ),
+                default: () => <MemoryEmptyState />,
             }}
         </AppShell>
     ),

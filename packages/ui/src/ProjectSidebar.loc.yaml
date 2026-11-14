@@ -13,3 +13,11 @@ noProjects:
 newConversation:
   en: New conversation
   pl: Nowa rozmowa
+
+navigation:
+  en: Main
+  pl: Główne
+
+memory:
+  en: Memory
+  pl: Pamięć

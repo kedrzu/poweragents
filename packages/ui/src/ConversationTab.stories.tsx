@@ -1,5 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/vue3-vite';
 
+import { Brain } from '@lucide/vue';
+
 import ConversationTab from './ConversationTab.vue';
 
 const meta: Meta<typeof ConversationTab> = {
@@ -36,6 +38,17 @@ export const LongTitle: Story = {
         <ConversationTab
             title="Przeprowadzka do Wrocławia i wszystko, co trzeba przy niej załatwić"
             color="violet"
+        />
+    ),
+};
+
+/** Screen 63: the Memory screen's tab, with Memory's brain in violet. */
+export const Memory: Story = {
+    render: () => (
+        <ConversationTab
+            title="Pamięć"
+            color="violet"
+            icon={Brain}
         />
     ),
 };

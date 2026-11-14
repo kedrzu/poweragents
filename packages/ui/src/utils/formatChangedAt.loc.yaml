@@ -1,0 +1,39 @@
+justNow:
+  en: just now
+  pl: przed chwilą
+
+today:
+  en: today at {time}
+  pl: dziś o {time}
+
+yesterday:
+  en: yesterday
+  pl: wczoraj
+
+day0:
+  en: on Sunday
+  pl: w niedzielę
+
+day1:
+  en: on Monday
+  pl: w poniedziałek
+
+day2:
+  en: on Tuesday
+  pl: we wtorek
+
+day3:
+  en: on Wednesday
+  pl: w środę
+
+day4:
+  en: on Thursday
+  pl: w czwartek
+
+day5:
+  en: on Friday
+  pl: w piątek
+
+day6:
+  en: on Saturday
+  pl: w sobotę

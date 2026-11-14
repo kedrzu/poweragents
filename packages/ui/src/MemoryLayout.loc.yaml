@@ -1,0 +1,63 @@
+title:
+  en: Memory
+  pl: Pamięć
+
+body:
+  en[auto]: The agent keeps here what it learns about you. They are plain files — you can also correct them in any editor.
+  pl: Agent zapisuje tu, czego dowiaduje się o Tobie. To zwykłe pliki — możesz je też poprawiać w dowolnym edytorze.
+
+reveal:
+  en: Show in Finder
+  pl: Pokaż w Finderze
+
+revealUnsupported:
+  en[auto]: This computer can't show the folder from the app yet. You'll find it in your Poweragents folder, under memory.
+  pl: Na tym komputerze aplikacja nie umie jeszcze pokazać folderu. Znajdziesz go w folderze Poweragents, w podfolderze memory.
+
+revealFailed:
+  en[auto]: Couldn't open Finder. Try again in a moment.
+  pl: Nie udało się otworzyć Findera. Spróbuj ponownie za chwilę.
+
+files:
+  en: Memory files
+  pl: Pliki w Pamięci
+
+preview:
+  en: Open file
+  pl: Otwarty plik
+
+changedLine:
+  en: '{path} · changed {when}'
+  pl: '{path} · zmieniony {when}'
+
+loading:
+  en: Loading the file
+  pl: Wczytuję plik
+
+notFoundTitle:
+  en[auto]: This file is gone
+  pl: Tego pliku już nie ma
+
+notFoundBody:
+  en[auto]: It may have been removed or renamed. Pick another file from the list.
+  pl: Mógł zostać usunięty albo przemianowany. Wybierz inny plik z listy.
+
+tooLargeTitle:
+  en[auto]: This file is too large to show
+  pl: Ten plik jest za duży, żeby go tu pokazać
+
+tooLargeBody:
+  en[auto]: '{path} is over 1 MB. Open it in any editor: Show in Finder takes you to it.'
+  pl: '{path} ma ponad 1 MB. Otwórz go w dowolnym edytorze: Pokaż w Finderze zaprowadzi Cię do niego.'
+
+failedTitle:
+  en[auto]: Couldn't load this file
+  pl: Nie udało się wczytać pliku
+
+failedBody:
+  en[auto]: It's not your fault, and the file is safe. Try again; if it happens again, close the app and open it once more.
+  pl: To nie Twój błąd, a plik jest bezpieczny. Spróbuj ponownie; jeśli to się powtórzy, zamknij aplikację i otwórz ją jeszcze raz.
+
+retry:
+  en[auto]: Try again
+  pl: Spróbuj ponownie

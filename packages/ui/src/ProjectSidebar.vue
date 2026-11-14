@@ -1,4 +1,4 @@
-<!-- The app's sidebar while it holds only projects: a New project button in the window bar, then the projects, the open one with New conversation and its conversations under it, or a line saying there are none. -->
+<!-- The app's sidebar: a New project button in the window bar, Memory, then the projects, the open one with New conversation and its conversations under it, or a line saying there are none. -->
 
 <script lang="ts">
 import { defineProp } from '@nzyme/vue-utils/defineProp.js';
@@ -27,6 +27,10 @@ export interface ProjectSidebarConversation {
 }
 
 export const ProjectSidebarProps = {
+  /** The Memory screen. */
+  memoryTo: { type: [String, Object] as PropType<RouteLocationRaw>, required: true },
+  /** The Memory screen is open. */
+  memorySelected: Boolean,
   /** In the order they are listed. */
   projects: { type: Array as PropType<readonly ProjectSidebarItem[]>, required: true },
   /** The id of the project open now. */
@@ -44,9 +48,10 @@ export const ProjectSidebarEmits = {
 </script>
 
 <script lang="ts" setup>
-import { FolderPlus } from '@lucide/vue';
+import { Brain, FolderPlus } from '@lucide/vue';
 import { useTranslate } from '@nzyme/vue-i18n/useTranslate.js';
 import { computed, useId } from 'vue';
+import { RouterLink } from 'vue-router';
 
 import Button from './Button.vue';
 import ConversationRow from './ConversationRow.vue';
@@ -71,6 +76,22 @@ const running = computed(() => props.conversations.some(conversation => conversa
         {{ t(l.newProject) }}
       </Button>
     </div>
+    <nav
+      :class="$style.projectSidebar_nav"
+      :aria-label="t(l.navigation)"
+    >
+      <RouterLink
+        :to="props.memoryTo"
+        :class="[$style.projectSidebar_navItem, props.memorySelected && $style.projectSidebar_navItem_selected]"
+        :aria-current="props.memorySelected ? 'page' : undefined"
+      >
+        <Brain
+          :class="$style.projectSidebar_navIcon"
+          aria-hidden="true"
+        />
+        {{ t(l.memory) }}
+      </RouterLink>
+    </nav>
     <nav
       :class="$style.projectSidebar_section"
       :aria-labelledby="headingId"
@@ -147,6 +168,42 @@ $window-bar-height: 48px; // where the window's own buttons sit, beside the New 
   align-items: center;
   justify-content: flex-end;
   min-height: $window-bar-height;
+}
+
+.projectSidebar_nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.projectSidebar_navItem {
+  display: flex;
+  gap: $spacing-12;
+  align-items: center;
+  min-height: 32px;
+  padding: $spacing-06 $spacing-10;
+  border-radius: $radius-s;
+  color: $color-ink;
+  font-size: $font-size-body;
+  line-height: $line-height-snug;
+  text-decoration: none;
+  transition: background-color $duration-fast;
+
+  @include focus-ring;
+  @include hover {
+    background: $color-surface-glass;
+  }
+}
+
+.projectSidebar_navItem_selected {
+  background: $color-surface-glass;
+  font-weight: $font-weight-semibold;
+}
+
+.projectSidebar_navIcon {
+  flex: none;
+  width: 16px;
+  height: 16px;
+  color: $color-ink-muted;
 }
 
 .projectSidebar_section {

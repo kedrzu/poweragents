@@ -1,0 +1,7 @@
+// The app shell's card at 1440×900, which the layout fills.
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 820px;
+    background: $color-surface;
+}

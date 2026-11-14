@@ -85,6 +85,7 @@ store.getProjects().catch(() => undefined);
   <AppShell>
     <template #sidebar>
       <ProjectSidebar
+        :memory-to="{ name: 'home' }"
         :projects="items"
         :selected-id="selected?.id"
         :conversations="conversations"

@@ -6,6 +6,8 @@ export const RichTextProps = {
   markdown: { type: String, required: true },
   /** A blinking caret after the last word, while the agent is still writing. */
   caret: Boolean,
+  /** A document of its own (a Memory file) rather than a reply: its headings are sized as a page's. */
+  document: Boolean,
 } as const;
 </script>
 
@@ -180,7 +182,7 @@ function collectDefinitions(tree: Root) {
 </script>
 
 <template>
-  <div :class="$style.richText">
+  <div :class="[$style.richText, props.document && $style.richText_document]">
     <Content />
   </div>
 </template>
@@ -276,6 +278,22 @@ function collectDefinitions(tree: Root) {
 
 .richText_heading3 {
   font-size: $font-size-body-l;
+}
+
+.richText_document {
+  .richText_heading1 {
+    margin-bottom: $spacing-16;
+    font-size: $font-size-title-s;
+  }
+
+  .richText_heading2 {
+    margin-top: $spacing-24;
+    font-size: $font-size-heading;
+  }
+
+  .richText_heading3 {
+    font-size: $font-size-lead;
+  }
 }
 
 .richText_link {

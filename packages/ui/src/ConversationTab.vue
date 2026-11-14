@@ -1,14 +1,18 @@
-<!-- The tab of the open conversation in the app shell's tab bar: a speech bubble in the project's colour, or a spinner while the agent works, and its title. -->
+<!-- The tab of the open screen in the app shell's tab bar: a conversation's speech bubble (or another screen's icon) in its colour, or a spinner while the agent works, and its title. -->
 
 <script lang="ts">
+import type { LucideIcon } from '@lucide/vue';
+import { defineProp } from '@nzyme/vue-utils/defineProp.js';
 import type { PropType } from 'vue';
 
 import type { ProjectColor } from './ProjectColor.js';
 
 export const ConversationTabProps = {
   title: { type: String, required: true },
-  /** The colour of the conversation's project. */
+  /** The colour of the conversation's project, or of the screen (Memory's violet). */
   color: { type: String as PropType<ProjectColor>, required: true },
+  /** Another screen's icon from `@lucide/vue` in place of the speech bubble (Memory's brain). */
+  icon: defineProp<LucideIcon>(),
   /** The agent is working on the conversation. */
   running: Boolean,
 } as const;
@@ -33,7 +37,8 @@ const t = useTranslate();
       :class="$style.conversationTab_spinner"
       :label="t(l.running)"
     />
-    <MessageCircle
+    <component
+      :is="props.icon ?? MessageCircle"
       v-else
       :class="$style.conversationTab_icon"
       aria-hidden="true"

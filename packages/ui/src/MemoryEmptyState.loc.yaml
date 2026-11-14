@@ -1,0 +1,7 @@
+title:
+  en[auto]: Memory is empty for now
+  pl: Pamięć jest jeszcze pusta
+
+body:
+  en[auto]: 'This is where the agent writes down what it learns about you: who you are, what you do, what you like. It fills up by itself as you talk, and you can read every file here and correct it in any editor.'
+  pl: 'Tu agent zapisuje, czego dowie się o Tobie: kim jesteś, czym się zajmujesz, co lubisz. Wypełni się sama, gdy będziecie rozmawiać — a każdy plik przeczytasz tutaj i poprawisz w dowolnym edytorze.'

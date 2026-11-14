@@ -25,7 +25,10 @@ const CONVERSATIONS: ProjectSidebarConversation[] = [
 export const Empty: Story = {
     render: () => (
         <div class={styles['backdrop']}>
-            <ProjectSidebar projects={[]} />
+            <ProjectSidebar
+                memoryTo="/memory"
+                projects={[]}
+            />
         </div>
     ),
 };
@@ -35,6 +38,7 @@ export const Projects: Story = {
     render: () => (
         <div class={styles['backdrop']}>
             <ProjectSidebar
+                memoryTo="/memory"
                 projects={PROJECTS}
                 selectedId="p2"
             />
@@ -47,6 +51,7 @@ export const ConversationOpen: Story = {
     render: () => (
         <div class={styles['backdrop']}>
             <ProjectSidebar
+                memoryTo="/memory"
                 projects={PROJECTS}
                 selectedId="p2"
                 conversations={CONVERSATIONS}
@@ -61,9 +66,23 @@ export const NewConversation: Story = {
     render: () => (
         <div class={styles['backdrop']}>
             <ProjectSidebar
+                memoryTo="/memory"
                 projects={PROJECTS}
                 selectedId="p2"
                 conversations={CONVERSATIONS}
+            />
+        </div>
+    ),
+};
+
+/** Screen 63's sidebar: Memory open. */
+export const MemoryOpen: Story = {
+    render: () => (
+        <div class={styles['backdrop']}>
+            <ProjectSidebar
+                memoryTo="/memory"
+                memorySelected
+                projects={PROJECTS}
             />
         </div>
     ),
