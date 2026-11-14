@@ -7,7 +7,23 @@ import type { ConversationError, ConversationRunOutcome, ConversationStep } from
 export const DAEMON_EVENTS_PATH = '/api/events';
 
 /** An event the daemon streams, discriminated by `type`. */
-export type DaemonEvent = ConversationEvent | DaemonStreamRestoredEvent;
+export type DaemonEvent = ConversationEvent | DataRootEvent | DaemonStreamRestoredEvent;
+
+/**
+ * Something changed in the profile's data root, by the agent, the person or this daemon. Sent once for a burst of
+ * changes; the app reloads what it shows.
+ */
+export type DataRootEvent = ProjectsChangedEvent | MemoryChangedEvent;
+
+/** A project folder appeared, went, was renamed, or its marker changed: the project list may differ. */
+export interface ProjectsChangedEvent {
+    type: 'projectsChanged';
+}
+
+/** A file or folder in the Memory folder changed. */
+export interface MemoryChangedEvent {
+    type: 'memoryChanged';
+}
 
 /**
  * The daemon lost its own feed of the agent's events and got it back: whatever happened meanwhile was not streamed, so

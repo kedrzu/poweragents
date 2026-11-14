@@ -20,8 +20,8 @@ export function parseDaemonEvent(data: string): DaemonEvent | null {
         return null;
     }
     const type = readString(value, 'type');
-    if (type === 'streamRestored') {
-        return { type: 'streamRestored' };
+    if (type === 'streamRestored' || type === 'projectsChanged' || type === 'memoryChanged') {
+        return { type };
     }
     const conversationId = readString(value, 'conversationId');
     if (conversationId === undefined) {

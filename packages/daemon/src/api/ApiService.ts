@@ -5,9 +5,11 @@ import { createRouter } from '@nzyme/rpc/createRouter.js';
 import type { HttpResponse } from '@nzyme/rpc/types/HttpResponse.js';
 
 import { DAEMON_EVENTS_PATH } from '@poweragents/common/api/DaemonEventTypes.js';
+import type { DaemonEvent } from '@poweragents/common/api/DaemonEventTypes.js';
 import { DAEMON_API_PATH, DEV_SERVER_PORT } from '@poweragents/common/daemonAddress.js';
 
 import { ConversationEventService } from '../conversations/ConversationEventService.js';
+import { DataRootWatchService } from '../dataRoot/DataRootWatchService.js';
 import { ClaudeLoginCompleteEndpointHandler } from './ClaudeLoginCompleteEndpoint.handler.js';
 import { ClaudeLoginStartEndpointHandler } from './ClaudeLoginStartEndpoint.handler.js';
 import { ClaudeStatusGetEndpointHandler } from './ClaudeStatusGetEndpoint.handler.js';
@@ -16,6 +18,8 @@ import { ConversationListEndpointHandler } from './ConversationListEndpoint.hand
 import { ConversationMessageListEndpointHandler } from './ConversationMessageListEndpoint.handler.js';
 import { ConversationSendEndpointHandler } from './ConversationSendEndpoint.handler.js';
 import { ConversationStopEndpointHandler } from './ConversationStopEndpoint.handler.js';
+import { MemoryFileGetEndpointHandler } from './MemoryFileGetEndpoint.handler.js';
+import { MemoryFileListEndpointHandler } from './MemoryFileListEndpoint.handler.js';
 import { ProjectCreateEndpointHandler } from './ProjectCreateEndpoint.handler.js';
 import { ProjectListEndpointHandler } from './ProjectListEndpoint.handler.js';
 import { SandboxStartEndpointHandler } from './SandboxStartEndpoint.handler.js';
@@ -54,6 +58,8 @@ const HANDLERS = [
     ConversationSendEndpointHandler,
     ConversationStopEndpointHandler,
     ConversationMessageListEndpointHandler,
+    MemoryFileListEndpointHandler,
+    MemoryFileGetEndpointHandler,
 ];
 
 /**
@@ -71,8 +77,13 @@ const HEARTBEAT_MS = 15_000;
  */
 export const ApiService = defineService({
     name: 'ApiService',
-    deps: { container: Container, logger: Logger, events: ConversationEventService },
-    setup({ container, logger, events }): ApiServiceShape {
+    deps: {
+        container: Container,
+        logger: Logger,
+        conversationEvents: ConversationEventService,
+        dataRootEvents: DataRootWatchService,
+    },
+    setup({ container, logger, conversationEvents, dataRootEvents }): ApiServiceShape {
         // A failure's name and message go back to the app, which shows them under "Show details"; the app is the only
         // client. `stackTraces` is what makes the router answer with them instead of a constant `UnknownError`;
         // `toResponse()` then drops the stack, which carries the daemon's internal paths. The whole error is logged.
@@ -144,10 +155,13 @@ export const ApiService = defineService({
                             close();
                         }
                     };
-                    const stopListening = events.listen(event => send(`data: ${JSON.stringify(event)}\n\n`));
+                    const sendEvent = (event: DaemonEvent) => send(`data: ${JSON.stringify(event)}\n\n`);
+                    const stopConversationEvents = conversationEvents.listen(sendEvent);
+                    const stopDataRootEvents = dataRootEvents.listen(sendEvent);
                     const heartbeat = setInterval(() => send(': heartbeat\n\n'), HEARTBEAT_MS);
                     close = () => {
-                        stopListening();
+                        stopConversationEvents();
+                        stopDataRootEvents();
                         clearInterval(heartbeat);
                     };
                     // A first comment sends the headers now, so the client's `EventSource` opens at once.

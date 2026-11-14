@@ -109,6 +109,10 @@ export const ConversationStore = defineService({
                 case 'runFinished':
                     // The open conversation's.
                     break;
+                case 'projectsChanged':
+                case 'memoryChanged':
+                    // Not about conversations.
+                    break;
                 default:
                     assertNever(event);
             }

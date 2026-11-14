@@ -326,6 +326,9 @@ export function useConversation(options: UseConversationOptions): ConversationVi
     }
 
     function onEvent(event: DaemonEvent) {
+        if (event.type === 'projectsChanged' || event.type === 'memoryChanged') {
+            return;
+        }
         if (event.type === 'runFinished' || (event.type === 'runningChanged' && !event.running)) {
             runEnds.set(event.conversationId, (runEnds.get(event.conversationId) ?? 0) + 1);
             if (event.conversationId === conversationId.value) {

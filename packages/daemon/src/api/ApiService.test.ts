@@ -1,6 +1,11 @@
 import { expect, mock, test } from 'bun:test';
+import { mkdtempSync } from 'node:fs';
+import { mkdir, writeFile } from 'node:fs/promises';
+import os from 'node:os';
+import path from 'node:path';
 
 import { HttpError } from '@nzyme/fetch-utils/HttpError.js';
+import { EnvVariables } from '@nzyme/ioc/helpers/EnvVariables.js';
 import { createTestContainer } from '@nzyme/ioc-testing/createTestContainer.js';
 import type { RpcErrorData } from '@nzyme/rpc/types/RpcError.js';
 import { createEventEmitter } from '@nzyme/utils/createEventEmitter.js';
@@ -35,6 +40,20 @@ test('serves the app: the shell origin gets the status, without the agent passwo
     const expected: SandboxStatus = { status: 'ready' };
     expect(JSON.parse(body)).toEqual(expected);
     expect(body).not.toContain(PASSWORD);
+});
+
+test('streams changes in the data root beside the conversation events', async () => {
+    const { api, dataRoot } = setup();
+
+    const response = await api.handle(new Request(EVENTS_URL, { headers: { Origin: 'tauri://localhost' } }));
+    const frames = readFrames(response, 1);
+    // macOS reports nothing that happened before the new watcher's stream got going.
+    await Bun.sleep(300);
+    await mkdir(path.join(dataRoot, 'memory'));
+    await writeFile(path.join(dataRoot, 'memory', 'praca.md'), '# Praca\n');
+
+    const expected: DaemonEvent[] = [{ type: 'memoryChanged' }];
+    expect((await frames).map((frame): unknown => JSON.parse(frame))).toEqual(expected);
 });
 
 test.each([
@@ -149,6 +168,9 @@ test.each([
 
 function setup(agentEvents: OpencodeEvent[] = [], getVerifiedState?: () => Promise<SandboxState>) {
     const { container, logs } = createTestContainer();
+    // The event stream watches the data root: a fresh one, never the person's.
+    const dataRoot = mkdtempSync(path.join(os.tmpdir(), 'poweragents-api-'));
+    container.set(EnvVariables, { POWERAGENTS_DATA_ROOT: dataRoot });
     const state: SandboxState = {
         status: 'ready',
         endpoint: { url: 'http://127.0.0.1:1', username: 'opencode', password: PASSWORD },
@@ -169,7 +191,7 @@ function setup(agentEvents: OpencodeEvent[] = [], getVerifiedState?: () => Promi
         await Promise.withResolvers<void>().promise;
     });
     container.set(OpencodeEventSubscribeCommand, subscribe);
-    return { api: container.resolve(ApiService), logs, subscribe };
+    return { api: container.resolve(ApiService), logs, subscribe, dataRoot };
 }
 
 /** Reads the `data` of `count` events from a server-sent events response (skipping comments), then disconnects. */
