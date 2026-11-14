@@ -56,7 +56,7 @@ loaded* from [projects.md](projects.md)), three components. Decisions the brief 
 
 - [x] `molecules/Memory file/Selected` (`JSG3N`): new, an instance of `Memory file`; `$surface-soft` fill, title 600.
 
-- [ ] Molecules › Sidebar: new `molecules/Project row/New` (`bFzM5`), an instance of `Project row` with the pin shown
+- [x] Molecules › Sidebar: new `molecules/Project row/New` (`bFzM5`), an instance of `Project row` with the pin shown
   as `sparkles` in `$brand-1-strong`.
 
 - [ ] 63 Memory · files (`H05Qi4`): new; *Pamięć* selected in the sidebar over four projects (App setup pinned); tab
@@ -70,12 +70,12 @@ loaded* from [projects.md](projects.md)), three components. Decisions the brief 
   jesteś, czym się zajmujesz, co lubisz. Wypełni się sama, gdy będziecie rozmawiać — a każdy plik przeczytasz tutaj i
   poprawisz w dowolnym edytorze." No header and no button.
 
-- [ ] 65 Day one · App setup (`S0DbX`): new, 02 in this shell; App setup (pinned) open with *Nowa rozmowa* and *Poznajmy
+- [x] 65 Day one · App setup (`S0DbX`): new, 02 in this shell; App setup (pinned) open with *Nowa rozmowa* and *Poznajmy
   się* selected, no other projects; tab *Poznajmy się* (`message-circle` in `$project-slate`); the agent's greeting,
   that what it learns goes to Memory, and "Jak mam się do Ciebie zwracać i czym się zajmujesz na co dzień?"; the
   composer "Napisz kilka słów o sobie…" with attach and voice hidden.
 
-- [ ] 66 Day one · the sidebar fills in (`AeJAU`): new, 04 in this shell; two answers in, the agent's reply with four
+- [x] 66 Day one · the sidebar fills in (`AeJAU`): new, 04 in this shell; two answers in, the agent's reply with four
   done steps ("Zapisuję w Pamięci: o-mnie.md", "… praca.md", "Tworzę projekt Szukanie pracy", "Tworzę projekt Posty na
   Instagram"), then what it set up with the two projects as bold-led bullets and a question to go on; *Szukanie pracy*
   and *Posty na Instagram* in the sidebar as `Project row/New`.
@@ -92,3 +92,15 @@ Built in code without a drawing, from the screen's own parts; not drawn yet:
   and a line in the preview's place; the failure with *Spróbuj ponownie* and its details).
 - A quiet line under *Pokaż w Finderze* when the system cannot open the folder yet, or Finder did not open.
 - *Pokaż w Finderze* selects the open file in Finder (the Memory folder when none is open).
+
+## Round 3 · implementation (M3)
+
+Built App setup and day one from 65 and 66 and `Project row/New`; nothing in the drawing failed the accessibility tests,
+so the drawing is unchanged. What the build adds that the drawing cannot show:
+
+- The new mark carries a visually hidden "nowy" in the row's link, so a screen reader hears it; App setup's pin is
+  decoration (App setup is listed first, which says as much).
+- While the agent works in a project, its spinner takes the pin's or the mark's place.
+- App setup's folder is `$project-slate`, as its tab on 65.
+- On 66 the agent's own reply decides what it says; the onboarding skill asks for present-tense forms, as the design's
+  copy does.
