@@ -109,7 +109,12 @@ async function reveal() {
       revealProblem.value = 'unsupported';
     } else if ('notFound' in result && selectedPath.value !== undefined) {
       // The file is gone since: its folder still is where the person looks.
-      await daemon(MemoryRevealEndpoint, {});
+      const folder = await daemon(MemoryRevealEndpoint, {});
+      if (!('revealed' in folder)) {
+        revealProblem.value = 'failed';
+      }
+    } else if ('notFound' in result) {
+      revealProblem.value = 'failed';
     }
   } catch (error) {
     logger.warn('Memory could not be shown in Finder', { error });
