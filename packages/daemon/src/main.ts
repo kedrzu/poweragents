@@ -6,6 +6,7 @@ import type { DaemonStatus } from '@poweragents/common/daemonAddress.js';
 
 import { ApiService } from './api/ApiService.js';
 import { DaemonLoggerTransport } from './logging/DaemonLoggerTransport.js';
+import { MemoryService } from './memory/MemoryService.js';
 import { LimaSandbox } from './sandbox/LimaSandbox.js';
 import { Sandbox } from './sandbox/Sandbox.js';
 import { SandboxOpencodeConnection } from './sandbox/SandboxOpencodeConnection.js';
@@ -30,6 +31,13 @@ process.on('unhandledRejection', error => {
 });
 
 const api = container.resolve(ApiService);
+
+// The Memory folder exists before the agent starts, so the agent finds it where its instructions say (design D9). A
+// failure is logged and the daemon keeps serving: the agent can still create the folder itself.
+await container
+    .resolve(MemoryService)
+    .ensureFolder()
+    .catch((error: unknown) => logger.error('Memory folder could not be created', { error }));
 
 // The sandbox comes up in the background while the daemon already answers. A failure is logged by the sandbox and
 // leaves it `failed`; the daemon keeps serving. The VM is deliberately not stopped on exit: the daemon is long-lived,

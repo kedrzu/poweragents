@@ -83,7 +83,9 @@ The Vue packages are not emitted: `ui` exports its sources and is type-checked b
   untouched.
 - The profile's data root (`POWERAGENTS_DATA_ROOT`, default `~/Poweragents`) is the only host folder the sandbox
   mounts, at `/Poweragents` in the VM and the agent's container. It holds `projects/<project folder>/` (a folder with a
-  `.project.json` marker, `ProjectService`) and `memory/`.
+  `.project.json` marker, `ProjectService`) and `memory/`, the person's Memory (design D9), which the daemon creates at
+  start. The agent learns both from the global `AGENTS.md` its image puts in OpenCode's config folder
+  (`agent.Containerfile`).
 - `bun run desktop` starts the shell in development: Tauri runs `nuxt dev` on port 4100 and the daemon from source under
   `bun --watch`, and the shell starts no sidecar.
 - The window may call only Tauri's core (`capabilities/default.json`), and its CSP allows connections only to the shell
