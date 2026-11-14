@@ -12,6 +12,7 @@ import { compareProjectsByName } from '@poweragents/common/utils/compareProjects
 
 import { POWERAGENTS_DATA_ROOT, PROJECTS_FOLDER } from '../env.js';
 import { isErrorCode } from '../utils/isErrorCode.js';
+import { isRealFolder } from '../utils/isRealFolder.js';
 
 /** A project with the folder that holds it. */
 export interface LocalProject extends Project {
@@ -21,7 +22,9 @@ export interface LocalProject extends Project {
 
 /**
  * The person's projects: folders in the data root's `PROJECTS_FOLDER` that hold a marker, the hidden file
- * `.project.json`.
+ * `.project.json`. The agent can write anything in the data root, links included, and a link it makes resolves on this
+ * computer, not in the sandbox: so the projects' folder and each project folder are used only when they are real
+ * folders, never through a link.
  */
 export interface ProjectServiceShape {
     /**
@@ -33,7 +36,7 @@ export interface ProjectServiceShape {
     get(id: string): Promise<LocalProject | null>;
     /**
      * Creates a project in a new folder named after it. An existing folder is never reused: the next free name is taken
-     * (`Name 2`, `Name 3`, …).
+     * (`Name 2`, `Name 3`, …). Throws when the projects' folder is not a real folder (a link, a file).
      */
     create(name: string): Promise<ProjectCreateResult>;
 }
@@ -85,6 +88,9 @@ export const ProjectService = defineService({
         }
 
         async function listProjects() {
+            if (!(await isProjectsFolder())) {
+                return [];
+            }
             const entries = await readdir(root, { withFileTypes: true }).catch((error: unknown) => {
                 if (isErrorCode(error, 'ENOENT')) {
                     return [];
@@ -102,6 +108,10 @@ export const ProjectService = defineService({
                 .toSorted();
             for (const folder of folders) {
                 const dir = path.join(root, folder);
+                // `isDirectory()` above skips links already; checked again, as the agent can swap a folder for one since.
+                if (!(await isRealFolder(dir))) {
+                    continue;
+                }
                 let marker = await readMarker(dir);
                 if (!marker) {
                     continue;
@@ -132,13 +142,48 @@ export const ProjectService = defineService({
                 return { nameTaken: true };
             }
 
-            await mkdir(root, { recursive: true });
+            await ensureProjectsFolder();
             const dir = await createFreeFolder(folderName);
             const marker: ProjectMarker = { id: randomUUID(), name, createdAt: new Date().toISOString() };
             await createMarker(dir, marker);
 
             logger.info('Project created', { projectId: marker.id, folder: path.basename(dir) });
             return { created: { id: marker.id, name: marker.name } };
+        }
+
+        /**
+         * Whether the projects' folder is a real folder to list; `false` when it is missing, or, with a warning, a link or
+         * a file, which is left as it is: it is the agent's.
+         */
+        async function isProjectsFolder() {
+            const stats = await lstat(root).catch((error: unknown) => {
+                if (isErrorCode(error, 'ENOENT')) {
+                    return null;
+                }
+                throw error;
+            });
+            if (stats && !stats.isDirectory()) {
+                logger.warn("Projects' folder is not a folder, no projects listed");
+            }
+            return stats?.isDirectory() ?? false;
+        }
+
+        /** Creates the projects' folder when it is missing, never through a link; throws when it is not a real folder. */
+        async function ensureProjectsFolder() {
+            // The data root itself is the person's folder, mounted into the sandbox, not one the agent can replace.
+            await mkdir(dataRoot, { recursive: true });
+            try {
+                // Not recursive: it fails on an existing entry instead of entering a link.
+                await mkdir(root);
+            } catch (error) {
+                if (!isErrorCode(error, 'EEXIST')) {
+                    throw error;
+                }
+            }
+            if (!(await isRealFolder(root))) {
+                logger.warn("Projects' folder is not a folder, project not created");
+                throw new Error("Projects' folder is not a folder");
+            }
         }
 
         /**
@@ -188,8 +233,9 @@ export const ProjectService = defineService({
             }
         }
 
-        /** Fails on an existing marker, a link included. */
+        /** Fails on an existing marker, a link included, and on a folder swapped for a link since it was made. */
         async function createMarker(dir: string, marker: ProjectMarker) {
+            assert(await isRealFolder(dir), 'Project folder is not a folder');
             await writeFile(path.join(dir, MARKER_FILE), serializeMarker(marker), { flag: 'wx' });
         }
 
@@ -198,6 +244,7 @@ export const ProjectService = defineService({
          * marker swapped for a link since it was read is replaced, not followed to the file it points at.
          */
         async function replaceMarker(dir: string, marker: ProjectMarker) {
+            assert(await isRealFolder(dir), 'Project folder is not a folder');
             const temp = path.join(dir, `${MARKER_FILE}.${randomUUID()}.tmp`);
             try {
                 await writeFile(temp, serializeMarker(marker), { flag: 'wx' });
