@@ -72,11 +72,14 @@ test('starts the watcher again after it failed', async () => {
     // The restart creates the data root and watches it.
     await rm(root);
     await Bun.sleep(1500);
+    const afterRestart = events.toSorted((a, b) => a.type.localeCompare(b.type));
     await mkdir(path.join(root, 'memory'), { recursive: true });
     await writeFile(path.join(root, 'memory', 'praca.md'), '# Praca\n');
     await settle();
 
-    expect(events).toEqual([{ type: 'memoryChanged' }] satisfies DataRootEvent[]);
+    // The restart itself reports both kinds, for changes made during the outage; later changes follow.
+    expect(afterRestart).toEqual([{ type: 'memoryChanged' }, { type: 'projectsChanged' }] satisfies DataRootEvent[]);
+    expect(events.slice(afterRestart.length)).toEqual([{ type: 'memoryChanged' }] satisfies DataRootEvent[]);
 });
 
 async function setup() {

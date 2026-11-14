@@ -1,5 +1,5 @@
 import { expect, test } from 'bun:test';
-import { mkdir, mkdtemp, readdir, rm, symlink, utimes, writeFile } from 'node:fs/promises';
+import { chmod, mkdir, mkdtemp, readdir, rm, symlink, utimes, writeFile } from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
 
@@ -145,6 +145,35 @@ test('lists a large file by a heading at its start, and refuses to read it whole
 
     expect((await memory.list()).map(file => file.title)).toEqual(['Duży', 'późny']);
     expect(await memory.get('duży.md')).toEqual({ tooLarge: true });
+});
+
+test('keeps listing past a file and a folder it cannot read, and warns about each', async () => {
+    const { memory, root, logs } = await setup();
+    const dir = path.join(root, 'memory');
+    await mkdir(path.join(dir, 'zamknięty'), { recursive: true });
+    await writeFile(path.join(dir, 'praca.md'), '# Praca\n');
+    await writeFile(path.join(dir, 'tajny.md'), '# Tajny\n');
+    await writeFile(path.join(dir, 'zamknięty', 'a.md'), '# A\n');
+    await chmod(path.join(dir, 'tajny.md'), 0o000);
+    await chmod(path.join(dir, 'zamknięty'), 0o000);
+
+    try {
+        const files = await memory.list();
+
+        expect(files.map(file => file.path)).toEqual(['praca.md']);
+        expect(
+            logs
+                .filter(log => log.level === 'warn')
+                .map(log => [log.message, log.data?.path])
+                .toSorted(),
+        ).toEqual([
+            ['Memory file unreadable, skipped', 'tajny.md'],
+            ['Memory folder unreadable, skipped', 'zamknięty'],
+        ]);
+    } finally {
+        await chmod(path.join(dir, 'tajny.md'), 0o600);
+        await chmod(path.join(dir, 'zamknięty'), 0o700);
+    }
 });
 
 test('skips folders removed while the listing runs', async () => {

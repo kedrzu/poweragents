@@ -82,7 +82,11 @@ export const DataRootWatchService = defineService({
                 onFailure(error);
                 return;
             }
-            failing = false;
+            if (failing) {
+                // Whatever changed during the outage went unseen: tell the listeners to look again.
+                failing = false;
+                onChange(null);
+            }
             logger.debug('Data root watched');
         }
 
@@ -106,6 +110,7 @@ export const DataRootWatchService = defineService({
             clearTimeout(timer);
             timer = undefined;
             pending.clear();
+            failing = false;
             logger.debug('Data root no longer watched');
         }
 

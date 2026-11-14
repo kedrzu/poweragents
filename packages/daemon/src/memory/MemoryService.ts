@@ -108,7 +108,8 @@ export const MemoryService = defineService({
 
         /**
          * Adds the Markdown files of the folder at `segments` and its subfolders to `files`; links are skipped, and so is
-         * a folder removed while the listing runs.
+         * a folder removed while the listing runs, and an entry the daemon cannot read: one bad entry must not fail the
+         * whole listing.
          */
         async function collect(segments: string[], files: MemoryFile[]) {
             const entries = await readdir(path.join(root, ...segments), { withFileTypes: true }).catch(
@@ -117,7 +118,8 @@ export const MemoryService = defineService({
                         logger.debug('Memory folder gone while listed, skipped', { path: segments.join('/') });
                         return [];
                     }
-                    throw error;
+                    logger.warn('Memory folder unreadable, skipped', { path: segments.join('/'), error });
+                    return [];
                 },
             );
             for (const entry of entries) {
@@ -128,7 +130,10 @@ export const MemoryService = defineService({
                 if (entry.isDirectory()) {
                     await collect(entrySegments, files);
                 } else if (entry.isFile() && isMarkdown(entry.name)) {
-                    const read = await readTitleSource(entrySegments);
+                    const read = await readTitleSource(entrySegments).catch((error: unknown) => {
+                        logger.warn('Memory file unreadable, skipped', { path: entrySegments.join('/'), error });
+                        return null;
+                    });
                     if (read) {
                         files.push(toMemoryFile(entrySegments, read));
                     }
