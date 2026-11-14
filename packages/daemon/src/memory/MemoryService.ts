@@ -1,5 +1,7 @@
 import { constants } from 'node:fs';
+import type { Stats } from 'node:fs';
 import { lstat, mkdir, open, readdir } from 'node:fs/promises';
+import type { FileHandle } from 'node:fs/promises';
 import path from 'node:path';
 
 import { defineService } from '@nzyme/ioc/Service.js';
@@ -9,11 +11,13 @@ import type { MemoryFile, MemoryFileGetResult } from '@poweragents/common/api/Me
 
 import { MEMORY_FOLDER, POWERAGENTS_DATA_ROOT } from '../env.js';
 import { isErrorCode } from '../utils/isErrorCode.js';
+import { isRealFolder } from '../utils/isRealFolder.js';
 
 /**
  * The person's Memory (design D9): Markdown files in the data root's `MEMORY_FOLDER`, written by the agent. The agent
  * can write anything there, links included, and a link it makes resolves on this computer, not in the sandbox: so a
- * file is read only through real folders, never through a link, and never from a hidden file or folder.
+ * file is read only through real folders, never through a link, and never from a hidden file or folder. Only regular
+ * files are opened (never a pipe or a device), and only a bounded part of one is read.
  */
 export interface MemoryServiceShape {
     /** Creates the Memory folder when it is missing; the daemon calls it at start. */
@@ -30,11 +34,24 @@ interface MemoryFileRead {
     updatedAt: number;
 }
 
+/** A Memory file opened after it was found a regular file. */
+interface OpenedMemoryFile {
+    handle: FileHandle;
+    stats: Stats;
+}
+
 const MARKDOWN_EXTENSION = '.md';
 /** A Markdown heading (`# Title`, `## Title ##`): its text without the closing hashes. */
 const HEADING = /^#{1,6}[ \t]+(.*?)(?:[ \t]+#+)?[ \t]*$/;
-/** Opens a file without following a link in its last part; earlier parts are checked with `lstat` before. */
-const OPEN_FLAGS = constants.O_RDONLY | constants.O_NOFOLLOW;
+/**
+ * Opens a file without following a link in its last part (earlier parts are checked with `lstat` before), and without
+ * waiting for a writer when a pipe took the file's place since its `lstat`.
+ */
+const OPEN_FLAGS = constants.O_RDONLY | constants.O_NOFOLLOW | constants.O_NONBLOCK;
+/** The largest file `get()` reads. */
+const GET_MAX_BYTES = 1024 * 1024;
+/** How much of a file `list()` reads for its title. */
+const TITLE_PREFIX_BYTES = 4096;
 
 /** The person's Memory folder. */
 export const MemoryService = defineService({
@@ -68,16 +85,41 @@ export const MemoryService = defineService({
                 logger.warn('Memory file path refused', { path: relativePath });
                 return { notFound: true };
             }
-            const read = await readFile(segments);
-            if (!read) {
+            const opened = await openFile(segments);
+            if (!opened) {
                 return { notFound: true };
             }
-            return { file: { ...toMemoryFile(segments, read), content: read.content } };
+            try {
+                // One byte over the limit tells a file at the limit from a larger one, also one growing since `stat`.
+                const bytes = await readPrefix(opened.handle, GET_MAX_BYTES + 1);
+                if (bytes.length > GET_MAX_BYTES) {
+                    logger.warn('Memory file too large, not read', {
+                        path: segments.join('/'),
+                        size: opened.stats.size,
+                    });
+                    return { tooLarge: true };
+                }
+                const read: MemoryFileRead = { content: bytes.toString('utf8'), updatedAt: opened.stats.mtimeMs };
+                return { file: { ...toMemoryFile(segments, read), content: read.content } };
+            } finally {
+                await opened.handle.close();
+            }
         }
 
-        /** Adds the Markdown files of the folder at `segments` and its subfolders to `files`; links are skipped. */
+        /**
+         * Adds the Markdown files of the folder at `segments` and its subfolders to `files`; links are skipped, and so is
+         * a folder removed while the listing runs.
+         */
         async function collect(segments: string[], files: MemoryFile[]) {
-            const entries = await readdir(path.join(root, ...segments), { withFileTypes: true });
+            const entries = await readdir(path.join(root, ...segments), { withFileTypes: true }).catch(
+                (error: unknown) => {
+                    if (isErrorCode(error, 'ENOENT') || isErrorCode(error, 'ENOTDIR')) {
+                        logger.debug('Memory folder gone while listed, skipped', { path: segments.join('/') });
+                        return [];
+                    }
+                    throw error;
+                },
+            );
             for (const entry of entries) {
                 if (entry.name.startsWith('.')) {
                     continue;
@@ -86,7 +128,7 @@ export const MemoryService = defineService({
                 if (entry.isDirectory()) {
                     await collect(entrySegments, files);
                 } else if (entry.isFile() && isMarkdown(entry.name)) {
-                    const read = await readFile(entrySegments);
+                    const read = await readTitleSource(entrySegments);
                     if (read) {
                         files.push(toMemoryFile(entrySegments, read));
                     }
@@ -94,11 +136,31 @@ export const MemoryService = defineService({
             }
         }
 
+        /** The start of the file at `segments`, enough for its title, or `null` when `openFile()` refuses it. */
+        async function readTitleSource(segments: string[]): Promise<MemoryFileRead | null> {
+            const opened = await openFile(segments);
+            if (!opened) {
+                return null;
+            }
+            try {
+                const bytes = await readPrefix(opened.handle, TITLE_PREFIX_BYTES);
+                let content = bytes.toString('utf8');
+                if (bytes.length === TITLE_PREFIX_BYTES) {
+                    // The last line may be cut, mid-heading or mid-character: dropped.
+                    content = content.slice(0, Math.max(content.lastIndexOf('\n'), 0));
+                }
+                return { content, updatedAt: opened.stats.mtimeMs };
+            } finally {
+                await opened.handle.close();
+            }
+        }
+
         /**
-         * Reads the file at `segments` under the Memory folder, or `null` when it is missing, not a file, or reached
-         * through a link: the Memory folder and every folder on the way must be real folders, and the file a real file.
+         * Opens the file at `segments` under the Memory folder, or `null` when it is missing, not a regular file, or
+         * reached through a link: the Memory folder and every folder on the way must be real folders, and the file a
+         * regular file before it is opened, so a pipe or a device is never opened.
          */
-        async function readFile(segments: string[]): Promise<MemoryFileRead | null> {
+        async function openFile(segments: string[]): Promise<OpenedMemoryFile | null> {
             const folders = [root];
             for (const segment of segments.slice(0, -1)) {
                 folders.push(path.join(folders.at(-1) ?? root, segment));
@@ -110,7 +172,22 @@ export const MemoryService = defineService({
                 }
             }
 
-            const handle = await open(path.join(root, ...segments), OPEN_FLAGS).catch((error: unknown) => {
+            const file = path.join(root, ...segments);
+            const linkStats = await lstat(file).catch((error: unknown) => {
+                if (isErrorCode(error, 'ENOENT') || isErrorCode(error, 'ENOTDIR')) {
+                    return null;
+                }
+                throw error;
+            });
+            if (!linkStats) {
+                return null;
+            }
+            if (!linkStats.isFile()) {
+                logger.warn('Memory file is not a regular file, refused', { path: segments.join('/') });
+                return null;
+            }
+
+            const handle = await open(file, OPEN_FLAGS).catch((error: unknown) => {
                 // `ELOOP`: the file is a link.
                 if (isErrorCode(error, 'ELOOP')) {
                     logger.warn('Memory file is a link, refused', { path: segments.join('/') });
@@ -124,29 +201,28 @@ export const MemoryService = defineService({
             if (!handle) {
                 return null;
             }
-            try {
-                const stats = await handle.stat();
-                if (!stats.isFile()) {
-                    return null;
-                }
-                return { content: await handle.readFile('utf8'), updatedAt: stats.mtimeMs };
-            } finally {
+            const stats = await handle.stat();
+            if (!stats.isFile()) {
                 await handle.close();
+                return null;
             }
+            return { handle, stats };
         }
     },
 });
 
-/** Whether `dir` is a folder itself, not a link to one; `false` when it does not exist. */
-async function isRealFolder(dir: string) {
-    try {
-        return (await lstat(dir)).isDirectory();
-    } catch (error) {
-        if (isErrorCode(error, 'ENOENT') || isErrorCode(error, 'ENOTDIR')) {
-            return false;
+/** Reads at most `maxBytes` from the start of the file. */
+async function readPrefix(handle: FileHandle, maxBytes: number) {
+    const buffer = Buffer.alloc(maxBytes);
+    let length = 0;
+    while (length < maxBytes) {
+        const { bytesRead } = await handle.read(buffer, length, maxBytes - length, length);
+        if (bytesRead === 0) {
+            break;
         }
-        throw error;
+        length += bytesRead;
     }
+    return buffer.subarray(0, length);
 }
 
 /**

@@ -1,5 +1,5 @@
 import { expect, test } from 'bun:test';
-import { mkdir, mkdtemp, readdir, symlink, utimes, writeFile } from 'node:fs/promises';
+import { mkdir, mkdtemp, readdir, rm, symlink, utimes, writeFile } from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
 
@@ -122,6 +122,46 @@ test('never follows a link out of the Memory folder: not a file link, a folder l
 
     expect(await linked.memory.list()).toEqual([]);
     expect(await linked.memory.get('secret.md')).toEqual({ notFound: true });
+});
+
+test('never opens a pipe: not listed, not read', async () => {
+    const { memory, root } = await setup();
+    await mkdir(path.join(root, 'memory'));
+    await writeFile(path.join(root, 'memory', 'praca.md'), '# Praca\n');
+    // Opening a pipe for reading waits for a writer: the daemon would hang.
+    const mkfifo = Bun.spawn(['mkfifo', path.join(root, 'memory', 'pipe.md')]);
+    expect(await mkfifo.exited).toBe(0);
+
+    expect((await memory.list()).map(file => file.path)).toEqual(['praca.md']);
+    expect(await memory.get('pipe.md')).toEqual({ notFound: true });
+});
+
+test('lists a large file by a heading at its start, and refuses to read it whole', async () => {
+    const { memory, root } = await setup();
+    await mkdir(path.join(root, 'memory'));
+    await writeFile(path.join(root, 'memory', 'duży.md'), `# Duży\n${'x'.repeat(1024 * 1024)}`);
+    // A heading past the first few kilobytes is not looked for: the file is titled by its name.
+    await writeFile(path.join(root, 'memory', 'późny.md'), `${'tekst\n'.repeat(1000)}# Późny\n`);
+
+    expect((await memory.list()).map(file => file.title)).toEqual(['Duży', 'późny']);
+    expect(await memory.get('duży.md')).toEqual({ tooLarge: true });
+});
+
+test('skips folders removed while the listing runs', async () => {
+    const { memory, root } = await setup();
+    const folders = Array.from({ length: 200 }, (_, index) => path.join(root, 'memory', `folder ${index}`));
+    for (const folder of folders) {
+        await mkdir(folder, { recursive: true });
+        await writeFile(path.join(folder, 'notatka.md'), '# Notatka\n');
+    }
+
+    const listing = memory.list();
+    // From the last: the listing has read the Memory folder by then, and reaches these folders after they are gone.
+    for (const folder of folders.toReversed()) {
+        await rm(folder, { recursive: true });
+    }
+
+    expect((await listing).length).toBeLessThan(folders.length);
 });
 
 async function setup() {

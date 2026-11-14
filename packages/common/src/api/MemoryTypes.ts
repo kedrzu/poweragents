@@ -21,7 +21,9 @@ export type MemoryFileGetResult =
      * No Markdown file at that path inside the Memory folder: also a path leading out of it (`..`, an absolute path) or
      * through a link, which is never followed.
      */
-    | { notFound: true };
+    | { notFound: true }
+    /** A file too large to show (over 1 MB): the Memory holds notes, not data. */
+    | { tooLarge: true };
 
 /** A Memory file with its text. */
 export interface MemoryFileContent extends MemoryFile {
