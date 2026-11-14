@@ -12,8 +12,9 @@ import { MEMORY_FOLDER, POWERAGENTS_DATA_ROOT, PROJECTS_FOLDER } from '../env.js
 
 /**
  * Changes in the profile's data root, for the daemon's event stream: one watcher on the whole data root, started by the
- * first listener and kept for the daemon's lifetime. Changes are gathered for `DEBOUNCE_MS` from the first one, then
- * each kind is sent once, so an agent writing many files sends a few events, not one per file.
+ * first listener and closed when the last one leaves. A watcher that fails is closed and started again after
+ * `RESTART_DELAY_MS`, while anyone listens. Changes are gathered for `DEBOUNCE_MS` from the first one, then each kind is
+ * sent once, so an agent writing many files sends a few events, not one per file.
  */
 export interface DataRootWatchServiceShape {
     /** Calls `listener` with every change from now on, until the returned function is called. */
@@ -22,6 +23,8 @@ export interface DataRootWatchServiceShape {
 
 /** How long changes are gathered before they are sent. */
 const DEBOUNCE_MS = 300;
+/** How long after a failure the watcher is started again. */
+const RESTART_DELAY_MS = 1000;
 const PROJECT_MARKER = '.project.json';
 
 /** The profile's data root, watched. */
@@ -32,24 +35,78 @@ export const DataRootWatchService = defineService({
         const root = path.resolve(dataRoot);
         const emitter = createEventEmitter<[event: DataRootEvent]>();
         const pending = new Set<DataRootEvent['type']>();
+        let listenerCount = 0;
         let watcher: FSWatcher | undefined;
         let timer: ReturnType<typeof setTimeout> | undefined;
+        let restartTimer: ReturnType<typeof setTimeout> | undefined;
+        /** Whether the last start failed: only the first failure in a row is a warning. */
+        let failing = false;
 
         return { listen };
 
         function listen(listener: (event: DataRootEvent) => void) {
             emitter.event.on(listener);
-            watcher ??= startWatching();
-            return () => emitter.event.off(listener);
+            listenerCount++;
+            startWatching();
+            let listening = true;
+            return () => {
+                if (!listening) {
+                    return;
+                }
+                listening = false;
+                emitter.event.off(listener);
+                listenerCount--;
+                if (listenerCount === 0) {
+                    stopWatching();
+                }
+            };
         }
 
         function startWatching() {
-            // A missing data root cannot be watched; the daemon creates it with the Memory folder anyway.
-            mkdirSync(root, { recursive: true });
-            const started = watch(root, { recursive: true }, (_type, file) => onChange(file));
-            started.on('error', error => logger.warn('Data root watcher failed', { error }));
+            if (watcher || listenerCount === 0) {
+                return;
+            }
+            clearTimeout(restartTimer);
+            restartTimer = undefined;
+            try {
+                // A missing data root cannot be watched; the daemon creates it with the Memory folder anyway.
+                mkdirSync(root, { recursive: true });
+                const started = watch(root, { recursive: true }, (_type, file) => onChange(file));
+                started.on('error', error => {
+                    if (watcher === started) {
+                        onFailure(error);
+                    }
+                });
+                watcher = started;
+            } catch (error) {
+                onFailure(error);
+                return;
+            }
+            failing = false;
             logger.debug('Data root watched');
-            return started;
+        }
+
+        function onFailure(error: unknown) {
+            if (failing) {
+                logger.debug('Data root watcher failed again', { error });
+            } else {
+                logger.warn('Data root watcher failed, restarting', { error });
+            }
+            failing = true;
+            watcher?.close();
+            watcher = undefined;
+            restartTimer ??= setTimeout(startWatching, RESTART_DELAY_MS);
+        }
+
+        function stopWatching() {
+            watcher?.close();
+            watcher = undefined;
+            clearTimeout(restartTimer);
+            restartTimer = undefined;
+            clearTimeout(timer);
+            timer = undefined;
+            pending.clear();
+            logger.debug('Data root no longer watched');
         }
 
         function onChange(file: string | null) {

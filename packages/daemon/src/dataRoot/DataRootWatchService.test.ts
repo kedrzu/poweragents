@@ -1,5 +1,5 @@
-import { expect, test } from 'bun:test';
-import { mkdir, mkdtemp, rename, writeFile } from 'node:fs/promises';
+import { afterEach, expect, test } from 'bun:test';
+import { mkdir, mkdtemp, rename, rm, writeFile } from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
 
@@ -12,6 +12,15 @@ import { DataRootWatchService } from './DataRootWatchService.js';
 import type { DataRootWatchServiceShape } from './DataRootWatchService.js';
 
 // The filesystem is the boundary: a real watcher on a fresh temporary data root.
+
+/** Every test's listeners, removed after it so that its watcher is closed. */
+const unsubscribes: (() => void)[] = [];
+
+afterEach(() => {
+    for (const unsubscribe of unsubscribes.splice(0)) {
+        unsubscribe();
+    }
+});
 
 test('sends one event per kind for a burst of changes in projects and the Memory', async () => {
     const { watcher, root } = await setup();
@@ -48,6 +57,28 @@ test("ignores files inside a project and outside both folders, and notices a pro
     expect(events).toEqual([{ type: 'projectsChanged' }] satisfies DataRootEvent[]);
 });
 
+test('starts the watcher again after it failed', async () => {
+    const tmp = await mkdtemp(path.join(os.tmpdir(), 'poweragents-data-root-'));
+    const root = path.join(tmp, 'root');
+    // A file where the data root should be: the watcher cannot start.
+    await writeFile(root, 'not a folder');
+    const { container, logs } = createTestContainer();
+    container.set(EnvVariables, { POWERAGENTS_DATA_ROOT: root });
+    const events = listen(container.resolve(DataRootWatchService));
+    expect(logs.filter(log => log.level === 'warn').map(log => log.message)).toEqual([
+        'Data root watcher failed, restarting',
+    ]);
+
+    // The restart creates the data root and watches it.
+    await rm(root);
+    await Bun.sleep(1500);
+    await mkdir(path.join(root, 'memory'), { recursive: true });
+    await writeFile(path.join(root, 'memory', 'praca.md'), '# Praca\n');
+    await settle();
+
+    expect(events).toEqual([{ type: 'memoryChanged' }] satisfies DataRootEvent[]);
+});
+
 async function setup() {
     const tmp = await mkdtemp(path.join(os.tmpdir(), 'poweragents-data-root-'));
     const root = path.join(tmp, 'root');
@@ -56,14 +87,14 @@ async function setup() {
     const watcher = container.resolve(DataRootWatchService);
     // Started by a first listener, so the folders the tests make are watched; macOS reports nothing that happened
     // before the new watcher's stream got going.
-    watcher.listen(() => undefined);
+    unsubscribes.push(watcher.listen(() => undefined));
     await settle();
     return { watcher, root };
 }
 
 function listen(watcher: DataRootWatchServiceShape) {
     const events: DataRootEvent[] = [];
-    watcher.listen(event => events.push(event));
+    unsubscribes.push(watcher.listen(event => events.push(event)));
     return events;
 }
 
