@@ -43,7 +43,7 @@ loaded* from [projects.md](projects.md)), three components. Decisions the brief 
 - The Memory nav item has no count: the meta would be `$ink-faint`, which fails contrast on the sidebar
   ([projects.md](projects.md) round 2).
 
-- [ ] Organisms (`M1u0SQ`) › Row: new `organisms/Sidebar/Projects and Memory` (`zjgDq`), an instance of
+- [x] Organisms (`M1u0SQ`) › Row: new `organisms/Sidebar/Projects and Memory` (`zjgDq`), an instance of
   `Sidebar/Projects only` with the Nav shown and only its Memory item: `brain`, *Pamięć*, no meta. Selected, it takes
   `$surface-glass` and a 600 label, as a selected project row.
 
@@ -51,10 +51,10 @@ loaded* from [projects.md](projects.md)), three components. Decisions the brief 
 
 - [ ] Molecules (`yh5Lh`) › Columns: new `Memory` column (`y7Y9A`).
 
-- [ ] `molecules/Memory file` (`vvH2u`): new; `file-text` 16 px `$ink-muted`, a 13.5 px `$ink` title, under it a 12 px
+- [x] `molecules/Memory file` (`vvH2u`): new; `file-text` 16 px `$ink-muted`, a 13.5 px `$ink` title, under it a 12 px
   `$ink-muted` "praca.md · wczoraj", and a hidden 7 px `$brand-1-strong` dot *Changed* (`JG7ET`).
 
-- [ ] `molecules/Memory file/Selected` (`JSG3N`): new, an instance of `Memory file`; `$surface-soft` fill, title 600.
+- [x] `molecules/Memory file/Selected` (`JSG3N`): new, an instance of `Memory file`; `$surface-soft` fill, title 600.
 
 - [ ] Molecules › Sidebar: new `molecules/Project row/New` (`bFzM5`), an instance of `Project row` with the pin shown
   as `sparkles` in `$brand-1-strong`.
@@ -65,7 +65,7 @@ loaded* from [projects.md](projects.md)), three components. Decisions the brief 
   szukanie pracy* selected with the dot ("praca.md · przed chwilą"); its preview with H1, a paragraph, *Czego szukam*
   with four bulleted items with bold leads (the last highlighted), *Aplikacje* and a paragraph.
 
-- [ ] 64 Memory · empty (`jVWg0`): new; *Pamięć* selected, only App setup in the sidebar; the centred empty state in
+- [x] 64 Memory · empty (`jVWg0`): new; *Pamięć* selected, only App setup in the sidebar; the centred empty state in
   58's pattern: violet `brain` tile, "Pamięć jest jeszcze pusta", "Tu agent zapisuje, czego dowie się o Tobie: kim
   jesteś, czym się zajmujesz, co lubisz. Wypełni się sama, gdy będziecie rozmawiać — a każdy plik przeczytasz tutaj i
   poprawisz w dowolnym edytorze." No header and no button.
@@ -79,3 +79,16 @@ loaded* from [projects.md](projects.md)), three components. Decisions the brief 
   done steps ("Zapisuję w Pamięci: o-mnie.md", "… praca.md", "Tworzę projekt Szukanie pracy", "Tworzę projekt Posty na
   Instagram"), then what it set up with the two projects as bold-led bullets and a question to go on; *Szukanie pracy*
   and *Posty na Instagram* in the sidebar as `Project row/New`.
+
+## Round 2 · implementation (M2)
+
+Built Memory from 63 and 64; nothing in the drawing failed the accessibility tests. Left unticked: 63, whose preview
+does not mark the changed block with `atoms/Change highlight` (the app knows that a file changed, not which block)
+and whose pinned App setup comes with the next milestone; `Project row/New`, 65 and 66, the next milestone.
+
+Built in code without a drawing, from the screen's own parts; not drawn yet:
+
+- The preview while a file loads (a spinner), and when the file is gone, is over 1 MB or could not be read (a title
+  and a line in the preview's place; the failure with *Spróbuj ponownie* and its details).
+- A quiet line under *Pokaż w Finderze* when the system cannot open the folder yet, or Finder did not open.
+- *Pokaż w Finderze* selects the open file in Finder (the Memory folder when none is open).
