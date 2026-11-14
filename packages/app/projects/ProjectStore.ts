@@ -1,29 +1,35 @@
 import { defineService } from '@nzyme/ioc/Service.js';
+import { assertNever } from '@nzyme/utils/assertNever.js';
 import { createSingleRunner } from '@nzyme/utils/createSingleRunner.js';
 import { computed, reactive, ref } from 'vue';
 
 import { ProjectCreateEndpoint } from '@poweragents/common/api/ProjectCreateEndpoint.js';
 import { ProjectListEndpoint } from '@poweragents/common/api/ProjectListEndpoint.js';
+import type { DaemonEvent } from '@poweragents/common/api/DaemonEventTypes.js';
 import type { Project, ProjectCreateResult } from '@poweragents/common/api/ProjectTypes.js';
 import { compareProjectsByName } from '@poweragents/common/utils/compareProjectsByName.js';
 
 import { DaemonClient } from '@/daemon/DaemonClient.js';
+import { DaemonEventStream } from '@/daemon/DaemonEventStream.js';
 
 /** Where the last opened project's id is kept, so the app reopens it after a restart. */
 const LAST_OPENED_KEY = 'poweragents.lastOpenedProjectId';
 
 /**
- * The person's projects as the daemon lists them, loaded once and kept in step with the projects the app creates, and
- * the project opened last, remembered across restarts.
+ * The person's projects as the daemon lists them, loaded once and kept in step with the projects the app creates and
+ * with the daemon's events (a project folder made or removed outside the app, the agent creating one), and the project
+ * opened last, remembered across restarts.
  */
 export const ProjectStore = defineService({
     name: 'ProjectStore',
-    deps: { daemon: DaemonClient },
-    setup({ daemon }) {
+    deps: { daemon: DaemonClient, events: DaemonEventStream },
+    setup({ daemon, events }) {
         /** `null` until loaded. */
         const projects = ref<Project[] | null>(null);
         const loadError = ref<string | null>(null);
         const loader = createSingleRunner({ handler: load });
+        /** Counts loads, so the answer of a load started before a newer one never replaces the newer list. */
+        let loadSeq = 0;
 
         const state = reactive({
             /** Sorted by name, as the daemon sorts them; `null` until loaded. */
@@ -31,6 +37,8 @@ export const ProjectStore = defineService({
             /** Why the projects could not be loaded; `null` when they were, or have not been tried yet. */
             loadError: computed(() => loadError.value),
         });
+
+        events.event.on(onEvent);
 
         return {
             state,
@@ -74,14 +82,51 @@ export const ProjectStore = defineService({
         }
 
         async function load() {
+            const seq = ++loadSeq;
             try {
                 const list = await daemon(ProjectListEndpoint);
-                projects.value = list;
-                loadError.value = null;
+                if (seq === loadSeq) {
+                    projects.value = list;
+                    loadError.value = null;
+                }
                 return list;
             } catch (error) {
-                loadError.value = error instanceof Error ? error.message : String(error);
+                if (seq === loadSeq) {
+                    loadError.value = error instanceof Error ? error.message : String(error);
+                }
                 throw error;
+            }
+        }
+
+        /** Lists the projects again, past a load already running, which may have read the folder before the change. */
+        function reload() {
+            loader.reset();
+            loader.execute().catch(() => {
+                // The store keeps the failure; a list shown already stays.
+            });
+        }
+
+        function onEvent(event: DaemonEvent) {
+            switch (event.type) {
+                case 'projectsChanged':
+                case 'streamRestored':
+                    // Only a list asked for already: the first load is the shell's.
+                    if (projects.value !== null || loadError.value !== null) {
+                        reload();
+                    }
+                    break;
+                case 'memoryChanged':
+                case 'conversationCreated':
+                case 'conversationRenamed':
+                case 'runningChanged':
+                case 'textDelta':
+                case 'stepStarted':
+                case 'stepFinished':
+                case 'stepFailed':
+                case 'runFinished':
+                    break;
+                default:
+                    assertNever(event);
             }
         }
     },

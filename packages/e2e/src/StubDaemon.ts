@@ -14,6 +14,11 @@ import type {
 } from '@poweragents/common/api/ConversationTypes.js';
 import { DAEMON_EVENTS_PATH } from '@poweragents/common/api/DaemonEventTypes.js';
 import type { DaemonEvent } from '@poweragents/common/api/DaemonEventTypes.js';
+import type {
+    MemoryFileContent,
+    MemoryFileGetResult,
+    MemoryRevealResult,
+} from '@poweragents/common/api/MemoryTypes.js';
 import { PROJECT_NAME_MAX_LENGTH } from '@poweragents/common/api/ProjectTypes.js';
 import type { Project, ProjectCreateResult } from '@poweragents/common/api/ProjectTypes.js';
 import type { SandboxStatus } from '@poweragents/common/api/SandboxTypes.js';
@@ -55,6 +60,10 @@ export class StubDaemon {
     conversations: Record<string, Conversation[]> = {};
     /** Each conversation's messages by conversation id, oldest first; `conversations/messages` serves them in one page. */
     messages: Record<string, ConversationMessage[]> = {};
+    /** The person's Memory files with their text, in any order (the daemon lists them by path). */
+    memory: MemoryFileContent[] = [];
+    /** What the app asked to show in Finder, in order: a Memory file's path, or `null` for the Memory folder. */
+    readonly revealed: (string | null)[] = [];
     /** The messages the app sent, in order. */
     readonly sent: StubSentMessage[] = [];
     /** The endpoints called, in order, by name (`claude/login/start`). */
@@ -204,6 +213,14 @@ export class StubDaemon {
                 return this.stop(readInput(body, 'conversationId'));
             case 'conversations/messages':
                 return { messages: this.messages[readInput(body, 'conversationId')] ?? [] };
+            case 'memory/files':
+                return this.memory
+                    .map(({ content: _content, ...file }) => file)
+                    .toSorted((a, b) => a.path.localeCompare(b.path));
+            case 'memory/file':
+                return this.readMemoryFile(readInput(body, 'path'));
+            case 'memory/reveal':
+                return this.reveal(body);
             case 'claude/status':
                 return this.claude;
             case 'claude/login/start':
@@ -241,6 +258,20 @@ export class StubDaemon {
             throw new Error('The event stream server has no port');
         }
         return `http://127.0.0.1:${address.port}${DAEMON_EVENTS_PATH}`;
+    }
+
+    private readMemoryFile(path: string): MemoryFileGetResult {
+        const file = this.memory.find(item => item.path === path);
+        return file ? { file } : { notFound: true };
+    }
+
+    private reveal(body: string | null): MemoryRevealResult {
+        const path = readInput(body, 'path');
+        if (path !== '' && !this.memory.some(item => item.path === path)) {
+            return { notFound: true };
+        }
+        this.revealed.push(path === '' ? null : path);
+        return { revealed: true };
     }
 
     private createConversation(projectId: string): Conversation {

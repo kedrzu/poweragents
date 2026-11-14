@@ -1,7 +1,8 @@
-<!-- The app after the first run: the projects in the sidebar with the open project's conversations, the open conversation's tab, the screen of the route inside, and the new-project dialog. Starts the daemon's event stream. -->
+<!-- The app after the first run: Memory and the projects in the sidebar with the open project's conversations, the open screen's tab, the screen of the route inside, and the new-project dialog. Starts the daemon's event stream. -->
 
 <script lang="ts" setup>
 import { NuxtPage } from '#components';
+import { Brain } from '@lucide/vue';
 import { useTranslate } from '@nzyme/vue-i18n/useTranslate.js';
 import { provideContext } from '@nzyme/vue-utils/context.js';
 import { useService } from '@nzyme/vue-ioc/useService.js';
@@ -17,6 +18,8 @@ import * as lc from '@/conversations/Conversations.loc.js';
 import { ConversationStore } from '@/conversations/ConversationStore.js';
 import { DaemonEventStream } from '@/daemon/DaemonEventStream.js';
 
+import * as l from './MainShell.loc.js';
+
 import { MainShellContext } from './MainShellContext.js';
 import NewProjectDialog from './NewProjectDialog.vue';
 import { projectColor } from './projectColor.js';
@@ -29,6 +32,7 @@ const events = useService(DaemonEventStream);
 const route = useRoute();
 const shell = provideContext(MainShellContext);
 const t = useTranslate();
+const memoryOpen = computed(() => route.name === 'memory');
 
 const items = computed(() =>
   (store.state.projects ?? []).map((project): ProjectSidebarItem => ({
@@ -85,7 +89,8 @@ store.getProjects().catch(() => undefined);
   <AppShell>
     <template #sidebar>
       <ProjectSidebar
-        :memory-to="{ name: 'home' }"
+        :memory-to="{ name: 'memory' }"
+        :memory-selected="memoryOpen"
         :projects="items"
         :selected-id="selected?.id"
         :conversations="conversations"
@@ -94,7 +99,17 @@ store.getProjects().catch(() => undefined);
       />
     </template>
     <template
-      v-if="selected"
+      v-if="memoryOpen"
+      #header
+    >
+      <ConversationTab
+        :title="t(l.memory)"
+        color="violet"
+        :icon="Brain"
+      />
+    </template>
+    <template
+      v-else-if="selected"
       #header
     >
       <ConversationTab

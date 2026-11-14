@@ -15,6 +15,12 @@ export default {
                     component: () => import('@/projects/HomePage.vue'),
                 },
                 {
+                    // The open file is `?file=<path in the Memory folder>`: a path holds `/`.
+                    path: 'memory',
+                    name: 'memory',
+                    component: () => import('@/memory/MemoryPage.vue'),
+                },
+                {
                     path: 'projects/:projectId',
                     name: 'project',
                     component: () => import('@/projects/ProjectPage.vue'),

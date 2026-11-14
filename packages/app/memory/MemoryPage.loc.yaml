@@ -1,0 +1,11 @@
+loadFailedTitle:
+  en[auto]: Couldn't load your Memory
+  pl: Nie udało się wczytać Pamięci
+
+loadFailedBody:
+  en[auto]: It's not your fault, and your files are safe in the Poweragents folder. Try again; if it happens again, close the app and open it once more.
+  pl: To nie Twój błąd, a Twoje pliki są bezpieczne w folderze Poweragents. Spróbuj ponownie; jeśli to się powtórzy, zamknij aplikację i otwórz ją jeszcze raz.
+
+retry:
+  en[auto]: Try again
+  pl: Spróbuj ponownie

@@ -13,11 +13,11 @@ const ALLOWED_ROUTES: Record<SetupProgress, readonly [string, ...string[]]> = {
     claudePlanNotAllowed: ['setupClaudePlan', 'setupAi', 'setupClaude'],
     // Signing in to Claude again stays open: a conversation whose agent was signed out sends the person there, even
     // while the daemon still counts Claude as connected.
-    done: ['home', 'project', 'conversation', 'setupDone', 'setupAi', 'setupClaude'],
+    done: ['home', 'memory', 'project', 'conversation', 'setupDone', 'setupAi', 'setupClaude'],
 };
 
 /** The app's own screens, past the first run. */
-const APP_ROUTES: readonly string[] = ['home', 'project', 'conversation'];
+const APP_ROUTES: readonly string[] = ['home', 'memory', 'project', 'conversation'];
 
 /**
  * Keeps the first run in order: a navigation goes to a screen allowed where the first run stands, so the app never
