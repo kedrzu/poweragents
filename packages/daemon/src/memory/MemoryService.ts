@@ -26,6 +26,11 @@ export interface MemoryServiceShape {
     list(): Promise<MemoryFile[]>;
     /** One Markdown file by its path relative to the Memory folder, as `list()` gives it. */
     get(relativePath: string): Promise<MemoryFileGetResult>;
+    /**
+     * The absolute path of a Memory file (by its listed path) or, without one, of the Memory folder, checked under the
+     * same rules as `get()`; `null` when there is no such file or folder.
+     */
+    locate(relativePath?: string): Promise<string | null>;
 }
 
 /** What a safe read of a Memory file gives. */
@@ -60,7 +65,7 @@ export const MemoryService = defineService({
     setup({ logger, dataRoot }): MemoryServiceShape {
         const root = path.resolve(dataRoot, MEMORY_FOLDER);
 
-        return { ensureFolder, list, get };
+        return { ensureFolder, list, get, locate };
 
         async function ensureFolder() {
             const created = await mkdir(root, { recursive: true });
@@ -104,6 +109,23 @@ export const MemoryService = defineService({
             } finally {
                 await opened.handle.close();
             }
+        }
+
+        async function locate(relativePath?: string) {
+            if (relativePath === undefined) {
+                return (await isRealFolder(root)) ? root : null;
+            }
+            const segments = toSegments(relativePath);
+            if (!segments) {
+                logger.warn('Memory file path refused', { path: relativePath });
+                return null;
+            }
+            const opened = await openFile(segments);
+            if (!opened) {
+                return null;
+            }
+            await opened.handle.close();
+            return path.join(root, ...segments);
         }
 
         /**

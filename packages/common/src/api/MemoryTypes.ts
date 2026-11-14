@@ -30,3 +30,17 @@ export interface MemoryFileContent extends MemoryFile {
     /** Markdown. */
     content: string;
 }
+
+/** What to show in the computer's file manager. */
+export interface MemoryRevealInput {
+    /** A Memory file, as listed in {@link MemoryFile.path}, selected in its folder; without it, the Memory folder. */
+    path?: string;
+}
+
+/** How showing a Memory file or the Memory folder in the file manager ended. */
+export type MemoryRevealResult =
+    | { revealed: true }
+    /** No such Markdown file inside the Memory folder (or no Memory folder), under the same rules as reading one. */
+    | { notFound: true }
+    /** The daemon cannot open the file manager on this system yet (only macOS's Finder for now). */
+    | { unsupported: true };

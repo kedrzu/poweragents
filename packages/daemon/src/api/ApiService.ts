@@ -20,6 +20,7 @@ import { ConversationSendEndpointHandler } from './ConversationSendEndpoint.hand
 import { ConversationStopEndpointHandler } from './ConversationStopEndpoint.handler.js';
 import { MemoryFileGetEndpointHandler } from './MemoryFileGetEndpoint.handler.js';
 import { MemoryFileListEndpointHandler } from './MemoryFileListEndpoint.handler.js';
+import { MemoryRevealEndpointHandler } from './MemoryRevealEndpoint.handler.js';
 import { ProjectCreateEndpointHandler } from './ProjectCreateEndpoint.handler.js';
 import { ProjectListEndpointHandler } from './ProjectListEndpoint.handler.js';
 import { SandboxStartEndpointHandler } from './SandboxStartEndpoint.handler.js';
@@ -60,6 +61,7 @@ const HANDLERS = [
     ConversationMessageListEndpointHandler,
     MemoryFileListEndpointHandler,
     MemoryFileGetEndpointHandler,
+    MemoryRevealEndpointHandler,
 ];
 
 /**
