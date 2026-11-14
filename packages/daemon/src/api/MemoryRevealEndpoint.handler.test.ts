@@ -28,8 +28,8 @@ test('shows the Memory folder, or a Memory file selected in it', async () => {
     expect(await reveal({ path: 'zdrowie/skóra.md' })).toEqual({ revealed: true });
 
     const expected: RevealInFileManagerCommandParams[] = [
-        { path: dir, kind: 'folder' },
-        { path: path.join(dir, 'zdrowie', 'skóra.md'), kind: 'file' },
+        { path: dir },
+        { path: path.join(dir, 'zdrowie', 'skóra.md') },
     ];
     expect(revealPath.mock.calls.map(([params]) => params)).toEqual(expected);
 });

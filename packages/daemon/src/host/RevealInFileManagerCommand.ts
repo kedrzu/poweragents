@@ -5,8 +5,6 @@ import { Logger } from '@nzyme/logging/Logger.js';
 export interface RevealInFileManagerCommandParams {
     /** An absolute path on this computer, checked by the caller. */
     path: string;
-    /** Kept for callers' clarity; both are shown selected in their parent folder. */
-    kind: 'file' | 'folder';
 }
 
 /** `unsupported` on a system whose file manager the daemon cannot open yet. */
@@ -28,7 +26,7 @@ export const RevealInFileManagerCommand = defineCommand({
     name: 'RevealInFileManagerCommand',
     deps: { logger: Logger },
     setup({ logger }): RevealInFileManagerCommandShape {
-        return async ({ path, kind }) => {
+        return async ({ path }) => {
             if (process.platform !== 'darwin') {
                 logger.info('Revealing in the file manager is not supported here', { platform: process.platform });
                 return 'unsupported';
@@ -36,7 +34,6 @@ export const RevealInFileManagerCommand = defineCommand({
             // Arguments, never a shell: the path is passed as it is, whatever characters it holds. `--` ends the
             // options, so a path is never read as one. Always `-R`, a folder too: Finder then only selects what is at
             // the path and never opens it, so a link the agent swapped in after the check cannot launch an app.
-            logger.debug('Revealing in Finder', { kind });
             const child = Bun.spawn([MACOS_OPEN, '-R', '--', path], {
                 stdin: 'ignore',
                 stdout: 'ignore',

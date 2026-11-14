@@ -57,7 +57,7 @@ import { FileText, FolderOpen, RefreshCw } from '@lucide/vue';
 import { useLanguage } from '@nzyme/vue-i18n/useLanguage.js';
 import { useTranslate } from '@nzyme/vue-i18n/useTranslate.js';
 import { useEmitAsync } from '@nzyme/vue-utils/useEmitAsync.js';
-import { computed, useId } from 'vue';
+import { computed } from 'vue';
 
 import Button from './Button.vue';
 import ErrorDetails from './ErrorDetails.vue';
@@ -73,7 +73,6 @@ defineEmits(MemoryLayoutEmits);
 const t = useTranslate();
 const language = useLanguage();
 const emitAsync = useEmitAsync(MemoryLayoutEmits);
-const titleId = useId();
 const changedLine = computed(() => {
   const preview = props.preview;
   if (preview?.state !== 'file') {
@@ -96,10 +95,7 @@ function retry() {
   <div :class="$style.memoryLayout">
     <header :class="$style.memoryLayout_header">
       <div :class="$style.memoryLayout_intro">
-        <h1
-          :id="titleId"
-          :class="$style.memoryLayout_title"
-        >
+        <h1 :class="$style.memoryLayout_title">
           {{ t(l.title) }}
         </h1>
         <p :class="$style.memoryLayout_body">{{ t(l.body) }}</p>

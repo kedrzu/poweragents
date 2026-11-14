@@ -16,7 +16,7 @@ export const MemoryRevealEndpointHandler = defineEndpointHandler({
             if (located === null) {
                 return { notFound: true };
             }
-            const result = await reveal({ path: located, kind: input.path === undefined ? 'folder' : 'file' });
+            const result = await reveal({ path: located });
             return result === 'revealed' ? { revealed: true } : { unsupported: true };
         };
     },
