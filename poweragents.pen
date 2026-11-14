@@ -814,6 +814,23 @@
                   ]
                 },
                 {
+                  "id": "bFzM5",
+                  "type": "ref",
+                  "reusable": true,
+                  "ref": "QxQVq",
+                  "name": "molecules/Project row/New",
+                  "descendants": {
+                    "AlfMX": {
+                      "content": "Szukanie pracy"
+                    },
+                    "Cisy9": {
+                      "enabled": true,
+                      "icon": "sparkles",
+                      "fill": "$brand-1-strong"
+                    }
+                  }
+                },
+                {
                   "type": "frame",
                   "id": "lpPvh",
                   "name": "molecules/Conversation row",
@@ -1830,6 +1847,100 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "frame",
+              "id": "y7Y9A",
+              "name": "Memory",
+              "width": 340,
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "vvH2u",
+                  "name": "molecules/Memory file",
+                  "reusable": true,
+                  "width": "fill_container",
+                  "cornerRadius": "$radius-m",
+                  "gap": 10,
+                  "padding": [
+                    9,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "iYBxA",
+                      "name": "Icon",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "file-text",
+                      "library": "lucide",
+                      "fill": "$ink-muted"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "E9aobF",
+                      "name": "Text",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "P1uz6",
+                          "name": "Title",
+                          "fill": "$ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Praca i szukanie pracy",
+                          "fontFamily": "$font-body",
+                          "fontSize": 13.5,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "b6Ydc",
+                          "name": "Meta",
+                          "fill": "$ink-muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "praca.md · wczoraj",
+                          "fontFamily": "$font-body",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "JG7ET",
+                      "x": 0,
+                      "y": 0,
+                      "name": "Changed",
+                      "enabled": false,
+                      "fill": "$brand-1-strong",
+                      "width": 7,
+                      "height": 7
+                    }
+                  ]
+                },
+                {
+                  "id": "JSG3N",
+                  "type": "ref",
+                  "reusable": true,
+                  "ref": "vvH2u",
+                  "name": "molecules/Memory file/Selected",
+                  "fill": "$surface-soft",
+                  "descendants": {
+                    "P1uz6": {
+                      "fontWeight": "600"
+                    }
+                  }
+                }
+              ]
             }
           ]
         }
@@ -2516,6 +2627,39 @@
                   ]
                 },
                 "cTcb4": {
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "id": "zjgDq",
+              "type": "ref",
+              "reusable": true,
+              "ref": "PxUyk",
+              "name": "organisms/Sidebar/Projects and Memory",
+              "descendants": {
+                "y8k2gM": {
+                  "enabled": true
+                },
+                "ZQNY0": {
+                  "enabled": false
+                },
+                "vRDAC/aPts3": {
+                  "icon": "brain"
+                },
+                "vRDAC/IGNqc": {
+                  "content": "Pamięć"
+                },
+                "vRDAC/xXA62": {
+                  "enabled": false
+                },
+                "xCNm3": {
+                  "enabled": false
+                },
+                "NgRfK": {
+                  "enabled": false
+                },
+                "p1ufk": {
                   "enabled": false
                 }
               }
@@ -4216,7 +4360,7 @@
     {
       "type": "frame",
       "id": "C1PeFe",
-      "x": 2020,
+      "x": 2340,
       "y": -848,
       "name": "Daily work · components",
       "theme": {
@@ -25211,6 +25355,1515 @@
             },
             {
               "id": "z9nKh",
+              "type": "ref",
+              "ref": "uuLci",
+              "name": "Composer",
+              "width": 720,
+              "descendants": {
+                "p6GTa": {
+                  "content": "Napisz do agenta…"
+                },
+                "DvNYs": {
+                  "enabled": false
+                },
+                "cYALa": {
+                  "enabled": false
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "H05Qi4",
+      "type": "ref",
+      "ref": "JaaCj",
+      "name": "63 Memory · files",
+      "x": 0,
+      "y": 16409,
+      "theme": {
+        "palette": "meadow"
+      },
+      "descendants": {
+        "V87knr": {
+          "id": "wsjyA",
+          "type": "ref",
+          "ref": "zjgDq",
+          "name": "Sidebar",
+          "descendants": {
+            "vRDAC": {
+              "fill": "$surface-glass"
+            },
+            "vRDAC/IGNqc": {
+              "fontWeight": "600"
+            },
+            "bSPlA": {
+              "children": [
+                {
+                  "id": "BWacO",
+                  "type": "ref",
+                  "ref": "QxQVq",
+                  "name": "App setup",
+                  "descendants": {
+                    "dmWzY": {
+                      "fill": "$project-slate",
+                      "icon": "folder"
+                    },
+                    "AlfMX": {
+                      "content": "App setup"
+                    },
+                    "Cisy9": {
+                      "enabled": true
+                    },
+                    "qYhP0": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "Kcqm3",
+                  "type": "ref",
+                  "ref": "QxQVq",
+                  "name": "Szukanie pracy",
+                  "descendants": {
+                    "dmWzY": {
+                      "fill": "$project-blue",
+                      "icon": "folder"
+                    },
+                    "AlfMX": {
+                      "content": "Szukanie pracy"
+                    },
+                    "Cisy9": {
+                      "enabled": false
+                    },
+                    "qYhP0": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "Ckx1A",
+                  "type": "ref",
+                  "ref": "QxQVq",
+                  "name": "Posty na Instagram",
+                  "descendants": {
+                    "dmWzY": {
+                      "fill": "$project-amber",
+                      "icon": "folder"
+                    },
+                    "AlfMX": {
+                      "content": "Posty na Instagram"
+                    },
+                    "Cisy9": {
+                      "enabled": false
+                    },
+                    "qYhP0": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "D78vS",
+                  "type": "ref",
+                  "ref": "QxQVq",
+                  "name": "Zdrowie",
+                  "descendants": {
+                    "dmWzY": {
+                      "fill": "$project-pink",
+                      "icon": "folder"
+                    },
+                    "AlfMX": {
+                      "content": "Zdrowie"
+                    },
+                    "Cisy9": {
+                      "enabled": false
+                    },
+                    "qYhP0": {
+                      "enabled": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "c0GQTX/zHLo4": {
+          "children": [
+            {
+              "id": "I2Ob6",
+              "type": "ref",
+              "ref": "Mc2Yy",
+              "name": "Tab Pamięć",
+              "descendants": {
+                "hLTUY": {
+                  "icon": "brain",
+                  "fill": "$project-violet"
+                },
+                "zs1nz": {
+                  "content": "Pamięć"
+                },
+                "m3uLD": {
+                  "enabled": false
+                },
+                "nxa4D": {
+                  "enabled": false
+                }
+              }
+            }
+          ]
+        },
+        "PMXH9": {
+          "padding": [
+            28,
+            36,
+            0,
+            36
+          ],
+          "gap": 22,
+          "alignItems": "start",
+          "children": [
+            {
+              "type": "frame",
+              "id": "psjeu",
+              "name": "Header",
+              "width": "fill_container",
+              "gap": 24,
+              "justifyContent": "space_between",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Dr1LD",
+                  "name": "Title",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "vIMVd",
+                      "name": "Title",
+                      "fill": "$ink",
+                      "content": "Pamięć",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "JsDHX",
+                      "name": "Quiet line",
+                      "fill": "$ink-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Agent zapisuje tu, czego dowiaduje się o Tobie. To zwykłe pliki — możesz je też poprawiać w dowolnym edytorze.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "id": "suobe",
+                  "type": "ref",
+                  "ref": "c1lNY",
+                  "name": "Pokaż w Finderze",
+                  "descendants": {
+                    "K2mQY": {
+                      "icon": "folder-open"
+                    },
+                    "QINi0": {
+                      "content": "Pokaż w Finderze"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "YUjhG",
+              "name": "Body",
+              "width": "fill_container",
+              "height": "fill_container",
+              "stroke": "$border",
+              "strokeWidth": {
+                "top": 1
+              },
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Snsxi",
+                  "name": "Files",
+                  "width": 300,
+                  "height": "fill_container",
+                  "stroke": "$border",
+                  "strokeWidth": {
+                    "right": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 2,
+                  "padding": [
+                    14,
+                    14,
+                    14,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "id": "oZJoT",
+                      "type": "ref",
+                      "ref": "JSG3N",
+                      "name": "Praca i szukanie pracy",
+                      "descendants": {
+                        "P1uz6": {
+                          "content": "Praca i szukanie pracy"
+                        },
+                        "b6Ydc": {
+                          "content": "praca.md · przed chwilą"
+                        },
+                        "JG7ET": {
+                          "enabled": true
+                        }
+                      }
+                    },
+                    {
+                      "id": "LV1rc",
+                      "type": "ref",
+                      "ref": "vvH2u",
+                      "name": "O mnie",
+                      "descendants": {
+                        "P1uz6": {
+                          "content": "O mnie"
+                        },
+                        "b6Ydc": {
+                          "content": "o-mnie.md · wczoraj"
+                        }
+                      }
+                    },
+                    {
+                      "id": "gEkfX",
+                      "type": "ref",
+                      "ref": "vvH2u",
+                      "name": "Skóra i pielęgnacja",
+                      "descendants": {
+                        "P1uz6": {
+                          "content": "Skóra i pielęgnacja"
+                        },
+                        "b6Ydc": {
+                          "content": "skora.md · we wtorek"
+                        }
+                      }
+                    },
+                    {
+                      "id": "TIyYE",
+                      "type": "ref",
+                      "ref": "vvH2u",
+                      "name": "Instagram",
+                      "descendants": {
+                        "P1uz6": {
+                          "content": "Instagram"
+                        },
+                        "b6Ydc": {
+                          "content": "instagram.md · 8 listopada"
+                        }
+                      }
+                    },
+                    {
+                      "id": "d2S6E",
+                      "type": "ref",
+                      "ref": "vvH2u",
+                      "name": "Jak lubię pracować",
+                      "descendants": {
+                        "P1uz6": {
+                          "content": "Jak lubię pracować"
+                        },
+                        "b6Ydc": {
+                          "content": "jak-lubie-pracowac.md · 5 listopada"
+                        }
+                      }
+                    },
+                    {
+                      "id": "lnPME",
+                      "type": "ref",
+                      "ref": "vvH2u",
+                      "name": "Ludzie",
+                      "descendants": {
+                        "P1uz6": {
+                          "content": "Ludzie"
+                        },
+                        "b6Ydc": {
+                          "content": "ludzie.md · 2 listopada"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "DLz3f",
+                  "name": "Preview",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "layout": "vertical",
+                  "padding": [
+                    24,
+                    0,
+                    24,
+                    48
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "s2QWwB",
+                      "name": "Page",
+                      "width": 620,
+                      "layout": "vertical",
+                      "gap": 14,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "FQbCz",
+                          "name": "File meta",
+                          "gap": 7,
+                          "padding": [
+                            0,
+                            0,
+                            6,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "LpIg5",
+                              "name": "Icon",
+                              "width": 13,
+                              "height": 13,
+                              "icon": "file-text",
+                              "library": "lucide",
+                              "fill": "$ink-muted"
+                            },
+                            {
+                              "type": "text",
+                              "id": "WrUfy",
+                              "name": "Label",
+                              "fill": "$ink-muted",
+                              "content": "praca.md · zmieniony przed chwilą",
+                              "fontFamily": "$font-body",
+                              "fontSize": 12.5,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "w6b7F",
+                          "name": "H1",
+                          "fill": "$ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Praca i szukanie pracy",
+                          "lineHeight": 1.25,
+                          "fontFamily": "$font-heading",
+                          "fontSize": 30,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "UsrM9",
+                          "name": "Paragraph",
+                          "fill": "$ink-body",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Projektantka produktu, dziewięć lat doświadczenia, głównie fintech (Revolut, potem startup płatniczy). Najmocniejsza w upraszczaniu zagmatwanych procesów.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "$font-body",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "zHIlz",
+                          "name": "H2",
+                          "fill": "$ink",
+                          "content": "Czego szukam",
+                          "lineHeight": 1.3,
+                          "fontFamily": "$font-heading",
+                          "fontSize": 19,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "BO4pA",
+                          "name": "List",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "ym0uK",
+                              "name": "Item 1",
+                              "width": "fill_container",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "QUhfj",
+                                  "name": "Bullet",
+                                  "fill": "$ink-muted",
+                                  "content": "•",
+                                  "lineHeight": 1.6,
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "O2fSr",
+                                  "name": "Gap",
+                                  "width": 12,
+                                  "height": 1
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "LDfHf",
+                                  "name": "Bold",
+                                  "fill": "$ink",
+                                  "content": "Rola:",
+                                  "lineHeight": 1.6,
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 16,
+                                  "fontWeight": "700"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "QWtl0",
+                                  "name": "Text",
+                                  "fill": "$ink-body",
+                                  "content": " senior product designer",
+                                  "lineHeight": 1.6,
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "ysbX0",
+                              "name": "Item 2",
+                              "width": "fill_container",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "w6pWa",
+                                  "name": "Bullet",
+                                  "fill": "$ink-muted",
+                                  "content": "•",
+                                  "lineHeight": 1.6,
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "azDxu",
+                                  "name": "Gap",
+                                  "width": 12,
+                                  "height": 1
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "Z46jK",
+                                  "name": "Bold",
+                                  "fill": "$ink",
+                                  "content": "Gdzie:",
+                                  "lineHeight": 1.6,
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 16,
+                                  "fontWeight": "700"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "kO8vB",
+                                  "name": "Text",
+                                  "fill": "$ink-body",
+                                  "content": " hybrydowo w Warszawie albo zdalnie w UE",
+                                  "lineHeight": 1.6,
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "A3W0t",
+                              "name": "Item 3",
+                              "width": "fill_container",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "GqGaJ",
+                                  "name": "Bullet",
+                                  "fill": "$ink-muted",
+                                  "content": "•",
+                                  "lineHeight": 1.6,
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "vsq9X",
+                                  "name": "Gap",
+                                  "width": 12,
+                                  "height": 1
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "WMESO",
+                                  "name": "Bold",
+                                  "fill": "$ink",
+                                  "content": "Wynagrodzenie:",
+                                  "lineHeight": 1.6,
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 16,
+                                  "fontWeight": "700"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "OlPwN",
+                                  "name": "Text",
+                                  "fill": "$ink-body",
+                                  "content": " od 18 000 zł miesięcznie",
+                                  "lineHeight": 1.6,
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "S76GKU",
+                              "name": "Item 4",
+                              "width": "fill_container",
+                              "children": [
+                                {
+                                  "id": "uO69N",
+                                  "type": "ref",
+                                  "ref": "lns0L",
+                                  "name": "Change highlight",
+                                  "layoutPosition": "absolute",
+                                  "x": -12,
+                                  "y": -6,
+                                  "width": 644,
+                                  "height": 38
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "Itz0z",
+                                  "name": "Bullet",
+                                  "fill": "$ink-muted",
+                                  "content": "•",
+                                  "lineHeight": 1.6,
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "SHYHB",
+                                  "name": "Gap",
+                                  "width": 12,
+                                  "height": 1
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "Enrxy",
+                                  "name": "Bold",
+                                  "fill": "$ink",
+                                  "content": "Branża:",
+                                  "lineHeight": 1.6,
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 16,
+                                  "fontWeight": "700"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "GprWJ",
+                                  "name": "Text",
+                                  "fill": "$ink-body",
+                                  "content": " health tech albo fintech, bez krypto",
+                                  "lineHeight": 1.6,
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "pE0Vx",
+                          "name": "H2",
+                          "fill": "$ink",
+                          "content": "Aplikacje",
+                          "lineHeight": 1.3,
+                          "fontFamily": "$font-heading",
+                          "fontSize": 19,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "MlWsJ",
+                          "name": "Paragraph",
+                          "fill": "$ink-body",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Prowadzone w projekcie Szukanie pracy. Listy motywacyjne krótkie: trzy akapity, bez korpomowy.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "$font-body",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "jVWg0",
+      "type": "ref",
+      "ref": "JaaCj",
+      "name": "64 Memory · empty",
+      "x": 1540,
+      "y": 16409,
+      "theme": {
+        "palette": "meadow"
+      },
+      "descendants": {
+        "V87knr": {
+          "id": "uS2uG",
+          "type": "ref",
+          "ref": "zjgDq",
+          "name": "Sidebar",
+          "descendants": {
+            "vRDAC": {
+              "fill": "$surface-glass"
+            },
+            "vRDAC/IGNqc": {
+              "fontWeight": "600"
+            },
+            "bSPlA": {
+              "children": [
+                {
+                  "id": "r1sbBi",
+                  "type": "ref",
+                  "ref": "QxQVq",
+                  "name": "App setup",
+                  "descendants": {
+                    "dmWzY": {
+                      "fill": "$project-slate",
+                      "icon": "folder"
+                    },
+                    "AlfMX": {
+                      "content": "App setup"
+                    },
+                    "Cisy9": {
+                      "enabled": true
+                    },
+                    "qYhP0": {
+                      "enabled": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "c0GQTX/zHLo4": {
+          "children": [
+            {
+              "id": "sn3YO",
+              "type": "ref",
+              "ref": "Mc2Yy",
+              "name": "Tab Pamięć",
+              "descendants": {
+                "hLTUY": {
+                  "icon": "brain",
+                  "fill": "$project-violet"
+                },
+                "zs1nz": {
+                  "content": "Pamięć"
+                },
+                "m3uLD": {
+                  "enabled": false
+                },
+                "nxa4D": {
+                  "enabled": false
+                }
+              }
+            }
+          ]
+        },
+        "PMXH9": {
+          "padding": 48,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "gap": 0,
+          "children": [
+            {
+              "type": "frame",
+              "id": "bChLZ",
+              "name": "Empty state",
+              "width": 520,
+              "layout": "vertical",
+              "gap": 20,
+              "alignItems": "center",
+              "children": [
+                {
+                  "id": "rXV7F",
+                  "type": "ref",
+                  "ref": "n2BS1f",
+                  "name": "Tile",
+                  "fill": "$project-violet-soft",
+                  "descendants": {
+                    "bPnwO": {
+                      "icon": "brain",
+                      "fill": "$project-violet"
+                    }
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "t7pAPV",
+                  "name": "Text",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "j9cTLU",
+                      "name": "Title",
+                      "fill": "$ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Pamięć jest jeszcze pusta",
+                      "textAlign": "center",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "EjsLS",
+                      "name": "Lede",
+                      "fill": "$ink-body",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Tu agent zapisuje, czego dowie się o Tobie: kim jesteś, czym się zajmujesz, co lubisz. Wypełni się sama, gdy będziecie rozmawiać — a każdy plik przeczytasz tutaj i poprawisz w dowolnym edytorze.",
+                      "lineHeight": 1.55,
+                      "textAlign": "center",
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "S0DbX",
+      "type": "ref",
+      "ref": "JaaCj",
+      "name": "65 Day one · App setup",
+      "x": 3080,
+      "y": 16409,
+      "theme": {
+        "palette": "meadow"
+      },
+      "descendants": {
+        "V87knr": {
+          "id": "idiw2",
+          "type": "ref",
+          "ref": "zjgDq",
+          "name": "Sidebar",
+          "descendants": {
+            "bSPlA": {
+              "children": [
+                {
+                  "id": "G6Kas",
+                  "type": "ref",
+                  "ref": "QxQVq",
+                  "name": "App setup",
+                  "fill": "$surface-glass",
+                  "descendants": {
+                    "dmWzY": {
+                      "fill": "$project-slate",
+                      "icon": "folder-open"
+                    },
+                    "AlfMX": {
+                      "content": "App setup",
+                      "fontWeight": "600"
+                    },
+                    "Cisy9": {
+                      "enabled": true
+                    },
+                    "qYhP0": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "o1s99",
+                  "name": "App setup conversations",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 1,
+                  "padding": [
+                    2,
+                    0,
+                    4,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "id": "iU0hR",
+                      "type": "ref",
+                      "ref": "lpPvh",
+                      "name": "Nowa rozmowa",
+                      "descendants": {
+                        "KdzmS": {
+                          "icon": "plus"
+                        },
+                        "j74np": {
+                          "content": "Nowa rozmowa"
+                        },
+                        "g1fOgp": {
+                          "enabled": false
+                        },
+                        "FsA04": {
+                          "enabled": false
+                        }
+                      }
+                    },
+                    {
+                      "id": "D0RZxq",
+                      "type": "ref",
+                      "ref": "lpPvh",
+                      "name": "Poznajmy się",
+                      "fill": "$surface",
+                      "descendants": {
+                        "KdzmS": {
+                          "icon": "message-circle"
+                        },
+                        "j74np": {
+                          "content": "Poznajmy się",
+                          "fill": "$ink",
+                          "fontWeight": "600"
+                        },
+                        "g1fOgp": {
+                          "enabled": false
+                        },
+                        "FsA04": {
+                          "enabled": false
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "c0GQTX/zHLo4": {
+          "children": [
+            {
+              "id": "h3ubQM",
+              "type": "ref",
+              "ref": "Mc2Yy",
+              "name": "Tab Poznajmy się",
+              "descendants": {
+                "hLTUY": {
+                  "icon": "message-circle",
+                  "fill": "$project-slate"
+                },
+                "zs1nz": {
+                  "content": "Poznajmy się"
+                },
+                "m3uLD": {
+                  "enabled": false
+                },
+                "nxa4D": {
+                  "enabled": false
+                }
+              }
+            }
+          ]
+        },
+        "PMXH9": {
+          "children": [
+            {
+              "type": "frame",
+              "id": "mZ8kM",
+              "name": "Column",
+              "width": 680,
+              "layout": "vertical",
+              "gap": 22,
+              "children": [
+                {
+                  "id": "jwEtm",
+                  "type": "ref",
+                  "ref": "pmiBI",
+                  "name": "Agent message",
+                  "width": "fill_container",
+                  "descendants": {
+                    "S9TZJo": {
+                      "type": "frame",
+                      "id": "RJsIQ",
+                      "name": "Body",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 14,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "IYTyK",
+                          "name": "Text",
+                          "fill": "$ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Cześć! Jestem Twoim agentem. Pracuję na plikach w Twoich projektach, szukam dla Ciebie informacji w internecie i robię to, o co poprosisz.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "$font-body",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ZcwOT",
+                          "name": "Text",
+                          "fill": "$ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Najpierw chcę Cię trochę poznać. To, czego się dowiem, zapiszę w Pamięci — zawsze możesz to przeczytać i poprawić.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "$font-body",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "RAySs",
+                          "name": "Text",
+                          "fill": "$ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Jak mam się do Ciebie zwracać i czym się zajmujesz na co dzień?",
+                          "lineHeight": 1.6,
+                          "fontFamily": "$font-body",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "TwnVK",
+              "name": "Flex",
+              "width": 10,
+              "height": "fill_container"
+            },
+            {
+              "id": "M9rDg",
+              "type": "ref",
+              "ref": "uuLci",
+              "name": "Composer",
+              "width": 720,
+              "descendants": {
+                "p6GTa": {
+                  "content": "Napisz kilka słów o sobie…"
+                },
+                "DvNYs": {
+                  "enabled": false
+                },
+                "cYALa": {
+                  "enabled": false
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "AeJAU",
+      "type": "ref",
+      "ref": "JaaCj",
+      "name": "66 Day one · the sidebar fills in",
+      "x": 4620,
+      "y": 16409,
+      "theme": {
+        "palette": "meadow"
+      },
+      "descendants": {
+        "V87knr": {
+          "id": "b4XxpT",
+          "type": "ref",
+          "ref": "zjgDq",
+          "name": "Sidebar",
+          "descendants": {
+            "bSPlA": {
+              "children": [
+                {
+                  "id": "nVhZn",
+                  "type": "ref",
+                  "ref": "QxQVq",
+                  "name": "App setup",
+                  "fill": "$surface-glass",
+                  "descendants": {
+                    "dmWzY": {
+                      "fill": "$project-slate",
+                      "icon": "folder-open"
+                    },
+                    "AlfMX": {
+                      "content": "App setup",
+                      "fontWeight": "600"
+                    },
+                    "Cisy9": {
+                      "enabled": true
+                    },
+                    "qYhP0": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "d6Fag",
+                  "name": "App setup conversations",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 1,
+                  "padding": [
+                    2,
+                    0,
+                    4,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "id": "SEqtt",
+                      "type": "ref",
+                      "ref": "lpPvh",
+                      "name": "Nowa rozmowa",
+                      "descendants": {
+                        "KdzmS": {
+                          "icon": "plus"
+                        },
+                        "j74np": {
+                          "content": "Nowa rozmowa"
+                        },
+                        "g1fOgp": {
+                          "enabled": false
+                        },
+                        "FsA04": {
+                          "enabled": false
+                        }
+                      }
+                    },
+                    {
+                      "id": "avsfB",
+                      "type": "ref",
+                      "ref": "lpPvh",
+                      "name": "Poznajmy się",
+                      "fill": "$surface",
+                      "descendants": {
+                        "KdzmS": {
+                          "icon": "message-circle"
+                        },
+                        "j74np": {
+                          "content": "Poznajmy się",
+                          "fill": "$ink",
+                          "fontWeight": "600"
+                        },
+                        "g1fOgp": {
+                          "enabled": false
+                        },
+                        "FsA04": {
+                          "enabled": false
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "kqAMZ",
+                  "type": "ref",
+                  "ref": "bFzM5",
+                  "name": "Szukanie pracy",
+                  "descendants": {
+                    "dmWzY": {
+                      "fill": "$project-blue",
+                      "icon": "folder"
+                    },
+                    "AlfMX": {
+                      "content": "Szukanie pracy"
+                    },
+                    "qYhP0": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "Z40kB",
+                  "type": "ref",
+                  "ref": "bFzM5",
+                  "name": "Posty na Instagram",
+                  "descendants": {
+                    "dmWzY": {
+                      "fill": "$project-amber",
+                      "icon": "folder"
+                    },
+                    "AlfMX": {
+                      "content": "Posty na Instagram"
+                    },
+                    "qYhP0": {
+                      "enabled": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "c0GQTX/zHLo4": {
+          "children": [
+            {
+              "id": "dqrXS",
+              "type": "ref",
+              "ref": "Mc2Yy",
+              "name": "Tab Poznajmy się",
+              "descendants": {
+                "hLTUY": {
+                  "icon": "message-circle",
+                  "fill": "$project-slate"
+                },
+                "zs1nz": {
+                  "content": "Poznajmy się"
+                },
+                "m3uLD": {
+                  "enabled": false
+                },
+                "nxa4D": {
+                  "enabled": false
+                }
+              }
+            }
+          ]
+        },
+        "PMXH9": {
+          "children": [
+            {
+              "type": "frame",
+              "id": "Jft9w",
+              "name": "Column",
+              "width": 680,
+              "layout": "vertical",
+              "gap": 22,
+              "children": [
+                {
+                  "id": "a8Fl3C",
+                  "type": "ref",
+                  "ref": "Xtqoj",
+                  "name": "User message",
+                  "descendants": {
+                    "u2BlxK": {
+                      "content": "Jestem Anna, projektantka produktu. Szukam nowej pracy, a po godzinach prowadzę Instagram o pielęgnacji skóry."
+                    }
+                  }
+                },
+                {
+                  "id": "HH3W2",
+                  "type": "ref",
+                  "ref": "pmiBI",
+                  "name": "Agent message",
+                  "width": "fill_container",
+                  "descendants": {
+                    "S9TZJo": {
+                      "type": "frame",
+                      "id": "zsFyf",
+                      "name": "Body",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 14,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "cRY13",
+                          "name": "Text",
+                          "fill": "$ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Miło mi, Anno. W czym mogę Ci pomóc najbardziej — przy szukaniu pracy, przy Instagramie, czy w czymś zupełnie innym?",
+                          "lineHeight": 1.6,
+                          "fontFamily": "$font-body",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "qmWup",
+                  "type": "ref",
+                  "ref": "Xtqoj",
+                  "name": "User message",
+                  "descendants": {
+                    "u2BlxK": {
+                      "content": "Przeglądaj dla mnie oferty pracy i podsuwaj pomysły na posty."
+                    }
+                  }
+                },
+                {
+                  "id": "dOz1A",
+                  "type": "ref",
+                  "ref": "pmiBI",
+                  "name": "Agent message",
+                  "width": "fill_container",
+                  "descendants": {
+                    "S9TZJo": {
+                      "type": "frame",
+                      "id": "Ujc5d",
+                      "name": "Body",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "id": "mVMHe",
+                          "type": "ref",
+                          "ref": "ErRt3",
+                          "name": "Step list",
+                          "width": "fill_container",
+                          "descendants": {
+                            "TybFl": {
+                              "children": [
+                                {
+                                  "id": "NiUu5",
+                                  "type": "ref",
+                                  "ref": "OT2tB",
+                                  "name": "Step",
+                                  "descendants": {
+                                    "yQPo7": {
+                                      "content": "Zapisuję w Pamięci: o-mnie.md"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "ZuQxF",
+                                  "type": "ref",
+                                  "ref": "OT2tB",
+                                  "name": "Step",
+                                  "descendants": {
+                                    "yQPo7": {
+                                      "content": "Zapisuję w Pamięci: praca.md"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "Q6Js51",
+                                  "type": "ref",
+                                  "ref": "OT2tB",
+                                  "name": "Step",
+                                  "descendants": {
+                                    "yQPo7": {
+                                      "content": "Tworzę projekt Szukanie pracy"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "RlgMr",
+                                  "type": "ref",
+                                  "ref": "OT2tB",
+                                  "name": "Step",
+                                  "descendants": {
+                                    "yQPo7": {
+                                      "content": "Tworzę projekt Posty na Instagram"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "Vr1io",
+                          "name": "Text",
+                          "fill": "$ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Gotowe. W Pamięci jest teraz to, kim jesteś i jakiej pracy szukasz — zajrzyj tam i popraw, jeśli coś się nie zgadza. Po lewej masz dwa nowe projekty:",
+                          "lineHeight": 1.6,
+                          "fontFamily": "$font-body",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "SyDG5",
+                          "name": "List",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "ltamQ",
+                              "name": "Item 1",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "FKOCn",
+                                  "name": "Bullet",
+                                  "fill": "$ink-muted",
+                                  "content": "•",
+                                  "lineHeight": 1.6,
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "lPEAy",
+                                  "name": "Gap",
+                                  "width": 12,
+                                  "height": 1
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "Nf9RM",
+                                  "name": "Bold",
+                                  "fill": "$ink",
+                                  "content": "Szukanie pracy",
+                                  "lineHeight": 1.6,
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 16,
+                                  "fontWeight": "700"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "NEhga",
+                                  "name": "Text",
+                                  "fill": "$ink",
+                                  "content": " — oferty, CV i listy motywacyjne",
+                                  "lineHeight": 1.6,
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "PhRPb",
+                              "name": "Item 2",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "ZNQYH",
+                                  "name": "Bullet",
+                                  "fill": "$ink-muted",
+                                  "content": "•",
+                                  "lineHeight": 1.6,
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "MEpFB",
+                                  "name": "Gap",
+                                  "width": 12,
+                                  "height": 1
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "F6nB6x",
+                                  "name": "Bold",
+                                  "fill": "$ink",
+                                  "content": "Posty na Instagram",
+                                  "lineHeight": 1.6,
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 16,
+                                  "fontWeight": "700"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "zfHVM",
+                                  "name": "Text",
+                                  "fill": "$ink",
+                                  "content": " — pomysły i szkice postów o pielęgnacji",
+                                  "lineHeight": 1.6,
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "wpbnA",
+                          "name": "Text",
+                          "fill": "$ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Od czego zaczynamy: przejrzeć dzisiejsze oferty czy wymyślić posty na ten tydzień?",
+                          "lineHeight": 1.6,
+                          "fontFamily": "$font-body",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "PtsnK",
+              "name": "Flex",
+              "width": 10,
+              "height": "fill_container"
+            },
+            {
+              "id": "W49Mi",
               "type": "ref",
               "ref": "uuLci",
               "name": "Composer",

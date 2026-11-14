@@ -158,3 +158,4 @@ Append-only. One line per turn that settled something, was rejected, or got an a
 - 2026-11-13 — Owner: Sonnet by default with Claude, Terra with ChatGPT; a model and reasoning-effort switch later (D35).
 - 2026-11-13 — Conversations design round from .context/conversation-brief.md: screens 56–61 (agent working, finished, a project's conversations with *Nowa rozmowa* in the sidebar, the agent could not answer, signed out of Claude, usage limit) and five step and error molecules; log in history/conversations.md.
 - 2026-11-13 — Checked with the owner: sandbox conversations draw from the Claude plan, not extra usage (D2).
+- 2026-11-14 — Memory and App setup design round from .context/memory-app-setup-brief.md: screens 63–66 (Memory with files and empty, day one in App setup and the sidebar filling in), a sidebar with the Memory entry, the Memory file row and a "new" project row; log in history/memory-and-app-setup.md.
