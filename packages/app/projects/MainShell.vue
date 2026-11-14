@@ -1,4 +1,4 @@
-<!-- The app after the first run: Memory and the projects in the sidebar with the open project's conversations, the open screen's tab, the screen of the route inside, and the new-project dialog. Starts the daemon's event stream. -->
+<!-- The app after the first run: Memory and the projects in the sidebar (App setup pinned first, a project not opened yet marked new) with the open project's conversations, the open screen's tab, the screen of the route inside, and the new-project dialog. Starts the daemon's event stream. -->
 
 <script lang="ts" setup>
 import { NuxtPage } from '#components';
@@ -35,12 +35,16 @@ const t = useTranslate();
 const memoryOpen = computed(() => route.name === 'memory');
 
 const items = computed(() =>
-  (store.state.projects ?? []).map((project): ProjectSidebarItem => ({
-    id: project.id,
-    name: project.name,
-    color: projectColor(project.id),
-    to: { name: 'project', params: { projectId: project.id } },
-  })),
+  (store.state.projects ?? [])
+    // Stable: the rest keep the daemon's order by name.
+    .toSorted((a, b) => Number(b.role === 'appSetup') - Number(a.role === 'appSetup'))
+    .map((project): ProjectSidebarItem => ({
+      id: project.id,
+      name: project.name,
+      color: project.role === 'appSetup' ? 'slate' : projectColor(project.id),
+      to: { name: 'project', params: { projectId: project.id } },
+      mark: project.role === 'appSetup' ? 'pinned' : store.isNew(project) ? 'new' : undefined,
+    })),
 );
 const selected = computed(() => {
   const projectId = route.name === 'project' || route.name === 'conversation' ? route.params['projectId'] : undefined;
@@ -72,6 +76,7 @@ watch(
   projectId => {
     if (projectId) {
       conversationStore.open(projectId);
+      store.markOpened(projectId);
     }
   },
   { immediate: true },

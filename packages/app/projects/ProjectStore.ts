@@ -1,8 +1,12 @@
+import { Translator } from '@nzyme/i18n/Translator.js';
 import { defineService } from '@nzyme/ioc/Service.js';
+import { Logger } from '@nzyme/logging/Logger.js';
 import { assertNever } from '@nzyme/utils/assertNever.js';
 import { createSingleRunner } from '@nzyme/utils/createSingleRunner.js';
 import { computed, reactive, ref } from 'vue';
 
+import { AppSetupStartEndpoint } from '@poweragents/common/api/AppSetupStartEndpoint.js';
+import type { ConversationRef } from '@poweragents/common/api/ConversationTypes.js';
 import { ProjectCreateEndpoint } from '@poweragents/common/api/ProjectCreateEndpoint.js';
 import { ProjectListEndpoint } from '@poweragents/common/api/ProjectListEndpoint.js';
 import type { DaemonEvent } from '@poweragents/common/api/DaemonEventTypes.js';
@@ -11,25 +15,43 @@ import { compareProjectsByName } from '@poweragents/common/utils/compareProjects
 
 import { DaemonClient } from '@/daemon/DaemonClient.js';
 import { DaemonEventStream } from '@/daemon/DaemonEventStream.js';
+import { LanguageStore } from '@/i18n/LanguageStore.js';
+
+import * as l from './ProjectStore.loc.js';
 
 /** Where the last opened project's id is kept, so the app reopens it after a restart. */
 const LAST_OPENED_KEY = 'poweragents.lastOpenedProjectId';
+/** Where the ids of the projects ever opened are kept: any other project is marked new (design 66). */
+const OPENED_KEY = 'poweragents.openedProjectIds';
 
 /**
  * The person's projects as the daemon lists them, loaded once and kept in step with the projects the app creates and
- * with the daemon's events (a project folder made or removed outside the app, the agent creating one), and the project
- * opened last, remembered across restarts.
+ * with the daemon's events (a project folder made or removed outside the app, the agent creating one); the project
+ * opened last and the projects ever opened, remembered across restarts. The first load asks the daemon for App setup,
+ * which it creates once per profile with its onboarding conversation started.
  */
 export const ProjectStore = defineService({
     name: 'ProjectStore',
-    deps: { daemon: DaemonClient, events: DaemonEventStream },
-    setup({ daemon, events }) {
+    deps: {
+        daemon: DaemonClient,
+        events: DaemonEventStream,
+        language: LanguageStore,
+        translator: Translator,
+        logger: Logger,
+    },
+    setup({ daemon, events, language, translator, logger }) {
         /** `null` until loaded. */
         const projects = ref<Project[] | null>(null);
         const loadError = ref<string | null>(null);
         const loader = createSingleRunner({ handler: load });
         /** Counts loads, so the answer of a load started before a newer one never replaces the newer list. */
         let loadSeq = 0;
+        /** The projects ever opened; `null` until read from storage at the first load. */
+        const opened = ref<ReadonlySet<string> | null>(null);
+        /** App setup's onboarding, started by the first load, until the app opens it. */
+        let onboarding: ConversationRef | null = null;
+        /** App setup is asked for once per app start, by the first load. */
+        let appSetupAsked = false;
 
         const state = reactive({
             /** Sorted by name, as the daemon sorts them; `null` until loaded. */
@@ -46,6 +68,9 @@ export const ProjectStore = defineService({
             create,
             getLastOpened,
             setLastOpened,
+            isNew,
+            markOpened,
+            takeOnboarding,
         };
 
         /** The projects, loaded from the daemon on the first call. */
@@ -81,10 +106,34 @@ export const ProjectStore = defineService({
             localStorage.setItem(LAST_OPENED_KEY, id);
         }
 
+        /** Whether the project has never been opened here; App setup never counts as new. */
+        function isNew(project: Project) {
+            return project.role !== 'appSetup' && opened.value !== null && !opened.value.has(project.id);
+        }
+
+        /** Remembers that the project has been opened: it is no longer new. */
+        function markOpened(id: string) {
+            if (opened.value === null || opened.value.has(id)) {
+                return;
+            }
+            const next = new Set(opened.value).add(id);
+            opened.value = next;
+            localStorage.setItem(OPENED_KEY, JSON.stringify([...next]));
+        }
+
+        /** App setup's onboarding conversation when the daemon has just started it, once: the app opens it on day one. */
+        function takeOnboarding() {
+            const taken = onboarding;
+            onboarding = null;
+            return taken;
+        }
+
         async function load() {
             const seq = ++loadSeq;
             try {
+                await startAppSetup();
                 const list = await daemon(ProjectListEndpoint);
+                opened.value ??= readOpened(list);
                 if (seq === loadSeq) {
                     projects.value = list;
                     loadError.value = null;
@@ -96,6 +145,37 @@ export const ProjectStore = defineService({
                 }
                 throw error;
             }
+        }
+
+        /** Asks the daemon for App setup on the first load; a failure leaves the projects to list without it. */
+        async function startAppSetup() {
+            if (appSetupAsked) {
+                return;
+            }
+            appSetupAsked = true;
+            try {
+                const result = await daemon(AppSetupStartEndpoint, {
+                    language: language.current,
+                    conversationTitle: translator(l.onboardingTitle),
+                });
+                onboarding = result.onboarding;
+            } catch (error) {
+                logger.warn('App setup could not be started', { error });
+            }
+        }
+
+        /**
+         * The projects ever opened, from storage. Nothing stored yet (the first start of a version that marks projects
+         * new): every project listed now counts as opened, so only those that appear later are marked new.
+         */
+        function readOpened(list: readonly Project[]): ReadonlySet<string> {
+            const stored = parseIds(localStorage.getItem(OPENED_KEY));
+            if (stored) {
+                return new Set(stored);
+            }
+            const ids = list.map(project => project.id);
+            localStorage.setItem(OPENED_KEY, JSON.stringify(ids));
+            return new Set(ids);
         }
 
         /** Lists the projects again, past a load already running, which may have read the folder before the change. */
@@ -131,3 +211,17 @@ export const ProjectStore = defineService({
         }
     },
 });
+
+/** A stored list of ids, or `null` when nothing (or something else) is stored. */
+function parseIds(stored: string | null) {
+    if (stored === null) {
+        return null;
+    }
+    let value: unknown;
+    try {
+        value = JSON.parse(stored);
+    } catch {
+        return null;
+    }
+    return Array.isArray(value) ? value.filter((id): id is string => typeof id === 'string') : null;
+}

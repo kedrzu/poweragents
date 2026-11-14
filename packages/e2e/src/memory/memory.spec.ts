@@ -114,7 +114,8 @@ test('a project created outside the app appears in the sidebar without a reload'
     await expect(page.getByRole('navigation', { name: 'Projects' }).getByRole('link')).toHaveText([
         'Health',
         'New conversation',
-        'Job search',
+        // Marked new until opened.
+        /^Job search/,
     ]);
 });
 

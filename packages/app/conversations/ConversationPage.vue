@@ -1,4 +1,4 @@
-<!-- A conversation open (screens 56, 57, 59–61): its messages with the agent's reply streaming, error lines, the banner when the agent cannot answer, and the composer with Stop. -->
+<!-- A conversation open (screens 56, 57, 59–61, 65, 66): its messages with the agent's reply streaming, error lines, the banner when the agent cannot answer, and the composer with Stop. -->
 
 <script lang="ts" setup>
 import { LogIn } from '@lucide/vue';
@@ -20,12 +20,15 @@ import UserMessage from '@poweragents/ui/UserMessage.vue';
 
 import * as l from './ConversationPage.loc.js';
 import * as lc from './Conversations.loc.js';
+import { ProjectStore } from '@/projects/ProjectStore.js';
+
 import { ConversationStore } from './ConversationStore.js';
 import { useConversation } from './useConversation.js';
 
 const route = useRoute();
 const router = useRouter();
 const store = useService(ConversationStore);
+const projects = useService(ProjectStore);
 const t = useTranslate();
 const language = useLanguage();
 const logger = useLogger();
@@ -39,6 +42,18 @@ const message = ref('');
 
 const title = computed(() => store.find(conversationId.value)?.title ?? t(lc.untitled));
 const lastItemKey = computed(() => conversation.items.at(-1)?.key);
+/** App setup before the person has said anything: the agent has just asked about them (screen 65). */
+const introducing = computed(
+  () =>
+    projects.state.projects?.find(project => project.id === projectId.value)?.role === 'appSetup' &&
+    !conversation.items.some(item => item.type === 'user'),
+);
+const placeholder = computed(() => {
+  if (conversation.running) {
+    return t(l.placeholderRunning);
+  }
+  return introducing.value ? t(l.placeholderIntroduce) : t(l.placeholder);
+});
 
 watch(
   () => conversation.notFound,
@@ -145,7 +160,7 @@ function describeReset(resetAt: number | undefined) {
       />
       <Composer
         v-model="message"
-        :placeholder="conversation.running ? t(l.placeholderRunning) : t(l.placeholder)"
+        :placeholder="placeholder"
         :running="conversation.running"
         @send="send"
         @stop="stop"

@@ -4,6 +4,7 @@ import { setTimeout as sleep } from 'node:timers/promises';
 
 import type { Page } from '@playwright/test';
 
+import type { AppSetupStartResult } from '@poweragents/common/api/AppSetupTypes.js';
 import type { ClaudeLoginResult, ClaudeStatus } from '@poweragents/common/api/ClaudeTypes.js';
 import type {
     Conversation,
@@ -30,6 +31,10 @@ export const GOOD_CODE = 'good-code#state';
 export const FREE_PLAN_CODE = 'free-code#state';
 /** The account both codes sign in as. */
 export const ACCOUNT_EMAIL = 'ania@example.com';
+/** App setup's id when `StubDaemon` creates it. */
+export const APP_SETUP_ID = 'p-app-setup';
+/** The agent's greeting in App setup's onboarding conversation, as `StubDaemon` starts it. */
+export const ONBOARDING_GREETING = "Hi! I'm your agent. What should I call you, and what do you do day to day?";
 
 /** A message the app sent, as the stub took it. */
 export interface StubSentMessage {
@@ -52,6 +57,11 @@ export class StubDaemon {
     loginStartFails = false;
     /** The person's projects, sorted by name as the daemon lists them. */
     projects: Project[] = [];
+    /**
+     * Set: App setup has not been created on this profile yet; `appSetup/start` creates it with its onboarding
+     * conversation, the agent's greeting in it. Unset, it answers as for App setup created before.
+     */
+    appSetupPending = false;
     /** Set: `projects/create` fails with a 500, as when the disk is full. */
     projectCreateFails = false;
     /** Set: `projects/list` fails with a 500, as when the data root cannot be read. */
@@ -203,6 +213,8 @@ export class StubDaemon {
         }
 
         switch (name) {
+            case 'appSetup/start':
+                return this.startAppSetup(readInput(body, 'conversationTitle'));
             case 'conversations/list':
                 return this.conversations[readInput(body, 'projectId')] ?? [];
             case 'conversations/create':
@@ -272,6 +284,23 @@ export class StubDaemon {
         }
         this.revealed.push(path === '' ? null : path);
         return { revealed: true };
+    }
+
+    /** Like the daemon: App setup once, with its onboarding started; the opening instruction is never listed. */
+    private startAppSetup(conversationTitle: string): AppSetupStartResult {
+        if (!this.appSetupPending) {
+            return { onboarding: null };
+        }
+        this.appSetupPending = false;
+        const project: Project = { id: APP_SETUP_ID, name: 'App setup', role: 'appSetup' };
+        this.projects = [...this.projects, project].toSorted((a, b) => a.name.localeCompare(b.name));
+        const conversation = this.createConversation(project.id);
+        conversation.title = conversationTitle;
+        this.messages[conversation.id] = [
+            { type: 'agent', id: 'greeting', createdAt: 1, parts: [{ type: 'text', text: ONBOARDING_GREETING }] },
+            { type: 'runEnd', id: 'greeting-end', createdAt: 2, outcome: 'succeeded' },
+        ];
+        return { onboarding: { projectId: project.id, conversationId: conversation.id } };
     }
 
     private createConversation(projectId: string): Conversation {
