@@ -1,4 +1,4 @@
-<!-- A project in a list: a folder in the project's colour, its name and a spinner while the agent works in it; a link to the project, open (selected) or not, or a plain example row. -->
+<!-- A project in a list: a folder in the project's colour, its name, and at its end a spinner while the agent works in it, else a pin (App setup) or the new mark (not opened yet); a link to the project, open (selected) or not, or a plain example row. -->
 
 <script lang="ts">
 import { defineProp } from '@nzyme/vue-utils/defineProp.js';
@@ -6,6 +6,9 @@ import type { PropType } from 'vue';
 import type { RouteLocationRaw } from 'vue-router';
 
 import type { ProjectColor } from './ProjectColor.js';
+
+/** What the row's end shows when the agent is not working: `pinned` (App setup, listed first) or `new` (not opened yet). */
+export type ProjectRowMark = 'pinned' | 'new';
 
 export const ProjectRowProps = {
   name: { type: String, required: true },
@@ -19,11 +22,12 @@ export const ProjectRowProps = {
   selected: defineProp<'page' | 'true'>(),
   /** The agent is working in one of the project's conversations. */
   running: Boolean,
+  mark: defineProp<ProjectRowMark>(),
 } as const;
 </script>
 
 <script lang="ts" setup>
-import { Folder, FolderOpen } from '@lucide/vue';
+import { Folder, FolderOpen, Pin, Sparkles } from '@lucide/vue';
 import { useTranslate } from '@nzyme/vue-i18n/useTranslate.js';
 import { RouterLink } from 'vue-router';
 
@@ -58,6 +62,19 @@ const t = useTranslate();
       :class="$style.projectRow_spinner"
       :label="t(l.running)"
     />
+    <!-- Decoration: App setup is listed first, which says as much. -->
+    <Pin
+      v-else-if="props.mark === 'pinned'"
+      :class="[$style.projectRow_mark, $style.projectRow_mark_pinned]"
+      aria-hidden="true"
+    />
+    <template v-else-if="props.mark === 'new'">
+      <Sparkles
+        :class="[$style.projectRow_mark, $style.projectRow_mark_new]"
+        aria-hidden="true"
+      />
+      <span :class="$style.projectRow_markLabel">{{ t(l.new) }}</span>
+    </template>
   </component>
 </template>
 
@@ -107,5 +124,23 @@ const t = useTranslate();
 }
 .projectRow_spinner {
   font-size: $font-size-body-l; // 16px, as the folder
+}
+
+.projectRow_mark {
+  flex: none;
+  width: 16px;
+  height: 16px;
+}
+
+.projectRow_mark_pinned {
+  color: $color-ink-muted;
+}
+
+.projectRow_mark_new {
+  color: $color-brand-1-strong;
+}
+
+.projectRow_markLabel {
+  @include visually-hidden;
 }
 </style>

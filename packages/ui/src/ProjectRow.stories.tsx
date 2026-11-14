@@ -29,6 +29,44 @@ export const Selected: Story = {
     ),
 };
 
+/** App setup, pinned first in the sidebar. */
+export const Pinned: Story = {
+    render: () => (
+        <ProjectRow
+            name="App setup"
+            color="slate"
+            to="/projects/p0"
+            mark="pinned"
+        />
+    ),
+};
+
+/** A project the agent has just created, not opened yet (screen 66). */
+export const New: Story = {
+    render: () => (
+        <ProjectRow
+            name="Szukanie pracy"
+            color="blue"
+            to="/projects/p1"
+            mark="new"
+        />
+    ),
+};
+
+/** The agent working in App setup: the spinner takes the pin's place. */
+export const PinnedRunning: Story = {
+    render: () => (
+        <ProjectRow
+            name="App setup"
+            color="slate"
+            to="/projects/p0"
+            mark="pinned"
+            selected="true"
+            running
+        />
+    ),
+};
+
 /** Not a link: an example of a project, as on the empty main screen. */
 export const Example: Story = {
     render: () => (

@@ -1,4 +1,4 @@
-<!-- The app's sidebar: a New project button in the window bar, Memory, then the projects, the open one with New conversation and its conversations under it, or a line saying there are none. -->
+<!-- The app's sidebar: a New project button in the window bar, Memory, then the projects (each with its mark: App setup's pin, a new project's sparkles), the open one with New conversation and its conversations under it, or a line saying there are none. -->
 
 <script lang="ts">
 import { defineProp } from '@nzyme/vue-utils/defineProp.js';
@@ -6,6 +6,7 @@ import type { PropType } from 'vue';
 import type { RouteLocationRaw } from 'vue-router';
 
 import type { ProjectColor } from './ProjectColor.js';
+import type { ProjectRowMark } from './ProjectRow.vue';
 
 /** A project as the sidebar lists it. */
 export interface ProjectSidebarItem {
@@ -14,6 +15,8 @@ export interface ProjectSidebarItem {
   color: ProjectColor;
   /** The project's screen, where a new conversation starts. */
   to: RouteLocationRaw;
+  /** Shown at the row's end while the agent does not work in it. */
+  mark?: ProjectRowMark;
 }
 
 /** A conversation of the open project as the sidebar lists it. */
@@ -116,6 +119,7 @@ const running = computed(() => props.conversations.some(conversation => conversa
             :to="project.to"
             :selected="project.id === props.selectedId ? (props.selectedConversationId ? 'true' : 'page') : undefined"
             :running="project.id === props.selectedId && running"
+            :mark="project.mark"
           />
           <ul
             v-if="project.id === props.selectedId"

@@ -87,3 +87,49 @@ export const MemoryOpen: Story = {
         </div>
     ),
 };
+
+const APP_SETUP: ProjectSidebarItem = {
+    id: 'p0',
+    name: 'App setup',
+    color: 'slate',
+    to: '/projects/p0',
+    mark: 'pinned',
+};
+
+const ONBOARDING: ProjectSidebarConversation[] = [
+    { id: 'c0', title: 'Poznajmy się', to: '/projects/p0/conversations/c0', running: false },
+];
+
+/** Screen 65's sidebar: day one, App setup pinned and open on its onboarding conversation. */
+export const DayOne: Story = {
+    render: () => (
+        <div class={styles['backdrop']}>
+            <ProjectSidebar
+                memoryTo="/memory"
+                projects={[APP_SETUP]}
+                selectedId="p0"
+                conversations={ONBOARDING}
+                selectedConversationId="c0"
+            />
+        </div>
+    ),
+};
+
+/** Screen 66's sidebar: the projects the agent has just created, marked new until opened. */
+export const NewProjects: Story = {
+    render: () => (
+        <div class={styles['backdrop']}>
+            <ProjectSidebar
+                memoryTo="/memory"
+                projects={[
+                    APP_SETUP,
+                    { id: 'p1', name: 'Szukanie pracy', color: 'blue', to: '/projects/p1', mark: 'new' },
+                    { id: 'p3', name: 'Posty na Instagram', color: 'amber', to: '/projects/p3', mark: 'new' },
+                ]}
+                selectedId="p0"
+                conversations={ONBOARDING}
+                selectedConversationId="c0"
+            />
+        </div>
+    ),
+};
